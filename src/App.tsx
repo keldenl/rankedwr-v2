@@ -1,7 +1,11 @@
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Field, FieldGroup, FieldLabel } from "@/components/ui/field"
-import { Input } from "@/components/ui/input"
+import { ArrowRight, Search, Twitter } from "lucide-react"
+
+import {
+  InputGroup,
+  InputGroupAddon,
+  InputGroupButton,
+  InputGroupInput,
+} from "@/components/ui/input-group"
 import { LeaderboardsPage } from "@/components/leaderboards-page"
 
 const smolderBackdropUrl =
@@ -9,66 +13,113 @@ const smolderBackdropUrl =
 
 function HomePage() {
   return (
-    <main className="relative min-h-screen overflow-hidden bg-black">
+    <main className="rift-home-page rift-home-video-shell">
+      <a href="#home-content" className="skip-link">
+        Skip to content
+      </a>
+
       <video
         autoPlay
         muted
         loop
         playsInline
         preload="auto"
-        className="absolute inset-0 size-full object-cover"
+        className="rift-home-video"
         aria-hidden="true"
       >
         <source src={smolderBackdropUrl} type="video/mp4" />
       </video>
 
-      <div className="absolute inset-0 bg-black/45" />
+      <div className="rift-home-overlay" aria-hidden="true" />
 
-      <section className="relative z-10 flex min-h-screen items-center justify-center px-6">
-        <div className="w-full max-w-xl">
-          <div className="mb-8 flex flex-col items-center text-center">
-            <Badge variant="secondary" className="mb-4">
-              Live CN data
-            </Badge>
-            <h1 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-              RankedWR
-            </h1>
-            <p className="mt-2 max-w-md text-sm text-white/80">
-              Search Wild Rift champion win rates and jump into the raw Tencent
-              leaderboard feed.
-            </p>
+      <div className="relative z-10 flex min-h-screen flex-col">
+        <section
+          id="home-content"
+          className="mx-auto flex w-full max-w-3xl flex-1 flex-col px-6 pb-4 pt-10 text-center"
+        >
+          <div className="flex flex-1 items-center justify-center">
+            <div className="w-full space-y-8">
+              <div className="space-y-3">
+                <h1 className="rift-wordmark rift-wordmark--hero">RankedWR</h1>
+                <p className="rift-home-subtitle">
+                  Wild Rift champion win rates.
+                </p>
+              </div>
+
+              <div className="mx-auto w-full max-w-2xl space-y-3">
+                <form action="/leaderboards" method="get" className="min-w-0 flex-1">
+                  <InputGroup className="rift-home-search h-14">
+                    <InputGroupInput
+                      id="champion-search"
+                      type="search"
+                      name="q"
+                      placeholder="Search champion"
+                      autoComplete="off"
+                      spellCheck={false}
+                      aria-label="Champion search"
+                    />
+                    <InputGroupAddon align="inline-end">
+                      <InputGroupButton
+                        type="submit"
+                        variant="default"
+                        size="icon-sm"
+                        className="rift-search-submit rift-search-submit--solid"
+                        aria-label="Search"
+                      >
+                        <Search />
+                      </InputGroupButton>
+                    </InputGroupAddon>
+                  </InputGroup>
+                </form>
+
+                <div className="flex justify-end">
+                  <a href="/leaderboards" className="rift-inline-cta">
+                    View leaderboards
+                    <ArrowRight className="size-4" />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <FieldGroup className="gap-4">
-            <Field>
-              <FieldLabel htmlFor="champion-search" className="sr-only">
-                Champion name
-              </FieldLabel>
-              <Input
-                id="champion-search"
-                type="search"
-                name="champion"
-                placeholder="Champion name…"
-                autoComplete="off"
-                spellCheck={false}
-                aria-label="Champion name"
-                className="h-12 rounded-xl border-white/20 bg-white/92 text-black placeholder:text-black/45"
-              />
-            </Field>
-          </FieldGroup>
-
-          <div className="mt-4 flex items-center justify-center gap-3">
-            <Button size="lg" asChild>
-              <a href="/leaderboards">Browse leaderboards</a>
-            </Button>
-            <Button variant="secondary" size="lg" asChild>
-              <a href="https://lolm.qq.com/act/a20220818raider/index.html" target="_blank" rel="noreferrer">
-                Source site
+          <footer className="rift-home-footer">
+            <p>
+              All data sourced from Riot&apos;s official{" "}
+              <a
+                href="https://lolm.qq.com/act/a20220818raider/index.html"
+                target="_blank"
+                rel="noreferrer"
+                className="rift-footer-link"
+              >
+                Wild Rift CN Dia+ Statistics
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://wildrift.leagueoflegends.com/en-us/champions/"
+                target="_blank"
+                rel="noreferrer"
+                className="rift-footer-link"
+              >
+                champions list
               </a>
-            </Button>
-          </div>
-        </div>
-      </section>
+              .
+            </p>
+            <p>
+              Built by{" "}
+              <a
+                href="https://twitter.com/RepotedWR"
+                target="_blank"
+                rel="noreferrer"
+                className="rift-footer-link inline-flex items-center gap-1"
+              >
+                <Twitter className="size-3.5" />
+                RepotedWR
+              </a>{" "}
+              © 2026
+            </p>
+          </footer>
+        </section>
+      </div>
     </main>
   )
 }

@@ -8,6 +8,8 @@ export const LANE_LABELS = {
 
 export type LaneId = keyof typeof LANE_LABELS
 
+export const LANE_ORDER: LaneId[] = ["2", "5", "1", "3", "4"]
+
 type HeroRecord = {
   alias?: string
   avatar?: string
@@ -125,6 +127,23 @@ function normalizeEntry(
 
 export function sortNumericKeys(source: string[]) {
   return sortKeys(source)
+}
+
+export function sortLaneKeys(source: LaneId[]) {
+  const laneOrderMap = new Map(
+    LANE_ORDER.map((laneId, index) => [laneId, index] as const)
+  )
+
+  return [...source].sort((left, right) => {
+    const leftIndex = laneOrderMap.get(left) ?? Number.MAX_SAFE_INTEGER
+    const rightIndex = laneOrderMap.get(right) ?? Number.MAX_SAFE_INTEGER
+
+    if (leftIndex !== rightIndex) {
+      return leftIndex - rightIndex
+    }
+
+    return left.localeCompare(right)
+  })
 }
 
 export async function loadLeaderboards(): Promise<LeaderboardPayload> {

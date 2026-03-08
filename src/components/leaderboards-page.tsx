@@ -1,26 +1,15 @@
 import { useDeferredValue, useEffect, useMemo, useState } from "react"
-import { ArrowDown, ArrowUp, ArrowUpDown } from "lucide-react"
+import { ArrowDown, ArrowUp, ArrowUpDown, CircleHelp, Search } from "lucide-react"
 
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
 import {
-  Card,
-  CardAction,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
-import {
-  Empty,
-  EmptyDescription,
-  EmptyHeader,
-  EmptyTitle,
-} from "@/components/ui/empty"
-import { Field, FieldGroup, FieldLabel } from "@/components/ui/field"
-import { Input } from "@/components/ui/input"
-import { Separator } from "@/components/ui/separator"
+  InputGroup,
+  InputGroupAddon,
+  InputGroupButton,
+  InputGroupInput,
+} from "@/components/ui/input-group"
+import { Spinner } from "@/components/ui/spinner"
 import {
   Table,
   TableBody,
@@ -31,13 +20,21 @@ import {
 } from "@/components/ui/table"
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group"
 import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip"
+import {
   LANE_LABELS,
   loadLeaderboards,
+  sortLaneKeys,
   sortNumericKeys,
   type LaneId,
   type LeaderboardEntry,
   type LeaderboardPayload,
 } from "@/lib/tencent-lolm"
+import { SiteHeader } from "@/components/site-header"
 
 type SortKey = "winRate" | "pickRate" | "banRate"
 type SortDirection = "asc" | "desc"
@@ -45,16 +42,11 @@ type SortDirection = "asc" | "desc"
 const DEFAULT_TIER = "1"
 const DEFAULT_LANE: LaneId = "2"
 
-const sortLabels: Record<SortKey, string> = {
-  winRate: "Win",
-  pickRate: "Pick",
-  banRate: "Ban",
-}
-
-const sortAccessors: Record<SortKey, (entry: LeaderboardEntry) => number> = {
-  winRate: (entry) => entry.winRate,
-  pickRate: (entry) => entry.pickRate,
-  banRate: (entry) => entry.banRate,
+const TIER_LABELS: Record<string, string> = {
+  "1": "Diamond+",
+  "2": "Master+",
+  "3": "Challenger",
+  "4": "Peak of the Rift",
 }
 
 function pickDefaultTier(tiers: string[]) {
@@ -74,7 +66,34 @@ function pickDefaultLane(lanes: string[]) {
 }
 
 function bucketLabel(bucket: string) {
-  return `Bucket ${bucket}`
+  return TIER_LABELS[bucket] ?? `Bucket ${bucket}`
+}
+
+function renderBucketLabel(bucket: string) {
+  const label = bucketLabel(bucket)
+
+  if (bucket !== "4") {
+    return label
+  }
+
+  return (
+    <span className="inline-flex items-center gap-1.5">
+      <span>{label}</span>
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <span
+            aria-hidden="true"
+            className="inline-flex size-4 items-center justify-center text-muted-foreground"
+          >
+            <CircleHelp className="size-3.5" />
+          </span>
+        </TooltipTrigger>
+        <TooltipContent side="top" sideOffset={6}>
+          China-only elite competitive ladder (similar to Legendary Ranked)
+        </TooltipContent>
+      </Tooltip>
+    </span>
+  )
 }
 
 function formatDate(date: string | null) {
@@ -82,7 +101,17 @@ function formatDate(date: string | null) {
     return "Unknown"
   }
 
-  return `${date.slice(0, 4)}-${date.slice(4, 6)}-${date.slice(6, 8)}`
+  const parsedDate = new Date(
+    Number(date.slice(0, 4)),
+    Number(date.slice(4, 6)) - 1,
+    Number(date.slice(6, 8))
+  )
+
+  return new Intl.DateTimeFormat(undefined, {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  }).format(parsedDate)
 }
 
 function formatPercent(value: number) {
@@ -139,103 +168,105 @@ function LeaderboardTable({
 }) {
   if (!entries.length) {
     return (
-      <Empty className="border border-border">
-        <EmptyHeader>
-          <EmptyTitle>No rows found</EmptyTitle>
-          <EmptyDescription>
-            Try a different search term, lane, tier, or sort.
-          </EmptyDescription>
-        </EmptyHeader>
-      </Empty>
+      <div className="rift-empty-state">
+        <p className="text-sm font-medium text-foreground">
+          No champions matched this filter.
+        </p>
+      </div>
     )
   }
 
   return (
-    <Table>
-      <TableHeader className="bg-muted/50">
-        <TableRow>
-          <TableHead>#</TableHead>
-          <TableHead>Champion</TableHead>
-          <TableHead>Lane</TableHead>
-          {(
-            [
-              ["winRate", "Win"],
-              ["pickRate", "Pick"],
-              ["banRate", "Ban"],
-            ] as const
-          ).map(([sortKey, label]) => {
-            const isActive = sortBy === sortKey
+    <div className="rift-table-shell px-3 sm:px-4">
+      <Table className="rift-table min-w-[680px]">
+        <TableHeader>
+          <TableRow>
+            <TableHead className="w-16">Rank</TableHead>
+            <TableHead>Champion</TableHead>
+            {(
+              [
+                ["winRate", "Win"],
+                ["pickRate", "Pick"],
+                ["banRate", "Ban"],
+              ] as const
+            ).map(([sortKey, label]) => {
+              const isActive = sortBy === sortKey
 
-            return (
-              <TableHead
-                key={sortKey}
-                aria-sort={
-                  isActive
-                    ? sortDirection === "asc"
-                      ? "ascending"
-                      : "descending"
-                    : "none"
-                }
-              >
-                <Button
-                  type="button"
-                  variant="ghost"
-                  size="sm"
-                  className="-ml-3"
-                  onClick={() => onSortChange(sortKey)}
+              return (
+                <TableHead
+                  key={sortKey}
+                  className="text-right"
+                  aria-sort={
+                    isActive
+                      ? sortDirection === "asc"
+                        ? "ascending"
+                        : "descending"
+                      : "none"
+                  }
                 >
-                  {label}
-                  {isActive ? (
-                    sortDirection === "asc" ? (
-                      <ArrowUp data-icon="inline-end" />
+                  <button
+                    type="button"
+                    className="rift-sort-button"
+                    onClick={() => onSortChange(sortKey)}
+                  >
+                    {label}
+                    {isActive ? (
+                      sortDirection === "asc" ? (
+                        <ArrowUp />
+                      ) : (
+                        <ArrowDown />
+                      )
                     ) : (
-                      <ArrowDown data-icon="inline-end" />
-                    )
-                  ) : (
-                    <ArrowUpDown data-icon="inline-end" />
-                  )}
-                </Button>
-              </TableHead>
-            )
-          })}
-        </TableRow>
-      </TableHeader>
-      <TableBody>
-        {entries.map((entry, index) => (
-          <TableRow key={entry.id}>
-            <TableCell className="text-muted-foreground">{index + 1}</TableCell>
-            <TableCell>
-              <div className="flex min-w-0 items-center gap-3">
-                <Avatar size="lg" className="rounded-md">
-                  <AvatarImage src={entry.avatar} alt={entry.name} />
-                  <AvatarFallback className="rounded-md">
-                    {initialsFromName(entry.name)}
-                  </AvatarFallback>
-                </Avatar>
-                <div className="flex min-w-0 flex-col">
-                  <span className="truncate font-medium">{entry.name}</span>
-                  <span className="truncate text-xs text-muted-foreground">
-                    {entry.title}
-                    {entry.alias ? ` · ${entry.alias}` : ""}
+                      <ArrowUpDown />
+                    )}
+                  </button>
+                </TableHead>
+              )
+            })}
+          </TableRow>
+        </TableHeader>
+        <TableBody className="tabular-nums">
+          {entries.map((entry, index) => (
+            <TableRow key={entry.id}>
+              <TableCell className="font-medium text-muted-foreground">
+                {index + 1}
+              </TableCell>
+              <TableCell>
+                <div className="flex min-w-0 items-center gap-3">
+                  <Avatar size="lg" className="rounded-xl">
+                    <AvatarImage
+                      src={entry.avatar}
+                      alt={entry.name}
+                      className="rounded-xl"
+                    />
+                    <AvatarFallback className="rounded-xl bg-muted text-xs">
+                      {initialsFromName(entry.name)}
+                    </AvatarFallback>
+                  </Avatar>
+                  <span className="truncate font-medium text-foreground">
+                    {entry.name}
                   </span>
                 </div>
-              </div>
-            </TableCell>
-            <TableCell className="text-muted-foreground">
-              {entry.laneLabel}
-            </TableCell>
-            <TableCell>{formatPercent(entry.winRate)}</TableCell>
-            <TableCell>{formatPercent(entry.pickRate)}</TableCell>
-            <TableCell>{formatPercent(entry.banRate)}</TableCell>
-          </TableRow>
-        ))}
-      </TableBody>
-    </Table>
+              </TableCell>
+              <TableCell className="text-right font-semibold">
+                {formatPercent(entry.winRate)}
+              </TableCell>
+              <TableCell className="text-right">
+                {formatPercent(entry.pickRate)}
+              </TableCell>
+              <TableCell className="text-right">
+                {formatPercent(entry.banRate)}
+              </TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </div>
   )
 }
 
 export function LeaderboardsPage() {
-  const initialFilters = useMemo(parseFiltersFromUrl, [])
+  const [initialFilters] = useState(parseFiltersFromUrl)
   const [payload, setPayload] = useState<LeaderboardPayload | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [isLoading, setIsLoading] = useState(true)
@@ -246,7 +277,6 @@ export function LeaderboardsPage() {
   const [sortDirection, setSortDirection] = useState<SortDirection>(
     initialFilters.direction
   )
-
   const deferredSearchQuery = useDeferredValue(searchQuery)
 
   useEffect(() => {
@@ -263,14 +293,26 @@ export function LeaderboardsPage() {
           return
         }
 
-        const tiers = sortNumericKeys(Object.keys(nextPayload.entriesByTier))
-        const lanes = sortNumericKeys(
-          Object.keys(nextPayload.entriesByTier[pickDefaultTier(tiers)] ?? {})
+        const tiers = sortNumericKeys(Object.keys(nextPayload.entriesByTier)).filter(
+          (tierKey) =>
+            tierKey !== "0" &&
+            Object.values(nextPayload.entriesByTier[tierKey] ?? {}).some(
+              (entries) => entries.length > 0
+            )
         )
+        const nextTier = tiers.includes(initialFilters.tier)
+          ? initialFilters.tier
+          : pickDefaultTier(tiers)
+        const lanes = sortLaneKeys(
+          Object.keys(nextPayload.entriesByTier[nextTier] ?? {}) as LaneId[]
+        )
+        const nextLane = lanes.includes(initialFilters.lane)
+          ? initialFilters.lane
+          : pickDefaultLane(lanes)
 
         setPayload(nextPayload)
-        setSelectedTier(pickDefaultTier(tiers))
-        setSelectedLane(pickDefaultLane(lanes) as LaneId)
+        setSelectedTier(nextTier)
+        setSelectedLane(nextLane as LaneId)
       } catch (caughtError) {
         if (cancelled) {
           return
@@ -294,18 +336,25 @@ export function LeaderboardsPage() {
     return () => {
       cancelled = true
     }
-  }, [])
+  }, [initialFilters])
 
   const tierKeys = useMemo(
-    () => sortNumericKeys(Object.keys(payload?.entriesByTier ?? {})),
+    () =>
+      sortNumericKeys(Object.keys(payload?.entriesByTier ?? {})).filter(
+        (tierKey) =>
+          tierKey !== "0" &&
+          Object.values(payload?.entriesByTier[tierKey] ?? {}).some(
+            (entries) => entries.length > 0
+          )
+      ),
     [payload]
   )
 
   const laneKeys = useMemo(
     () =>
-      sortNumericKeys(
-        Object.keys(payload?.entriesByTier[selectedTier] ?? {})
-      ) as LaneId[],
+      sortLaneKeys(
+        Object.keys(payload?.entriesByTier[selectedTier] ?? {}) as LaneId[]
+      ),
     [payload, selectedTier]
   )
 
@@ -351,7 +400,12 @@ export function LeaderboardsPage() {
       : baseEntries
 
     return [...filteredEntries].sort((left, right) => {
-      const accessor = sortAccessors[sortBy]
+      const accessor =
+        sortBy === "winRate"
+          ? (entry: LeaderboardEntry) => entry.winRate
+          : sortBy === "pickRate"
+            ? (entry: LeaderboardEntry) => entry.pickRate
+            : (entry: LeaderboardEntry) => entry.banRate
       const delta = accessor(left) - accessor(right)
       return sortDirection === "asc" ? delta : -delta
     })
@@ -377,151 +431,120 @@ export function LeaderboardsPage() {
   }
 
   return (
-    <main className="min-h-screen bg-background px-6 py-8 text-foreground">
-      <section className="mx-auto flex w-full max-w-6xl flex-col gap-6">
-        <Card>
-          <CardHeader>
-            <div className="flex flex-col gap-1">
-              <div className="text-sm uppercase tracking-[0.16em] text-muted-foreground">
-                RankedWR
-              </div>
-              <CardTitle>Wild Rift leaderboards</CardTitle>
-              <CardDescription>
-                Live data pulled from Tencent&apos;s current Wild Rift leaderboard
-                endpoints. This page stays intentionally bare bones and uses the
-                raw rank buckets exposed by the API.
-              </CardDescription>
-            </div>
-            <CardAction>
-              <Button variant="outline" asChild>
-                <a href="/">Home</a>
-              </Button>
-            </CardAction>
-          </CardHeader>
-          <CardContent className="flex flex-col gap-6">
-            <div className="flex flex-wrap gap-2">
-              <Badge variant="secondary">
-                Updated {formatDate(payload?.updatedAt ?? null)}
-              </Badge>
-              <Badge variant="outline">Source: hero_rank_list_v2</Badge>
-              <Badge variant="outline">Hero meta: hero_list.js</Badge>
-            </div>
+    <main className="min-h-screen bg-background text-foreground">
+      <a href="#leaderboard-results" className="skip-link">
+        Skip to results
+      </a>
 
-            <Separator />
+      <SiteHeader rightLabel="Leaderboards" rightHref="/leaderboards" />
 
-            <FieldGroup className="gap-4">
-              <Field>
-                <FieldLabel htmlFor="leaderboard-search">
-                  Champion search
-                </FieldLabel>
-                <Input
+      <section className="mx-auto flex w-full max-w-6xl flex-col gap-3 px-4 py-5 sm:px-6 sm:py-6">
+        <div className="rift-leaderboard-title text-center">
+          <h1 className="rift-page-title">Leaderboards</h1>
+        </div>
+
+        <div className="rift-leaderboard-filter-stack">
+          <TooltipProvider>
+            <ToggleGroup
+              type="single"
+              value={selectedTier}
+              onValueChange={(value) => {
+                if (value) {
+                  setSelectedTier(value)
+                }
+              }}
+              variant="outline"
+              className="rift-filter-group rift-filter-group--tier justify-center"
+            >
+              {tierKeys.map((tierKey) => (
+                <ToggleGroupItem
+                  key={tierKey}
+                  value={tierKey}
+                  className="rift-filter-item"
+                >
+                  {renderBucketLabel(tierKey)}
+                </ToggleGroupItem>
+              ))}
+            </ToggleGroup>
+          </TooltipProvider>
+
+          <div className="rift-leaderboard-controls grid gap-3 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
+            <div>
+              <InputGroup className="rift-leaderboard-search h-11">
+                <InputGroupInput
                   id="leaderboard-search"
                   type="search"
-                  name="leaderboard-search"
                   value={searchQuery}
                   onChange={(event) => setSearchQuery(event.target.value)}
-                  placeholder="Search by champion name, title, or alias…"
+                  placeholder="Search champion"
                   autoComplete="off"
                   spellCheck={false}
+                  aria-label="Champion search"
                 />
-              </Field>
-            </FieldGroup>
-
-            <div className="flex flex-col gap-4">
-              <div className="flex flex-col gap-2">
-                <p className="text-sm font-medium">Rank bucket</p>
-                <ToggleGroup
-                  type="single"
-                  value={selectedTier}
-                  onValueChange={(value) => {
-                    if (value) {
-                      setSelectedTier(value)
-                    }
-                  }}
-                  variant="outline"
-                  className="w-full flex-wrap"
-                >
-                  {tierKeys.map((tierKey) => (
-                    <ToggleGroupItem
-                      key={tierKey}
-                      value={tierKey}
-                    >
-                      {bucketLabel(tierKey)}
-                    </ToggleGroupItem>
-                  ))}
-                </ToggleGroup>
-              </div>
-
-              <div className="flex flex-col gap-2">
-                <p className="text-sm font-medium">Lane</p>
-                <ToggleGroup
-                  type="single"
-                  value={selectedLane}
-                  onValueChange={(value) => {
-                    if (value) {
-                      setSelectedLane(value as LaneId)
-                    }
-                  }}
-                  variant="outline"
-                  className="w-full flex-wrap"
-                >
-                  {laneKeys.map((laneKey) => (
-                    <ToggleGroupItem
-                      key={laneKey}
-                      value={laneKey}
-                    >
-                      {LANE_LABELS[laneKey]}
-                    </ToggleGroupItem>
-                  ))}
-                </ToggleGroup>
-              </div>
-
+                <InputGroupAddon align="inline-end">
+                  <InputGroupButton
+                    type="button"
+                    variant="default"
+                    size="icon-sm"
+                    className="rift-search-submit rift-search-submit--solid"
+                    aria-hidden="true"
+                    tabIndex={-1}
+                  >
+                    <Search />
+                  </InputGroupButton>
+                </InputGroupAddon>
+              </InputGroup>
             </div>
-          </CardContent>
-        </Card>
 
-        {isLoading ? (
-          <Card size="sm">
-            <CardContent className="text-sm text-muted-foreground">
-              Loading leaderboards…
-            </CardContent>
-          </Card>
-        ) : null}
+            <ToggleGroup
+              type="single"
+              value={selectedLane}
+              onValueChange={(value) => {
+                if (value) {
+                  setSelectedLane(value as LaneId)
+                }
+              }}
+              variant="outline"
+              className="rift-filter-group rift-filter-group--lane lg:w-auto lg:flex-nowrap"
+            >
+              {laneKeys.map((laneKey) => (
+                <ToggleGroupItem
+                  key={laneKey}
+                  value={laneKey}
+                  className="rift-filter-item"
+                >
+                  {LANE_LABELS[laneKey]}
+                </ToggleGroupItem>
+              ))}
+            </ToggleGroup>
+          </div>
+        </div>
 
-        {!isLoading && error ? (
-          <Card size="sm" className="ring-destructive/20">
-            <CardContent className="text-sm text-destructive">
-              <div>{error}</div>
-              <div className="mt-2 text-muted-foreground">
-                In development this works through Vite&apos;s proxy. In production
-                you&apos;ll need the same `/api/hero-list` and `/api/hero-rank-list`
-                routes available behind your host because Tencent only CORS-allows
-                `https://lolm.qq.com`.
-              </div>
-            </CardContent>
-          </Card>
-        ) : null}
+        <div id="leaderboard-results" className="rift-leaderboard-results">
+          {error ? (
+            <Alert variant="destructive">
+              <AlertTitle>Unable to load leaderboards</AlertTitle>
+              <AlertDescription>{error}</AlertDescription>
+            </Alert>
+          ) : isLoading ? (
+            <div className="rift-loading-state">
+              <Spinner className="size-6" />
+            </div>
+          ) : (
+            <LeaderboardTable
+              entries={visibleEntries}
+              sortBy={sortBy}
+              sortDirection={sortDirection}
+              onSortChange={handleSortChange}
+            />
+          )}
+        </div>
 
-        {!isLoading && !error ? (
-          <Card>
-            <CardHeader>
-              <CardTitle>Results</CardTitle>
-              <CardDescription>
-                {visibleEntries.length} champions for {bucketLabel(selectedTier)} ·{" "}
-                {LANE_LABELS[selectedLane]} sorted by {sortLabels[sortBy]}{" "}
-                ({sortDirection}).
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <LeaderboardTable
-                entries={visibleEntries}
-                sortBy={sortBy}
-                sortDirection={sortDirection}
-                onSortChange={handleSortChange}
-              />
-            </CardContent>
-          </Card>
-        ) : null}
+        <div className="pt-1 text-center">
+          <p className="rift-updated-text">
+            Last updated {formatDate(payload?.updatedAt ?? null)}
+          </p>
+        </div>
       </section>
     </main>
   )
