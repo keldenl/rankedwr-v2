@@ -16,7 +16,7 @@ export function SiteHeader({ rightLabel, rightHref }: SiteHeaderProps) {
 
   return (
     <header className="rift-topbar">
-      <a href="/" className="rift-wordmark rift-wordmark--sm">
+      <a href="#/" className="rift-wordmark rift-wordmark--sm">
         RankedWR
       </a>
       {rightContent ?? <div />}

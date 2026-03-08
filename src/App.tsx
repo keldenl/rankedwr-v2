@@ -1,3 +1,4 @@
+import { startTransition, useEffect, useState } from "react"
 import { ArrowRight, Search, Twitter } from "lucide-react"
 
 import {
@@ -7,11 +8,29 @@ import {
   InputGroupInput,
 } from "@/components/ui/input-group"
 import { LeaderboardsPage } from "@/components/leaderboards-page"
+import {
+  LEADERBOARDS_ROUTE,
+  buildRouteUrl,
+  routeFromHash,
+  routeToHash,
+} from "@/lib/hash-routing"
 
 const smolderBackdropUrl =
   "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/937095edeaa81ee72125de2210982a1cf96325d5.mp4?accountingTag=WR"
 
-function HomePage() {
+function HomePage({
+  initialQuery,
+  onSearch,
+}: {
+  initialQuery: string
+  onSearch: (query: string) => void
+}) {
+  const [searchQuery, setSearchQuery] = useState(initialQuery)
+
+  useEffect(() => {
+    setSearchQuery(initialQuery)
+  }, [initialQuery])
+
   return (
     <main className="rift-home-page rift-home-video-shell">
       <a href="#home-content" className="skip-link">
@@ -47,12 +66,19 @@ function HomePage() {
               </div>
 
               <div className="mx-auto w-full max-w-2xl space-y-3">
-                <form action="/leaderboards" method="get" className="min-w-0 flex-1">
+                <form
+                  className="min-w-0 flex-1"
+                  onSubmit={(event) => {
+                    event.preventDefault()
+                    onSearch(searchQuery)
+                  }}
+                >
                   <InputGroup className="rift-home-search h-14">
                     <InputGroupInput
                       id="champion-search"
                       type="search"
-                      name="q"
+                      value={searchQuery}
+                      onChange={(event) => setSearchQuery(event.target.value)}
                       placeholder="Search champion"
                       autoComplete="off"
                       spellCheck={false}
@@ -73,7 +99,7 @@ function HomePage() {
                 </form>
 
                 <div className="flex justify-end">
-                  <a href="/leaderboards" className="rift-inline-cta">
+                  <a href={routeToHash(LEADERBOARDS_ROUTE)} className="rift-inline-cta">
                     View leaderboards
                     <ArrowRight className="size-4" />
                   </a>
@@ -125,13 +151,54 @@ function HomePage() {
 }
 
 function App() {
-  const pathname = window.location.pathname.replace(/\/+$/, "") || "/"
+  const [locationState, setLocationState] = useState(() => ({
+    hash: window.location.hash,
+    search: window.location.search,
+  }))
 
-  if (pathname === "/leaderboards") {
+  useEffect(() => {
+    function syncLocationState() {
+      setLocationState({
+        hash: window.location.hash,
+        search: window.location.search,
+      })
+    }
+
+    window.addEventListener("hashchange", syncLocationState)
+    window.addEventListener("popstate", syncLocationState)
+
+    return () => {
+      window.removeEventListener("hashchange", syncLocationState)
+      window.removeEventListener("popstate", syncLocationState)
+    }
+  }, [])
+
+  const route = routeFromHash(locationState.hash)
+  const initialQuery = new URLSearchParams(locationState.search).get("q") ?? ""
+
+  function handleHomeSearch(query: string) {
+    const nextParams = new URLSearchParams()
+
+    if (query.trim()) {
+      nextParams.set("q", query.trim())
+    }
+
+    const nextUrl = buildRouteUrl(LEADERBOARDS_ROUTE, nextParams)
+    window.history.pushState(null, "", nextUrl)
+
+    startTransition(() => {
+      setLocationState({
+        hash: routeToHash(LEADERBOARDS_ROUTE),
+        search: nextParams.toString() ? `?${nextParams.toString()}` : "",
+      })
+    })
+  }
+
+  if (route === LEADERBOARDS_ROUTE) {
     return <LeaderboardsPage />
   }
 
-  return <HomePage />
+  return <HomePage initialQuery={initialQuery} onSearch={handleHomeSearch} />
 }
 
 export default App

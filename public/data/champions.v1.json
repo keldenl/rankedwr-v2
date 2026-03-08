@@ -1,0 +1,1087 @@
+{
+  "champions": {
+    "10001": {
+      "alias": "gailun",
+      "avatar": "data/avatars/10001.png",
+      "displayName": "Garen",
+      "id": "10001",
+      "searchText": "garen 德玛西亚之力 盖伦 gailun",
+      "title": "德玛西亚之力"
+    },
+    "10002": {
+      "alias": "yatuokesi",
+      "avatar": "data/avatars/10002.png",
+      "displayName": "Aatrox",
+      "id": "10002",
+      "searchText": "aatrox 暗裔剑魔 亚托克斯 yatuokesi",
+      "title": "暗裔剑魔"
+    },
+    "10003": {
+      "alias": "lakesi",
+      "avatar": "data/avatars/10003.png",
+      "displayName": "Lux",
+      "id": "10003",
+      "searchText": "lux 光辉女郎 拉克丝 lakesi",
+      "title": "光辉女郎"
+    },
+    "10004": {
+      "alias": "emumu",
+      "avatar": "data/avatars/10004.png",
+      "displayName": "Amumu",
+      "id": "10004",
+      "searchText": "amumu 殇之木乃伊 阿木木 emumu",
+      "title": "殇之木乃伊"
+    },
+    "10005": {
+      "alias": "kaiyin",
+      "avatar": "data/avatars/10005.png",
+      "displayName": "Kayn",
+      "id": "10005",
+      "searchText": "kayn 影流之镰 凯隐 kaiyin",
+      "title": "影流之镰"
+    },
+    "10006": {
+      "alias": "leienjiaer",
+      "avatar": "data/avatars/10006.png",
+      "displayName": "Rengar",
+      "id": "10006",
+      "searchText": "rengar 傲之追猎者 雷恩加尔 leienjiaer",
+      "title": "傲之追猎者"
+    },
+    "10007": {
+      "alias": "kaerma",
+      "avatar": "data/avatars/10007.png",
+      "displayName": "Karma",
+      "id": "10007",
+      "searchText": "karma 天启者 卡尔玛 kaerma",
+      "title": "天启者"
+    },
+    "10008": {
+      "alias": "nunuheweilangpu",
+      "avatar": "data/avatars/10008.png",
+      "displayName": "Nunu",
+      "id": "10008",
+      "searchText": "nunu 雪原双子 努努和威朗普 nunuheweilangpu",
+      "title": "雪原双子"
+    },
+    "10009": {
+      "alias": "sunwukong",
+      "avatar": "data/avatars/10009.png",
+      "displayName": "Wukong",
+      "id": "10009",
+      "searchText": "wukong 齐天大圣 孙悟空 sunwukong",
+      "title": "齐天大圣"
+    },
+    "10010": {
+      "alias": "weien",
+      "avatar": "data/avatars/10010.png",
+      "displayName": "Vayne",
+      "id": "10010",
+      "searchText": "vayne 暗夜猎手 薇恩 weien",
+      "title": "暗夜猎手"
+    },
+    "10011": {
+      "alias": "aike",
+      "avatar": "data/avatars/10011.png",
+      "displayName": "Ekko",
+      "id": "10011",
+      "searchText": "ekko 时间刺客 艾克 aike",
+      "title": "时间刺客"
+    },
+    "10012": {
+      "alias": "aolianna",
+      "avatar": "data/avatars/10012.png",
+      "displayName": "Orianna",
+      "id": "10012",
+      "searchText": "orianna 发条魔灵 奥莉安娜 aolianna",
+      "title": "发条魔灵"
+    },
+    "10013": {
+      "alias": "daianna",
+      "avatar": "data/avatars/10013.png",
+      "displayName": "Diana",
+      "id": "10013",
+      "searchText": "diana 皎月女神 黛安娜 daianna",
+      "title": "皎月女神"
+    },
+    "10014": {
+      "alias": "zuoyi",
+      "avatar": "data/avatars/10014.png",
+      "displayName": "Zoe",
+      "id": "10014",
+      "searchText": "zoe 暮光星灵 佐伊 zuoyi",
+      "title": "暮光星灵"
+    },
+    "10015": {
+      "alias": "taidamier",
+      "avatar": "data/avatars/10015.png",
+      "displayName": "Tryndamere",
+      "id": "10015",
+      "searchText": "tryndamere 蛮族之王 泰达米尔 taidamier",
+      "title": "蛮族之王"
+    },
+    "10016": {
+      "alias": "zhaoxin",
+      "avatar": "data/avatars/10016.png",
+      "displayName": "Xin Zhao",
+      "id": "10016",
+      "searchText": "xin zhao 德邦总管 赵信 zhaoxin",
+      "title": "德邦总管"
+    },
+    "10017": {
+      "alias": "kazike",
+      "avatar": "data/avatars/10017.png",
+      "displayName": "Khazix",
+      "id": "10017",
+      "searchText": "khazix 虚空掠夺者 卡兹克 kazike",
+      "title": "虚空掠夺者"
+    },
+    "10018": {
+      "alias": "jinkesi",
+      "avatar": "data/avatars/10018.png",
+      "displayName": "Jinx",
+      "id": "10018",
+      "searchText": "jinx 暴走萝莉 金克丝 jinkesi",
+      "title": "暴走萝莉"
+    },
+    "10019": {
+      "alias": "hekalimu",
+      "avatar": "data/avatars/10019.png",
+      "displayName": "Hecarim",
+      "id": "10019",
+      "searchText": "hecarim 战争之影 赫卡里姆 hekalimu",
+      "title": "战争之影"
+    },
+    "10020": {
+      "alias": "youmi",
+      "avatar": "data/avatars/10020.png",
+      "displayName": "Yuumi",
+      "id": "10020",
+      "searchText": "yuumi 魔法猫咪 悠米 youmi",
+      "title": "魔法猫咪"
+    },
+    "10021": {
+      "alias": "bulong",
+      "avatar": "data/avatars/10021.png",
+      "displayName": "Braum",
+      "id": "10021",
+      "searchText": "braum 弗雷尔卓德之心 布隆 bulong",
+      "title": "弗雷尔卓德之心"
+    },
+    "10022": {
+      "alias": "jin",
+      "avatar": "data/avatars/10022.png",
+      "displayName": "Jhin",
+      "id": "10022",
+      "searchText": "jhin 戏命师 烬 jin",
+      "title": "戏命师"
+    },
+    "10023": {
+      "alias": "aoruilian·suoer",
+      "avatar": "data/avatars/10023.png",
+      "displayName": "Aurelion Sol",
+      "id": "10023",
+      "searchText": "aurelion sol 铸星龙王 奥瑞利安·索尔 aoruilian·suoer",
+      "title": "铸星龙王"
+    },
+    "10024": {
+      "alias": "xindela",
+      "avatar": "data/avatars/10024.png",
+      "displayName": "Syndra",
+      "id": "10024",
+      "searchText": "syndra 暗黑元首 辛德拉 xindela",
+      "title": "暗黑元首"
+    },
+    "10025": {
+      "alias": "cuisite",
+      "avatar": "data/avatars/10025.png",
+      "displayName": "Twisted Fate",
+      "id": "10025",
+      "searchText": "twisted fate 卡牌大师 崔斯特 cuisite",
+      "title": "卡牌大师"
+    },
+    "10026": {
+      "alias": "kasha",
+      "avatar": "data/avatars/10026.png",
+      "displayName": "Kaisa",
+      "id": "10026",
+      "searchText": "kaisa 虚空之女 卡莎 kasha",
+      "title": "虚空之女"
+    },
+    "10027": {
+      "alias": "ni菈",
+      "avatar": "data/avatars/10027.png",
+      "displayName": "Nilah",
+      "id": "10027",
+      "searchText": "nilah 不羁之悦 尼菈 ni菈",
+      "title": "不羁之悦"
+    },
+    "10028": {
+      "alias": "moganna",
+      "avatar": "data/avatars/10028.png",
+      "displayName": "Morgana",
+      "id": "10028",
+      "searchText": "morgana 堕落天使 莫甘娜 moganna",
+      "title": "堕落天使"
+    },
+    "10029": {
+      "alias": "yifulin",
+      "avatar": "data/avatars/10029.png",
+      "displayName": "Evelynn",
+      "id": "10029",
+      "searchText": "evelynn 痛苦之拥 伊芙琳 yifulin",
+      "title": "痛苦之拥"
+    },
+    "10030": {
+      "alias": "pansen",
+      "avatar": "data/avatars/10030.png",
+      "displayName": "Pantheon",
+      "id": "10030",
+      "searchText": "pantheon 不屈之枪 潘森 pansen",
+      "title": "不屈之枪"
+    },
+    "10031": {
+      "alias": "ekali",
+      "avatar": "data/avatars/10031.png",
+      "displayName": "Akali",
+      "id": "10031",
+      "searchText": "akali 离群之刺 阿卡丽 ekali",
+      "title": "离群之刺"
+    },
+    "10032": {
+      "alias": "feiaona",
+      "avatar": "data/avatars/10032.png",
+      "displayName": "Fiora",
+      "id": "10032",
+      "searchText": "fiora 无双剑姬 菲奥娜 feiaona",
+      "title": "无双剑姬"
+    },
+    "10033": {
+      "alias": "bulici",
+      "avatar": "data/avatars/10033.png",
+      "displayName": "Blitzcrank",
+      "id": "10033",
+      "searchText": "blitzcrank 蒸汽机器人 布里茨 bulici",
+      "title": "蒸汽机器人"
+    },
+    "10034": {
+      "alias": "salefenni",
+      "avatar": "data/avatars/10034.png",
+      "displayName": "Seraphine",
+      "id": "10034",
+      "searchText": "seraphine 星籁歌姬 萨勒芬妮 salefenni",
+      "title": "星籁歌姬"
+    },
+    "10035": {
+      "alias": "modekaisa",
+      "avatar": "data/avatars/10035.png",
+      "displayName": "Mordekaiser",
+      "id": "10035",
+      "searchText": "mordekaiser 铁铠冥魂 莫德凯撒 modekaisa",
+      "title": "铁铠冥魂"
+    },
+    "10036": {
+      "alias": "anni",
+      "avatar": "data/avatars/10036.png",
+      "displayName": "Annie",
+      "id": "10036",
+      "searchText": "annie 黑暗之女 安妮 anni",
+      "title": "黑暗之女"
+    },
+    "10037": {
+      "alias": "yasuo",
+      "avatar": "data/avatars/10037.png",
+      "displayName": "Yasuo",
+      "id": "10037",
+      "searchText": "yasuo 疾风剑豪 亚索 yasuo",
+      "title": "疾风剑豪"
+    },
+    "10038": {
+      "alias": "eli",
+      "avatar": "data/avatars/10038.png",
+      "displayName": "Ahri",
+      "id": "10038",
+      "searchText": "ahri 九尾妖狐 阿狸 eli",
+      "title": "九尾妖狐"
+    },
+    "10039": {
+      "alias": "jie",
+      "avatar": "data/avatars/10039.png",
+      "displayName": "Zed",
+      "id": "10039",
+      "searchText": "zed 影流之主 劫 jie",
+      "title": "影流之主"
+    },
+    "10040": {
+      "alias": "jiakesi",
+      "avatar": "data/avatars/10040.png",
+      "displayName": "Jax",
+      "id": "10040",
+      "searchText": "jax 武器大师 贾克斯 jiakesi",
+      "title": "武器大师"
+    },
+    "10041": {
+      "alias": "kaier",
+      "avatar": "data/avatars/10041.png",
+      "displayName": "Kayle",
+      "id": "10041",
+      "searchText": "kayle 正义天使 凯尔 kaier",
+      "title": "正义天使"
+    },
+    "10042": {
+      "alias": "luxian",
+      "avatar": "data/avatars/10042.png",
+      "displayName": "Lucian",
+      "id": "10042",
+      "searchText": "lucian 圣枪游侠 卢锡安 luxian",
+      "title": "圣枪游侠"
+    },
+    "10044": {
+      "alias": "leiouna",
+      "avatar": "data/avatars/10044.png",
+      "displayName": "Leona",
+      "id": "10044",
+      "searchText": "leona 曙光女神 蕾欧娜 leiouna",
+      "title": "曙光女神"
+    },
+    "10045": {
+      "alias": "cuisitana",
+      "avatar": "data/avatars/10045.png",
+      "displayName": "Tristana",
+      "id": "10045",
+      "searchText": "tristana 麦林炮手 崔丝塔娜 cuisitana",
+      "title": "麦林炮手"
+    },
+    "10046": {
+      "alias": "timo",
+      "avatar": "data/avatars/10046.png",
+      "displayName": "Teemo",
+      "id": "10046",
+      "searchText": "teemo 迅捷斥候 提莫 timo",
+      "title": "迅捷斥候"
+    },
+    "10047": {
+      "alias": "suona",
+      "avatar": "data/avatars/10047.png",
+      "displayName": "Sona",
+      "id": "10047",
+      "searchText": "sona 琴瑟仙女 娑娜 suona",
+      "title": "琴瑟仙女"
+    },
+    "10048": {
+      "alias": "lulu",
+      "avatar": "data/avatars/10048.png",
+      "displayName": "Lulu",
+      "id": "10048",
+      "searchText": "lulu 仙灵女巫 璐璐 lulu",
+      "title": "仙灵女巫"
+    },
+    "10049": {
+      "alias": "xiwana",
+      "avatar": "data/avatars/10049.png",
+      "displayName": "Shyvana",
+      "id": "10049",
+      "searchText": "shyvana 龙血武姬 希瓦娜 xiwana",
+      "title": "龙血武姬"
+    },
+    "10050": {
+      "alias": "wei",
+      "avatar": "data/avatars/10050.png",
+      "displayName": "Vi",
+      "id": "10050",
+      "searchText": "vi 皮城执法官 蔚 wei",
+      "title": "皮城执法官"
+    },
+    "10051": {
+      "alias": "xia",
+      "avatar": "data/avatars/10051.png",
+      "displayName": "Xayah",
+      "id": "10051",
+      "searchText": "xayah 逆羽 霞 xia",
+      "title": "逆羽"
+    },
+    "10052": {
+      "alias": "luo",
+      "avatar": "data/avatars/10052.png",
+      "displayName": "Rakan",
+      "id": "10052",
+      "searchText": "rakan 幻翎 洛 luo",
+      "title": "幻翎"
+    },
+    "10053": {
+      "alias": "tuqi",
+      "avatar": "data/avatars/10053.png",
+      "displayName": "Twitch",
+      "id": "10053",
+      "searchText": "twitch 瘟疫之源 图奇 tuqi",
+      "title": "瘟疫之源"
+    },
+    "10054": {
+      "alias": "gewen",
+      "avatar": "data/avatars/10054.png",
+      "displayName": "Gwen",
+      "id": "10054",
+      "searchText": "gwen 灵罗娃娃 格温 gewen",
+      "title": "灵罗娃娃"
+    },
+    "10055": {
+      "alias": "kamier",
+      "avatar": "data/avatars/10055.png",
+      "displayName": "Camille",
+      "id": "10055",
+      "searchText": "camille 青钢影 卡蜜尔 kamier",
+      "title": "青钢影"
+    },
+    "10056": {
+      "alias": "jiawensishi",
+      "avatar": "data/avatars/10056.png",
+      "displayName": "Jarvan IV",
+      "id": "10056",
+      "searchText": "jarvan iv 德玛西亚皇子 嘉文四世 jiawensishi",
+      "title": "德玛西亚皇子"
+    },
+    "10057": {
+      "alias": "foyege",
+      "avatar": "data/avatars/10057.png",
+      "displayName": "Viego",
+      "id": "10057",
+      "searchText": "viego 破败之王 佛耶戈 foyege",
+      "title": "破败之王"
+    },
+    "10058": {
+      "alias": "wolibeier",
+      "avatar": "data/avatars/10058.png",
+      "displayName": "Volibear",
+      "id": "10058",
+      "searchText": "volibear 不灭狂雷 沃利贝尔 wolibeier",
+      "title": "不灭狂雷"
+    },
+    "10059": {
+      "alias": "liqing",
+      "avatar": "data/avatars/10059.png",
+      "displayName": "Lee Sin",
+      "id": "10059",
+      "searchText": "lee sin 盲僧 李青 liqing",
+      "title": "盲僧"
+    },
+    "10060": {
+      "alias": "kuqi",
+      "avatar": "data/avatars/10060.png",
+      "displayName": "Corki",
+      "id": "10060",
+      "searchText": "corki 英勇投弹手 库奇 kuqi",
+      "title": "英勇投弹手"
+    },
+    "10061": {
+      "alias": "kainan",
+      "avatar": "data/avatars/10061.png",
+      "displayName": "Kennen",
+      "id": "10061",
+      "searchText": "kennen 狂暴之心 凯南 kainan",
+      "title": "狂暴之心"
+    },
+    "10062": {
+      "alias": "mengduoyisheng",
+      "avatar": "data/avatars/10062.png",
+      "displayName": "Dr Mundo",
+      "id": "10062",
+      "searchText": "dr mundo 祖安狂人 蒙多医生 mengduoyisheng",
+      "title": "祖安狂人"
+    },
+    "10063": {
+      "alias": "jiela",
+      "avatar": "data/avatars/10063.png",
+      "displayName": "Zyra",
+      "id": "10063",
+      "searchText": "zyra 荆棘之兴 婕拉 jiela",
+      "title": "荆棘之兴"
+    },
+    "10064": {
+      "alias": "lamosi",
+      "avatar": "data/avatars/10064.png",
+      "displayName": "Rammus",
+      "id": "10064",
+      "searchText": "rammus 披甲龙龟 拉莫斯 lamosi",
+      "title": "披甲龙龟"
+    },
+    "10065": {
+      "alias": "neisesi",
+      "avatar": "data/avatars/10065.png",
+      "displayName": "Nasus",
+      "id": "10065",
+      "searchText": "nasus 沙漠死神 内瑟斯 neisesi",
+      "title": "沙漠死神"
+    },
+    "10066": {
+      "alias": "eyunxiaojie",
+      "avatar": "data/avatars/10066.png",
+      "displayName": "Miss Fortune",
+      "id": "10066",
+      "searchText": "miss fortune 赏金猎人 厄运小姐 eyunxiaojie",
+      "title": "赏金猎人"
+    },
+    "10067": {
+      "alias": "zeli",
+      "avatar": "data/avatars/10067.png",
+      "displayName": "Zeri",
+      "id": "10067",
+      "searchText": "zeri 祖安花火 泽丽 zeli",
+      "title": "祖安花火"
+    },
+    "10068": {
+      "alias": "seti",
+      "avatar": "data/avatars/10068.png",
+      "displayName": "Sett",
+      "id": "10068",
+      "searchText": "sett 腕豪 瑟提 seti",
+      "title": "腕豪"
+    },
+    "10069": {
+      "alias": "yongen",
+      "avatar": "data/avatars/10069.png",
+      "displayName": "Yone",
+      "id": "10069",
+      "searchText": "yone 封魔剑魂 永恩 yongen",
+      "title": "封魔剑魂"
+    },
+    "10070": {
+      "alias": "yi",
+      "avatar": "data/avatars/10070.png",
+      "displayName": "Master Yi",
+      "id": "10070",
+      "searchText": "master yi 无极剑圣 易 yi",
+      "title": "无极剑圣"
+    },
+    "10071": {
+      "alias": "delaiesi",
+      "avatar": "data/avatars/10071.png",
+      "displayName": "Darius",
+      "id": "10071",
+      "searchText": "darius 诺克萨斯之手 德莱厄斯 delaiesi",
+      "title": "诺克萨斯之手"
+    },
+    "10072": {
+      "alias": "geleifusi",
+      "avatar": "data/avatars/10072.png",
+      "displayName": "Graves",
+      "id": "10072",
+      "searchText": "graves 枪火狂徒 格雷福斯 geleifusi",
+      "title": "枪火狂徒"
+    },
+    "10073": {
+      "alias": "qianjue",
+      "avatar": "data/avatars/10073.png",
+      "displayName": "Kindred",
+      "id": "10073",
+      "searchText": "kindred 永猎双子 千珏 qianjue",
+      "title": "永猎双子"
+    },
+    "10074": {
+      "alias": "maokai",
+      "avatar": "data/avatars/10074.png",
+      "displayName": "Maokai",
+      "id": "10074",
+      "searchText": "maokai 扭曲树精 茂凯 maokai",
+      "title": "扭曲树精"
+    },
+    "10075": {
+      "alias": "jiana",
+      "avatar": "data/avatars/10075.png",
+      "displayName": "Janna",
+      "id": "10075",
+      "searchText": "janna 风暴之怒 迦娜 jiana",
+      "title": "风暴之怒"
+    },
+    "10076": {
+      "alias": "bobi",
+      "avatar": "data/avatars/10076.png",
+      "displayName": "Poppy",
+      "id": "10076",
+      "searchText": "poppy 圣锤之毅 波比 bobi",
+      "title": "圣锤之毅"
+    },
+    "10077": {
+      "alias": "delaiwen",
+      "avatar": "data/avatars/10077.png",
+      "displayName": "Draven",
+      "id": "10077",
+      "searchText": "draven 荣耀行刑官 德莱文 delaiwen",
+      "title": "荣耀行刑官"
+    },
+    "10078": {
+      "alias": "naer",
+      "avatar": "data/avatars/10078.png",
+      "displayName": "Gnar",
+      "id": "10078",
+      "searchText": "gnar 迷失之牙 纳尔 naer",
+      "title": "迷失之牙"
+    },
+    "10079": {
+      "alias": "aixi",
+      "avatar": "data/avatars/10079.png",
+      "displayName": "Ashe",
+      "id": "10079",
+      "searchText": "ashe 寒冰射手 艾希 aixi",
+      "title": "寒冰射手"
+    },
+    "10080": {
+      "alias": "jilan",
+      "avatar": "data/avatars/10080.png",
+      "displayName": "Zilean",
+      "id": "10080",
+      "searchText": "zilean 时光守护者 基兰 jilan",
+      "title": "时光守护者"
+    },
+    "10081": {
+      "alias": "elisita",
+      "avatar": "data/avatars/10081.png",
+      "displayName": "Alistar",
+      "id": "10081",
+      "searchText": "alistar 牛头酋长 阿利斯塔 elisita",
+      "title": "牛头酋长"
+    },
+    "10082": {
+      "alias": "anbeisa",
+      "avatar": "data/avatars/10082.png",
+      "displayName": "Ambessa",
+      "id": "10082",
+      "searchText": "ambessa 铁血狼母 安蓓萨 anbeisa",
+      "title": "铁血狼母"
+    },
+    "10083": {
+      "alias": "mofeite",
+      "avatar": "data/avatars/10083.png",
+      "displayName": "Malphite",
+      "id": "10083",
+      "searchText": "malphite 熔岩巨兽 墨菲特 mofeite",
+      "title": "熔岩巨兽"
+    },
+    "10084": {
+      "alias": "naideli",
+      "avatar": "data/avatars/10084.png",
+      "displayName": "Nidalee",
+      "id": "10084",
+      "searchText": "nidalee 狂野女猎手 奈德丽 naideli",
+      "title": "狂野女猎手"
+    },
+    "10085": {
+      "alias": "eluola",
+      "avatar": "data/avatars/10085.png",
+      "displayName": "Aurora",
+      "id": "10085",
+      "searchText": "aurora 双界灵兔 阿萝拉 eluola",
+      "title": "双界灵兔"
+    },
+    "10086": {
+      "alias": "feizi",
+      "avatar": "data/avatars/10086.png",
+      "displayName": "Fizz",
+      "id": "10086",
+      "searchText": "fizz 潮汐海灵 菲兹 feizi",
+      "title": "潮汐海灵"
+    },
+    "10087": {
+      "alias": "jigesi",
+      "avatar": "data/avatars/10087.png",
+      "displayName": "Ziggs",
+      "id": "10087",
+      "searchText": "ziggs 爆破鬼才 吉格斯 jigesi",
+      "title": "爆破鬼才"
+    },
+    "10089": {
+      "alias": "gulajiasi",
+      "avatar": "data/avatars/10089.png",
+      "displayName": "Gragas",
+      "id": "10089",
+      "searchText": "gragas 酒桶 古拉加斯 gulajiasi",
+      "title": "酒桶"
+    },
+    "10090": {
+      "alias": "fulajimier",
+      "avatar": "data/avatars/10090.png",
+      "displayName": "Vladimir",
+      "id": "10090",
+      "searchText": "vladimir 猩红收割者 弗拉基米尔 fulajimier",
+      "title": "猩红收割者"
+    },
+    "10091": {
+      "alias": "namei",
+      "avatar": "data/avatars/10091.png",
+      "displayName": "Nami",
+      "id": "10091",
+      "searchText": "nami 唤潮鲛姬 娜美 namei",
+      "title": "唤潮鲛姬"
+    },
+    "10092": {
+      "alias": "ruiwen",
+      "avatar": "data/avatars/10092.png",
+      "displayName": "Riven",
+      "id": "10092",
+      "searchText": "riven 放逐之刃 锐雯 ruiwen",
+      "title": "放逐之刃"
+    },
+    "10093": {
+      "alias": "weilusi",
+      "avatar": "data/avatars/10093.png",
+      "displayName": "Varus",
+      "id": "10093",
+      "searchText": "varus 惩戒之箭 韦鲁斯 weilusi",
+      "title": "惩戒之箭"
+    },
+    "10094": {
+      "alias": "airuiliya",
+      "avatar": "data/avatars/10094.png",
+      "displayName": "Irelia",
+      "id": "10094",
+      "searchText": "irelia 刀锋舞者 艾瑞莉娅 airuiliya",
+      "title": "刀锋舞者"
+    },
+    "10095": {
+      "alias": "katelinna",
+      "avatar": "data/avatars/10095.png",
+      "displayName": "Katarina",
+      "id": "10095",
+      "searchText": "katarina 不祥之刃 卡特琳娜 katelinna",
+      "title": "不祥之刃"
+    },
+    "10096": {
+      "alias": "xinjide",
+      "avatar": "data/avatars/10096.png",
+      "displayName": "Singed",
+      "id": "10096",
+      "searchText": "singed 炼金术士 辛吉德 xinjide",
+      "title": "炼金术士"
+    },
+    "10097": {
+      "alias": "suolaka",
+      "avatar": "data/avatars/10097.png",
+      "displayName": "Soraka",
+      "id": "10097",
+      "searchText": "soraka 众星之子 索拉卡 suolaka",
+      "title": "众星之子"
+    },
+    "10098": {
+      "alias": "yizeruier",
+      "avatar": "data/avatars/10098.png",
+      "displayName": "Ezreal",
+      "id": "10098",
+      "searchText": "ezreal 探险家 伊泽瑞尔 yizeruier",
+      "title": "探险家"
+    },
+    "10099": {
+      "alias": "jialiao",
+      "avatar": "data/avatars/10099.png",
+      "displayName": "Galio",
+      "id": "10099",
+      "searchText": "galio 正义巨像 加里奥 jialiao",
+      "title": "正义巨像"
+    },
+    "10100": {
+      "alias": "ekeshang",
+      "avatar": "data/avatars/10100.png",
+      "displayName": "Akshan",
+      "id": "10100",
+      "searchText": "akshan 影哨 阿克尚 ekeshang",
+      "title": "影哨"
+    },
+    "10101": {
+      "alias": "jiesi",
+      "avatar": "data/avatars/10101.png",
+      "displayName": "Jayce",
+      "id": "10101",
+      "searchText": "jayce 未来守护者 杰斯 jiesi",
+      "title": "未来守护者"
+    },
+    "10102": {
+      "alias": "ejiate",
+      "avatar": "data/avatars/10102.png",
+      "displayName": "Urgot",
+      "id": "10102",
+      "searchText": "urgot 无畏战车 厄加特 ejiate",
+      "title": "无畏战车"
+    },
+    "10103": {
+      "alias": "kasading",
+      "avatar": "data/avatars/10103.png",
+      "displayName": "Kassadin",
+      "id": "10103",
+      "searchText": "kassadin 虚空行者 卡萨丁 kasading",
+      "title": "虚空行者"
+    },
+    "10104": {
+      "alias": "shamila",
+      "avatar": "data/avatars/10104.png",
+      "displayName": "Samira",
+      "id": "10104",
+      "searchText": "samira 沙漠玫瑰 莎弥拉 shamila",
+      "title": "沙漠玫瑰"
+    },
+    "10105": {
+      "alias": "bade",
+      "avatar": "data/avatars/10105.png",
+      "displayName": "Bard",
+      "id": "10105",
+      "searchText": "bard 星界游神 巴德 bade",
+      "title": "星界游神"
+    },
+    "10106": {
+      "alias": "aolafu",
+      "avatar": "data/avatars/10106.png",
+      "displayName": "Olaf",
+      "id": "10106",
+      "searchText": "olaf 狂战士 奥拉夫 aolafu",
+      "title": "狂战士"
+    },
+    "10107": {
+      "alias": "xiweier",
+      "avatar": "data/avatars/10107.png",
+      "displayName": "Sivir",
+      "id": "10107",
+      "searchText": "sivir 战争女神 希维尔 xiweier",
+      "title": "战争女神"
+    },
+    "10108": {
+      "alias": "miliou",
+      "avatar": "data/avatars/10108.png",
+      "displayName": "Milio",
+      "id": "10108",
+      "searchText": "milio 明烛 米利欧 miliou",
+      "title": "明烛"
+    },
+    "10109": {
+      "alias": "lisangzhuo",
+      "avatar": "data/avatars/10109.png",
+      "displayName": "Lissandra",
+      "id": "10109",
+      "searchText": "lissandra 冰霜女巫 丽桑卓 lisangzhuo",
+      "title": "冰霜女巫"
+    },
+    "10110": {
+      "alias": "kegemo",
+      "avatar": "data/avatars/10110.png",
+      "displayName": "Kogmaw",
+      "id": "10110",
+      "searchText": "kogmaw 深渊巨口 克格莫 kegemo",
+      "title": "深渊巨口"
+    },
+    "10112": {
+      "alias": "kaitelin",
+      "avatar": "data/avatars/10112.png",
+      "displayName": "Caitlyn",
+      "id": "10112",
+      "searchText": "caitlyn 皮城女警 凯特琳 kaitelin",
+      "title": "皮城女警"
+    },
+    "10116": {
+      "alias": "ruier",
+      "avatar": "data/avatars/10116.png",
+      "displayName": "Rell",
+      "id": "10116",
+      "searchText": "rell 镕铁少女 芮尔 ruier",
+      "title": "镕铁少女"
+    },
+    "10118": {
+      "alias": "shen",
+      "avatar": "data/avatars/10118.png",
+      "displayName": "Shen",
+      "id": "10118",
+      "searchText": "shen 暮光之眼 慎 shen",
+      "title": "暮光之眼"
+    },
+    "10119": {
+      "alias": "bulande",
+      "avatar": "data/avatars/10119.png",
+      "displayName": "Brand",
+      "id": "10119",
+      "searchText": "brand 复仇焰魂 布兰德 bulande",
+      "title": "复仇焰魂"
+    },
+    "10121": {
+      "alias": "leikedun",
+      "avatar": "data/avatars/10121.png",
+      "displayName": "Renekton",
+      "id": "10121",
+      "searchText": "renekton 荒漠屠夫 雷克顿 leikedun",
+      "title": "荒漠屠夫"
+    },
+    "10122": {
+      "alias": "weijia",
+      "avatar": "data/avatars/10122.png",
+      "displayName": "Veigar",
+      "id": "10122",
+      "searchText": "veigar 邪恶小法师 维迦 weijia",
+      "title": "邪恶小法师"
+    },
+    "10123": {
+      "alias": "saina",
+      "avatar": "data/avatars/10123.png",
+      "displayName": "Senna",
+      "id": "10123",
+      "searchText": "senna 涤魂圣枪 赛娜 saina",
+      "title": "涤魂圣枪"
+    },
+    "10124": {
+      "alias": "paike",
+      "avatar": "data/avatars/10124.png",
+      "displayName": "Pyke",
+      "id": "10124",
+      "searchText": "pyke 血港鬼影 派克 paike",
+      "title": "血港鬼影"
+    },
+    "10125": {
+      "alias": "saien",
+      "avatar": "data/avatars/10125.png",
+      "displayName": "Sion",
+      "id": "10125",
+      "searchText": "sion 亡灵战神 赛恩 saien",
+      "title": "亡灵战神"
+    },
+    "10126": {
+      "alias": "siweiyin",
+      "avatar": "data/avatars/10126.png",
+      "displayName": "Swain",
+      "id": "10126",
+      "searchText": "swain 诺克萨斯统领 斯维因 siweiyin",
+      "title": "诺克萨斯统领"
+    },
+    "10127": {
+      "alias": "heimodingge",
+      "avatar": "data/avatars/10127.png",
+      "displayName": "Heimerdinger",
+      "id": "10127",
+      "searchText": "heimerdinger 大发明家 黑默丁格 heimodingge",
+      "title": "大发明家"
+    },
+    "10128": {
+      "alias": "tailong",
+      "avatar": "data/avatars/10128.png",
+      "displayName": "Talon",
+      "id": "10128",
+      "searchText": "talon 刀锋之影 泰隆 tailong",
+      "title": "刀锋之影"
+    },
+    "10129": {
+      "alias": "weikezi",
+      "avatar": "data/avatars/10129.png",
+      "displayName": "Velkoz",
+      "id": "10129",
+      "searchText": "velkoz 虚空之眼 维克兹 weikezi",
+      "title": "虚空之眼"
+    },
+    "10130": {
+      "alias": "chuishi",
+      "avatar": "data/avatars/10130.png",
+      "displayName": "Thresh",
+      "id": "10130",
+      "searchText": "thresh 魂锁典狱长 锤石 chuishi",
+      "title": "魂锁典狱长"
+    },
+    "10131": {
+      "alias": "wolike",
+      "avatar": "data/avatars/10131.png",
+      "displayName": "Warwick",
+      "id": "10131",
+      "searchText": "warwick 祖安怒兽 沃里克 wolike",
+      "title": "祖安怒兽"
+    },
+    "10132": {
+      "alias": "nuotilesi",
+      "avatar": "data/avatars/10132.png",
+      "displayName": "Nautilus",
+      "id": "10132",
+      "searchText": "nautilus 深海泰坦 诺提勒斯 nuotilesi",
+      "title": "深海泰坦"
+    },
+    "10133": {
+      "alias": "feidetike",
+      "avatar": "data/avatars/10133.png",
+      "displayName": "Fiddlesticks",
+      "id": "10133",
+      "searchText": "fiddlesticks 远古恐惧 费德提克 feidetike",
+      "title": "远古恐惧"
+    },
+    "10134": {
+      "alias": "kalisita",
+      "avatar": "data/avatars/10134.png",
+      "displayName": "Kalista",
+      "id": "10134",
+      "searchText": "kalista 复仇之矛 卡莉丝塔 kalisita",
+      "title": "复仇之矛"
+    },
+    "10135": {
+      "alias": "liliya",
+      "avatar": "data/avatars/10135.png",
+      "displayName": "Lillia",
+      "id": "10135",
+      "searchText": "lillia 含羞蓓蕾 莉莉娅 liliya",
+      "title": "含羞蓓蕾"
+    },
+    "10136": {
+      "alias": "aoen",
+      "avatar": "data/avatars/10136.png",
+      "displayName": "Ornn",
+      "id": "10136",
+      "searchText": "ornn 山隐之焰 奥恩 aoen",
+      "title": "山隐之焰"
+    },
+    "10137": {
+      "alias": "ruizi",
+      "avatar": "data/avatars/10137.png",
+      "displayName": "Ryze",
+      "id": "10137",
+      "searchText": "ryze 符文法师 瑞兹 ruizi",
+      "title": "符文法师"
+    },
+    "10138": {
+      "alias": "simode",
+      "avatar": "data/avatars/10138.png",
+      "displayName": "Smolder",
+      "id": "10138",
+      "searchText": "smolder 炽炎雏龙 斯莫德 simode",
+      "title": "炽炎雏龙"
+    },
+    "10140": {
+      "alias": "lanbo",
+      "avatar": "data/avatars/10140.png",
+      "displayName": "Rumble",
+      "id": "10140",
+      "searchText": "rumble 机械公敌 兰博 lanbo",
+      "title": "机械公敌"
+    },
+    "10141": {
+      "alias": "weigusi",
+      "avatar": "data/avatars/10141.png",
+      "displayName": "Vex",
+      "id": "10141",
+      "searchText": "vex 愁云使者 薇古丝 weigusi",
+      "title": "愁云使者"
+    },
+    "10144": {
+      "alias": "weiketuo",
+      "avatar": "data/avatars/10144.png",
+      "displayName": "Viktor",
+      "id": "10144",
+      "searchText": "viktor 奥术先驱 维克托 weiketuo",
+      "title": "奥术先驱"
+    },
+    "10151": {
+      "alias": "moteng",
+      "avatar": "data/avatars/10151.png",
+      "displayName": "Nocturne",
+      "id": "10151",
+      "searchText": "nocturne 永恒梦魇 魔腾 moteng",
+      "title": "永恒梦魇"
+    },
+    "10166": {
+      "alias": "nuola",
+      "avatar": "data/avatars/10166.png",
+      "displayName": "Norra",
+      "id": "10166",
+      "searchText": "norra 奇妙远旅 诺拉 nuola",
+      "title": "奇妙远旅"
+    }
+  },
+  "generatedAt": "2026-03-08T06:25:04.505Z",
+  "hash": "55207a1a4ecbcc0746c3c91396fb23431eeb125716015be03e8601681653b9c5",
+  "version": 1
+}

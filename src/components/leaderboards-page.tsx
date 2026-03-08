@@ -1,4 +1,11 @@
-import { useDeferredValue, useEffect, useMemo, useState } from "react"
+import {
+  startTransition,
+  useDeferredValue,
+  useEffect,
+  useEffectEvent,
+  useMemo,
+  useState,
+} from "react"
 import { ArrowDown, ArrowUp, ArrowUpDown, CircleHelp, Search } from "lucide-react"
 
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
@@ -9,6 +16,14 @@ import {
   InputGroupButton,
   InputGroupInput,
 } from "@/components/ui/input-group"
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
 import { Spinner } from "@/components/ui/spinner"
 import {
   Table,
@@ -25,6 +40,8 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip"
+import { SiteHeader } from "@/components/site-header"
+import { LEADERBOARDS_ROUTE, replaceRouteSearch, routeToHash } from "@/lib/hash-routing"
 import {
   LANE_LABELS,
   loadLeaderboards,
@@ -34,7 +51,6 @@ import {
   type LeaderboardEntry,
   type LeaderboardPayload,
 } from "@/lib/tencent-lolm"
-import { SiteHeader } from "@/components/site-header"
 
 type SortKey = "winRate" | "pickRate" | "banRate"
 type SortDirection = "asc" | "desc"
@@ -96,7 +112,7 @@ function renderBucketLabel(bucket: string) {
   )
 }
 
-function formatDate(date: string | null) {
+function formatStatDate(date: string | null) {
   if (!date || date.length !== 8) {
     return "Unknown"
   }
@@ -112,6 +128,27 @@ function formatDate(date: string | null) {
     month: "short",
     day: "numeric",
   }).format(parsedDate)
+}
+
+function formatArchiveDateTime(value: string) {
+  return new Intl.DateTimeFormat(undefined, {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+    timeZone: "UTC",
+    timeZoneName: "short",
+  }).format(new Date(value))
+}
+
+function formatArchiveTime(value: string) {
+  return new Intl.DateTimeFormat(undefined, {
+    hour: "numeric",
+    minute: "2-digit",
+    timeZone: "UTC",
+    timeZoneName: "short",
+  }).format(new Date(value))
 }
 
 function formatPercent(value: number) {
@@ -136,22 +173,25 @@ function parseFiltersFromUrl() {
   const lane = (params.get("lane") as LaneId | null) ?? DEFAULT_LANE
   const sort = params.get("sort")
   const direction = params.get("direction")
+  const snapshotId = params.get("snapshot") ?? ""
 
   return {
-    q,
-    tier,
+    direction: direction === "asc" ? "asc" : "desc",
     lane,
+    q,
+    snapshotId,
     sort:
       sort === "pickRate" || sort === "banRate" || sort === "winRate"
         ? sort
         : "winRate",
-    direction: direction === "asc" ? "asc" : "desc",
+    tier,
   } satisfies {
-    q: string
-    tier: string
-    lane: LaneId
-    sort: SortKey
     direction: SortDirection
+    lane: LaneId
+    q: string
+    snapshotId: string
+    sort: SortKey
+    tier: string
   }
 }
 
@@ -273,11 +313,47 @@ export function LeaderboardsPage() {
   const [searchQuery, setSearchQuery] = useState(initialFilters.q)
   const [selectedTier, setSelectedTier] = useState(initialFilters.tier)
   const [selectedLane, setSelectedLane] = useState<LaneId>(initialFilters.lane)
+  const [selectedSnapshotId, setSelectedSnapshotId] = useState(
+    initialFilters.snapshotId
+  )
   const [sortBy, setSortBy] = useState<SortKey>(initialFilters.sort)
   const [sortDirection, setSortDirection] = useState<SortDirection>(
     initialFilters.direction
   )
   const deferredSearchQuery = useDeferredValue(searchQuery)
+
+  const applyPayload = useEffectEvent((nextPayload: LeaderboardPayload) => {
+    const tiers = sortNumericKeys(Object.keys(nextPayload.entriesByTier)).filter(
+      (tierKey) =>
+        tierKey !== "0" &&
+        Object.values(nextPayload.entriesByTier[tierKey] ?? {}).some(
+          (entries) => entries.length > 0
+        )
+    )
+    const nextTier = tiers.includes(selectedTier)
+      ? selectedTier
+      : tiers.includes(initialFilters.tier)
+        ? initialFilters.tier
+        : pickDefaultTier(tiers)
+    const lanes = sortLaneKeys(
+      Object.keys(nextPayload.entriesByTier[nextTier] ?? {}) as LaneId[]
+    )
+    const nextLane = lanes.includes(selectedLane)
+      ? selectedLane
+      : lanes.includes(initialFilters.lane)
+        ? initialFilters.lane
+        : pickDefaultLane(lanes)
+
+    startTransition(() => {
+      setPayload(nextPayload)
+      setSelectedTier(nextTier)
+      setSelectedLane(nextLane as LaneId)
+
+      if (selectedSnapshotId !== nextPayload.snapshotId) {
+        setSelectedSnapshotId(nextPayload.snapshotId)
+      }
+    })
+  })
 
   useEffect(() => {
     let cancelled = false
@@ -287,32 +363,13 @@ export function LeaderboardsPage() {
       setError(null)
 
       try {
-        const nextPayload = await loadLeaderboards()
+        const nextPayload = await loadLeaderboards(selectedSnapshotId || undefined)
 
         if (cancelled) {
           return
         }
 
-        const tiers = sortNumericKeys(Object.keys(nextPayload.entriesByTier)).filter(
-          (tierKey) =>
-            tierKey !== "0" &&
-            Object.values(nextPayload.entriesByTier[tierKey] ?? {}).some(
-              (entries) => entries.length > 0
-            )
-        )
-        const nextTier = tiers.includes(initialFilters.tier)
-          ? initialFilters.tier
-          : pickDefaultTier(tiers)
-        const lanes = sortLaneKeys(
-          Object.keys(nextPayload.entriesByTier[nextTier] ?? {}) as LaneId[]
-        )
-        const nextLane = lanes.includes(initialFilters.lane)
-          ? initialFilters.lane
-          : pickDefaultLane(lanes)
-
-        setPayload(nextPayload)
-        setSelectedTier(nextTier)
-        setSelectedLane(nextLane as LaneId)
+        applyPayload(nextPayload)
       } catch (caughtError) {
         if (cancelled) {
           return
@@ -321,7 +378,7 @@ export function LeaderboardsPage() {
         const message =
           caughtError instanceof Error
             ? caughtError.message
-            : "Failed to load Tencent leaderboard data."
+            : "Failed to load archived leaderboard data."
 
         setError(message)
       } finally {
@@ -336,7 +393,7 @@ export function LeaderboardsPage() {
     return () => {
       cancelled = true
     }
-  }, [initialFilters])
+  }, [selectedSnapshotId])
 
   const tierKeys = useMemo(
     () =>
@@ -357,6 +414,16 @@ export function LeaderboardsPage() {
       ),
     [payload, selectedTier]
   )
+
+  const snapshotDateCounts = useMemo(() => {
+    const counts = new Map<string, number>()
+
+    for (const snapshot of payload?.snapshots ?? []) {
+      counts.set(snapshot.statDate, (counts.get(snapshot.statDate) ?? 0) + 1)
+    }
+
+    return counts
+  }, [payload])
 
   useEffect(() => {
     if (!laneKeys.length) {
@@ -380,10 +447,20 @@ export function LeaderboardsPage() {
     params.set("sort", sortBy)
     params.set("direction", sortDirection)
 
-    const nextSearch = params.toString()
-    const nextUrl = `${window.location.pathname}${nextSearch ? `?${nextSearch}` : ""}`
-    window.history.replaceState(null, "", nextUrl)
-  }, [searchQuery, selectedLane, selectedTier, sortBy, sortDirection])
+    if (payload && selectedSnapshotId && selectedSnapshotId !== payload.latestSnapshotId) {
+      params.set("snapshot", selectedSnapshotId)
+    }
+
+    replaceRouteSearch(LEADERBOARDS_ROUTE, params)
+  }, [
+    payload,
+    searchQuery,
+    selectedLane,
+    selectedSnapshotId,
+    selectedTier,
+    sortBy,
+    sortDirection,
+  ])
 
   const visibleEntries = useMemo(() => {
     const tierEntries = payload?.entriesByTier[selectedTier]
@@ -436,11 +513,20 @@ export function LeaderboardsPage() {
         Skip to results
       </a>
 
-      <SiteHeader rightLabel="Leaderboards" rightHref="/leaderboards" />
+      <SiteHeader
+        rightLabel="Leaderboards"
+        rightHref={routeToHash(LEADERBOARDS_ROUTE)}
+      />
 
       <section className="mx-auto flex w-full max-w-6xl flex-col gap-3 px-4 py-5 sm:px-6 sm:py-6">
         <div className="rift-leaderboard-title text-center">
           <h1 className="rift-page-title">Leaderboards</h1>
+          {payload ? (
+            <div className="flex flex-col gap-1 pt-1 text-sm text-muted-foreground">
+              <p>Data date: {formatStatDate(payload.statDate)}</p>
+              <p>Archived: {formatArchiveDateTime(payload.archivedAt)}</p>
+            </div>
+          ) : null}
         </div>
 
         <div className="rift-leaderboard-filter-stack">
@@ -468,7 +554,7 @@ export function LeaderboardsPage() {
             </ToggleGroup>
           </TooltipProvider>
 
-          <div className="rift-leaderboard-controls grid gap-3 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
+          <div className="rift-leaderboard-controls grid gap-3 lg:grid-cols-[minmax(0,1fr)_auto_auto] lg:items-center">
             <div>
               <InputGroup className="rift-leaderboard-search h-11">
                 <InputGroupInput
@@ -517,6 +603,38 @@ export function LeaderboardsPage() {
                 </ToggleGroupItem>
               ))}
             </ToggleGroup>
+
+            <div className="flex justify-end lg:justify-start">
+              <Select
+                value={selectedSnapshotId || payload?.snapshotId}
+                onValueChange={setSelectedSnapshotId}
+                disabled={!payload}
+              >
+                <SelectTrigger
+                  size="sm"
+                  className="w-full min-w-44 justify-between sm:w-[13.5rem]"
+                  aria-label="Archived snapshot"
+                >
+                  <SelectValue placeholder="Snapshot date" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectGroup>
+                    {(payload?.snapshots ?? []).map((snapshot) => {
+                      const showArchiveTime =
+                        (snapshotDateCounts.get(snapshot.statDate) ?? 0) > 1
+
+                      return (
+                        <SelectItem key={snapshot.id} value={snapshot.id}>
+                          {showArchiveTime
+                            ? `${formatStatDate(snapshot.statDate)} · ${formatArchiveTime(snapshot.fetchedAt)}`
+                            : formatStatDate(snapshot.statDate)}
+                        </SelectItem>
+                      )
+                    })}
+                  </SelectGroup>
+                </SelectContent>
+              </Select>
+            </div>
           </div>
         </div>
 
@@ -538,12 +656,6 @@ export function LeaderboardsPage() {
               onSortChange={handleSortChange}
             />
           )}
-        </div>
-
-        <div className="pt-1 text-center">
-          <p className="rift-updated-text">
-            Last updated {formatDate(payload?.updatedAt ?? null)}
-          </p>
         </div>
       </section>
     </main>

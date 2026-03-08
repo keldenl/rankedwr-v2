@@ -1,40 +1,20 @@
-export const LANE_LABELS = {
-  "1": "Mid",
-  "2": "Solo",
-  "3": "Duo",
-  "4": "Support",
-  "5": "Jungle",
-} as const
+import {
+  LANE_LABELS,
+  dataFileUrl,
+  normalizeChampionCatalog,
+  normalizeSnapshot,
+  sortLaneKeys,
+  sortNumericKeys,
+  type ChampionCatalog,
+  type CompactLeaderboardRow,
+  type LaneId,
+  type LeaderboardSnapshot,
+  type SnapshotMeta,
+  type StaticDataManifest,
+} from "@/lib/static-data"
 
-export type LaneId = keyof typeof LANE_LABELS
-
-export const LANE_ORDER: LaneId[] = ["2", "5", "1", "3", "4"]
-
-type HeroRecord = {
-  alias?: string
-  avatar?: string
-  heroId: string
-  name?: string
-  poster?: string
-  title?: string
-}
-
-type HeroListResponse = {
-  heroList: Record<string, HeroRecord>
-}
-
-type RawLeaderboardEntry = {
-  appear_rate_percent: string
-  dtstatdate: string
-  forbid_rate_percent: string
-  hero_id: string
-  position: LaneId
-  win_rate_percent: string
-}
-
-type RawLeaderboardResponse = {
-  data: Record<string, Record<string, RawLeaderboardEntry[]>>
-}
+export { LANE_LABELS, sortLaneKeys, sortNumericKeys }
+export type { LaneId }
 
 export type LeaderboardEntry = {
   alias: string
@@ -51,132 +31,146 @@ export type LeaderboardEntry = {
 }
 
 export type LeaderboardPayload = {
+  archivedAt: string
   entriesByTier: Record<string, Record<string, LeaderboardEntry[]>>
-  updatedAt: string | null
+  latestSnapshotId: string
+  snapshotId: string
+  snapshots: SnapshotMeta[]
+  statDate: string
 }
 
-const heroListUrl =
-  `${import.meta.env.VITE_LOLM_PROXY_BASE ?? ""}/api/hero-list`
-const heroRankListUrl =
-  `${import.meta.env.VITE_LOLM_PROXY_BASE ?? ""}/api/hero-rank-list`
+let manifestPromise: Promise<StaticDataManifest> | null = null
+let championCatalogPromise: Promise<ChampionCatalog> | null = null
+const snapshotCache = new Map<string, Promise<LeaderboardSnapshot>>()
 
-function championNameFromPoster(poster?: string) {
-  if (!poster) {
-    return "Unknown"
-  }
-
-  const fileName = poster.split("/").pop() ?? poster
-  const stem = fileName.split("_")[0] ?? fileName
-  const withSpaces = stem.replace(/([A-Z]+)/g, " $1").trim()
-
-  if (withSpaces === "Monkey King") {
-    return "Wukong"
-  }
-
-  return withSpaces
-}
-
-function numberFromPercent(value: string) {
-  const parsed = Number.parseFloat(value)
-  return Number.isFinite(parsed) ? parsed : 0
-}
-
-function sortKeys(source: string[]) {
-  return [...source].sort((left, right) => {
-    const leftNumber = Number.parseInt(left, 10)
-    const rightNumber = Number.parseInt(right, 10)
-    return leftNumber - rightNumber
-  })
-}
-
-async function readJson<T>(url: string) {
-  const response = await fetch(url)
+async function readJson<T>(pathname: string) {
+  const response = await fetch(dataFileUrl(pathname))
 
   if (!response.ok) {
-    throw new Error(`Request failed for ${url}: ${response.status}`)
+    throw new Error(`Request failed for ${pathname}: ${response.status}`)
   }
 
   return (await response.json()) as T
 }
 
+async function loadManifest() {
+  manifestPromise ??= readJson<StaticDataManifest>("data/manifest.v1.json")
+  return manifestPromise
+}
+
+async function loadChampionCatalog() {
+  if (!championCatalogPromise) {
+    championCatalogPromise = loadManifest().then((manifest) =>
+      readJson<ChampionCatalog>(manifest.championsPath)
+    )
+  }
+
+  return championCatalogPromise
+}
+
+async function loadSnapshotByPath(pathname: string) {
+  const cachedSnapshot = snapshotCache.get(pathname)
+
+  if (cachedSnapshot) {
+    return cachedSnapshot
+  }
+
+  const snapshotPromise = readJson<LeaderboardSnapshot>(pathname)
+  snapshotCache.set(pathname, snapshotPromise)
+
+  return snapshotPromise
+}
+
 function normalizeEntry(
+  snapshotId: string,
   tierKey: string,
   laneKey: LaneId,
-  rawEntry: RawLeaderboardEntry,
-  heroMap: Map<string, HeroRecord>
+  rowIndex: number,
+  compactRow: CompactLeaderboardRow,
+  champions: ChampionCatalog["champions"]
 ): LeaderboardEntry {
-  const hero = heroMap.get(rawEntry.hero_id)
-  const name = championNameFromPoster(hero?.poster)
-  const title = hero?.title ?? hero?.name ?? `Hero ${rawEntry.hero_id}`
-  const alias = hero?.alias ?? ""
+  const [heroId, winRate, pickRate, banRate] = compactRow
+  const champion = champions[heroId]
 
   return {
-    alias,
-    avatar: hero?.avatar ?? "",
-    id: `${tierKey}-${laneKey}-${rawEntry.hero_id}`,
+    alias: champion?.alias ?? "",
+    avatar: champion?.avatar ?? "",
+    id: `${snapshotId}-${tierKey}-${laneKey}-${heroId}-${rowIndex}`,
     lane: laneKey,
     laneLabel: LANE_LABELS[laneKey] ?? `Lane ${laneKey}`,
-    name,
-    pickRate: numberFromPercent(rawEntry.appear_rate_percent),
-    searchText: `${name} ${title} ${hero?.name ?? ""} ${alias}`.toLowerCase(),
-    title,
-    winRate: numberFromPercent(rawEntry.win_rate_percent),
-    banRate: numberFromPercent(rawEntry.forbid_rate_percent),
+    name: champion?.displayName ?? `Hero ${heroId}`,
+    pickRate,
+    searchText: champion?.searchText ?? `hero ${heroId}`,
+    title: champion?.title ?? `Hero ${heroId}`,
+    winRate,
+    banRate,
   }
 }
 
-export function sortNumericKeys(source: string[]) {
-  return sortKeys(source)
-}
-
-export function sortLaneKeys(source: LaneId[]) {
-  const laneOrderMap = new Map(
-    LANE_ORDER.map((laneId, index) => [laneId, index] as const)
-  )
-
-  return [...source].sort((left, right) => {
-    const leftIndex = laneOrderMap.get(left) ?? Number.MAX_SAFE_INTEGER
-    const rightIndex = laneOrderMap.get(right) ?? Number.MAX_SAFE_INTEGER
-
-    if (leftIndex !== rightIndex) {
-      return leftIndex - rightIndex
-    }
-
-    return left.localeCompare(right)
-  })
-}
-
-export async function loadLeaderboards(): Promise<LeaderboardPayload> {
-  const [heroListResponse, rawLeaderboardResponse] = await Promise.all([
-    readJson<HeroListResponse>(heroListUrl),
-    readJson<RawLeaderboardResponse>(heroRankListUrl),
-  ])
-
-  const heroMap = new Map(Object.entries(heroListResponse.heroList))
+function buildEntriesByTier(
+  snapshot: LeaderboardSnapshot,
+  champions: ChampionCatalog["champions"]
+) {
   const entriesByTier: Record<string, Record<string, LeaderboardEntry[]>> = {}
 
-  let updatedAt: string | null = null
-
-  for (const tierKey of sortKeys(Object.keys(rawLeaderboardResponse.data))) {
+  for (const tierKey of sortNumericKeys(Object.keys(snapshot.tiers))) {
     entriesByTier[tierKey] = {}
 
-    for (const laneKey of sortKeys(
-      Object.keys(rawLeaderboardResponse.data[tierKey] ?? {})
-    ) as LaneId[]) {
-      const rawEntries = rawLeaderboardResponse.data[tierKey]?.[laneKey] ?? []
+    for (const laneKey of sortLaneKeys(
+      Object.keys(snapshot.tiers[tierKey] ?? {}) as LaneId[]
+    )) {
+      const rows = snapshot.tiers[tierKey]?.[laneKey] ?? []
 
-      if (!updatedAt && rawEntries[0]?.dtstatdate) {
-        updatedAt = rawEntries[0].dtstatdate
-      }
-
-      entriesByTier[tierKey][laneKey] = rawEntries.map((rawEntry) =>
-        normalizeEntry(tierKey, laneKey, rawEntry, heroMap)
+      entriesByTier[tierKey][laneKey] = rows.map((row, rowIndex) =>
+        normalizeEntry(snapshot.snapshotId, tierKey, laneKey, rowIndex, row, champions)
       )
     }
   }
 
+  return entriesByTier
+}
+
+export async function loadLeaderboards(snapshotId?: string) {
+  const [manifest, championCatalog] = await Promise.all([
+    loadManifest(),
+    loadChampionCatalog(),
+  ])
+
+  const selectedSnapshotMeta =
+    manifest.snapshots.find((snapshot) => snapshot.id === snapshotId) ??
+    manifest.snapshots.find((snapshot) => snapshot.id === manifest.latestSnapshotId)
+
+  if (!selectedSnapshotMeta) {
+    throw new Error("No published leaderboard snapshots are available.")
+  }
+
+  const snapshotPath =
+    selectedSnapshotMeta.id === manifest.latestSnapshotId
+      ? manifest.latestPath
+      : selectedSnapshotMeta.path
+
+  const snapshot = await loadSnapshotByPath(snapshotPath)
+
+  if (snapshot.snapshotId !== selectedSnapshotMeta.id) {
+    throw new Error(`Snapshot mismatch for ${selectedSnapshotMeta.id}.`)
+  }
+
   return {
-    entriesByTier,
-    updatedAt,
+    archivedAt: snapshot.fetchedAt,
+    entriesByTier: buildEntriesByTier(snapshot, championCatalog.champions),
+    latestSnapshotId: manifest.latestSnapshotId,
+    snapshotId: snapshot.snapshotId,
+    snapshots: manifest.snapshots,
+    statDate: snapshot.statDate,
+  } satisfies LeaderboardPayload
+}
+
+export function normalizeSourceDataForTests(
+  champions: Parameters<typeof normalizeChampionCatalog>[0],
+  snapshot: Parameters<typeof normalizeSnapshot>[0]
+) {
+  return {
+    champions: normalizeChampionCatalog(champions),
+    snapshot: normalizeSnapshot(snapshot),
   }
 }
