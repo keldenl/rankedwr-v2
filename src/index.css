@@ -234,52 +234,135 @@ body {
     @apply text-3xl font-semibold tracking-[-0.03em] text-foreground sm:text-4xl;
   }
 
-  .rift-leaderboard-title {
-    @apply pt-6 pb-1 sm:pt-8;
+  .rift-leaderboard-page-shell {
+    background:
+      linear-gradient(180deg, #102744 0%, #0b1b31 34%, #081423 100%);
   }
 
-  .rift-leaderboard-filter-stack {
-    @apply space-y-8 sm:space-y-10;
+  .rift-leaderboard-hero {
+    @apply relative isolate overflow-hidden;
+    background: #081423;
+  }
+
+  .rift-leaderboard-hero::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0 0;
+    height: 6rem;
+    background: linear-gradient(180deg, rgba(8, 20, 35, 0) 0%, #081423 100%);
+    pointer-events: none;
+  }
+
+  .rift-leaderboard-hero-video {
+    @apply absolute inset-0 size-full object-cover;
+  }
+
+  .rift-leaderboard-hero-overlay {
+    @apply absolute inset-0;
+    background:
+      linear-gradient(90deg, rgba(8, 20, 35, 0.88) 0%, rgba(8, 20, 35, 0.56) 36%, rgba(8, 20, 35, 0.28) 66%, rgba(8, 20, 35, 0.72) 100%),
+      linear-gradient(180deg, rgba(8, 20, 35, 0.1) 0%, rgba(8, 20, 35, 0.44) 42%, rgba(8, 20, 35, 0.88) 76%, #081423 100%);
+  }
+
+  .rift-leaderboard-hero-content {
+    @apply relative z-10 mx-auto flex w-full max-w-7xl items-end px-6 pb-3 pt-8 sm:px-10 sm:pb-4 sm:pt-9 lg:px-14 lg:pb-5 lg:pt-10;
+  }
+
+  .rift-leaderboard-hero-inner {
+    @apply flex w-full flex-col justify-end gap-2;
+  }
+
+  .rift-leaderboard-heading-row {
+    @apply flex flex-wrap items-center justify-between gap-3;
+  }
+
+  .rift-leaderboard-hero-panel {
+    @apply rounded-[1.75rem] border border-white/10 bg-slate-950/26 p-2.5 shadow-[0_30px_80px_rgba(0,0,0,0.24)] backdrop-blur-sm sm:p-3;
+  }
+
+  .rift-leaderboard-page-title {
+    @apply text-5xl sm:text-6xl lg:text-[5rem];
+  }
+
+  .rift-leaderboard-kicker-select {
+    @apply h-auto min-w-0 rounded-none border-0 bg-transparent px-0 py-0 text-left leading-none shadow-none ring-0 outline-none hover:bg-transparent focus-visible:border-transparent focus-visible:ring-0;
+  }
+
+  .rift-leaderboard-kicker-select [data-slot="select-value"] {
+    @apply inline-flex items-center leading-none;
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+  }
+
+  .rift-leaderboard-kicker-select > svg {
+    @apply size-5 text-primary/80 sm:size-6;
+  }
+
+  .rift-leaderboard-archive-select {
+    @apply min-w-[13rem] bg-white/4;
+  }
+
+  .rift-leaderboard-toolbar-group {
+    @apply flex flex-wrap items-center gap-2;
+  }
+
+  .rift-leaderboard-info-button {
+    @apply inline-flex size-8 shrink-0 items-center justify-center rounded-full border border-white/12 bg-white/4 text-white/72 transition-colors hover:border-primary/60 hover:text-white;
   }
 
   .rift-leaderboard-controls {
-    @apply mt-4 sm:mt-6;
+    @apply grid w-full gap-3 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center;
+  }
+
+  .rift-leaderboard-results-shell {
+    @apply relative z-10 -mt-1 overflow-hidden px-6 pb-3 pt-1 sm:px-10 sm:pb-4 sm:pt-1 lg:px-14 lg:pb-5 lg:pt-2;
+    background: #081423;
+  }
+
+  .rift-leaderboard-results-shell::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0 0;
+    height: 7rem;
+    background: linear-gradient(180deg, rgba(8, 20, 35, 0) 0%, rgba(8, 20, 35, 0.82) 100%);
+    pointer-events: none;
+  }
+
+  .rift-leaderboard-results-inner {
+    @apply relative z-10 mx-auto flex w-full max-w-7xl flex-col gap-0;
   }
 
   .rift-leaderboard-results {
-    @apply mt-1;
+    @apply mt-0;
   }
 
   .rift-filter-group {
     @apply flex w-full flex-wrap gap-2;
   }
 
-  .rift-filter-group--tier {
-    @apply mx-auto max-w-5xl gap-3;
-  }
-
   .rift-filter-group--lane {
-    @apply items-stretch;
+    @apply items-stretch lg:w-auto lg:flex-nowrap;
   }
 
   .rift-filter-item {
-    @apply min-h-9 rounded-full border border-border bg-card px-4 text-sm text-muted-foreground;
-  }
-
-  .rift-filter-group--tier .rift-filter-item {
-    @apply min-h-14 min-w-[10.5rem] justify-center rounded-2xl px-6 text-base font-medium;
+    @apply min-h-10 rounded-full border border-white/12 bg-white/4 px-4 text-sm text-white/70 backdrop-blur-sm;
   }
 
   .rift-filter-group--lane .rift-filter-item {
     @apply min-h-11 px-4;
   }
 
+  .rift-filter-item--lane {
+    @apply inline-flex items-center gap-2;
+  }
+
   .rift-filter-group [data-slot="toggle-group-item"][data-state="on"] {
-    @apply border-primary bg-primary/12 text-primary;
+    @apply border-primary bg-primary/10 text-white;
   }
 
   .rift-filter-group [data-slot="toggle-group-item"]:hover {
-    @apply border-primary/60 bg-primary/8 text-foreground;
+    @apply border-primary/60 bg-white/8 text-white;
   }
 
   .rift-filter-group [data-slot="toggle-group-item"]:focus-visible {
@@ -287,7 +370,7 @@ body {
   }
 
   .rift-leaderboard-search {
-    @apply rounded-full border-border bg-card px-1;
+    @apply w-full rounded-full border-white/14 bg-slate-950/36 px-1 backdrop-blur-sm;
   }
 
   .rift-updated-text {
@@ -295,27 +378,27 @@ body {
   }
 
   .rift-table-shell {
-    @apply overflow-hidden rounded-2xl border border-border bg-card py-1;
+    @apply overflow-hidden rounded-[1.75rem] border border-white/10 bg-slate-950/30 p-3 shadow-[0_30px_80px_rgba(0,0,0,0.24)];
   }
 
   .rift-table [data-slot="table-head"] {
-    @apply h-11 border-border px-4 text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-muted-foreground;
+    @apply h-12 border-white/10 px-4 text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-primary;
   }
 
   .rift-table [data-slot="table-cell"] {
-    @apply px-4 py-3;
+    @apply px-4 py-3 text-white/88;
   }
 
   .rift-table [data-slot="table-row"] {
-    @apply border-border;
+    @apply border-white/8;
   }
 
   .rift-table [data-slot="table-body"] [data-slot="table-row"]:hover {
-    @apply bg-accent/70;
+    @apply bg-white/4;
   }
 
   .rift-champion-link {
-    @apply flex min-w-0 items-center gap-3 rounded-xl px-1 py-1 transition-colors hover:bg-accent/50;
+    @apply flex min-w-0 items-center gap-3 rounded-xl px-1 py-1 transition-colors hover:bg-white/6;
   }
 
   .rift-role-cell {
@@ -327,7 +410,7 @@ body {
   }
 
   .rift-sort-button {
-    @apply ml-auto inline-flex items-center gap-1 text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-muted-foreground transition-colors hover:text-primary;
+    @apply ml-auto inline-flex items-center gap-1 text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-white/70 transition-colors hover:text-primary;
   }
 
   .rift-sort-button svg {
@@ -336,7 +419,7 @@ body {
 
   .rift-loading-state,
   .rift-empty-state {
-    @apply flex min-h-48 items-center justify-center rounded-2xl border border-border bg-card;
+    @apply flex min-h-48 items-center justify-center rounded-[1.75rem] border border-white/10 bg-slate-950/30;
   }
 
   .rift-champion-page-shell {
@@ -667,6 +750,34 @@ body {
   }
 
   @media (max-width: 640px) {
+    .rift-leaderboard-hero-content {
+      @apply px-4 pb-2 pt-7;
+    }
+
+    .rift-leaderboard-hero-inner {
+      @apply gap-2;
+    }
+
+    .rift-leaderboard-heading-row {
+      @apply items-start gap-2;
+    }
+
+    .rift-leaderboard-page-title {
+      @apply text-4xl;
+    }
+
+    .rift-leaderboard-kicker-select {
+      @apply text-xl;
+    }
+
+    .rift-leaderboard-archive-select {
+      @apply w-full min-w-0;
+    }
+
+    .rift-leaderboard-results-shell {
+      @apply mt-0 px-4 pt-1;
+    }
+
     .rift-champion-hero-content {
       @apply px-4 pb-8 pt-10;
     }

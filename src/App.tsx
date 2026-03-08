@@ -14,10 +14,8 @@ import {
   routeFromHash,
   routeToHash,
 } from "@/lib/hash-routing"
+import { MAIN_BACKDROP_URL } from "@/lib/backdrops"
 import { findChampionMatch, type ChampionDirectoryEntry } from "@/lib/champion-pages"
-
-const mainBackdropUrl =
-  "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/acaaf4ca851070d496137ec0bd21d66cab905412.mp4?accountingTag=WR"
 
 function HomePage({
   initialQuery,
@@ -50,7 +48,7 @@ function HomePage({
         className="rift-home-video"
         aria-hidden="true"
       >
-        <source src={mainBackdropUrl} type="video/mp4" />
+        <source src={MAIN_BACKDROP_URL} type="video/mp4" />
       </video>
 
       <div className="rift-home-overlay" aria-hidden="true" />

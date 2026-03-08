@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils"
 import type { LaneId } from "@/lib/tencent-lolm"
 
 const LANE_ICON_SCALE = {
+  tiny: 0.58,
   compact: 0.72,
   default: 0.8,
 } as const

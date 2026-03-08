@@ -6,18 +6,13 @@ import {
   useMemo,
   useState,
 } from "react"
-import { ArrowDown, ArrowUp, ArrowUpDown, CircleHelp, Search } from "lucide-react"
+import { ArrowDown, ArrowUp, ArrowUpDown, CircleHelp } from "lucide-react"
 
 import { LaneIcon } from "@/components/lane-icon"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
-import {
-  InputGroup,
-  InputGroupAddon,
-  InputGroupButton,
-  InputGroupInput,
-} from "@/components/ui/input-group"
+import { InputGroup, InputGroupInput } from "@/components/ui/input-group"
 import {
   Select,
   SelectContent,
@@ -43,7 +38,10 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"
 import { SiteHeader } from "@/components/site-header"
+import { MAIN_BACKDROP_URL } from "@/lib/backdrops"
+import { loadChampionPageBySlug } from "@/lib/champion-pages"
 import {
+  HOME_ROUTE,
   LEADERBOARDS_ROUTE,
   championRoute,
   replaceRouteSearch,
@@ -105,31 +103,12 @@ function bucketLabel(bucket: string) {
   return TIER_LABELS[bucket] ?? `Bucket ${bucket}`
 }
 
-function renderBucketLabel(bucket: string) {
-  const label = bucketLabel(bucket)
-
+function rankTooltipContent(bucket: string) {
   if (bucket !== "4") {
-    return label
+    return null
   }
 
-  return (
-    <span className="inline-flex items-center gap-1.5">
-      <span>{label}</span>
-      <Tooltip>
-        <TooltipTrigger asChild>
-          <span
-            aria-hidden="true"
-            className="inline-flex size-4 items-center justify-center text-muted-foreground"
-          >
-            <CircleHelp className="size-3.5" />
-          </span>
-        </TooltipTrigger>
-        <TooltipContent side="top" sideOffset={6}>
-          China-only elite competitive ladder (similar to Legendary Ranked)
-        </TooltipContent>
-      </Tooltip>
-    </span>
-  )
+  return "Peak of the Rift is the China-only elite competitive ladder, similar to Legendary Ranked."
 }
 
 function ordinalSuffix(value: number) {
@@ -479,6 +458,11 @@ export function LeaderboardsPage() {
   const [initialFilters] = useState(parseFiltersFromUrl)
   const [payload, setPayload] = useState<LeaderboardPayload | null>(null)
   const [error, setError] = useState<string | null>(null)
+  const [heroVideo, setHeroVideo] = useState<{
+    name: string
+    riotSlug: string
+    videoUrl: string
+  } | null>(null)
   const [isLoading, setIsLoading] = useState(true)
   const [searchQuery, setSearchQuery] = useState(initialFilters.q)
   const [selectedTier, setSelectedTier] = useState(initialFilters.tier)
@@ -602,8 +586,10 @@ export function LeaderboardsPage() {
 
   const selectedSnapshotMeta = useMemo(
     () =>
-      payload?.snapshots.find((snapshot) => snapshot.id === payload.snapshotId) ?? null,
-    [payload]
+      payload?.snapshots.find(
+        (snapshot) => snapshot.id === (selectedSnapshotId || payload.snapshotId)
+      ) ?? null,
+    [payload, selectedSnapshotId]
   )
 
   useEffect(() => {
@@ -678,6 +664,63 @@ export function LeaderboardsPage() {
     sortDirection,
   ])
 
+  const topChampionEntry = useMemo(() => {
+    const tierEntries = payload?.entriesByTier[selectedTier]
+
+    if (!tierEntries) {
+      return null
+    }
+
+    return [...laneKeys.flatMap((laneKey) => tierEntries[laneKey] ?? [])].sort(
+      (left, right) => {
+        if (left.strengthScore !== right.strengthScore) {
+          return right.strengthScore - left.strengthScore
+        }
+
+        if (left.winRate !== right.winRate) {
+          return right.winRate - left.winRate
+        }
+
+        return right.pickRate - left.pickRate
+      }
+    )[0] ?? null
+  }, [laneKeys, payload, selectedTier])
+
+  useEffect(() => {
+    let cancelled = false
+
+    async function run() {
+      if (!topChampionEntry?.riotSlug) {
+        setHeroVideo(null)
+        return
+      }
+
+      try {
+        const championPage = await loadChampionPageBySlug(topChampionEntry.riotSlug)
+
+        if (cancelled) {
+          return
+        }
+
+        setHeroVideo({
+          name: championPage.title,
+          riotSlug: championPage.riotSlug,
+          videoUrl: championPage.mastheadVideoUrl,
+        })
+      } catch {
+        if (!cancelled) {
+          setHeroVideo(null)
+        }
+      }
+    }
+
+    void run()
+
+    return () => {
+      cancelled = true
+    }
+  }, [topChampionEntry?.riotSlug])
+
   function handleSortChange(nextSortKey: SortKey) {
     if (sortBy === nextSortKey) {
       setSortDirection((currentDirection) =>
@@ -690,175 +733,221 @@ export function LeaderboardsPage() {
     setSortDirection("desc")
   }
 
+  const selectedTierLabel = bucketLabel(selectedTier)
+  const snapshotLabel =
+    payload && selectedSnapshotMeta
+      ? formatSnapshotLabel(
+          selectedSnapshotMeta.statDate,
+          selectedSnapshotMeta.fetchedAt,
+          (snapshotDateCounts.get(selectedSnapshotMeta.statDate) ?? 0) > 1
+        )
+      : payload
+        ? formatLastUpdatedDate(payload.statDate)
+        : "Loading"
+
   return (
     <TooltipProvider>
-      <main className="min-h-screen bg-background text-foreground">
+      <main className="rift-champion-page-shell rift-leaderboard-page-shell">
         <a href="#leaderboard-results" className="skip-link">
           Skip to results
         </a>
 
         <SiteHeader
-          rightLabel="Leaderboards"
-          rightHref={routeToHash(LEADERBOARDS_ROUTE)}
+          rightLabel="Champion Search"
+          rightHref={routeToHash(HOME_ROUTE)}
         />
 
-        <section className="mx-auto flex w-full max-w-6xl flex-col gap-3 px-4 py-5 sm:px-6 sm:py-6">
-          <div className="rift-leaderboard-title text-center">
-            <h1 className="rift-page-title">Leaderboards</h1>
-            {payload ? (
-              <div className="flex items-center justify-center gap-1.5 pt-1 text-sm text-muted-foreground">
-                <span>Last updated</span>
-                <Select
-                  value={selectedSnapshotId || payload.snapshotId}
-                  onValueChange={setSelectedSnapshotId}
-                  disabled={!payload}
-                >
-                  <SelectTrigger
-                    size="sm"
-                    className="h-auto min-w-0 gap-1 border-0 bg-transparent px-0 py-0 text-sm text-muted-foreground shadow-none ring-0 hover:bg-transparent focus-visible:border-transparent focus-visible:ring-0"
-                    aria-label="Archived snapshot"
-                  >
-                    <SelectValue>
-                      {selectedSnapshotMeta
-                        ? formatSnapshotLabel(
-                            selectedSnapshotMeta.statDate,
-                            selectedSnapshotMeta.fetchedAt,
-                            (snapshotDateCounts.get(selectedSnapshotMeta.statDate) ?? 0) > 1
-                          )
-                        : formatLastUpdatedDate(payload.statDate)}
-                    </SelectValue>
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectGroup>
-                      {(payload.snapshots ?? []).map((snapshot) => {
-                        const showArchiveTime =
-                          (snapshotDateCounts.get(snapshot.statDate) ?? 0) > 1
+        <section className="rift-leaderboard-hero">
+          <video
+            key={heroVideo?.videoUrl ?? MAIN_BACKDROP_URL}
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+            className="rift-leaderboard-hero-video"
+            aria-hidden="true"
+          >
+            <source src={heroVideo?.videoUrl ?? MAIN_BACKDROP_URL} type="video/mp4" />
+          </video>
 
-                        return (
-                          <SelectItem key={snapshot.id} value={snapshot.id}>
-                            {formatSnapshotLabel(
-                              snapshot.statDate,
-                              snapshot.fetchedAt,
-                              showArchiveTime
-                            )}
+          <div className="rift-leaderboard-hero-overlay" aria-hidden="true" />
+
+          <div className="rift-leaderboard-hero-content">
+            <div className="rift-leaderboard-hero-inner">
+              <div className="rift-leaderboard-heading-row">
+                <div className="rift-leaderboard-toolbar-group">
+                  <Select value={selectedTier} onValueChange={setSelectedTier}>
+                    <SelectTrigger
+                      size="sm"
+                      className="rift-champion-kicker rift-leaderboard-kicker-select"
+                      aria-label="Rank bucket"
+                    >
+                      <SelectValue>{selectedTierLabel}</SelectValue>
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectGroup>
+                        {tierKeys.map((tierKey) => (
+                          <SelectItem key={tierKey} value={tierKey}>
+                            {bucketLabel(tierKey)}
                           </SelectItem>
-                        )
-                      })}
-                    </SelectGroup>
-                  </SelectContent>
-                </Select>
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <button
-                      type="button"
-                      className="inline-flex size-4 items-center justify-center"
-                      aria-label="Archive info"
+                        ))}
+                      </SelectGroup>
+                    </SelectContent>
+                  </Select>
+
+                  {rankTooltipContent(selectedTier) ? (
+                    <Tooltip>
+                      <TooltipTrigger asChild>
+                        <button
+                          type="button"
+                          className="rift-leaderboard-info-button"
+                          aria-label="Rank bucket info"
+                        >
+                          <CircleHelp className="size-3.5" />
+                        </button>
+                      </TooltipTrigger>
+                      <TooltipContent side="top" sideOffset={6}>
+                        {rankTooltipContent(selectedTier)}
+                      </TooltipContent>
+                    </Tooltip>
+                  ) : null}
+                </div>
+
+                {payload ? (
+                  <div className="rift-leaderboard-toolbar-group">
+                    <Select
+                      value={selectedSnapshotId || payload.snapshotId}
+                      onValueChange={setSelectedSnapshotId}
                     >
-                      <CircleHelp className="size-3.5" />
-                    </button>
-                  </TooltipTrigger>
-                  <TooltipContent side="top" sideOffset={6}>
-                    Pulled {formatRelativeArchiveTime(payload.archivedAt)}. Use
-                    the date menu to view older snapshots.
-                  </TooltipContent>
-                </Tooltip>
-              </div>
-            ) : null}
-          </div>
+                      <SelectTrigger
+                        size="sm"
+                        className="rift-champion-bucket-select rift-leaderboard-archive-select"
+                        aria-label="Archived snapshot"
+                      >
+                        <SelectValue>{snapshotLabel}</SelectValue>
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectGroup>
+                          {(payload.snapshots ?? []).map((snapshot) => {
+                            const showArchiveTime =
+                              (snapshotDateCounts.get(snapshot.statDate) ?? 0) > 1
 
-          <div className="rift-leaderboard-filter-stack">
-            <ToggleGroup
-              type="single"
-              value={selectedTier}
-              onValueChange={(value) => {
-                if (value) {
-                  setSelectedTier(value)
-                }
-              }}
-              variant="outline"
-              className="rift-filter-group rift-filter-group--tier justify-center"
-            >
-              {tierKeys.map((tierKey) => (
-                <ToggleGroupItem
-                  key={tierKey}
-                  value={tierKey}
-                  className="rift-filter-item"
-                >
-                  {renderBucketLabel(tierKey)}
-                </ToggleGroupItem>
-              ))}
-            </ToggleGroup>
+                            return (
+                              <SelectItem key={snapshot.id} value={snapshot.id}>
+                                {formatSnapshotLabel(
+                                  snapshot.statDate,
+                                  snapshot.fetchedAt,
+                                  showArchiveTime
+                                )}
+                              </SelectItem>
+                            )
+                          })}
+                        </SelectGroup>
+                      </SelectContent>
+                    </Select>
 
-            <div className="rift-leaderboard-controls grid gap-3 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
-              <div>
-                <InputGroup className="rift-leaderboard-search h-11">
-                  <InputGroupInput
-                    id="leaderboard-search"
-                    type="search"
-                    value={searchQuery}
-                    onChange={(event) => setSearchQuery(event.target.value)}
-                    placeholder="Search champion"
-                    autoComplete="off"
-                    spellCheck={false}
-                    aria-label="Champion search"
-                  />
-                  <InputGroupAddon align="inline-end">
-                    <InputGroupButton
-                      type="button"
-                      variant="default"
-                      size="icon-sm"
-                      className="rift-search-submit rift-search-submit--solid"
-                      aria-hidden="true"
-                      tabIndex={-1}
-                    >
-                      <Search />
-                    </InputGroupButton>
-                  </InputGroupAddon>
-                </InputGroup>
+                    <Tooltip>
+                      <TooltipTrigger asChild>
+                        <button
+                          type="button"
+                          className="rift-leaderboard-info-button"
+                          aria-label="Archive info"
+                        >
+                          <CircleHelp className="size-3.5" />
+                        </button>
+                      </TooltipTrigger>
+                      <TooltipContent side="top" sideOffset={6}>
+                        This date is the archived CN stats snapshot currently shown in
+                        the table. Pulled {formatRelativeArchiveTime(payload.archivedAt)}.
+                      </TooltipContent>
+                    </Tooltip>
+                  </div>
+                ) : null}
               </div>
 
-              <ToggleGroup
-                type="single"
-                value={selectedLane}
-                onValueChange={(value) => {
-                  if (value) {
-                    setSelectedLane(value as LaneFilterId)
-                  }
-                }}
-                variant="outline"
-                className="rift-filter-group rift-filter-group--lane lg:w-auto lg:flex-nowrap"
-              >
-                {laneFilterKeys.map((laneKey) => (
-                  <ToggleGroupItem
-                    key={laneKey}
-                    value={laneKey}
-                    className="rift-filter-item"
+              <div className="rift-champion-title-block">
+                <h1 className="rift-champion-title rift-leaderboard-page-title">
+                  Leaderboards
+                </h1>
+              </div>
+
+                <div className="rift-leaderboard-hero-panel">
+                <div className="rift-leaderboard-controls">
+                  <div>
+                    <InputGroup className="rift-leaderboard-search h-11">
+                      <InputGroupInput
+                        id="leaderboard-search"
+                        type="search"
+                        value={searchQuery}
+                        onChange={(event) => setSearchQuery(event.target.value)}
+                        placeholder="Filter by champion"
+                        autoComplete="off"
+                        spellCheck={false}
+                        aria-label="Champion filter"
+                      />
+                    </InputGroup>
+                  </div>
+
+                  <ToggleGroup
+                    type="single"
+                    value={selectedLane}
+                    onValueChange={(value) => {
+                      if (value) {
+                        setSelectedLane(value as LaneFilterId)
+                      }
+                    }}
+                    variant="outline"
+                    className="rift-filter-group rift-filter-group--lane"
                   >
-                    {LANE_FILTER_LABELS[laneKey]}
-                  </ToggleGroupItem>
-                ))}
-              </ToggleGroup>
+                    {laneFilterKeys.map((laneKey) => (
+                      <ToggleGroupItem
+                        key={laneKey}
+                        value={laneKey}
+                        className="rift-filter-item rift-filter-item--lane"
+                      >
+                        {laneKey === ALL_LANE ? (
+                          <span>All</span>
+                        ) : (
+                          <>
+                            <LaneIcon
+                              lane={laneKey}
+                              label={LANE_FILTER_LABELS[laneKey]}
+                              size="tiny"
+                            />
+                            <span>{LANE_FILTER_LABELS[laneKey]}</span>
+                          </>
+                        )}
+                      </ToggleGroupItem>
+                    ))}
+                  </ToggleGroup>
+                </div>
+              </div>
             </div>
           </div>
+        </section>
 
-          <div id="leaderboard-results" className="rift-leaderboard-results">
-            {error ? (
-              <Alert variant="destructive">
-                <AlertTitle>Unable to load leaderboards</AlertTitle>
-                <AlertDescription>{error}</AlertDescription>
-              </Alert>
-            ) : isLoading ? (
-              <div className="rift-loading-state">
-                <Spinner className="size-6" />
-              </div>
-            ) : (
-              <LeaderboardTable
-                entries={visibleEntries}
-                sortBy={sortBy}
-                sortDirection={sortDirection}
-                onSortChange={handleSortChange}
-              />
-            )}
+        <section id="leaderboard-results" className="rift-leaderboard-results-shell">
+          <div className="rift-leaderboard-results-inner">
+            <div className="rift-leaderboard-results">
+              {error ? (
+                <Alert variant="destructive">
+                  <AlertTitle>Unable to load leaderboards</AlertTitle>
+                  <AlertDescription>{error}</AlertDescription>
+                </Alert>
+              ) : isLoading ? (
+                <div className="rift-loading-state">
+                  <Spinner className="size-6" />
+                </div>
+              ) : (
+                <LeaderboardTable
+                  entries={visibleEntries}
+                  sortBy={sortBy}
+                  sortDirection={sortDirection}
+                  onSortChange={handleSortChange}
+                />
+              )}
+            </div>
           </div>
         </section>
       </main>
