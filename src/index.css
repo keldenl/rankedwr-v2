@@ -58,7 +58,7 @@ body,
 body {
   margin: 0;
   min-width: 320px;
-  background: #000;
+  background: var(--background);
 }
 
 @theme inline {

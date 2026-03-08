@@ -2,6 +2,7 @@
 
 - Use Bun for all package management and script execution in this repo.
 - Prefer `bun install`, `bun add`, `bun remove`, `bun run <script>`, and `bunx <tool>`.
+- This also applies to one-off CLIs like `skills`, `shadcn`, and similar tooling: use `bunx --bun <tool>` instead of `npx`.
 - Do not use `npm`, `npx`, `pnpm`, or `yarn` unless the user explicitly asks.
 
 # UI Notes
