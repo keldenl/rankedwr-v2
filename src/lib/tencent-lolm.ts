@@ -12,6 +12,11 @@ import {
   type SnapshotMeta,
   type StaticDataManifest,
 } from "@/lib/static-data"
+import {
+  calculateChampionStrengthScore,
+  getChampionStrengthTier,
+  type ChampionStrengthTier,
+} from "@/lib/champion-strength"
 
 export { LANE_LABELS, sortLaneKeys, sortNumericKeys }
 export type { LaneId }
@@ -19,6 +24,8 @@ export type { LaneId }
 export type LeaderboardEntry = {
   alias: string
   avatar: string
+  strengthScore: number
+  strengthTier: ChampionStrengthTier
   id: string
   lane: LaneId
   laneLabel: string
@@ -91,10 +98,13 @@ function normalizeEntry(
 ): LeaderboardEntry {
   const [heroId, winRate, pickRate, banRate] = compactRow
   const champion = champions[heroId]
+  const strengthScore = calculateChampionStrengthScore(winRate, pickRate, banRate)
 
   return {
     alias: champion?.alias ?? "",
     avatar: champion?.avatar ?? "",
+    strengthScore,
+    strengthTier: getChampionStrengthTier(strengthScore),
     id: `${snapshotId}-${tierKey}-${laneKey}-${heroId}-${rowIndex}`,
     lane: laneKey,
     laneLabel: LANE_LABELS[laneKey] ?? `Lane ${laneKey}`,

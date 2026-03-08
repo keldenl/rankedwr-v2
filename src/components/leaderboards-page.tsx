@@ -11,6 +11,7 @@ import { ArrowDown, ArrowUp, ArrowUpDown, CircleHelp, Search } from "lucide-reac
 import roleIconsUrl from "@/assets/place-icons.png"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Badge } from "@/components/ui/badge"
 import {
   InputGroup,
   InputGroupAddon,
@@ -53,13 +54,16 @@ import {
   type LeaderboardPayload,
 } from "@/lib/tencent-lolm"
 
-type SortKey = "winRate" | "pickRate" | "banRate"
+type SortKey = "strengthScore" | "winRate" | "pickRate" | "banRate"
 type SortDirection = "asc" | "desc"
 
 const DEFAULT_TIER = "1"
 const ALL_LANE = "all"
 type LaneFilterId = LaneId | typeof ALL_LANE
 const DEFAULT_LANE: LaneFilterId = ALL_LANE
+const LANE_ICON_SCALE = 0.8
+const LANE_ICON_SPRITE_WIDTH = 205
+const LANE_ICON_SPRITE_HEIGHT = 28
 
 const TIER_LABELS: Record<string, string> = {
   "1": "Diamond+",
@@ -76,28 +80,28 @@ const LANE_FILTER_LABELS: Record<LaneFilterId, string> = {
 const LANE_ICON_SPRITES: Record<
   LaneId,
   {
-    backgroundPosition: string
+    xOffset: number
     width: number
   }
 > = {
   "1": {
-    backgroundPosition: "-88px 0",
+    xOffset: -88,
     width: 27,
   },
   "2": {
-    backgroundPosition: "0 0",
+    xOffset: 0,
     width: 26,
   },
   "3": {
-    backgroundPosition: "-133px 0",
+    xOffset: -133,
     width: 26,
   },
   "4": {
-    backgroundPosition: "-176px 0",
+    xOffset: -176,
     width: 29,
   },
   "5": {
-    backgroundPosition: "-43px 0",
+    xOffset: -43,
     width: 29,
   },
 }
@@ -253,6 +257,42 @@ function formatPercent(value: number) {
   return `${value.toFixed(2)}%`
 }
 
+function formatStrengthScore(value: number) {
+  return value.toFixed(2)
+}
+
+function renderStrengthInfo() {
+  return (
+    <Tooltip>
+      <TooltipTrigger asChild>
+        <button
+          type="button"
+          className="inline-flex size-4 items-center justify-center text-muted-foreground transition-colors hover:text-foreground"
+          aria-label="How tier is calculated"
+        >
+          <CircleHelp className="size-3.5" />
+        </button>
+      </TooltipTrigger>
+      <TooltipContent side="top" sideOffset={6}>
+        Tier is a quick strength grade based on win rate, pick rate, and ban rate.
+        Higher tiers usually mean a stronger overall meta pick.
+      </TooltipContent>
+    </Tooltip>
+  )
+}
+
+function strengthTierBadgeVariant(tier: LeaderboardEntry["strengthTier"]) {
+  if (tier === "S" || tier === "A") {
+    return "default"
+  }
+
+  if (tier === "B" || tier === "C") {
+    return "secondary"
+  }
+
+  return "outline"
+}
+
 function initialsFromName(name: string) {
   const letters = name
     .split(/\s+/)
@@ -280,9 +320,12 @@ function parseFiltersFromUrl() {
     q,
     snapshotId,
     sort:
-      sort === "pickRate" || sort === "banRate" || sort === "winRate"
+      sort === "strengthScore" ||
+      sort === "pickRate" ||
+      sort === "banRate" ||
+      sort === "winRate"
         ? sort
-        : "winRate",
+        : "strengthScore",
     tier,
   } satisfies {
     direction: SortDirection
@@ -310,8 +353,12 @@ function LaneIcon({
         className="rift-lane-icon"
         style={{
           backgroundImage: `url(${roleIconsUrl})`,
-          backgroundPosition: sprite.backgroundPosition,
-          width: `${sprite.width}px`,
+          backgroundPosition: `${sprite.xOffset * LANE_ICON_SCALE}px 0`,
+          backgroundSize: `${LANE_ICON_SPRITE_WIDTH * LANE_ICON_SCALE}px ${
+            LANE_ICON_SPRITE_HEIGHT * LANE_ICON_SCALE
+          }px`,
+          height: `${LANE_ICON_SPRITE_HEIGHT * LANE_ICON_SCALE}px`,
+          width: `${sprite.width * LANE_ICON_SCALE}px`,
         }}
       />
       <span className="sr-only">{label}</span>
@@ -342,25 +389,27 @@ function LeaderboardTable({
 
   return (
     <div className="rift-table-shell px-3 sm:px-4">
-      <Table className="rift-table min-w-[740px]">
+      <Table className="rift-table min-w-[820px]">
         <TableHeader>
           <TableRow>
             <TableHead className="w-16">Rank</TableHead>
-            <TableHead className="w-[4.5rem] text-center">Role</TableHead>
+            <TableHead className="w-14 text-center">Role</TableHead>
             <TableHead>Champion</TableHead>
             {(
               [
+                ["strengthScore", "Tier"],
                 ["winRate", "Win"],
                 ["pickRate", "Pick"],
                 ["banRate", "Ban"],
               ] as const
             ).map(([sortKey, label]) => {
               const isActive = sortBy === sortKey
+              const isTierColumn = sortKey === "strengthScore"
 
               return (
                 <TableHead
                   key={sortKey}
-                  className="text-right"
+                  className={isTierColumn ? "text-center" : "text-right"}
                   aria-sort={
                     isActive
                       ? sortDirection === "asc"
@@ -369,22 +418,44 @@ function LeaderboardTable({
                       : "none"
                   }
                 >
-                  <button
-                    type="button"
-                    className="rift-sort-button"
-                    onClick={() => onSortChange(sortKey)}
-                  >
-                    {label}
-                    {isActive ? (
-                      sortDirection === "asc" ? (
-                        <ArrowUp />
+                  {isTierColumn ? (
+                    <div className="flex items-center justify-center gap-1.5">
+                      <button
+                        type="button"
+                        className="rift-sort-button ml-0 justify-center"
+                        onClick={() => onSortChange(sortKey)}
+                      >
+                        {label}
+                        {isActive ? (
+                          sortDirection === "asc" ? (
+                            <ArrowUp />
+                          ) : (
+                            <ArrowDown />
+                          )
+                        ) : (
+                          <ArrowUpDown />
+                        )}
+                      </button>
+                      {renderStrengthInfo()}
+                    </div>
+                  ) : (
+                    <button
+                      type="button"
+                      className="rift-sort-button"
+                      onClick={() => onSortChange(sortKey)}
+                    >
+                      {label}
+                      {isActive ? (
+                        sortDirection === "asc" ? (
+                          <ArrowUp />
+                        ) : (
+                          <ArrowDown />
+                        )
                       ) : (
-                        <ArrowDown />
-                      )
-                    ) : (
-                      <ArrowUpDown />
-                    )}
-                  </button>
+                        <ArrowUpDown />
+                      )}
+                    </button>
+                  )}
                 </TableHead>
               )
             })}
@@ -415,6 +486,18 @@ function LeaderboardTable({
                     {entry.name}
                   </span>
                 </div>
+              </TableCell>
+              <TableCell className="text-center">
+                <Badge
+                  variant={strengthTierBadgeVariant(entry.strengthTier)}
+                  className="min-w-8"
+                  title={formatStrengthScore(entry.strengthScore)}
+                  aria-label={`Tier ${entry.strengthTier}, strength score ${formatStrengthScore(
+                    entry.strengthScore
+                  )}`}
+                >
+                  {entry.strengthTier}
+                </Badge>
               </TableCell>
               <TableCell className="text-right font-semibold">
                 {formatPercent(entry.winRate)}
@@ -615,13 +698,15 @@ export function LeaderboardsPage() {
       : baseEntries
 
     return [...filteredEntries].sort((left, right) => {
-      const accessor =
-        sortBy === "winRate"
-          ? (entry: LeaderboardEntry) => entry.winRate
-          : sortBy === "pickRate"
-            ? (entry: LeaderboardEntry) => entry.pickRate
-            : (entry: LeaderboardEntry) => entry.banRate
-      const delta = accessor(left) - accessor(right)
+      const delta =
+        sortBy === "strengthScore"
+          ? left.strengthScore - right.strengthScore
+          : sortBy === "winRate"
+            ? left.winRate - right.winRate
+            : sortBy === "pickRate"
+              ? left.pickRate - right.pickRate
+              : left.banRate - right.banRate
+
       return sortDirection === "asc" ? delta : -delta
     })
   }, [

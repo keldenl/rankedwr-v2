@@ -317,12 +317,11 @@ body {
   }
 
   .rift-role-cell {
-    @apply text-center;
+    @apply px-2 text-center;
   }
 
   .rift-lane-icon {
-    @apply block h-7 bg-no-repeat;
-    background-size: 205px 28px;
+    @apply block bg-no-repeat;
   }
 
   .rift-sort-button {
