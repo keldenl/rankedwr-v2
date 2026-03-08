@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10132",
+  "riotSlug": "nautilus",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nautilus/",
+  "title": "NAUTILUS",
+  "subtitle": "the Titan of the Depths",
+  "roles": [
+    "TANK",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a25913239c0fd7ddf95c951d5995999807f833d4.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Nautilus' first Attack against a target deals increased physical damage and roots them briefly.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4d69aeeb436d31c6afed6fd0c1988fa7c93c7465-96x96.jpg?accountingTag=WR",
+      "label": "STAGGERING BLOW",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/7de7666fa9d08a3bc9af541ccc4102be6febcf03.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Nautilus hurls his anchor forward. Colliding with an enemy pulls them and Nautilus together, dealing magic damage. Colliding with terrain pulls Nautilus towards it.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/81bdea7f8da620d3329b7c69bdbc6f11151f7ef2-96x96.jpg?accountingTag=WR",
+      "label": "DREDGE LINE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/61f2690981146ddc98ff6d0d50ae28174be4df81.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Nautilus gains a temporary Shield. While it persists, his Attacks deal damage over time to his target and surrounding enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9e083e98b9fbe48a27de0bcc28c3b06c72931577-96x96.jpg?accountingTag=WR",
+      "label": "TITAN'S WRATH",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/aef9300be65bd76b39baaa560d8184e265942a55.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Nautilus creates three exploding waves around himself. Each explosion damages and slows enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/62b883022dde80b7e7444fef3373e65d67f70836-96x96.jpg?accountingTag=WR",
+      "label": "RIPTIDE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/e3dbd030a4f73880438463e069f6a6dd61aaaabf.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Nautilus fires a shockwave into the earth that chases an opponent. This shockwave rips up the earth above it, knocking enemies into the air. When it reaches the opponent, the shockwave erupts, knocking his target into the air and stunning them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5e9575b001d05ea1d2aab5b80caeb1bd40fef637-96x96.jpg?accountingTag=WR",
+      "label": "DEPTH CHARGE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/115a4f826b905677b64d123558f412f21b16675a.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/717732b6371024b0d8aed42ba1910a714bb5cb4f-1280x720.jpg?accountingTag=WR",
+      "label": "NAUTILUS, THE TITAN OF THE DEPTHS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/717732b6371024b0d8aed42ba1910a714bb5cb4f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b47ca23373173a82859a75acb4f5f6e1f389968c-1280x720.jpg?accountingTag=WR",
+      "label": "ASTRONAUTILUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b47ca23373173a82859a75acb4f5f6e1f389968c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/192c46f6d2cec4d7ea762c9066d133fe5eae8e47-1280x720.jpg?accountingTag=WR",
+      "label": "WARDEN NAUTILUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/192c46f6d2cec4d7ea762c9066d133fe5eae8e47-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/100c7bbb4cc08a3c0fa8caf48bb7495b2c744de7-1920x1080.jpg?accountingTag=WR",
+      "label": "MECHA NAUTILUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/100c7bbb4cc08a3c0fa8caf48bb7495b2c744de7-1920x1080.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2022-06-15T00:07:59Z",
+  "hash": "bd4f632a605fc60664b291d079d76e9f5f5794458e22d08328a3208c2b71d6bb"
+}

@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10054",
+  "riotSlug": "gwen",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/gwen/",
+  "title": "GWEN",
+  "subtitle": "The Hallowed Seamstress",
+  "roles": [
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/776862f949269bf8ea67cd0544605db312f7e094.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Gwen's attacks deal bonus magic damage based on the target's health. She heals for a portion of the damage dealt to champions by this effect.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/302ffb4029c54364ac227e123438f7e2859d173a-96x96.jpg?accountingTag=WR",
+      "label": "THOUSAND CUTS",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b0789e61844ac031f80b0ec9a855080c0cec2c51.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Gwen snips her scissors in a cone up to 6 times dealing magic damage. Gwen deals true damage to units in the center and applies her passive to them on each snip.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/1c36ac7936a4ab01d3f3a1ed259d92f0de84cb62-96x96.jpg?accountingTag=WR",
+      "label": "SNIP SNIP!",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bf655e9b693a1a38fd9e029847e3ebd85ecc2f5f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Gwen summons mist that protects her from enemies outside of it. She can only be targeted by enemies who enter the mist.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/549641995240d8657cbe60b5972c48fb72bda6bf-96x96.jpg?accountingTag=WR",
+      "label": "HALLOWED MIST",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0adbc08d972ddf7a516135ebea269e30b8b382ff.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Gwen dashes a short distance then gains Attack Speed, attack range, and magic damage on-hit for a few seconds. If she hits an enemy during that time, this ability's cooldown is partially refunded.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/6f28ad05427d9530556b04f22d7cde2a3e994a56-96x96.jpg?accountingTag=WR",
+      "label": "SKIP 'N SLASH",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/248e3901c3b42aef251c3fead951dac8ea38b74c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Gwen hurls a needle that slows enemies hit, deals magic damage, and applies A Thousand Cuts to champions hit. This ability can be cast up to two more times, with each cast throwing additional needles and dealing more damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d3630543bf9ccd8588a5218434eb4e3da1996727-96x96.jpg?accountingTag=WR",
+      "label": "NEEDLEWORK",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2a145d2de462c2386531d65ce6a8b536851a0917.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b66d5f718f37a94229555741f8cadeecfffa431d-1280x720.jpg?accountingTag=WR",
+      "label": "GWEN, THE HALLOWED SEAMSTRESS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b66d5f718f37a94229555741f8cadeecfffa431d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/903eaf91d9d74cc5cf0684a07901a30dcfed9c54-1280x720.jpg?accountingTag=WR",
+      "label": "SPACE GROOVE GWEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/903eaf91d9d74cc5cf0684a07901a30dcfed9c54-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7cb50118aad726037fd2a54a50592ec77fd23da4-1280x720.jpg?accountingTag=WR",
+      "label": "MYTHMAKER GWEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7cb50118aad726037fd2a54a50592ec77fd23da4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/845547e67bd92b63dbd5749435d8ac06960f5680-1280x720.jpg?accountingTag=WR",
+      "label": "CRYSTAL ROSE GWEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/845547e67bd92b63dbd5749435d8ac06960f5680-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7a61b490ab41c2e43a8be3d32e9148fff3ad49b4-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE CRYSTAL ROSE GWEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7a61b490ab41c2e43a8be3d32e9148fff3ad49b4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ba4aa9d7cd6036cb16ba9505e1147eeb5abc5a2d-1280x720.jpg?accountingTag=WR",
+      "label": "SOUL FIGHTER GWEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ba4aa9d7cd6036cb16ba9505e1147eeb5abc5a2d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f769bcb3c7203273860b56ea5269c57bdce8d03a-1280x720.jpg?accountingTag=WR",
+      "label": "CAFE CUTIES GWEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f769bcb3c7203273860b56ea5269c57bdce8d03a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e8959e79ca2442b94126c48d598b57d9964c136c-1280x720.jpg?accountingTag=WR",
+      "label": "STARGAZER GWEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e8959e79ca2442b94126c48d598b57d9964c136c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d301e40fa066da93605610e563e707a86ef0e73e-1280x720.jpg?accountingTag=WR",
+      "label": "BATTLE CAT GWEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d301e40fa066da93605610e563e707a86ef0e73e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bad48b6759be17d9debb183d37c5c52b9b0d8584-1280x720.jpg?accountingTag=WR",
+      "label": "BATTLE CAT GWEN EXQUISITE EDITION",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bad48b6759be17d9debb183d37c5c52b9b0d8584-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/31064866632c61658c4fdf600388560a7882ec2b-1280x720.jpg?accountingTag=WR",
+      "label": "LOVE CONFESSION GWEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/31064866632c61658c4fdf600388560a7882ec2b-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2022-09-12T21:07:10Z",
+  "hash": "a6609e250f4be44ca095a3589bf80ba9a82c1f8db31892075755455d59ac40bd"
+}

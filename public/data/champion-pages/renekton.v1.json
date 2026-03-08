@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10121",
+  "riotSlug": "renekton",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/renekton/",
+  "title": "RENEKTON",
+  "subtitle": "the Butcher of the Sands",
+  "roles": [
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/22fc22571ec815aca3217db888ce109eb762ee7a.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Renekton's attacks generate Fury, increased when he is low on life. This Fury can empower his abilities with bonus effects.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/50cde43c4dde7c120dde8114d412ffffcc47eeb2-96x96.jpg?accountingTag=WR",
+      "label": "REIGN OF ANGER",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/7ea9dcc15712c98d09ae20e7e3e5dad676809009.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Renekton swings his blade, dealing moderate physical damage to all targets around him, and heals for a small portion of the damage dealt. If he has more than 50 Fury, his damage and heal are increased.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/025145e9ab470726f4fb521ca7f1aeb021477dbd-96x96.jpg?accountingTag=WR",
+      "label": "CULL THE MEEK",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b77a052ed166a8ffdf3debff97edfddb54134bed.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Renekton slashes his target twice, dealing moderate physical damage and a stun. If Renekton has more than 50 Fury, he slashes his target three times, dealing high physical damage, and stunning for longer.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/b36c17227b52720b83667d8f9b43c22e28d1c96d-96x96.jpg?accountingTag=WR",
+      "label": "RUTHLESS PREDATOR",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f23c00a0ceeef13e2565219ea974be504299ba0d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Renekton dashes, dealing damage to units along the way. Empowered, Renekton deals bonus damage and reduces the Armor of units hit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/864ca9d31eb0c52b173b44d9824bf0ec5ca10d98-96x96.jpg?accountingTag=WR",
+      "label": "SLICE AND DICE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8b3156e2261984779b61f13e70a68d75eb6b892e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Renekton transforms into the Tyrant form, gaining bonus Health and dealing damage to enemies around him. While in this form, Renekton gains Fury periodically.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/a1346ef84d7d13e33b7d48be3b9efeab95aa2c0e-96x96.jpg?accountingTag=WR",
+      "label": "DOMINUS",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/164d9b6774b8d8e882b6185a9fa88b8787e1d025.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/fed3a0a74de3a0da364300657aac77c300d9250b-1280x720.jpg?accountingTag=WR",
+      "label": "RENEKTON, THE BUTCHER OF THE SANDS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/fed3a0a74de3a0da364300657aac77c300d9250b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/53e7842dea7d63e0c6aa4cf287a95101afa76b84-1280x720.jpg?accountingTag=WR",
+      "label": "SCORCHED EARTH RENEKTON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/53e7842dea7d63e0c6aa4cf287a95101afa76b84-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7054d60934c10cb2ef0956a704091f6a15981434-1280x720.jpg?accountingTag=WR",
+      "label": "POOL PARTY RENEKTON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7054d60934c10cb2ef0956a704091f6a15981434-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cf28e009fc2fb3b81a284fe9f47953eb7d980e79-1280x720.jpg?accountingTag=WR",
+      "label": "PREHISTORIC RENEKTON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cf28e009fc2fb3b81a284fe9f47953eb7d980e79-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8aadc09860a5ea7550cc01ef5dec2a1a8f2793d1-1280x720.jpg?accountingTag=WR",
+      "label": "RENEKTOY",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8aadc09860a5ea7550cc01ef5dec2a1a8f2793d1-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b3c17704b27b4591c780c130ac2e9e2151e3e229-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: RENEKTON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b3c17704b27b4591c780c130ac2e9e2151e3e229-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4721ed43e43d610939a8f3b34b17e4a42a562cec-1280x720.jpg?accountingTag=WR",
+      "label": "BLACKFROST RENEKTON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4721ed43e43d610939a8f3b34b17e4a42a562cec-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/07b71248f4d48a92c1f6067dc0d114341cc955fc-1920x1080.jpg?accountingTag=WR",
+      "label": "HEXTECH RENEKTON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/07b71248f4d48a92c1f6067dc0d114341cc955fc-1920x1080.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-05-04T00:25:46Z",
+  "hash": "3aac5dfb57753e12c5fa360f208c3858d2bad618e6eec30f868dee6efc5a0e0c"
+}

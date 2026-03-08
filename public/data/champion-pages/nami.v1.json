@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10091",
+  "riotSlug": "nami",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nami/",
+  "title": "NAMI",
+  "subtitle": "the Tidecaller",
+  "roles": [
+    "SUPPORT",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ece0aff1cd030d9f0bf26f5a5f9ca07ad7e4ffc7.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "When Nami's abilities hit allied champions they gain Movement Speed for a short duration.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/029ed19d4b70ba8d44d01a1301360a8a09a15163-96x96.jpg?accountingTag=WR",
+      "label": "Surging Tides",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/cf8fc86766773435a7b132da8a17837b4703c5e4.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Sends a bubble to a target area, dealing damage and stunning all enemies on impact.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/38b37b63b605267258007958d7312fd15f095eec-96x96.jpg?accountingTag=WR",
+      "label": "Aqua Prison",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2588b49af6bcf86f6b8a7802e76026a905887d25.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Unleashes a stream of water that bounces back and forth between allied and enemy champions, healing allies and damaging enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/607f9526c3dabdcdc30b9e28887e1c5fbf8ce6a5-96x96.jpg?accountingTag=WR",
+      "label": "Ebb and Flow",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/10cbd94576d0c7b0378e01b49dc55abb0aebccbb.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Empowers an allied champion for a short duration. The ally's basic attacks and spells deal bonus magic damage and slow the target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3c837d03bb8e15d2cc03c8e01ca411c491792b3b-96x96.jpg?accountingTag=WR",
+      "label": "Tidecaller's Blessing",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a6915253631bfe26de0cd8dab2dcd7397cdaa661.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Summons a massive Tidal Wave that knocks up, slows, and damages enemies. Allies hit gain double the effect of Surging Tides.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f0eaa13d3cdc73b833af670a9ebbc92fd563ab18-96x96.jpg?accountingTag=WR",
+      "label": "Tidal Wave",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bb878cd1e36afded56653c3e49fb616d2fc92fe3.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/86570c1aecc707893bcf004dcf39977a1d136ba9-1280x720.jpg?accountingTag=WR",
+      "label": "NAMI, THE TIDECALLER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/86570c1aecc707893bcf004dcf39977a1d136ba9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/39821000a03a7b5b2e0fbc420d868c97006efa28-1280x720.jpg?accountingTag=WR",
+      "label": "URF THE NAMI-TEE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/39821000a03a7b5b2e0fbc420d868c97006efa28-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3bc4fb9cfe308aa39ee3764d541acc8ff8ec326a-1280x720.jpg?accountingTag=WR",
+      "label": "RIVER SPIRIT NAMI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3bc4fb9cfe308aa39ee3764d541acc8ff8ec326a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f13472c0088bd7186efb7fc250f8da4b35840463-1280x720.jpg?accountingTag=WR",
+      "label": "PROGRAM NAMI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f13472c0088bd7186efb7fc250f8da4b35840463-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/da8375135ce1baf84a58812d7b20e394b4fc068b-1280x720.jpg?accountingTag=WR",
+      "label": "SPLENDID STAFF NAMI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/da8375135ce1baf84a58812d7b20e394b4fc068b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ca78f8544426a964c0b3d53ca95d7263cfff4990-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE SPLENDID STAFF NAMI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ca78f8544426a964c0b3d53ca95d7263cfff4990-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/47f19635d63725f5f03ade203263e830e5cf68f6-1280x720.jpg?accountingTag=WR",
+      "label": "GLORIOUS CRIMSON NAMI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/47f19635d63725f5f03ade203263e830e5cf68f6-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/890e634be35bdd5f57f45d6f05d49abdf483ac87-1280x720.jpg?accountingTag=WR",
+      "label": "WINTERBLESSED",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/890e634be35bdd5f57f45d6f05d49abdf483ac87-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/206e1883a565637486a04a374b7f7160585b5f86-1280x720.jpg?accountingTag=WR",
+      "label": "BATTLE DOLPHIN NAMI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/206e1883a565637486a04a374b7f7160585b5f86-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:45:56Z",
+  "hash": "bf33378617c8e149eee3a7be11808266a196d333d0e7da031cbd861d4afcb4cf"
+}

@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10068",
+  "riotSlug": "sett",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sett/",
+  "title": "SETT",
+  "subtitle": "the Boss",
+  "roles": [
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/43cc8935f67717388499317e7ee27d5d449d16c8.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Sett's basic attacks alternate between left and right punch. Right punch is slightly stronger and faster. Sett also hates losing, gaining additional health regeneration based off of his missing health.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/32652f94db46ab7a1eddff988d61eee37ecfdacb-96x96.jpg?accountingTag=WR",
+      "label": "PIT GRIT",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5194528a012b3e925b2c1db924b4fe734d0f66a4.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Sett's next two attacks deal additional damage based off of the target's max health. Sett also gains movement speed while moving towards enemy champions.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f727e31b443df4141c5cbf24aa7599d023bdc179-96x96.jpg?accountingTag=WR",
+      "label": "KNUCKLE DOWN",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a9e6d4c131fbcaf5ba5c22a05c8c0a01a58b2791.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Sett passively stores damage he takes as Grit. On cast, Sett expends all stored Grit to gain a shield and punch an area, dealing true damage in the center and physical damage on the sides.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d21845fd4118aaf4b1a43a9dcc53c123d7a0cb10-96x96.jpg?accountingTag=WR",
+      "label": "HAYMAKER",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/79a0d313369b745668e8d30c60b32fa5ffc7a94e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Sett pulls in all enemies on opposite sides of him, dealing damage and stunning them. If enemies were only on one side, they are slowed instead of stunned.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5a8035d70241c46e81ae70da7b32f4a29debc67e-96x96.jpg?accountingTag=WR",
+      "label": "FACEBREAKER",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ba574639a20fe593a0115762e28e22271ee5892c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Sett carries an enemy champion through the air and slams them into the ground, dealing damage and slowing all enemies near where they land.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/01ce3997c16fabdac710e2cc6bed5d6180c9bfc9-96x96.jpg?accountingTag=WR",
+      "label": "THE SHOW STOPPER",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a0dc92685db10e3b40daf784620ac88bc7c8afa2.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c26cc1e86f8fa3fd0ad334e6cecb16fca4c20756-1280x720.jpg?accountingTag=WR",
+      "label": "SETT, THE BOSS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c26cc1e86f8fa3fd0ad334e6cecb16fca4c20756-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3f2ee7ed0faa08b6e3c06a30a25cf9992a10d8d5-1280x720.jpg?accountingTag=WR",
+      "label": "FIRECRACKER SETT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3f2ee7ed0faa08b6e3c06a30a25cf9992a10d8d5-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/400d579701367313cdc09539396c89be44cb7df5-1280x720.jpg?accountingTag=WR",
+      "label": "Supreme Cells Sett",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/400d579701367313cdc09539396c89be44cb7df5-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dfece600e68d85621a7baf7f99748e81bc9b9e26-1280x720.jpg?accountingTag=WR",
+      "label": "SPIRIT BLOSSOM SETT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dfece600e68d85621a7baf7f99748e81bc9b9e26-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/03004744804af7dfa904013cc4925225c270a8ce-1280x720.jpg?accountingTag=WR",
+      "label": "HEARTSTEEL SETT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/03004744804af7dfa904013cc4925225c270a8ce-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8edbecdb4b16b2109f36ba1bcf0b0894f202d660-1280x720.jpg?accountingTag=WR",
+      "label": "Obsidian Dragon Sett",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8edbecdb4b16b2109f36ba1bcf0b0894f202d660-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/327686b7a5b3d35b6f37a6d3ca5a366de19b5d4d-1280x720.jpg?accountingTag=WR",
+      "label": "Splendor Opus Sett",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/327686b7a5b3d35b6f37a6d3ca5a366de19b5d4d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a96585d58c1a6d658b6d6c57febd2a86c566a9c3-1280x720.jpg?accountingTag=WR",
+      "label": "Splendor Opus Sett Mythic Chroma",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a96585d58c1a6d658b6d6c57febd2a86c566a9c3-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5b6d97bc28306825b20911e4f5d233393d8f05df-1280x720.jpg?accountingTag=WR",
+      "label": "CRYSTAL ROSE SETT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5b6d97bc28306825b20911e4f5d233393d8f05df-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/eaa9860d060d3461b49f1a91b9883decc99e0b14-1280x720.jpg?accountingTag=WR",
+      "label": "LUNAR GUARDIAN SETT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/eaa9860d060d3461b49f1a91b9883decc99e0b14-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2022-01-21T18:03:14Z",
+  "hash": "2f3cddd58f650a8420416ca3f478b0d00b5744c62b691db774833f2bf1779af4"
+}

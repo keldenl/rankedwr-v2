@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10116",
+  "riotSlug": "rell",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rell/",
+  "title": "RELL",
+  "subtitle": "THE IRON MAIDEN",
+  "roles": [
+    "TANK",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/714376c633bcbef0a6388554dcf52d740d03e9d2.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Rell's Basic Attacks and Abilities deal additional Magic Damage and steal Enemy Champion’s Armor and Magic Resist on hit. Refreshes on subsequent hits and stacks up to 5 times. Basic attacks deal Bonus Magic Damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8aaa806a008b0509f0bbe829e0061e06d19decce-512x512.jpg?accountingTag=WR",
+      "label": "BREAK THE MOLD",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/bf7815cddb80356f49394062fb34e5c03bf257d1.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Rell throws her lance, dealing Magic Damage to enemies hit, breaking Enemy Shields and stunning them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f7e942acf1aa3ce8cb7dd2c2ab5e1d05ef16c073-512x512.png?accountingTag=WR",
+      "label": "SHATTERING STRIKE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/52f384df6ec5be4c21f91d00e47774ce98322e6a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Mounted\nPassive: Rell gains Move Speed.\nActive: Rell dismounts, leaping towards target location, knocking enemies up and gains a Shield. \n\nDismounted\nPassive: While dismounted, Rell gains Armor, Magic Resist, Attack Speed, and Attack Range, but is slowed. \nActive: Rell forms her Mount, gaining a burst of speed and her next basic attack knocks up enemies hit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/cd057c9c4edd983b563285c60ba5367d5136156d-512x512.png?accountingTag=WR",
+      "label": "FERROMANCY: CRASHDOWN",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/0e677fd8b3172dfe2f59fd1443dff438b3fd472e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Rells grants herself and ally Move Speed, doubled toward enemies and each other. Her next Basic Attack or Shattering Strike explodes, dealing Magic Damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/cdeab99b74c5bca3cfe61b220fe2228212714cb9-512x512.png?accountingTag=WR",
+      "label": "FULL TILT",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/6077b3eed2c69268d97ea2036c504afc9c743ca3.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Rell explodes in a magnetic fury, pulling nearby enemies toward herself. Rell continues pulling in nearby enemy champions, dealing Magic Damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d4a77ee03a740b6aa4119798714823fdaa9ec9a1-512x512.png?accountingTag=WR",
+      "label": "MAGNET STORM",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/8935b271ce46c8714d82dd3485af33f41f4724ac.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3a522bdecd6a70bdceeb8c5ed9f188064430da25-1280x720.jpg?accountingTag=WR",
+      "label": "RELL, THE IRON MAIDEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3a522bdecd6a70bdceeb8c5ed9f188064430da25-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cfc4134ffe4ec97675a5f34e5817c81413cb1ae3-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN RELL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cfc4134ffe4ec97675a5f34e5817c81413cb1ae3-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2025-11-12T13:09:02Z",
+  "hash": "ba03129b4ab2d727c5adbd5cddd2fedc03ff676ba3c53ee96d9218e663a8d4c3"
+}

@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10041",
+  "riotSlug": "kayle",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kayle/",
+  "title": "KAYLE",
+  "subtitle": "the Righteous",
+  "roles": [
+    "FIGHTER",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/561d47b12261a6e5526b2c72b4ada9b7da3b0aa2.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Kayle's attacks are empowered by the heavens as she levels up and spends skill points. Her wings are lit aflame as she progressively gains Attack Speed, Movement Speed, Attack Range, and waves of fire on her attacks.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/29177357449ce40cbf88d8630e9a49a02b19d8be-96x96.jpg?accountingTag=WR",
+      "label": "DIVINE ASCENT",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2c55f5dcbaa8215416113306a7834ff3becb303f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kayle conjures a portal, summoning a celestial sword that pierces through enemies, slowing, damaging, and reducing the resistances of all hit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a94d29a7d0f60d3381471890250792a0d7dc40e1-96x96.jpg?accountingTag=WR",
+      "label": "RADIANT BLAST",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2e9a94443aa2e4e9c9170d241d0a0f24916210a1.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Blessed by the divine, Kayle heals and grants movement speed to herself and the nearest ally.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ef3ae82c0a2f311d2526a849b173988cc6bd0ece-96x96.jpg?accountingTag=WR",
+      "label": "CELESTIAL BLESSING",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/135f71d14b30dea23c724bf23f757e1e4f6d7526.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Passive: Kayle's celestial sword, Virtue, deals bonus magic damage to enemies she attacks. Active: Kayle's next attack smites her target with celestial fire, dealing bonus damage proportionate to their missing health.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/937d44bdd7c9227e1ab183c1829ab476dd17542e-96x96.jpg?accountingTag=WR",
+      "label": "STARFIRE SPELLBLADE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d6847992123a98a3799f26d7f3f1c5b353d99a46.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kayle makes an ally invulnerable and calls upon former Aspects of Justice to purify the area around her target with a holy rain of swords.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/6df49ee652057c43fc96bf3a69dd8b0273b3b5fa-96x96.jpg?accountingTag=WR",
+      "label": "DIVINE JUDGMENT",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4d3bf1688376287599faefa44be756b8c08a695e.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a4c286f313fb275c51e903494a955fa1dd9bd65f-1280x720.jpg?accountingTag=WR",
+      "label": "KAYLE, THE RIGHTEOUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a4c286f313fb275c51e903494a955fa1dd9bd65f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/88b59803e4ac8422f229fe6adf984c8ec0bff11b-1280x720.jpg?accountingTag=WR",
+      "label": "VIRIDIAN KAYLE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/88b59803e4ac8422f229fe6adf984c8ec0bff11b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/99ddaf7c69046492b96ee641be724e8035a1d853-1280x720.jpg?accountingTag=WR",
+      "label": "PSYOPS KAYLE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/99ddaf7c69046492b96ee641be724e8035a1d853-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6d00e24d052cbae5428239d746a39bda1be6d0ec-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGONSLAYER KAYLE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6d00e24d052cbae5428239d746a39bda1be6d0ec-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/432355296949a4d71d7fe14460eb1e889788b9b8-1280x720.jpg?accountingTag=WR",
+      "label": "Immortal Journey Kayle",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/432355296949a4d71d7fe14460eb1e889788b9b8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3cdc59a5314bd17d6ef2aabc884d4ff419c96693-1280x720.jpg?accountingTag=WR",
+      "label": "CRYPTIC DEPTH KAYLE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3cdc59a5314bd17d6ef2aabc884d4ff419c96693-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-12-01T21:19:19Z",
+  "hash": "0086d896239ad488128166e63c2078ff45d5bb0091c6cfca088335a713957216"
+}

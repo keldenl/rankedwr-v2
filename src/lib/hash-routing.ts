@@ -1,10 +1,31 @@
 export const HOME_ROUTE = "/" as const
 export const LEADERBOARDS_ROUTE = "/leaderboards" as const
+export const CHAMPION_ROUTE_PREFIX = "/champions/" as const
 
-export type AppRoute = typeof HOME_ROUTE | typeof LEADERBOARDS_ROUTE
+export type ChampionRoute = `${typeof CHAMPION_ROUTE_PREFIX}${string}`
+export type AppRoute =
+  | typeof HOME_ROUTE
+  | typeof LEADERBOARDS_ROUTE
+  | ChampionRoute
+
+export function championRoute(riotSlug: string): ChampionRoute {
+  return `${CHAMPION_ROUTE_PREFIX}${encodeURIComponent(riotSlug)}` as ChampionRoute
+}
+
+export function isChampionRoute(route: AppRoute): route is ChampionRoute {
+  return route.startsWith(CHAMPION_ROUTE_PREFIX)
+}
+
+export function championSlugFromRoute(route: AppRoute) {
+  if (!isChampionRoute(route)) {
+    return null
+  }
+
+  return decodeURIComponent(route.slice(CHAMPION_ROUTE_PREFIX.length))
+}
 
 export function routeToHash(route: AppRoute) {
-  return route === LEADERBOARDS_ROUTE ? "#/leaderboards" : "#/"
+  return `#${route}`
 }
 
 export function routeFromHash(hash: string) {
@@ -13,7 +34,18 @@ export function routeFromHash(hash: string) {
     ? normalizedHash
     : `/${normalizedHash}`
 
-  return normalizedRoute === LEADERBOARDS_ROUTE ? LEADERBOARDS_ROUTE : HOME_ROUTE
+  if (normalizedRoute === LEADERBOARDS_ROUTE) {
+    return LEADERBOARDS_ROUTE
+  }
+
+  if (
+    normalizedRoute.startsWith(CHAMPION_ROUTE_PREFIX) &&
+    normalizedRoute.length > CHAMPION_ROUTE_PREFIX.length
+  ) {
+    return normalizedRoute as ChampionRoute
+  }
+
+  return HOME_ROUTE
 }
 
 export function buildRouteUrl(route: AppRoute, params?: URLSearchParams) {

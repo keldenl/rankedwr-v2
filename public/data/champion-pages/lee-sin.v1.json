@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10059",
+  "riotSlug": "lee-sin",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lee-sin/",
+  "title": "LEE SIN",
+  "subtitle": "the Blind Monk",
+  "roles": [
+    "FIGHTER",
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fe2cf0e8ac9a0ef9206acd845e1346da359ad3e9.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "After Lee Sin uses an ability, his next 2 basic attacks gain Attack Speed and return Energy.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d054deda664ef785931ed10873e76909866ee1ba-96x96.jpg?accountingTag=WR",
+      "label": "Flurry",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/7fc9c84e969da41b6cd9733ce1315dc3dceb7767.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Sonic Wave: Lee Sin projects a discordant wave of sound to locate his enemies, dealing physical damage to the first enemy it encounters. If Sonic Wave hits, Lee Sin can cast Resonating Strike for the next 3 seconds. Resonating Strike: Lee Sin dashes to the enemy hit by Sonic Wave, dealing physical damage based on the target's missing Health.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9394488507d896bf008bd2aa52c570e9d26d3b51-96x96.jpg?accountingTag=WR",
+      "label": "Sonic Wave / Resonating Strike",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/1fc55e43259f1ab5848bf44bdeaa6b1d42e7473a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Lee Sin rushes to target position, shielding himself from damage if an enemy champion or monster is near the landing point. After using Safeguard, Lee Sin can cast Iron Will for the next few seconds. Iron Will: Lee Sin's next attack deals bonus magic damage and has omnivamp.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/884543307c6ae8a8113c682ca32c42dec89b05b8-96x96.jpg?accountingTag=WR",
+      "label": "Safeguard",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/58aa51b982bd3ec53cd4e378ed26d8310a65e02f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Tempest: Lee Sin smashes the ground, sending out a shockwave that deals magic damage and reveals enemy units hit. If Tempest hits an enemy, Lee Sin can cast cripple for the next 3 seconds. Cripple: Lee Sin cripples nearby enemies damaged by Tempest, reducing their Movement Speed for 4 seconds. Movement Speed recovers gradually over the duration.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/df423dd91f36e9ee792e167126705344585e8fd3-96x96.jpg?accountingTag=WR",
+      "label": "Tempest / Cripple",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/1bb3d0d0f30f009489d4dec2bf3a08c5666f3b59.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Lee Sin performs a powerful roundhouse kick launching his target back, dealing physical damage to the target and any enemies they collide with. Enemies the target collides with are knocked into the air for a short duration.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8dfc7b2d51b5d53d6fb400fc38d8ef17da229877-96x96.jpg?accountingTag=WR",
+      "label": "Dragon's Rage",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a816b8796b77a7ca6e82d397e8f73dced8d9bc68.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/63bbd417587cfa1dc9dc2e8d04c31f68c4ba1d57-1280x720.jpg?accountingTag=WR",
+      "label": "LEE SIN, THE BLIND MONK",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/63bbd417587cfa1dc9dc2e8d04c31f68c4ba1d57-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/564e2e8a494413af7f03c5a1b5857d761c582c03-1280x720.jpg?accountingTag=WR",
+      "label": "MUAY THAI LEE SIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/564e2e8a494413af7f03c5a1b5857d761c582c03-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/71edc4365595ec6e3da1cc03aae87a20a5753643-1280x720.jpg?accountingTag=WR",
+      "label": "KNOCKOUT LEE SIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/71edc4365595ec6e3da1cc03aae87a20a5753643-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cdfac24bea5fe695f4d06ec8286b6472211efd82-1280x720.jpg?accountingTag=WR",
+      "label": "POOL PARTY LEE SIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cdfac24bea5fe695f4d06ec8286b6472211efd82-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fcb3fe37030273dc5849d8c1115ee166205e21cb-1280x720.jpg?accountingTag=WR",
+      "label": "Dragon Fist Lee Sin",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fcb3fe37030273dc5849d8c1115ee166205e21cb-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/031444bd205c751c4986f5f4bf0902993ccaeec8-1280x720.jpg?accountingTag=WR",
+      "label": "Storm Dragon Lee Sin",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/031444bd205c751c4986f5f4bf0902993ccaeec8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d1e1f99be98c7b6e6cd0f97a4cdcc9efb896978f-1280x720.jpg?accountingTag=WR",
+      "label": "STORM DRAGON LEE SIN MYTHIC CHROMA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d1e1f99be98c7b6e6cd0f97a4cdcc9efb896978f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e0ca3e3494e8128a580cfc5c8dd5e43262f0f7ce-1920x1080.jpg?accountingTag=WR",
+      "label": "NIGHTBRINGER LEE SIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e0ca3e3494e8128a580cfc5c8dd5e43262f0f7ce-1920x1080.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9e9263eb960f6a479aa69c6ac722f769f0bf7ce2-1280x720.jpg?accountingTag=WR",
+      "label": "GOD FIST LEE SIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9e9263eb960f6a479aa69c6ac722f769f0bf7ce2-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/693c680151f7641a032758eab468f5b6e328b47d-1280x720.jpg?accountingTag=WR",
+      "label": "NOVA LEE SIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/693c680151f7641a032758eab468f5b6e328b47d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c766f143fbaa774bb47daf3300bbb4d8b3ba5004-1280x720.jpg?accountingTag=WR",
+      "label": "SPIRIT BLOSSOM LEE SIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c766f143fbaa774bb47daf3300bbb4d8b3ba5004-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ef7b7f8079a6e584d3c32f7318b61f9e48714477-1280x720.jpg?accountingTag=WR",
+      "label": "SPIRIT BLOSSOM LEE SIN EXQUISITE EDITION",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ef7b7f8079a6e584d3c32f7318b61f9e48714477-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:43:36Z",
+  "hash": "cc957dd78c7bd18e2836208fa427575b65c1f69742e508ac4f859c708d20606f"
+}

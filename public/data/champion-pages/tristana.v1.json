@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10045",
+  "riotSlug": "tristana",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/tristana/",
+  "title": "TRISTANA",
+  "subtitle": "the Yordle Gunner",
+  "roles": [
+    "MARKSMAN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ccfafe31bed15b4fe60573c2e8eae5bd875aab7f.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Increases Tristana's range for her attacks, Explosive Charge, and Buster Shot as she levels.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4768e6596e22f2e54c49249fca68e7031646e2f4-96x96.jpg?accountingTag=WR",
+      "label": "DRAW A BEAD",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/308259f96e9dbe0190e54b8394ee2f019769eee4.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Tristana increases her Attack Speed for a short time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/700bdd0071110700a15a936f9ff9b2d521b728f4-96x96.jpg?accountingTag=WR",
+      "label": "RAPID FIRE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4054c9363859fb471a1e6c834c5f24f55c440af4.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Tristana fires at the ground to propel her to a distant location, dealing damage and slowing surrounding units for a brief period where she lands. Takedowns and fully stacked Explosive Charge detonations on champions reset Rocket Jump's cooldown.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/749d8fcbeb137e8f1d95bcbb8d1f289469a16839-96x96.jpg?accountingTag=WR",
+      "label": "ROCKET JUMP",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/60182e15e3ad8a0ccb1df038af8b2ded4584b47a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "When Tristana kills a unit, her cannonballs burst into shrapnel, dealing damage to surrounding enemies. Can be activated to place a bomb on a target enemy or turret that explodes after a short duration dealing damage to surrounding units.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/8ab5705c2288373c2339ea3836dc57faa9445b46-96x96.jpg?accountingTag=WR",
+      "label": "EXPLOSIVE CHARGE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bc39cdda87e3c8d8f4465108f7c954122930e9d0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Tristana loads a massive cannonball into her weapon and fires it at an enemy unit. This deals Magic Damage and knocks the target back.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7f573fd6e565856371b488f733445a20df269413-96x96.jpg?accountingTag=WR",
+      "label": "BUSTER SHOT",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/49f921ecab20f4069b6bdf6e520323fd92ef92b2.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/804c980cf5c025aec176d4e3d16debf2817a068d-1280x720.jpg?accountingTag=WR",
+      "label": "TRISTANA, THE YORDLE GUNNER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/804c980cf5c025aec176d4e3d16debf2817a068d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b8e18bd813dccc3ab952588a5d80f1d350dc9772-1280x720.jpg?accountingTag=WR",
+      "label": "GUERILLA TRISTANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b8e18bd813dccc3ab952588a5d80f1d350dc9772-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/49f9bb662ca46683ee99a375f59ce84fca3b0aff-1280x720.jpg?accountingTag=WR",
+      "label": "LITTLE DEMON TRISTANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/49f9bb662ca46683ee99a375f59ce84fca3b0aff-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/21b6138288500b29445c23a85d199199d5d12186-1280x720.jpg?accountingTag=WR",
+      "label": "OMEGA SQUAD TRISTANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/21b6138288500b29445c23a85d199199d5d12186-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c63a2793f0a53e53b42b077e4714be1b7ede628e-1280x720.jpg?accountingTag=WR",
+      "label": "HEXPLORER TRISTANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c63a2793f0a53e53b42b077e4714be1b7ede628e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/88e07535386f977d08b65871018d9bb6756cfbea-1280x720.jpg?accountingTag=WR",
+      "label": "FIRECRACKER TRISTANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/88e07535386f977d08b65871018d9bb6756cfbea-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b50a0a72ab1ac1b94e2b69a04f1613923c6dc366-1280x720.jpg?accountingTag=WR",
+      "label": "SPIRIT BLOSSOM TRISTANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b50a0a72ab1ac1b94e2b69a04f1613923c6dc366-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a5645b817749d8c48758ad1922b839ed284c813d-1280x720.jpg?accountingTag=WR",
+      "label": "GARDEN PARTY TRISTANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a5645b817749d8c48758ad1922b839ed284c813d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1a26668f3b3ff960783010bd880efdf8ed0e5ce9-1280x720.jpg?accountingTag=WR",
+      "label": "Pengu Cosplay Tristana",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1a26668f3b3ff960783010bd880efdf8ed0e5ce9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/00d520d3630c44ccabf66e5f157407640e653af0-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGON TRAINER TRISTANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/00d520d3630c44ccabf66e5f157407640e653af0-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-01-26T21:58:18Z",
+  "hash": "411a31f90698b5b8ec175bfa9149e76936ad8877d3e9903a8c86df233f4ca433"
+}

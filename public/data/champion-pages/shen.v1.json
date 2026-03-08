@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10118",
+  "riotSlug": "shen",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/shen/",
+  "title": "SHEN",
+  "subtitle": "the Eye of Twilight",
+  "roles": [
+    "TANK",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e25d4740a04bd9f594923f67a6d0818f48ab1383.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "After casting a spell, Shen gets a shield. Affecting other champions reduces the cooldown of this effect.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4eacd53a66c7aa39d36d338ba0decdfb08d49250-96x96.jpg?accountingTag=WR",
+      "label": "KI BARRIER",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a2d7b44a54d61b611da90205a6f6dad3468e9089.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Shen recalls his spirit blade to attack with it, dealing damage based on the target's max health. The attacks are greatly empowered if it collides with an enemy champion, and all collided enemies are slowed while running away from Shen.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b25bf4be48983c15c7ce7edccea858f687affadb-96x96.jpg?accountingTag=WR",
+      "label": "TWILIGHT ASSAULT",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e5b017a4bfa7d58295b2989499c7e07eedb0dd46.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Shen sends his spirit blade to an ally, creating a zone that blocks enemy attacks.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1f2f92cbb03feb22b98e11c5a21c0f50459b62f9-96x96.jpg?accountingTag=WR",
+      "label": "SPIRIT'S REFUGE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/26592251b8d5d51367b5cf82e3e7c637098ebd03.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Shen dashes in a direction, taunting enemies in his path",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/792c164709502909fec11b85d7275c05fc9ed125-96x96.jpg?accountingTag=WR",
+      "label": "SHADOW DASH",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b5b750ccad14f1a3263522bf2dfa9e2d55a447d1.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Shen shields target allied champion from incoming damage, and soon after teleports to their location.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2350f87cc35c800902c8e40ebe288f679c2d4823-96x96.jpg?accountingTag=WR",
+      "label": "STAND UNITED",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4e5299247070c0b2e5589417991ad9f5b2349ebd.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/173b6da6ac6e02215f5be30a56c7af4313e2a0b3-1280x720.jpg?accountingTag=WR",
+      "label": "SHEN, THE EYE OF TWILIGHT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/173b6da6ac6e02215f5be30a56c7af4313e2a0b3-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b94e51f87144f341d003c29af5daab6a45d3bc55-1280x720.jpg?accountingTag=WR",
+      "label": "BLOOD MOON SHEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b94e51f87144f341d003c29af5daab6a45d3bc55-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0c202196084c751c3551aa879ba9cf50cd4d6f83-1280x720.jpg?accountingTag=WR",
+      "label": "PULSEFIRE SHEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0c202196084c751c3551aa879ba9cf50cd4d6f83-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1336161badda205d7f879d2119f525bc4c4d6f76-1280x720.jpg?accountingTag=WR",
+      "label": "INFERNAL SHEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1336161badda205d7f879d2119f525bc4c4d6f76-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2a1e0c03b18163e59af5c2b6af245705fff961b9-1920x1080.jpg?accountingTag=WR",
+      "label": "NIGHTBRINGER SHEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2a1e0c03b18163e59af5c2b6af245705fff961b9-1920x1080.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2022-03-08T00:16:17Z",
+  "hash": "9d9588b7ce315390b5de016ea0eaeb7db38416eb35e581d10422a001518eba2f"
+}

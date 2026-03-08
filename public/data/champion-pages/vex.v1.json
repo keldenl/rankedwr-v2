@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10141",
+  "riotSlug": "vex",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vex/",
+  "title": "VEX",
+  "subtitle": "The Gloomist",
+  "roles": [
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/1c15fb81733a9f240d9dc348b31d673b82273747.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Vex periodically becomes empowered, causing her next basic Ability to fear enemies and interrupt dashes. Whenever a nearby enemy dashes, Vex applies a mark that can be consumed for bonus damage that also reduces the cooldown of her empowered state.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/44148ffcd6778a14fb4149bfb43ad17b1381dcfd-96x96.jpg?accountingTag=WR",
+      "label": "DOOM 'N GLOOM",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/b85db40e1e7327d84800bceec99d65a49f8419cb.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Launch a damaging missile that accelerates mid-flight.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/dd962f63c1a426139b74818cf90148019ed067c6-96x96.jpg?accountingTag=WR",
+      "label": "MISTRAL BOLT",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/fb7f5388a684085f1820997c2ef7515d39819ba4.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Gain a shield and damage nearby enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0acc142e9a3739f8b4944ebdb18cf8e4fcd5112f-96x96.jpg?accountingTag=WR",
+      "label": "PERSONAL SPACE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a9cb68724c10c5cbd9b0f72bb93c8be71d9cd6d8.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Summon a damaging and slowing zone that applies Gloom to enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/117f24c3ddc0d548e614e2c6a08ef1f4857fa49a-96x96.jpg?accountingTag=WR",
+      "label": "LOOMING DARKNESS",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/caa901cbc162c1f805a68876e08fdeabdb205f3e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Fire a missile that marks an enemy champion. Recast to dash to them and deal damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/6468741b8f42f29b929201655b6206c3f139cf33-96x96.jpg?accountingTag=WR",
+      "label": "SHADOW SURGE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/426a211c9d870ecc3dfa34583c1e3240ca55597c.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/11ac3557535a7765b423302663ecca5e5f22ae00-1280x720.jpg?accountingTag=WR",
+      "label": "VEX, THE GLOOMIST",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/11ac3557535a7765b423302663ecca5e5f22ae00-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e9816adccadc950ad43646ee36d2cd57e815a419-1280x720.jpg?accountingTag=WR",
+      "label": "BEWITCHING VEX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e9816adccadc950ad43646ee36d2cd57e815a419-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e11a81863c27bf227e9b4b56ece421fbfa71e86d-1280x720.jpg?accountingTag=WR",
+      "label": "STARGAZER VEX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e11a81863c27bf227e9b4b56ece421fbfa71e86d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1ddc8623965983966eeb8d699c7031154e74f68f-1280x720.jpg?accountingTag=WR",
+      "label": "COTTONTAIL VEX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1ddc8623965983966eeb8d699c7031154e74f68f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bd8f331970a2add14f9ac022e7971dfd9687595b-1280x720.jpg?accountingTag=WR",
+      "label": "WONDERTOWN VEX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bd8f331970a2add14f9ac022e7971dfd9687595b-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2022-10-20T00:02:16Z",
+  "hash": "589078a2bd8e67fd3e3b593a4ee0df882f7ac3ca2d092c4db963a142ed9937d9"
+}

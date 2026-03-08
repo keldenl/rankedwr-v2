@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10049",
+  "riotSlug": "shyvana",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/shyvana/",
+  "title": "SHYVANA",
+  "subtitle": "the Half-Dragon",
+  "roles": [
+    "FIGHTER",
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b5d7f25cecf6fb60fad38f939946af2ac7b2d403.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Shyvana gains stacks when slaying large and epic monsters, as well as champions. Dragons grant extra stacks. Every 100 stack enhances one of Shyvana's abilities.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ba2de7940d4f05eb3225317e9fefa9eea126d37d-96x96.jpg?accountingTag=WR",
+      "label": "Fury of the Dragonborn",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/eaa4e4f1b264b14bf6d32d993d882a63dd26f01e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Shyvana strikes twice on her next attack. Basic attacks reduce the cooldown of Twin Bite. Dragon Form: Twin Bite cleaves all units in front of Shyvana. Slaying Mountain Drake causes Twin Bite to slow enemies while in Dragon Form.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/cb597bf3e5189864061e54d2c58a37599553b792-96x96.jpg?accountingTag=WR",
+      "label": "Twin Bite",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/46a92e1183e4b240854c035e098503aace823e84.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Shyvana surrounds herself in fire, dealing magic damage per second to nearby enemies and moving faster for 3 seconds. The Movement Speed reduces over the duration of the spell. Basic attacks extend the duration of Burnout. Dragon Form: Burnout grows in size. Slaying Cloud Drake gives Shyvana 25% extra Movement Speed while in Dragon Form.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/822b41a001e5bef94e961d2836b0b7fc09b3e2f4-96x96.jpg?accountingTag=WR",
+      "label": "Burnout",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/506b2e1fddff9d2001f716dab9e84ec890b544af.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Shyvana unleashes a fireball that deals damage to all enemies it encounters and leaves cinders on the target, marking them for 5 seconds. Shyvana's basic attacks on marked targets deal a percentage of their maximum Health as damage on-hit. Dragon Form: Flame Breath explodes on impact or at target location, dealing bonus damage and scorching the earth for a short duration. Slaying Infernal Drake converts damage dealt to marked enemies to true damage while in Dragon Form.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/91fb272a3f7b3710a4201b7443b32daa7f87b713-96x96.jpg?accountingTag=WR",
+      "label": "Flame Breath",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/1b0f96ba80b9c184a1341428462dc7bf53c06a3b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Shyvana transforms into a dragon and takes flight to a target location. Enemies along her path take damage and are knocked toward her target location. Shyvana passively gains Fury per second and gains 2 Fury on basic attack.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/a8bd73b9d7f2b6715142318fe7e68477a46e3bb1-96x96.jpg?accountingTag=WR",
+      "label": "Dragon's Descent",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c5c8f8d9df336a860ae7446bec56b09016f90292.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6e508fd3d7add5f7350ef3c0a823ee251ed37f5e-1280x720.jpg?accountingTag=WR",
+      "label": "SHYVANA, THE HALF-DRAGON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6e508fd3d7add5f7350ef3c0a823ee251ed37f5e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2f33cbb0bf64e6fcad6830ee102184708a0f789e-1280x720.jpg?accountingTag=WR",
+      "label": "ICE DRAKE SHYVANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2f33cbb0bf64e6fcad6830ee102184708a0f789e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4c39aad5c295f173d4937740ef994d762e43eb03-1280x720.jpg?accountingTag=WR",
+      "label": "DARKFLAME SHYVANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4c39aad5c295f173d4937740ef994d762e43eb03-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bccf6368aca36d9856df98c879ab199b56df9933-1280x720.jpg?accountingTag=WR",
+      "label": "SUPER GALAXY SHYVANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bccf6368aca36d9856df98c879ab199b56df9933-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6d0dd1d1b1f18f73b9e40b8bef2ea0b2ad7d11a6-1280x720.jpg?accountingTag=WR",
+      "label": "RUINED SHYVANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6d0dd1d1b1f18f73b9e40b8bef2ea0b2ad7d11a6-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/75d4a10a76310bd9b535c7fb25ccaf1bd7ca3e82-1280x720.jpg?accountingTag=WR",
+      "label": "HEXPLORER SHYVANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/75d4a10a76310bd9b535c7fb25ccaf1bd7ca3e82-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/03fe73692cacb31712752b3194d532e869102027-1280x720.jpg?accountingTag=WR",
+      "label": "IMMORTAL JOURNEY SHYVANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/03fe73692cacb31712752b3194d532e869102027-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:47:48Z",
+  "hash": "8356a2ca7543f43cfc7d5e1be54598c8e14af394c66168751ceb7329a0af7031"
+}

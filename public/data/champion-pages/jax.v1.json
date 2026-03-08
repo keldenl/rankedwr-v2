@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10040",
+  "riotSlug": "jax",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jax/",
+  "title": "JAX",
+  "subtitle": "Grandmaster at Arms",
+  "roles": [
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4c59fba74c268c3f80a483083cb787ecfbc10abb.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Jax's consecutive basic attacks continuously increase his Attack Speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/2b8133159ea071b862df7c9a2a15bdec89fe3778-96x96.jpg?accountingTag=WR",
+      "label": "Relentless Assault",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/eef79a4de7a316fa50194850c5569b903be6b576.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Jax leaps toward a unit. If they are an enemy, he strikes them with his weapon.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/730faac65b0511921c8c7e1b7ecf4fb094a58cb4-96x96.jpg?accountingTag=WR",
+      "label": "Leap Strike",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9a057af3a0cf63dfc510643d972774916b6e0790.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Jax charges his weapon with energy, causing his next attack to deal additional damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/87fbc50e2c1871520327a22781b8eba95b5e3253-96x96.jpg?accountingTag=WR",
+      "label": "Empower",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b6f60c8a9c63b83fb4e25db1547e587f89afa3b7.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Jax's combat prowess allows him to dodge all incoming attacks for a short duration and then quickly counterattack, stunning all surrounding enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/b5bf944216d9154eb78967666700641e0d3f49d7-96x96.jpg?accountingTag=WR",
+      "label": "Counter Strike",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bc6c7c7a8fa813fbe206f89989d81b6f54e4d173.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Every third consecutive attack deals additional Magic Damage. Additionally, Jax can activate this ability to strengthen his resolve, increasing his Armor and Magic Resist for a short duration.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/1012cba4be0d426c6bfc99d531ae00ddc60427f1-96x96.jpg?accountingTag=WR",
+      "label": "Grandmaster's Might",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e8601904a593aea2d1c0d6ee9d45f422eeb99dbe.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3ffcf2d1528cb88e1c31c14482bf1ba35a4cc7b8-1280x720.jpg?accountingTag=WR",
+      "label": "JAX, GRANDMASTER AT ARMS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3ffcf2d1528cb88e1c31c14482bf1ba35a4cc7b8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6de74613fcce73e98226036928d4dc72bfe414c4-1280x720.jpg?accountingTag=WR",
+      "label": "GOD STAFF JAX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6de74613fcce73e98226036928d4dc72bfe414c4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e6e780232fc4debfbe5df230e6cadedad3e09541-1280x720.jpg?accountingTag=WR",
+      "label": "ANGLER JAX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e6e780232fc4debfbe5df230e6cadedad3e09541-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9c77d43ea2009a4e4d878489dd1f37c278911a73-1280x720.jpg?accountingTag=WR",
+      "label": "HEXPLORER JAX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9c77d43ea2009a4e4d878489dd1f37c278911a73-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/752714af9605d1f5e7fd3fe7af868ee5da78216b-1280x720.jpg?accountingTag=WR",
+      "label": "WARDEN JAX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/752714af9605d1f5e7fd3fe7af868ee5da78216b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dbad40ddb04a9b860e2e2d9c8f2abe2e95c2e2c2-1280x720.jpg?accountingTag=WR",
+      "label": "STARGAZER JAX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dbad40ddb04a9b860e2e2d9c8f2abe2e95c2e2c2-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e8950d6d98432b780cd7b2a46aa71a0b764f5ec8-1280x720.jpg?accountingTag=WR",
+      "label": "Shan Hai Scrolls Jax",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e8950d6d98432b780cd7b2a46aa71a0b764f5ec8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ec54aab91324a27f985cc9369d8c767344e63c77-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGONMANCER JAX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ec54aab91324a27f985cc9369d8c767344e63c77-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:10:27Z",
+  "hash": "775dcb8c3f7ac59c2c8724e71a24f65473e02f3ae08188ee1462f5667a9f5767"
+}

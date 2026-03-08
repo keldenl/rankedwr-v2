@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10005",
+  "riotSlug": "kayn",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kayn/",
+  "title": "KAYN",
+  "subtitle": "The Shadow Reaper",
+  "roles": [
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a148d772b6e2c69e5402d2fc0bc0bb8457327340.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Kayn wields an ancient weapon and fights Rhaast, the darkin within it, for control. Either the Darkin will triumph, or Kayn will master Rhaast and become the Shadow Assassin. Darkin: Heal for a percentage of spell damage dealt to champions. Shadow Assassin: For the first few seconds in combat with enemy champions, deal bonus damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/42bfe3e43b846f48326334e3f06e43b2e26e3070-96x96.jpg?accountingTag=WR",
+      "label": "THE DARKIN SCYTHE",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/13fa1bda4c5bf03e73b71653d5bc63cd437193c8.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kayn dashes, then slashes. Both deal damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d9065eefc982731bf93850a9698306611bab3635-96x96.jpg?accountingTag=WR",
+      "label": "REAPING SLASH",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/0d6be28a7dfd17d74994b6df3ecd60dd26c7290c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kayn damages and slows targets in a line.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/6e58bb982cc87c720515d5866e5061c8fbb20a99-96x96.jpg?accountingTag=WR",
+      "label": "BLADE'S REACH",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/5889f9812af5021bbb3f343c566003e38601b107.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kayn can walk through terrain.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/6381df16d124bc02207544718e46c8afc16f6ad9-96x96.jpg?accountingTag=WR",
+      "label": "SHADOW STEP",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/28d02b2ce0c37ebea3f7cf4e839c2ac0c7b7ee61.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kayn hides in an enemy's body, dealing massive damage when he bursts out.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/4105acd0d152cbe7cc8989d57dc16ee0e4fc692d-96x96.jpg?accountingTag=WR",
+      "label": "UMBRAL TRESPASS",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/940595e561cda53f3cb7c0cf3eba4f60f52c8fc4.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/80b2240795bcabb45e48d1b7f97bd8465d5a951f-1280x720.jpg?accountingTag=WR",
+      "label": "KAYN, THE SHADOW REAPER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/80b2240795bcabb45e48d1b7f97bd8465d5a951f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a69d63c61aed1e5d0d01de2caf434d3e6972d8bf-1280x720.jpg?accountingTag=WR",
+      "label": "SOULHUNTER KAYN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a69d63c61aed1e5d0d01de2caf434d3e6972d8bf-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fc3f0657f0d7ed64cd5fb97778cd6d783e486986-1280x720.jpg?accountingTag=WR",
+      "label": "HEARTSTEEL KAYN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fc3f0657f0d7ed64cd5fb97778cd6d783e486986-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5c2e1affbc9e4a825d22d43bc1fbee628dcc595f-1280x720.jpg?accountingTag=WR",
+      "label": "NIGHTBRINGER KAYN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5c2e1affbc9e4a825d22d43bc1fbee628dcc595f-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2022-11-16T01:42:58Z",
+  "hash": "6fc98728d050ebbe4b52dc99648ffae1636f01b396b8506330189c2e1813d555"
+}

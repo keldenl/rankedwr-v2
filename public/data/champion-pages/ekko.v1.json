@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10011",
+  "riotSlug": "ekko",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ekko/",
+  "title": "EKKO",
+  "subtitle": "the Boy who Shattered Time",
+  "roles": [
+    "ASSASSIN",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4f9d81d6d01d870b58597b6d971be75fa6e08773.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Every third attack or damaging spell on the same target deals bonus magic damage, and grants Ekko a burst of speed if the target is a champion.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9589c60f5329d26496ab94311c6eda2e1be33b0c-96x96.jpg?accountingTag=WR",
+      "label": "Z-DRIVE RESONANCE",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f830293d013b86f36c5e9dfa69b5528adaf1581e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ekko throws a temporal grenade that expands into a time-distortion field upon hitting an enemy champion, slowing and damaging anyone caught inside. After a delay, the grenade rewinds back to Ekko, dealing damage on its return.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/bb0ecba41db8d3f1cdd5cb284053bd58f49917c6-96x96.jpg?accountingTag=WR",
+      "label": "TIMEWINDER",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/73f961e26b61a5f14199f7ee253fdec9e1f1511b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ekko's basic attacks deal bonus magic damage to low health enemies. He can cast Parallel Convergence to split the timeline, creating an anomaly after a few seconds that slows enemies caught inside. If Ekko enters the anomaly, he gains shielding and stuns enemies by suspending them in time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/055c1a1a4100c479fcaa1ce01a5a607f9fcee22c-96x96.jpg?accountingTag=WR",
+      "label": "PARALLEL CONVERGENCE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fd9e19d13fc2a930a2b1fd513561e1f0bde50b92.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ekko rolls evasively while charging up his Z-Drive. His next attack deals bonus damage and warps reality, teleporting him to his target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/fff8496d1fec4f7f3908f95c559980152eb48845-96x96.jpg?accountingTag=WR",
+      "label": "PHASE DIVE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2218d1ceeebb34315e817977827873cc48aee464.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ekko shatters his timeline, becoming untargetable and rewinding to a more favorable point in time. He returns to whenever he was a few seconds ago, and heals for a percentage of the damage received in that duration. Enemies near his arrival zone take massive damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ecd1af4b45ea957dc369a91df31bf39f1e33a6dc-96x96.jpg?accountingTag=WR",
+      "label": "CHRONOBREAK",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c89d7d68c89364f08dfd55ca854aa4d72f27cee2.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6d36fd24d685ada709ac5079ae787620ad6e056f-1280x720.jpg?accountingTag=WR",
+      "label": "EKKO, THE BOY WHO SHATTERED TIME",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6d36fd24d685ada709ac5079ae787620ad6e056f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e15c2ce5b9e5202c44b669560fb5e68d20782b3c-1280x720.jpg?accountingTag=WR",
+      "label": "SANDSTORM EKKO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e15c2ce5b9e5202c44b669560fb5e68d20782b3c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/365dbfb04fef70dba17722f26c9821c032717949-96x96.jpg?accountingTag=WR",
+      "label": "PSYCHIC DETECTIVE EKKO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/365dbfb04fef70dba17722f26c9821c032717949-96x96.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8dffc11d4deac3ec4fc366ccdcbf0ea596de399e-1280x720.jpg?accountingTag=WR",
+      "label": "LOVESTRUCK EKKO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8dffc11d4deac3ec4fc366ccdcbf0ea596de399e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ebd4de4fb4a3506d90054f87f9fb57cea2134516-1280x720.jpg?accountingTag=WR",
+      "label": "CHROMACRASH EKKO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ebd4de4fb4a3506d90054f87f9fb57cea2134516-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bbe015af3e4bc5014fa2da0de5f3f5370d096319-1280x720.jpg?accountingTag=WR",
+      "label": "FIRELIGHT EKKO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bbe015af3e4bc5014fa2da0de5f3f5370d096319-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9f61d23a45954fe29fb5d7e1d8462aa924691fe0-1280x720.jpg?accountingTag=WR",
+      "label": "TRUE DAMAGE EKKO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9f61d23a45954fe29fb5d7e1d8462aa924691fe0-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2022-05-05T20:44:13Z",
+  "hash": "0786350f9534b4d0221c50e2b9e159a0155b21df6227566aec2f8c19d50f2bc6"
+}

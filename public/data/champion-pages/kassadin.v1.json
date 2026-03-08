@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10103",
+  "riotSlug": "kassadin",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kassadin/",
+  "title": "KASSADIN",
+  "subtitle": "the Void Walker",
+  "roles": [
+    "ASSASSIN",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e40dd72f59bc30c4dda8eb544fac59e3365be09b.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "When Kassadin casts a spell near a visible enemy champion, he gains a magic shield.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e8edc7324929cb69de2ef5c9179d945efb9ffcfb-96x96.jpg?accountingTag=WR",
+      "label": "VOID STONE",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a97c344b5bca92cbcb94edde6cc907f3d250afa0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Fires an orb that deals magic damage and silences the first enemy hit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d45ce0e35e931ce61ca9dde770e84bbf1e079e9b-96x96.jpg?accountingTag=WR",
+      "label": "NULL SPHERE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/aec030bbfd50bb0cfb1ad97c53ce6de53577f507.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Empowers his next basic attack within to gain range and deal bonus magic damage and restore a percentage of missing mana on hit. \n\nIf Nether Blade kills the target its remaining cooldown is reduced.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/10fefc0f781c89555c85724d998de4ff0980c374-96x96.jpg?accountingTag=WR",
+      "label": "NETHER BLADE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9d0a4513a61aa0bb756cb6b4ed012a6a62220daa.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Deals magic damage to enemies in a cone and slows them.\n\nForce Pulse becomes enhanced after other spells are cast nearby, dealing increased magic damage and slowing instead.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/75645f8b4542fcb120d0732e80f325ceabc8b286-96x96.jpg?accountingTag=WR",
+      "label": "FORCE PULSE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0bd88e64a4272976038d8d4007bbdaf54e2cbad1.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Blinks to target location and deals magic damage to nearby enemies. Casting Riftwalk causes the next Riftwalk within a certain amount of time to deal more damage and cost double the mana. (Up to 3 times)",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/251e1fa529c267da8b9bf3643205ea3a06657cbf-96x96.jpg?accountingTag=WR",
+      "label": "RIFTWALK",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ee4e10aa2d37f93473e64d89d84dcd4ed8db21e6.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/95c919558152a310eda41455ea2b03a6e38188be-1280x720.jpg?accountingTag=WR",
+      "label": "KASSADIN, THE VOID WALKER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/95c919558152a310eda41455ea2b03a6e38188be-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7d5aac1b2d69b1a4a758537016a5e23801802d7c-1280x720.jpg?accountingTag=WR",
+      "label": "HARBINGER KASSADIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7d5aac1b2d69b1a4a758537016a5e23801802d7c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bce796d6b6cb7bd12af9502adf9cac272af555ea-1280x720.jpg?accountingTag=WR",
+      "label": "COUNT KASSADIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bce796d6b6cb7bd12af9502adf9cac272af555ea-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/37b810b25c6cffb2afd4bb6a1a88bcc097c8d610-1280x720.jpg?accountingTag=WR",
+      "label": "Dragonmancer Kassadin",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/37b810b25c6cffb2afd4bb6a1a88bcc097c8d610-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/95cd52f6c670bd34fbbcb17310ee9ee0a32d957c-1280x720.jpg?accountingTag=WR",
+      "label": "COSMIC REAVER KASSADIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/95cd52f6c670bd34fbbcb17310ee9ee0a32d957c-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2022-07-22T19:01:00Z",
+  "hash": "c133d0497d505ee85fe4a4e3bc526228c55bbffd8199d156a40687b3447d06f0"
+}

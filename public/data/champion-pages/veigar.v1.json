@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10122",
+  "riotSlug": "veigar",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/veigar/",
+  "title": "VEIGAR",
+  "subtitle": "the Tiny Master of Evil",
+  "roles": [
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/b7027f307d082d5532d9a2632a1f5c3038030733.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Veigar now gains passive stacks by hitting enemy champions once again.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6e5ce73c9475b9de8aaa235199189aae1873aa9d-96x96.jpg?accountingTag=WR",
+      "label": "PHENOMENAL EVIL POWER",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/3a4e74dc0bef4060aa12908509ba732d29aaf36c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Veigar unleashes a bolt of dark energy that deals magic damage to the first two enemies hit. Units killed by this bolt grant Veigar some ability power permanently.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cb7656cc9a81bfd94034f191c2b3ce3a306d496c-96x96.jpg?accountingTag=WR",
+      "label": "BALEFUL STRIKE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/b094898568f7ef22e3a0c7cefd25326757cacc33.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Veigar calls a great mass of dark matter to fall from the sky to the target location, dealing magic damage when it lands. Stacks of Phenomenal Evil reduce Dark Matter's cooldown.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e5b91bb24bb81dd43d9967771e4af00831037f34-96x96.jpg?accountingTag=WR",
+      "label": "DARK MATTER",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/35570e2269df4c68836bf2c86b686fe8afc54e8f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Veigar twists the edges of space, creating a cage that Stuns enemies that pass through.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/7d9274b70e74b6c293accf72bc60301de83fb22c-96x96.jpg?accountingTag=WR",
+      "label": "EVENT HORIZON",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a9fbfed26b87fc7fcb7244c344544296b7c94d0f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Blasts target enemy champion, dealing a large amount of magic damage, increasing based on the target's missing health.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/303c7c779ee994f8ded506c526091ee57704a416-96x96.jpg?accountingTag=WR",
+      "label": "PRIMORDIAL BURST",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/c5578a17782d3b0dcb220aa6f79018ba38c22b74.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8a01db68eac31c09b1debd75ae286c7e840bf410-1280x720.jpg?accountingTag=WR",
+      "label": "VEIGAR, THE TINY MASTER OF EVIL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8a01db68eac31c09b1debd75ae286c7e840bf410-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8caa0aba99e9c83a242efe3f38206529ffc2d29f-1280x720.jpg?accountingTag=WR",
+      "label": "SUPERB VILLAIN VEIGAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8caa0aba99e9c83a242efe3f38206529ffc2d29f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4ad13971a263b35e297b4c10a018503fbe5d94cd-1280x720.jpg?accountingTag=WR",
+      "label": "BAD SANTA VEIGAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4ad13971a263b35e297b4c10a018503fbe5d94cd-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0eb7d57feac483ae48efe71ce5a6416837d6a70e-1280x720.jpg?accountingTag=WR",
+      "label": "FURYHORN COSPLAY VEIGAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0eb7d57feac483ae48efe71ce5a6416837d6a70e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/78caa777603b9a6e9ea4f5178032c6788baf8b47-1280x720.jpg?accountingTag=WR",
+      "label": "FINAL BOSS VEIGAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/78caa777603b9a6e9ea4f5178032c6788baf8b47-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a630d8c7d5eea2db9620821745d847535abefe36-1280x720.jpg?accountingTag=WR",
+      "label": "MYTHIC CHROMA VEIGA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a630d8c7d5eea2db9620821745d847535abefe36-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6f48c719b2800a80c3261b6b274fc1badeccbfec-1280x720.jpg?accountingTag=WR",
+      "label": "FOOD SPIRITS VEIGAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6f48c719b2800a80c3261b6b274fc1badeccbfec-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cb9c2897101d5051ae40d52d1dce1a89564e80ee-1280x720.jpg?accountingTag=WR",
+      "label": "OMEGA SQUAD VEIGAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cb9c2897101d5051ae40d52d1dce1a89564e80ee-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-10-08T22:57:42Z",
+  "hash": "c7237bd5007c6e19c3919d2d5d01276270064e7e8cf946a80a6b0482ce0bccf5"
+}

@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10110",
+  "riotSlug": "kogmaw",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kogmaw/",
+  "title": "KOG'MAW",
+  "subtitle": "THE MOUTH OF THE ABYSS",
+  "roles": [
+    "MARKSMAN",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/0ae0927f50157921835af459a366f7370dffe713.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Upon death, Kog’Maw continues moving, gaining Move Speed for a brief time. After a short period Kog’Maw explodes, dealing True Damage to nearby enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4ac81c154694c81a7df934e9a53956ad7ebaf683-800x800.png?accountingTag=WR",
+      "label": "ICATHIAN SURPRISE",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/391c55e8aca3963179d21e77b1282c0b8cc53ff7.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kog'Maw launches a corrosive projectile which deals Magic Damage and weakens the target's Armor and Magic Resist for a short time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4d26e193295b0a4d596edba5ec697afd8e01498e-800x800.png?accountingTag=WR",
+      "label": "CAUSTIC SPITTLE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/5317b61f251eaf5267528c2ff425e9b041b76b57.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kog'Maw's basic attacks gain range and deal a percent of the target's maximum Health as Magic Damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d16e24a94abb4793b1ba1481f3ea7166f561e01e-800x800.png?accountingTag=WR",
+      "label": "BIO-ARCANE BARRAGE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/8a8a6e2c058f291c7e3c1715072ba3b47bf54236.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kog'Maw launches ooze in target direction damaging all enemies it passes through and leaves a trail slowing enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/139235899b0a57dd87b9cdfe64a9f3929075b5dc-800x800.png?accountingTag=WR",
+      "label": "VOID OOZE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/e433de8ce8d9c7555bd19d65ca2aadb12de0756d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Passive: Kog’Maw gains Attack Speed.\nKog'Maw fires acid in area dealing Magic Damage to and revealing enemies hit. Damage is increased when targeting low Health enemies. Additionally, multiple Living Artilleries in a short period of time cause them to cost additional Mana.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1564a9f4cf196fb021278a874aafbadaa704fd24-800x800.png?accountingTag=WR",
+      "label": "LIVING ARTILLERY",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/fe27fcc17486630b3887d9ddcd5f01e13f8a5613.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b9a7f67a4ec4498b9b3106c18e3fe87890e5c118-1280x720.jpg?accountingTag=WR",
+      "label": "KOG'MAW, THE MOUTH OF THE ABYSS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b9a7f67a4ec4498b9b3106c18e3fe87890e5c118-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/af6e27d065c01b874f9fe50f0c942677ba26ba53-1280x720.jpg?accountingTag=WR",
+      "label": "SHAN HAI SCROLLS KOG'MAW",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/af6e27d065c01b874f9fe50f0c942677ba26ba53-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2025-12-05T16:00:00Z",
+  "hash": "687136c6efc841cc94eb85c663a611348912c2b23991db020e34ba6da59d6e8e"
+}

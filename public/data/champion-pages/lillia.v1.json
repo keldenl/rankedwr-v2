@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10135",
+  "riotSlug": "lillia",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lillia/",
+  "title": "LILLIA",
+  "subtitle": "The Bashful Bloom",
+  "roles": [
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/cfd3e6c886289bfcb6db7ccab4f0ca689b327382.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Hitting a champion or monster with a skill will deal additional max Health damage over time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bd7244df76f95238f9f6ec781e1fbf249c9dd43b-96x96.jpg?accountingTag=WR",
+      "label": "DREAM-LADEN BOUGH",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/61d44c5024e3fe67c373bea303700e115ecd829b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Passively, Lillia gains stacking Move Speed when hitting enemies with spells. She can activate this to deal magic damage to nearby enemies, dealing extra true damage on the edge.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/f3a762746fec467b0ebaa7c9bf2a7f57d84812dd-96x96.jpg?accountingTag=WR",
+      "label": "BLOOMING BLOWS",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d4dbb779456b49aff59a9dca1dbbd3e5056529e1.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Lillia deals damage in a nearby area, dealing heavy damage in the center.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/60be50808fa385ca3663c3a4ce47e87d62075fa6-96x96.jpg?accountingTag=WR",
+      "label": "WATCH OUT! EEP!",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d0739e4867425e1757ac342bcd114d4b87772564.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Lillia hurls a seed that damages and slows those it lands on. If it doesn't hit anything, it will continue rolling until it hits a wall or target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2ae87e42678bac86eec9856613156e5041a69e44-96x96.jpg?accountingTag=WR",
+      "label": "SWIRLSEED",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5ab7b80320a3e114e475080f74a373a71c1615ce.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Lillia causes all enemies with Dream Dust on them to become Drowsy before falling asleep. Those enemies will take extra damage on being forcibly woken up.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/93cc161152c99c252c5486b7585c2e89c173c40e-96x96.jpg?accountingTag=WR",
+      "label": "LILTING LULLABY",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/15bd7c4edaeb3ef4927129ddbb2d79880db6cbc7.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/073feacb6bcc5adb6e06b700a1a59315b6ce9589-1280x720.jpg?accountingTag=WR",
+      "label": "LILLIA, THE BASHFUL BLOOM",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/073feacb6bcc5adb6e06b700a1a59315b6ce9589-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/22b82b6ac80926917453e37fcc1d46679e6449ab-1280x720.jpg?accountingTag=WR",
+      "label": "SPIRIT BLOSSOM LILLIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/22b82b6ac80926917453e37fcc1d46679e6449ab-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ae419ebe170495941e2ad1cd4d4b970e4c3df068-1280x720.jpg?accountingTag=WR",
+      "label": "WINTERBLESSED LILLIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ae419ebe170495941e2ad1cd4d4b970e4c3df068-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f183d5f411b95a64f5d35b1080a15855e30d41a2-1280x720.jpg?accountingTag=WR",
+      "label": "NIGHTBRINGER LILLIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f183d5f411b95a64f5d35b1080a15855e30d41a2-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1e8498b7e5d30944837f1535894b1a16cba34adb-1280x720.jpg?accountingTag=WR",
+      "label": "COTTONTAIL LILLIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1e8498b7e5d30944837f1535894b1a16cba34adb-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/04b620b878aad77cff2a6a66e8bd0faaf85ab460-1280x720.jpg?accountingTag=WR",
+      "label": "WONDERTOWN LILLIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/04b620b878aad77cff2a6a66e8bd0faaf85ab460-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4ddb6acc62c54273906953e6ea23995bf587c3a4-1280x720.jpg?accountingTag=WR",
+      "label": "PETALS OF SPRING LILLIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4ddb6acc62c54273906953e6ea23995bf587c3a4-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2022-12-09T21:00:54Z",
+  "hash": "d2fdf4d0e202702bc97b27102b641258b7dd7bb391057804d32d7a54db8485d2"
+}

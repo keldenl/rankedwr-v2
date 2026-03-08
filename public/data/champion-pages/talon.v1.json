@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10128",
+  "riotSlug": "talon",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/talon/",
+  "title": "TALON",
+  "subtitle": "The Blade's Shadow",
+  "roles": [
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/407aa2fbe687679dfe949e8d019e8baa54126893.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Talon's spells Wound champions and large monsters, stacking up to 3 times. When Talon attacks a champion with 3 stacks of Wound, they bleed for heavy damage over time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8f6773f770de4b73bb319ef6aba99080bed479f2-96x96.jpg?accountingTag=WR",
+      "label": "BLADE'S END",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/43c26bb8f298679d20de2a834fdbaf84594f0c6d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Talon stabs the target unit. If they are within melee range, this attack deals critical damage. If they are outside melee range, Talon will leap at his target before stabbing them. Talon refunds some health and cooldown if this ability kills the target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/63b8e93ffe5ce66cc11d03b7b97c8f2b44541b4d-96x96.jpg?accountingTag=WR",
+      "label": "NOXIAN DIPLOMACY",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/72d3e96e4c36ab5c521053b187bd696fac806465.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Talon sends out a volley of daggers that then return back to him, dealing physical damage every time it passes through an enemy. The returning blades deal bonus damage and slow units hit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d5e5bf17767be08f54f37ba64585c7721575617e-96x96.jpg?accountingTag=WR",
+      "label": "RAKE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d1939b8111ae627d0d467a622940f8c9cec11869.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Talon vaults over any terrain or structure, up to a max distance. This ability has a low cooldown, but puts the used terrain on a long cooldown.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/208ed82bb7ef98fc51416bcf6dfa478961cc479e-96x96.jpg?accountingTag=WR",
+      "label": "ASSASSIN'S PATH",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/592d28dc1240adeb96afca414c6c9f48516975b7.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Talon disperses a ring of blades and becomes Invisible while gaining additional Move Speed. When Talon emerges from Invisibility, the blades converge on his location. Each time the blades move, Shadow Assault deals physical damage to enemies hit by at least one blade.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1b7bf6e1615eb09d9cb7494a8ed3101b6ff577ba-96x96.jpg?accountingTag=WR",
+      "label": "SHADOW ASSAULT",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d772bdf16842e8fea3977d125575a4ce46b5252b.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/061dccae83a5209dcce77909e9b6a3d70fd6f9f9-1280x720.jpg?accountingTag=WR",
+      "label": "TALON, THE BLADE'S SHADOW",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/061dccae83a5209dcce77909e9b6a3d70fd6f9f9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d7c6d82fcdb2b579ef03bded94af39c06f77f950-1280x720.jpg?accountingTag=WR",
+      "label": "HIGH NOON TALON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d7c6d82fcdb2b579ef03bded94af39c06f77f950-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4dca7c0dc7731b172005ea95f7f291a95194eb45-1280x720.jpg?accountingTag=WR",
+      "label": "ENDURING SWORD TALON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4dca7c0dc7731b172005ea95f7f291a95194eb45-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/aea5e8e7231b2a7a48a3aa4996bf595948993ef7-1280x720.jpg?accountingTag=WR",
+      "label": "Splendor Opus Talon",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/aea5e8e7231b2a7a48a3aa4996bf595948993ef7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ce967c6405b45223b47dacf97a6cecd0db029ce2-1280x720.jpg?accountingTag=WR",
+      "label": "STARGAZER TALON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ce967c6405b45223b47dacf97a6cecd0db029ce2-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/00f1502a339bf29f745e34c3d5165e83c00d355b-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE STARGAZER TALON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/00f1502a339bf29f745e34c3d5165e83c00d355b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e76af06afe2b4193dc8da29582e68e84d4047732-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGONBLADE TALON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e76af06afe2b4193dc8da29582e68e84d4047732-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2024-02-14T20:40:28Z",
+  "hash": "cd8cc3877689400135aa7098ff5cfeee4ffd82312f19a54977b333fc4d7f07ef"
+}

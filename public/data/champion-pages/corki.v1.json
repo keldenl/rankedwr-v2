@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10060",
+  "riotSlug": "corki",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/corki/",
+  "title": "CORKI",
+  "subtitle": "the Daring Bombardier",
+  "roles": [
+    "MARKSMAN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2a349e39c12637a380e3afaa2dd78a281ba9b7da.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "A percentage of Corki's basic attack damage is converted into magic damage. Corki can occasionally retrieve The Package inside his base, granting him movement speed and an empowered cast of Valkyrie.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d09485518c31e0d585787136ad28c9d60a8498c5-96x96.jpg?accountingTag=WR",
+      "label": "HEXTECH MUNITIONS",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fc6560b0e38471c571f4e8bf64d05bc9a1bb878e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Corki fires a flash bomb at a target location, dealing magic damage to enemies in the area. This attack additionally reveals units in the area for a duration.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/af69511c411057a1243622198ab68b2d61130fe1-96x96.jpg?accountingTag=WR",
+      "label": "PHOSPHORUS BOMB",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/afebac477759d81cf5204f9a89a37d650c2cd8d2.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Corki flies a short distance, dropping bombs that create a trail of fire that damages opponents who remain in it.\n\nSpecial Delivery: If Corki has The Package, the flight is longer, enemies are knocked aside and the zone slows and deals damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/b40c6c22d5a2f0f2b90b0056e4629ca8503daa94-96x96.jpg?accountingTag=WR",
+      "label": "VALKYRIE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ba9dedf33fb754902cc63c3c82e0444b9c6d12f3.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Corki's gatling gun rapidly fires in a cone towards his current target, dealing damage and reducing enemy Armor and Magic Resist.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/1c0f3cd441f305f77ba211595a796db7cab3e990-96x96.jpg?accountingTag=WR",
+      "label": "GATLING GUN",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4e0b55558f6de8d4fc4aaa7af21bf0540226350b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Corki fires a missile toward his target location that explodes on impact, dealing damage to enemies in an area. Corki stores missiles over time, up to a maximum. Every third missile fired will be a Big One, dealing extra damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/1ed44a286e69cccbea36d38fd19fa24c6d077768-96x96.jpg?accountingTag=WR",
+      "label": "MISSILE BARRAGE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/662ba490aff6226bd33c93484f9efa480de7a7ac.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/21c531273a7398b7227e8b2e71b26591d73a16a8-1280x720.jpg?accountingTag=WR",
+      "label": "CORKI, THE DARING BOMBARDIER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/21c531273a7398b7227e8b2e71b26591d73a16a8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/26593f47576894353b66015b62982d566efe74c2-1280x720.jpg?accountingTag=WR",
+      "label": "ARCADE CORKI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/26593f47576894353b66015b62982d566efe74c2-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/148c4bfc0190251d0ccd0a7da26b15d09582502e-1280x720.jpg?accountingTag=WR",
+      "label": "URFRIDER CORKI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/148c4bfc0190251d0ccd0a7da26b15d09582502e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e618f474adcdc675b8e4f5c36d17ddc0c835c40a-1280x720.jpg?accountingTag=WR",
+      "label": "Corgi Corki",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e618f474adcdc675b8e4f5c36d17ddc0c835c40a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2c31d21fe31da2ce528fa74ae624bf8f35f5cc48-1280x720.jpg?accountingTag=WR",
+      "label": "CHROMACRASH CORKI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2c31d21fe31da2ce528fa74ae624bf8f35f5cc48-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dee89b7067b0eee3a993d6c63adc50b8b33b2b5e-1280x720.jpg?accountingTag=WR",
+      "label": "Glorious Aigrette Corki",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dee89b7067b0eee3a993d6c63adc50b8b33b2b5e-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-01-26T23:10:24Z",
+  "hash": "7fd98712e298da9a09ccb6490eefe4160bf1771c465ab92295e4252f36dd2a55"
+}

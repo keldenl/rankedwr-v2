@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10069",
+  "riotSlug": "yone",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yone/",
+  "title": "YONE",
+  "subtitle": "The Unforgotten",
+  "roles": [
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8fcad7c9f795d652f950723673ca8923c130dada.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Yone deals magic damage with every second Attack. In addition, his critical strike chance is increased.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/1001c9a986072a7b3068d89041ebcb8866105529-96x96.jpg?accountingTag=WR",
+      "label": "WAY OF THE HUNTER",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9419b1021f06e8eb08339819f2a2632e33c9e86a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Thrusts forward, damaging all enemies in a line. On hit, grants a stack of Gathering Storm for a few seconds. At 2 stacks, Mortal Steel causes Yone to dash forward with a gust of wind, knocking enemies Airborne. Mortal Steel is treated as a basic Attack and scales with all the same things.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9dacef8906ecaf947565e253a07a0b0c9cba08e3-96x96.jpg?accountingTag=WR",
+      "label": "MORTAL STEEL",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/337f27a62aace45bdac063eceb76a8e9338fcd76.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Cleaves forward, damaging all enemies in a cone. Grants a shield to Yone. The shield's value is increased by the number of champions hit. Spirit Cleave's cooldown and cast time scale with Attack Speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/6ea22a3de8d677a4ad4e9c7b819f1a12ec794dea-96x96.jpg?accountingTag=WR",
+      "label": "SPIRIT CLEAVE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b6c892c0b1326ba7380411bc73dbd3f1933628c0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Yone's spirit leaves his body behind, gaining Move Speed. When this skill ends, Yone's spirit is forced back to his body and he repeats a portion of the damage he dealt as a spirit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/73b30a17ff9aeb330e30768e537b343f9ce76b2f-96x96.jpg?accountingTag=WR",
+      "label": "SOUL UNBOUND",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ee9ed1d3862cd249f7da86e099219a478d29124f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Yone blinks behind the last champion in a line with a slash so powerful it pulls all enemies hit towards him.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/742a75e2ef6eb9366d316d6e3d23da4be87eb183-96x96.jpg?accountingTag=WR",
+      "label": "FATE SEALED",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b7819d357a15436c7baed5edab6855a9c99f0d21.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/996d4d732c68f8059de5e82ad974fab1026f48a7-1280x720.jpg?accountingTag=WR",
+      "label": "YONE, THE UNFORGOTTEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/996d4d732c68f8059de5e82ad974fab1026f48a7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/25f52adedb3ca6e31c92683b9dc9f8995e30783d-1280x720.jpg?accountingTag=WR",
+      "label": "CRYSTAL ROSE YONE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/25f52adedb3ca6e31c92683b9dc9f8995e30783d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/88898ab6b9596e7c3a19e310c138315a5c1c4f98-1280x720.jpg?accountingTag=WR",
+      "label": "DAWNBRINGER YONE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/88898ab6b9596e7c3a19e310c138315a5c1c4f98-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2bee85831b4a0b668af3c6765e9b1d811003efbf-1280x720.jpg?accountingTag=WR",
+      "label": "SPIRIT BLOSSOM YONE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2bee85831b4a0b668af3c6765e9b1d811003efbf-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8ed3972cde9e15faea8a807def61c85fdf094466-1280x720.jpg?accountingTag=WR",
+      "label": "HEARTSTEEL YONE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8ed3972cde9e15faea8a807def61c85fdf094466-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/54bccb25ce8e4b6460115fbd82efbb61ba635eeb-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE HEARTSTEEL YONE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/54bccb25ce8e4b6460115fbd82efbb61ba635eeb-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/28a559dfaa320f5b9641c3dc116fe3f6f9cea155-1280x720.jpg?accountingTag=WR",
+      "label": "FIEND QUELLER YONE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/28a559dfaa320f5b9641c3dc116fe3f6f9cea155-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6e6bbee8c58825ddb3387b11e6634ac186b19651-1280x720.jpg?accountingTag=WR",
+      "label": "HIGH NOON YONE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6e6bbee8c58825ddb3387b11e6634ac186b19651-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e220b468dad818a37627ca0fd19ae6a72991107c-1280x720.jpg?accountingTag=WR",
+      "label": "PETALS OF SPRING YONE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e220b468dad818a37627ca0fd19ae6a72991107c-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2022-09-16T17:29:59Z",
+  "hash": "c42365633e375c78e3ea9ae7e92fbc4adaed5d20a1b1083de6715af29fa70b50"
+}

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10074",
+  "riotSlug": "maokai",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/maokai/",
+  "title": "MAOKAI",
+  "subtitle": "The Twisted Treant",
+  "roles": [
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/0fbd66e6f0f75e1725b84cefff33678bc5974470.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Maokai's basic attack also heals him and deals additional damage on a moderate cooldown. Each time Maokai casts a spell or is struck by an enemy's spell, this cooldown is reduced.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/163cccfcace22f88bd8b98d968795eb5426164d5-256x256.png?accountingTag=WR",
+      "label": "SAP MAGIC",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/debf32b49653060732122f1155e8ecc5a8946fbf.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Maokai knocks back nearby enemies with a shockwave, dealing magic damage and slowing them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/4209549d1a759cf019881bea7472e10de25433b0-256x256.jpg?accountingTag=WR",
+      "label": "BRAMBLE SMASH",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/509551ba7d279883005bf7f006e18cdebe4d0e08.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Maokai contorts into a mass of moving roots, becoming untargetable and dashing to the target. Upon arrival, he roots the target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/1229dc8ea14ddcaef25b843c15103da6cc05d9f7-256x256.jpg?accountingTag=WR",
+      "label": "TWISTED ADVANCE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/ad8f0e783c97503a4dcd39cd7a39905b3f666772.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Maokai flings a sapling to the target area to stand guard. More effective in brush.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/36b807ee7b8560c834750774bbd159c6211b8e5b-256x256.png?accountingTag=WR",
+      "label": "SAPLING TOSS",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a97b2095e63e53de0ed7d4f5067068aa22c09a0a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Maokai summons a colossal wall of brambles and thorns that slowly advances forwards, damaging and rooting any enemies in the path.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b25608e1fdeca2bbf14df9d0a139eb365b97dafe-256x256.png?accountingTag=WR",
+      "label": "NATURE'S GRASP",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/224357dc25bd4f090626ad592657db98072e52fb.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0067f5bcafdb71002a5a91b9b89307dac5ff7421-1280x720.jpg?accountingTag=WR",
+      "label": "MAOKAI, THE TWISTED TREANT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0067f5bcafdb71002a5a91b9b89307dac5ff7421-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6635c2cf4085fba7d38e3aaa472c5d840577fb1d-1280x720.jpg?accountingTag=WR",
+      "label": "MEOWKAI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6635c2cf4085fba7d38e3aaa472c5d840577fb1d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/60fd6225b81899c56d53a8a44567fb1c70846aff-1920x1080.jpg?accountingTag=WR",
+      "label": "MECHA MAOKAI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/60fd6225b81899c56d53a8a44567fb1c70846aff-1920x1080.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2024-06-10T22:35:10Z",
+  "hash": "6a9018659f9e181bec5736e72ad0b19cf3f9ef0b111cd2dd967801fcb494e5fc"
+}

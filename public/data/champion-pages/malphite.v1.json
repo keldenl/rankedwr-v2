@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10083",
+  "riotSlug": "malphite",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/malphite/",
+  "title": "MALPHITE",
+  "subtitle": "Shard of the Monolith",
+  "roles": [
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c53aa61c66a0afee5ff012bace6adeed3dc0efa0.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Malphite is shielded by a layer of rock which absorbs damage up to 10% of his maximum Health. If Malphite has not been hit for 8 seconds, this effect recharges.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e91dc58fadccfba5d58809141220e533096c8cdd-96x96.jpg?accountingTag=WR",
+      "label": "Granite Shield",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c0f48a68e3c6ff7bf4319a0cd4a5cd11388a4610.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Using his primal elemental magic, Malphite sends a shard of the earth through the ground at his foe, dealing damage upon impact and stealing Movement Speed for 3 seconds.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/4ab3350c224b9ee23ab180eef8e348ab7fb7ba40-96x96.jpg?accountingTag=WR",
+      "label": "Seismic Shard",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b0cdb6939d23af04a8cb9ca2c8efed24c6b1b33e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Malphite passively gains armor. When Malphite activates Thunderclap, he attacks with such force that it creates a sonic boom. For the next few seconds, his attacks create aftershocks in front of him.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/f97f4c5499058532ef900a742f47b5acfc5fcf8f-96x96.jpg?accountingTag=WR",
+      "label": "Thunderclap",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/78050154ebf275e298b32bfc69fd55c18eb32c86.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Malphite slams the ground, sending out a shockwave that deals magic damage based on his Armor as damage and reduces the Attack Speed of enemies for a short duration.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/64f5c5dacc57a665ebfaf6bf6f64051863b40a6e-96x96.jpg?accountingTag=WR",
+      "label": "Ground Slam",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c22ce4986b3d4c2e70f33e7c17c695e28f253829.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Malphite ferociously charges to a location, damaging enemies and knocking them into the air.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7c1d88cdfa246cc355177211576045acd754acc4-96x96.jpg?accountingTag=WR",
+      "label": "Unstoppable Force",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ecb634815030e7fa0277ae404cbfd21c462ca990.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f82ce98f43caa4dd73e996313ad40eeda380a442-1280x720.jpg?accountingTag=WR",
+      "label": "MALPHITE, SHARD OF THE MONOLITH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f82ce98f43caa4dd73e996313ad40eeda380a442-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/998c54daa9588f3fce1d8acb4f03ed3a680811d7-1280x720.jpg?accountingTag=WR",
+      "label": "GLACIAL MALPHITE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/998c54daa9588f3fce1d8acb4f03ed3a680811d7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/73895da3d2cc6bba8b88e62ceb76204027be18aa-1280x720.jpg?accountingTag=WR",
+      "label": "IRONSIDE MALPHITE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/73895da3d2cc6bba8b88e62ceb76204027be18aa-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fa1fa063f3bd4c537e797e1e95985d2174693d2e-1280x720.jpg?accountingTag=WR",
+      "label": "Mecha Malphite",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fa1fa063f3bd4c537e797e1e95985d2174693d2e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1c397686770d08d437c50504f2b4184fe0c7fd3c-1280x720.jpg?accountingTag=WR",
+      "label": "Obsidian Malphite",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1c397686770d08d437c50504f2b4184fe0c7fd3c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9748a9069a16796fe3ec6b5bc1c00e18ad7ed30c-1280x720.jpg?accountingTag=WR",
+      "label": "Garden Party Malphite",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9748a9069a16796fe3ec6b5bc1c00e18ad7ed30c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c0cd18503783d7ce14c9a99eaac009cd05fe4417-1280x720.jpg?accountingTag=WR",
+      "label": "Garden Party Malphite Mythic Chroma",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c0cd18503783d7ce14c9a99eaac009cd05fe4417-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:44:36Z",
+  "hash": "2d97e598917a53da4a3ff16d17e39f254e7997d17f94b66414bb38e6643211c8"
+}

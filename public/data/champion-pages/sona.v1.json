@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10047",
+  "riotSlug": "sona",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sona/",
+  "title": "SONA",
+  "subtitle": "Maven of the Strings",
+  "roles": [
+    "SUPPORT",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/06d3ab8900153612cceb4f7f8eed978683d22c5a.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "After 3 spell casts, Sona's next attack will deal bonus magic damage and stun the target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/7e52dfb8a130ad06948717decbafa02599686979-96x96.jpg?accountingTag=WR",
+      "label": "Power Chord",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/40ac094e61e19a2d340e4b5f02e8fc623ce729b2.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Sona plays the Hymn of Valor, sends out bolts of sound, dealing magic damage to two nearby enemies, prioritizing champions and monsters. Sona gains a temporary aura that grants allies tagged by the zone bonus damage on their next attack against enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/738af7b5914e01e554545c8492d9c7a9cc20f19e-96x96.jpg?accountingTag=WR",
+      "label": "Hymn of Valor",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f419ee27aa66031627323aebd2692c3488293ca3.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Sona plays the Aria of Perseverance, sending out protective melodies, healing Sona and a nearby wounded ally. Sona gains a temporary aura that grants allies tagged by the zone a temporary shield.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/567b420b26e3b99c32b7601f71b75833c113be65-96x96.jpg?accountingTag=WR",
+      "label": "Aria of Perseverance",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/30e25a71c9ba8ef1ceddd30cb9176045e071c265.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Sona plays the Song of Celerity, granting nearby allies bonus Movement Speed. Sona gains a temporary aura that grants allied champions tagged by the zone bonus Movement Speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/021f6518254f8c65902a506128f916170a35b09c-96x96.jpg?accountingTag=WR",
+      "label": "Song of Celerity",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/050b87e5c814ce56dd9690ffc8c1ea5e757ae0cd.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Passive: Sona’s halo strengthens, providing higher buffs. Sona’s ultimate chord advances slowly to the target point, dealing damage on its way. Every enemy hit for the first time is stunned.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/bd3c54c2e782f14be6fa8d2240fca3158966c4da-96x96.jpg?accountingTag=WR",
+      "label": "Crescendo",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/367e5d97ea69c301d11c43306d63621d6d75208d.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6560d1f55adc0269afc48d436b71ce487dc8f566-1280x720.jpg?accountingTag=WR",
+      "label": "SONA, MAVEN OF THE STRINGS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6560d1f55adc0269afc48d436b71ce487dc8f566-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d4bdcc6d88ef582da6539b606fa06615b9035975-1280x720.jpg?accountingTag=WR",
+      "label": "PENTAKILL SONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d4bdcc6d88ef582da6539b606fa06615b9035975-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dc004b75d18ca5dcce54bcf2988e15ac6a9ca090-1280x720.jpg?accountingTag=WR",
+      "label": "MUSE SONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dc004b75d18ca5dcce54bcf2988e15ac6a9ca090-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9c3e276c871c7371b245af737b39f1d3a39ee032-1280x720.jpg?accountingTag=WR",
+      "label": "SWEETHEART SONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9c3e276c871c7371b245af737b39f1d3a39ee032-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/46f89788524e5401b21df8326fd7020e463d64e0-1280x720.jpg?accountingTag=WR",
+      "label": "ARCADE SONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/46f89788524e5401b21df8326fd7020e463d64e0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7b2ef66923be318e473e7f57d2b25f3f21372228-1280x720.jpg?accountingTag=WR",
+      "label": "CRYSTAL ROSE SONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7b2ef66923be318e473e7f57d2b25f3f21372228-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d99ecf50741d109ac836c13834ae622401607c3a-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN SONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d99ecf50741d109ac836c13834ae622401607c3a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ac85885d04c7d1e845d856891e21b25ce23400fa-1280x720.jpg?accountingTag=WR",
+      "label": "GUQIN SONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ac85885d04c7d1e845d856891e21b25ce23400fa-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4384d688c2b474cfff03e89aea48810260baf65d-1280x720.jpg?accountingTag=WR",
+      "label": "STARGAZER SONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4384d688c2b474cfff03e89aea48810260baf65d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/67627978cf6bc1c5ad6f5285da5a65ab87710c46-1280x720.jpg?accountingTag=WR",
+      "label": "CALLIGRAPHIA  SONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/67627978cf6bc1c5ad6f5285da5a65ab87710c46-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:48:43Z",
+  "hash": "eaa27997f7cf4390841af710a5daf59bda99fb1d2e1cdf0b0d94da855691d86c"
+}

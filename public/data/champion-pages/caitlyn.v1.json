@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10112",
+  "riotSlug": "caitlyn",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/caitlyn/",
+  "title": "CAITLYN",
+  "subtitle": "the Sheriff of Piltover",
+  "roles": [
+    "MARKSMAN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c7c9e7b12b5fdca1d74dd5e01e542e72ac70929a.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Every few basic attacks, or against a target she has trapped or netted, Caitlyn will fire a headshot dealing bonus damage that scales with her critical strike chance. On trapped or netted targets, Caitlyn's Headshot attack range is doubled.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/615ecd9e9f576fd330756bd380934d9bc2b65a1b-96x96.jpg?accountingTag=WR",
+      "label": "HEADSHOT",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/044e6404fced0f5050da599ed468e18df9c8afe3.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Caitlyn revs up her rifle for 1 second to unleash a penetrating shot that deals physical damage (deals less damage to subsequent targets).",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6285bb59b7abe7561f222c8b819113225e917864-96x96.jpg?accountingTag=WR",
+      "label": "PILTOVER PEACEMAKER",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f7f4dc1d0403917b0fe3e9168f03fbeac9e4e765.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Caitlyn sets a trap to find sneaky yordles. When sprung, the trap reveals and immobilizes the enemy champion for brief period, granting Caitlyn an empowered Headshot.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3a7fa9f660cd112bd587aa22d3aa3252f4329e79-96x96.jpg?accountingTag=WR",
+      "label": "YORDLE SNAP TRAP",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/524c25d83bd9f93acbcd2b2d4386df68dc83d7a5.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Caitlyn fires a heavy net to slow her target. The recoil knocks Caitlyn back.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0906295e23c34a119e27fbd5c95d2455395672fa-96x96.jpg?accountingTag=WR",
+      "label": "90 CALIBER NET",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2bb5cb8fbac236c38590d9adbdf20fbf68bdc66a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Caitlyn takes time to line up the perfect shot, dealing massive damage to a single target at a huge range. Enemy champions can intercept the bullet for their ally.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/801861e397d864a0686e720ff209bd810886aa2c-96x96.jpg?accountingTag=WR",
+      "label": "ACE IN THE HOLE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a6aa8559fdb3bbb4db73b5d4a64170fa8596fb9d.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9c80cfbaab7aff651b98068d7ae5f091045bb248-1280x720.jpg?accountingTag=WR",
+      "label": "CAITLYN, THE SHERIFF OF PILTOVER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9c80cfbaab7aff651b98068d7ae5f091045bb248-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/477bf7fb942808a9da059ae409554643c7139816-1280x720.jpg?accountingTag=WR",
+      "label": "HEADHUNTER CAITLYN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/477bf7fb942808a9da059ae409554643c7139816-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/72b787c77c985fba2fe544223df75ea5df9ba208-1280x720.jpg?accountingTag=WR",
+      "label": "Pool Party Caitlyn",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/72b787c77c985fba2fe544223df75ea5df9ba208-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dca98c3c445ce1d9ca501c07ef64f3c84aa41376-1280x720.jpg?accountingTag=WR",
+      "label": "Mythmaker Caitlyn",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dca98c3c445ce1d9ca501c07ef64f3c84aa41376-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ec6d38bbf14f4bdb7e7fe44e18e41ad22b25fb8b-1280x720.jpg?accountingTag=WR",
+      "label": "MYTHMAKER CAITLYN (SPECIAL EDITION)",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ec6d38bbf14f4bdb7e7fe44e18e41ad22b25fb8b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0da72193edfd242ea510f317138a565bc59aa9bc-1280x720.jpg?accountingTag=WR",
+      "label": "PULSEFIRE CAITLYN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0da72193edfd242ea510f317138a565bc59aa9bc-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8a69d61899539786d5c97cb5d636d72ff319fa04-1280x720.jpg?accountingTag=WR",
+      "label": "BATTLE ACADEMIA CAITLYN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8a69d61899539786d5c97cb5d636d72ff319fa04-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/839faac7b2f4ff959bd76cb686fc9088a0b6c4ae-1280x720.jpg?accountingTag=WR",
+      "label": "ARCADE CAITLYN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/839faac7b2f4ff959bd76cb686fc9088a0b6c4ae-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b1b566f2871540bc0cb32927efbe80b54ccd0c2f-1280x720.jpg?accountingTag=WR",
+      "label": "CRYSTAL ROSE CAITLYN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b1b566f2871540bc0cb32927efbe80b54ccd0c2f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/68efb9efbc5fb2db4c306ceea8dc2b978ac4c220-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE SELECT CRYSTAL ROSE CAITLYN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/68efb9efbc5fb2db4c306ceea8dc2b978ac4c220-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/adf52add34e28bb181d3191ce399db9aebcd93d3-1280x720.jpg?accountingTag=WR",
+      "label": "LOVE CONFESSION CAITLYN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/adf52add34e28bb181d3191ce399db9aebcd93d3-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-11-03T07:31:32Z",
+  "hash": "96fbe774732d23b7114e5e2a30a19046de456eeefcab987b837e88adb6700fea"
+}

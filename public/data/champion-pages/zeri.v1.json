@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10067",
+  "riotSlug": "zeri",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zeri/",
+  "title": "ZERI",
+  "subtitle": "THE SPARK OF ZAUN",
+  "roles": [
+    "MARKSMAN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bfbeef0ecfabd557206f659790a64c10962fda37.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Zeri gains Move Speed whenever she receives a shield. When she damages an enemy shield she absorbs its energy, shielding herself.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ae2ee36768555f3c9a6ba35b1abc7d110e6ef2a7-96x96.jpg?accountingTag=WR",
+      "label": "LIVING BATTERY",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6d78a549695038358fa978488fa6730741cbe780.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Zeri fires a burst of rounds that deals physical damage to the first enemy hit. There is a cap on the Attack Speed and bonus Attack Speed will be converted into Attack Damage; when actively cast, a lightning bolt will be fired, dealing magic damage and a slow.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/ddc82f059214d82338a4c39561dc13545e621e3c-96x96.jpg?accountingTag=WR",
+      "label": "BURST FIRE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/afefe4cd98e7ea73ff1fe91563023c25bf2c8e95.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Zeri fires an electric pulse that slows and damages the first enemy hit. If the pulse hits a wall it expands into a long range laser.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/85fa4709f7b287261c7f4247b3862e5195a7002b-96x96.jpg?accountingTag=WR",
+      "label": "ULTRASHOCK LASER",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0fa58d060b4dacf01e76a9b9da1174d11da618f0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Zeri dashes a short distance and energizes her next 3 shots of Burst Fire, causing them to pierce through enemies. She will vault and grind over any terrain she touches.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/82343bfc9f5670ed5c926c46ef0ffc8a4b6fea1f-96x96.jpg?accountingTag=WR",
+      "label": "SPARK SURGE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/511ceb7a908dfd7c73664613ce04a4635c07357a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Zeri discharges a nova of electricity and overcharges herself, gaining increased damage and stacking Move Speed that refreshes and gets stronger every time she hits an enemy champion. While overcharged, Burst fire becomes a faster triple shot that chains lightning between enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f56d8327ca38ea2015244678275176b55b10664b-96x96.jpg?accountingTag=WR",
+      "label": "LIGHTNING CRASH",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3471fa08fc9dae7ab554421120100a860c034417.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f796f3c8e05ec1bde0806c091ca2a5b5cd71acc5-1280x720.jpg?accountingTag=WR",
+      "label": "ZERI, THE SPARK OF ZAUN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f796f3c8e05ec1bde0806c091ca2a5b5cd71acc5-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/85205a39f6716bb4c647e6ff7d032dcbc0599494-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT ZERI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/85205a39f6716bb4c647e6ff7d032dcbc0599494-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cd76388537beecdb294662ceaa8dddf214901bd3-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGON LANTERN ZERI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cd76388537beecdb294662ceaa8dddf214901bd3-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b34a7b86c21b4e94606c606fa754fb532ed15252-1280x720.jpg?accountingTag=WR",
+      "label": "OCEAN SONG ZERI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b34a7b86c21b4e94606c606fa754fb532ed15252-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0b6c5950f12fa5a45c3734a0ef339b733749e6fe-1280x720.jpg?accountingTag=WR",
+      "label": "CHROMACRASH ZERI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0b6c5950f12fa5a45c3734a0ef339b733749e6fe-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4663cd7d0d62a985b730bdfd03483231fb737690-1280x720.jpg?accountingTag=WR",
+      "label": "BATTLE SQUIRREL ZERI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4663cd7d0d62a985b730bdfd03483231fb737690-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2023-02-14T23:07:37Z",
+  "hash": "d659dee7508f422bbddf032d18342d1e1fa57a740ca8b9efe82154c16eca55f0"
+}

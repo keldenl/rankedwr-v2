@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10151",
+  "riotSlug": "nocturne",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nocturne/",
+  "title": "NOCTURNE",
+  "subtitle": "THE ETERNAL NIGHTMARE",
+  "roles": [
+    "FIGHTER",
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/0ab12f4af4383831b190ed1b52a537476c90174b.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Every few seconds, Nocturne's next attack strikes surrounding enemies for bonus physical damage and heals himself. Nocturne's basic attacks reduce this cooldown.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c1a4425d2f2149c5b96e1417b64360a62c9b4fd2-256x256.png?accountingTag=WR",
+      "label": "UMBRA BLADES",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/bc7d9aa642319c05658d05ea0f48c9d940ffb7e8.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Nocturne throws a shadow blade that deals damage, leaves a Dusk Trail, and causes champions to leave a Dusk Trail. While on the trail, Nocturne can move through units and has increased Move Speed and Attack Damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b74f5ca63bd27b4e53d5a7fcb66e158a522608b3-256x256.png?accountingTag=WR",
+      "label": "DUSKBRINGER",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/bbb1a16e22a558ca69a9a3c84bc89d0c5e484282.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Nocturne empowers his blades, passively gaining Attack Speed. Activating Shroud of Darkness allows Nocturne to fade into the shadows, creating a magical barrier which blocks a single enemy ability and doubles his passive Attack Speed if successful.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8bc13c5453326b5bf1a589c61f626cefb706d17a-256x256.png?accountingTag=WR",
+      "label": "SHROUD OF DARKNESS",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/b08d3dd834e401db9f9fd5bdc20d46e903b44d98.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Nocturne plants a nightmare into his target's mind, dealing damage each second and applying fear to the target if they do not get out of range by the end of the duration.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/aa575f463cba60382e395a1af55fbc1c30916e09-256x256.png?accountingTag=WR",
+      "label": "UNSPEAKABLE HORROR",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a9dd1ec96ab645a230f419bcd7eafe6cb001dffd.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Nocturne reduces the sight radius of all enemy champions and removes their ally vision in the process. He can then launch himself at a nearby enemy champion.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/16b159ca0e703ce615826b2805999712abfb4f72-256x256.png?accountingTag=WR",
+      "label": "PARANOIA",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/75923fbd6b0c2d38529d2fab6fd728bdd2232c44.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3e09eefe784ae25e9d48bbf731787d499101c20a-1280x720.jpg?accountingTag=WR",
+      "label": "NOCTURNE, THE ETERNAL NIGHTMARE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3e09eefe784ae25e9d48bbf731787d499101c20a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/eb49c44d9ddce307c02bddd9ccd3463dbf730fcc-1280x720.jpg?accountingTag=WR",
+      "label": "MECHA NOCTURNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/eb49c44d9ddce307c02bddd9ccd3463dbf730fcc-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2025-05-09T11:41:17Z",
+  "hash": "f2fe95b17737cecf75d8c297b70825448429ff4005a0f7d93528ceae0fc5dbc4"
+}

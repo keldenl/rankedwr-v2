@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10004",
+  "riotSlug": "amumu",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/amumu/",
+  "title": "AMUMU",
+  "subtitle": "the Sad Mummy",
+  "roles": [
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/88843e79505dfa6a6c843d5dfc48bafef3dc8021.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Amumu's basic attacks Curse his enemies, causing them to take bonus true damage from incoming magic damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/05075a2bfe7f8d885be0e9237738c055dcd4e4b1-96x96.jpg?accountingTag=WR",
+      "label": "Cursed Touch",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/87a6b65b507ca624ff7250c771c45e0bbf702e3c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Amumu tosses a sticky bandage at a target, stunning and damaging the target while he pulls himself to them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/72c747828b9206739fe60fb4653341df0ab3df12-96x96.jpg?accountingTag=WR",
+      "label": "Bandage Toss",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8773ff4582a5c00b2c8e5434880e6ef5bfadb0cc.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Overcome by anguish, nearby enemies lose a percentage of their maximum Health each second and have their Curses refreshed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/01fccf6c11aee0d7b5a4602fd3c2c6ed5591ab62-96x96.jpg?accountingTag=WR",
+      "label": "Despair",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0d27d99621ae0f31c64e5fb3f984bd50d754779c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Permanently reduces the physical damage Amumu would take. Amumu can unleash his rage, dealing damage to surrounding enemies. Each time Amumu is hit, the cooldown on Tantrum is reduced by 0.5 seconds.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/38640333263d6002d9b1911ec7eda5f742e3ea33-96x96.jpg?accountingTag=WR",
+      "label": "Tantrum",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/52cb70f47fa0396b440d1538cfe4be5315ba4340.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Amumu entangles surrounding enemy units in bandages, applying his Curse, damaging them and rendering them unable to attack or move.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7a597597108f944a0001191562201d85e31e895c-96x96.jpg?accountingTag=WR",
+      "label": "Curse of the Sad Mummy",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d520b2037c623708b2a3272dcbf8c3a46be0f0d6.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6f8bd0e7450c89235ab6ae05c79b09e2bbc8d253-1280x720.jpg?accountingTag=WR",
+      "label": "AMUMU, THE SAD MUMMY",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6f8bd0e7450c89235ab6ae05c79b09e2bbc8d253-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/68dbc633c007e6e4b4efcf9b6ff38e5de1753df9-1280x720.jpg?accountingTag=WR",
+      "label": "INFERNAL AMUMU",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/68dbc633c007e6e4b4efcf9b6ff38e5de1753df9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6fbd968a7a3802f3ca59607fd9e6066105495f24-1280x720.jpg?accountingTag=WR",
+      "label": "LITTLE KNIGHT AMUMU",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6fbd968a7a3802f3ca59607fd9e6066105495f24-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c542d1b392ec8b518b1b1ae7d104e03c91454aa9-1280x720.jpg?accountingTag=WR",
+      "label": "SAD ROBOT AMUMU",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c542d1b392ec8b518b1b1ae7d104e03c91454aa9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/244f1ff042a4d9a2d7a18bbd386a94087185143f-1280x720.jpg?accountingTag=WR",
+      "label": "Surprise Party Amumu",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/244f1ff042a4d9a2d7a18bbd386a94087185143f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/26475e5b9a0baf4230973fcb3325d531059a73a6-1280x720.jpg?accountingTag=WR",
+      "label": "Food Spirits Amumu",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/26475e5b9a0baf4230973fcb3325d531059a73a6-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:03:09Z",
+  "hash": "ba0d1a4787855efbbe6d842fcc77e9da9e570f9fa064c76558aae92f8bae2366"
+}

@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10055",
+  "riotSlug": "camille",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/camille/",
+  "title": "CAMILLE",
+  "subtitle": "the Steel Shadow",
+  "roles": [
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/41c0b66707eef22ab8ac307c3337afce92a7ccef.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Basic attacks on champions grant a shield equal to 20% of Camille's maximum health against their damage type (Physical or Magic) for a brief duration.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b51cc6aaacdd38ee84079be50413dbe0b9f67c57-96x96.jpg?accountingTag=WR",
+      "label": "Adaptive Defenses",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/90e5351570d4b0628fc516f9841bd74ecfdf0abb.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Camille's next attack deals bonus damage and grants bonus movement speed. This spell can be recast for a short period of time, doing significantly increased bonus damage if Camille delays a period of time between the two attacks.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/3ef87839c3a4e01f2df0a47cf1d5969c1768a307-96x96.jpg?accountingTag=WR",
+      "label": "Precision Protocol",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8eb3aa80ed1e3dcb254a097f4605e4061f572cd0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Camille blasts in a cone after a delay, dealing damage. Enemies in the outer half are slowed and take extra damage, while also healing Camille.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7594e00d2aebe3a0952e8e550530cc7c02f96c79-96x96.jpg?accountingTag=WR",
+      "label": "Tactical Sweep",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/37feb165431f392959c203b80691621b6122af1e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Camille pulls herself to a wall, leaping off and knocking up enemy champions upon landing.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/728dc4a57ae6279ed0f3f9660912e57ea2415663-96x96.jpg?accountingTag=WR",
+      "label": "Hookshot",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4c5b4b81ec3d1f1bb1c3d008bf0ddc11847ae3fd.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Camille dashes to target champion, anchoring them to the area, and knocking away other enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b52799e214bf49b2cacd9cc09dc1a5f06eeb335d-96x96.jpg?accountingTag=WR",
+      "label": "The Hextech Ultimatum",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8cc5666db6cb09ca55ca0406f77c19e870e81e80.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/08eeae3af22909d8816ebfc7077f581bb866ece7-1280x720.jpg?accountingTag=WR",
+      "label": "CAMILLE, THE STEEL SHADOW",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/08eeae3af22909d8816ebfc7077f581bb866ece7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0ac3e3de817bc48189f39d22be258976458059b4-1280x720.jpg?accountingTag=WR",
+      "label": "PROGRAM CAMILLE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0ac3e3de817bc48189f39d22be258976458059b4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dbc54a0e68f60730b6c5e22264561df8ef198a05-1280x720.jpg?accountingTag=WR",
+      "label": "COVEN CAMILLE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dbc54a0e68f60730b6c5e22264561df8ef198a05-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/62542010e78f38af0634d22fded09d192ddb750c-1280x720.jpg?accountingTag=WR",
+      "label": "STARGAZER CAMILLE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/62542010e78f38af0634d22fded09d192ddb750c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0a2897b6b823d039cf433bfb0664bff00029668c-1280x720.jpg?accountingTag=WR",
+      "label": "MYTHMAKER CAMILLE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0a2897b6b823d039cf433bfb0664bff00029668c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8f442cbf697c34fbc2d982f365c781fc359fe62c-1280x720.jpg?accountingTag=WR",
+      "label": "FIEND QUELLER CAMILLE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8f442cbf697c34fbc2d982f365c781fc359fe62c-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:05:52Z",
+  "hash": "98ea1bf41ef94d7293a009ed797432c387a80e556cd4792775e9d5e292e86527"
+}

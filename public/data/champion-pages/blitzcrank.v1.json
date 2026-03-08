@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10033",
+  "riotSlug": "blitzcrank",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/blitzcrank/",
+  "title": "BLITZCRANK",
+  "subtitle": "the Great Steam Golem",
+  "roles": [
+    "TANK",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e2e360385d5827a07f0ec2cf727db51cad90eb52.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Blitzcrank gains a shield based on his mana when dropping to low health.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4df4393cd54bcddd5c7944d5caf52ef42eef11ae-96x96.jpg?accountingTag=WR",
+      "label": "Mana Barrier",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0dd20e73c2d6c2aa6bb9005fc60acadd28cb5364.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Blitzcrank fires his right hand to grab an opponent on its path, dealing damage and dragging it back to him.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f76239e49408c780ab3a8607acd3dc7124f23765-96x96.jpg?accountingTag=WR",
+      "label": "Rocket Grab",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/25d0bf0eeea05843a09590f925cccc349baceecd.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Blitzcrank super charges himself to get dramatically increased Movement and Attack Speed. He is temporarily slowed after the effect ends.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9d9aee1c960fc63b0ff813a90d9286c8d6544bc1-96x96.jpg?accountingTag=WR",
+      "label": "Overdrive",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/950e1ba499f61e45f6a039d00a7572f984659cbe.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Blitzcrank charges up his fist to make his next attack critically strike and pop his target up in the air.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c25a81506f06657095434a9d6592c76fa6f0b6bb-96x96.jpg?accountingTag=WR",
+      "label": "Power Fist",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bff523bf66c021ebcd08b63673d90e385c913aaa.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Enemies attacked by Blitzcrank are marked and take lightning damage after 1 second. Additionally, Blitzcrank can activate this ability to damage nearby enemies, and silence them briefly.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f8bc034f9655eacf2d3972753369b0d782752a3e-96x96.jpg?accountingTag=WR",
+      "label": "Static Field",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d7b8200d4d5bcf89cd0ac5419f3e361286f6af74.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6488133b65b49ab922dbb32c5c31fbaac0d7133a-1280x720.jpg?accountingTag=WR",
+      "label": "BLITZCRANK, THE GREAT STEAM GOLEM",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6488133b65b49ab922dbb32c5c31fbaac0d7133a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d35c61e076a1cf61e9939db37ccf5d0e9f3e8448-1280x720.jpg?accountingTag=WR",
+      "label": "BATTLE BOSS BLITZCRANK",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d35c61e076a1cf61e9939db37ccf5d0e9f3e8448-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/9d940804825c64fe0b35fbb5b8b34984b6d69cf3-1280x720.jpg?accountingTag=WR",
+      "label": "BOOM BOOM BLITZCRANK",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/9d940804825c64fe0b35fbb5b8b34984b6d69cf3-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7078633b042daa802c10a8ef1a0294093d9c4043-1280x720.jpg?accountingTag=WR",
+      "label": "iBlitzcrank",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7078633b042daa802c10a8ef1a0294093d9c4043-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d96df9eb83a276693f1e6246d52785c7882df5b0-1280x720.jpg?accountingTag=WR",
+      "label": "Cottontail Blitzcrank",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d96df9eb83a276693f1e6246d52785c7882df5b0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bd6267826f606b302c808fb80a727b5197abf2a3-1280x720.jpg?accountingTag=WR",
+      "label": "SPACE GROOVE BLITZCRANK",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bd6267826f606b302c808fb80a727b5197abf2a3-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:04:56Z",
+  "hash": "0addb800f528f0dfa733aebcbdc03fd559b7c513acdf51af02302d9ea435d2c9"
+}

@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10102",
+  "riotSlug": "urgot",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/urgot/",
+  "title": "URGOT",
+  "subtitle": "THE DREADNOUGHT",
+  "roles": [
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/26c11f21d932a454bac075fe508142149b45ac2d.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Urgot's basic attacks and Purge periodically trigger blasts of flame from his legs, dealing physical damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/40d2ff0fadbdcfcdffeb6eba58c89fcdf708d4c9-96x96.jpg?accountingTag=WR",
+      "label": "ECHOING FLAMES",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/b3a7df81078fbf00baa3678d7b2e514dda9f5612.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Fires an explosive charge at the target location, dealing physical damage and slowing enemies caught in the explosion.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f2682df49b4155d0144a57f21c8812b0d358e61b-96x96.jpg?accountingTag=WR",
+      "label": "CORROSIVE CHARGE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/5c217667913d1264e3ca1ecad1b18fc33a605009.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Urgot slows himself while he unloads his weapon on nearby enemies. Prioritizes enemy champions Urgot has recently struck with other abilities and triggers Echoing Flames.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/3772fdd8ed3b85c9044ff3edb406bdaba58e2fde-96x96.jpg?accountingTag=WR",
+      "label": "PURGE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/0f8784dbad8fbb533ebd0e708afc450a9d5e70ef.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Urgot charges in a direction, shielding himself and trampling non-champion enemies. If he catches an enemy champion, he will stop and hurl them out of his way.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/452a804bf55ae9b8ea623652ca39c5023a69f39e-96x96.jpg?accountingTag=WR",
+      "label": "DISDAIN",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/733085767967e38e54b4425b8f1dac085d6c709a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Urgot fires a chem-drill that impales the first enemy champion hit. If that champion falls below a health threshold, Urgot judges them weak and can execute them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/eca38c2679bde1bf6944dd545b4a40b23f9e5e9e-96x96.jpg?accountingTag=WR",
+      "label": "FEAR BEYOND DEATH",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/5330323dc9369750b02cbdf71bafe1f3a8dec055.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5fea00bed10d24becc8cd2bae09f3e7a24bbd91e-1280x720.jpg?accountingTag=WR",
+      "label": "URGOT, THE DREADNOUGHT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5fea00bed10d24becc8cd2bae09f3e7a24bbd91e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c504da6d237efb08949d208d76cefb2001b6ab35-1280x720.jpg?accountingTag=WR",
+      "label": "HIGH NOON URGOT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c504da6d237efb08949d208d76cefb2001b6ab35-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6046d39e991deebb43b22ff24231b12435197151-1280x720.jpg?accountingTag=WR",
+      "label": "MECHA URGOT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6046d39e991deebb43b22ff24231b12435197151-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ce8d65262a376b3041fe1b2c2119be47d9c83c1a-1280x720.jpg?accountingTag=WR",
+      "label": "PAJAMA GUARDIAN COSPLAY URGOT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ce8d65262a376b3041fe1b2c2119be47d9c83c1a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/202890954c5b7acad3d641e15543cfea859dec22-1280x720.jpg?accountingTag=WR",
+      "label": "BATTLECAST URGOT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/202890954c5b7acad3d641e15543cfea859dec22-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2023-03-10T03:07:18Z",
+  "hash": "f722853e082a22d1bb30d2d68d65cb07da4c8550916337b27f20827c63e26dad"
+}

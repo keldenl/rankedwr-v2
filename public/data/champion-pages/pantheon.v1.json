@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10030",
+  "riotSlug": "pantheon",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/pantheon/",
+  "title": "PANTHEON",
+  "subtitle": "the Unbreakable Spear",
+  "roles": [
+    "FIGHTER",
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/f21107b8cde46059231cd16abba07b11b0812c34.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Every few spells or attacks, Pantheon's next spell is empowered.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d8edeb2027d59bf58c22269eb9f824751a88762a-96x96.jpg?accountingTag=WR",
+      "label": "MORTAL WILL",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/6034a3205726b25d846d394d40493cc93d220056.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Pantheon either thrusts his spear or throws his spear in the chosen direction. Low health enemies are critically hit. Mortal Will: Deals additional damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/1aa0152655dbb4def4028e29012e46b311a090d9-96x96.jpg?accountingTag=WR",
+      "label": "COMET SPEAR",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/0fa47792e8556ac47310bdc60d004cac0ebc3d7f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Pantheon dashes to a target, damaging and stunning them. Mortal Will: Follows up with an additional attack that strikes 3 times.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5e80c2c36a2e0cc0992f920e02883aee50a26bc4-96x96.jpg?accountingTag=WR",
+      "label": "SHIELD VAULT",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/035d81496ec69e43727ec415726656161421e98e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Pantheon sets his shield, becoming invulnerable to damage from the front and striking repeatedly with his spear. Mortal Will: Pantheon gains movement speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f60778df68cafcc4dbe5ac897bb8d9891c5883aa-96x96.jpg?accountingTag=WR",
+      "label": "AEGIS ASSAULT",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/e676f6983dbadb851aff980d37323a1bbc769c8b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Pantheon composes himself and then leaps into the air, landing at a chosen location as a comet, slowing and dealing damage in a line pointing to where he lands.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8af60988ad4fef1a9c403c103acbb213d003ce80-96x96.jpg?accountingTag=WR",
+      "label": "GRAND STARFALL",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/c240442fb150d209f259ccc65fab33a6302f52b3.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/7f540fc2cd8f5daf7059d38c4c999221e7a32d95-1280x720.jpg?accountingTag=WR",
+      "label": "PANTHEON, THE UNBREAKABLE SPEAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/7f540fc2cd8f5daf7059d38c4c999221e7a32d95-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2e704a354eb0eeddb1fe912d7a6b2d7dcc25fc53-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGONSLAYER PANTHEON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2e704a354eb0eeddb1fe912d7a6b2d7dcc25fc53-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/008e56aacf4b91b2ecfebffc0bd67801bdcdf521-1280x720.jpg?accountingTag=WR",
+      "label": "FULL METAL PANTHEON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/008e56aacf4b91b2ecfebffc0bd67801bdcdf521-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8a3fce31f4d0584214b3e8a598bb98747f671c6d-1280x720.jpg?accountingTag=WR",
+      "label": "ZOMBIE SLAYER PANTHEON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8a3fce31f4d0584214b3e8a598bb98747f671c6d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ec3e07610a91423ee020e9e934e3a4a43cdc9ba9-1280x720.jpg?accountingTag=WR",
+      "label": "PULSEFIRE PANTHEON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ec3e07610a91423ee020e9e934e3a4a43cdc9ba9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f4d89118463488617c79a4940f4c371b431da5f4-1280x720.jpg?accountingTag=WR",
+      "label": "ASHEN CONQUEROR PANTHEON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f4d89118463488617c79a4940f4c371b431da5f4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bdc1fc847bdb16624d9a36ecd30b3c957a084be0-1280x720.jpg?accountingTag=WR",
+      "label": "Lunar Guardian Pantheon",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bdc1fc847bdb16624d9a36ecd30b3c957a084be0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/451f530f5af6cc5f53209f14e8ab91a383d3815d-1280x720.jpg?accountingTag=WR",
+      "label": "CRYPTIC DEPTH PANTHEON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/451f530f5af6cc5f53209f14e8ab91a383d3815d-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-04-28T21:28:12Z",
+  "hash": "ffa7f1f12e7344e5d54ad9e9a496075365c838f64cfdc714ce9330883ff457fb"
+}

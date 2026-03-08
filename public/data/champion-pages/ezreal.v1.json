@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10098",
+  "riotSlug": "ezreal",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ezreal/",
+  "title": "EZREAL",
+  "subtitle": "the Prodigal Explorer",
+  "roles": [
+    "MARKSMAN",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/721de7837d0aaeb4b380ebc9f3b291d7167f4dad.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Ezreal gains increasing Attack Speed each time he successfully hits a spell, stacking up to 4 times.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/23fa797f779dae3db16d6c2dad0568d0aa14af22-96x96.jpg?accountingTag=WR",
+      "label": "Rising Spell Force",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/135bf34d91d65cf0742edd843c69a37f2699ac95.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ezreal fires a damaging bolt of energy which reduces all of his cooldowns slightly if it strikes an enemy unit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/28e779a46c7103067d17cf91ef976b2f58621144-96x96.jpg?accountingTag=WR",
+      "label": "Mystic Shot",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4c47525a2c9ee9a9f67b75e8f594631b8bbd1ab2.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ezreal fires an orb that sticks to the first champion or objective hit. If Ezreal hits an enemy with the orb, it detonates and deals damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/983025d2de4dc48b591a826e162be27c1212ad7c-96x96.jpg?accountingTag=WR",
+      "label": "Essence Flux",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ff1783dbe92d692a6700985edc3e082da5d9e737.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ezreal teleports to a target nearby location and fires a homing bolt which strikes the nearest enemy unit. Prioritizes enemies stuck with Essence Flux.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/bf066efa4c882272086fd78fa80d2c39c5fc5177-96x96.jpg?accountingTag=WR",
+      "label": "Arcane Shift",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/89b15958fa8aeb86ad3dd6363f0380024730e62e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ezreal winds up before firing a powerful barrage of energy that deals massive damage to each unit it passes through (damage is reduced for minions and non-epic monsters).",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8186530fdd1c9c2a8125e9335097d1a5e9aea0ed-96x96.jpg?accountingTag=WR",
+      "label": "Trueshot Barrage",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bbae2dc4b408b6307c52105b0263c0d3991ba592.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6d338ad08b163fe8e280fe563e45c2a88870479c-1280x720.jpg?accountingTag=WR",
+      "label": "EZREAL, THE PRODIGAL EXPLORER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6d338ad08b163fe8e280fe563e45c2a88870479c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/72caeb9c146d08a9f4de34485b582a530deebf6d-1280x720.jpg?accountingTag=WR",
+      "label": "DEBONAIR EZREAL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/72caeb9c146d08a9f4de34485b582a530deebf6d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/767752d02f646368212407ec93eb1b4de5689bfb-1280x720.jpg?accountingTag=WR",
+      "label": "FROSTED EZREAL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/767752d02f646368212407ec93eb1b4de5689bfb-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/01b92cf5ca9e317d3ac34904ed1255b9c4d2aa22-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN EZREAL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/01b92cf5ca9e317d3ac34904ed1255b9c4d2aa22-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a20c4ee46fa6d9924d02735fdfa8ee686a83a74c-1280x720.jpg?accountingTag=WR",
+      "label": "Battle Academia Ezreal",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a20c4ee46fa6d9924d02735fdfa8ee686a83a74c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/950c5316dcc3947bbde1e3f496ad4c83af8b7178-1280x720.jpg?accountingTag=WR",
+      "label": "Crystal Rose Ezreal",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/950c5316dcc3947bbde1e3f496ad4c83af8b7178-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ef3a5f4664c5cef1169c0e5a8ee45894f1a1425d-1280x720.jpg?accountingTag=WR",
+      "label": "Pajama Guardian Ezreal",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ef3a5f4664c5cef1169c0e5a8ee45894f1a1425d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f7440b9405324c1ad14414720a050b0b04bb69ba-1280x720.jpg?accountingTag=WR",
+      "label": "Arcade Ezreal",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f7440b9405324c1ad14414720a050b0b04bb69ba-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/022daa0162c79bf6f30b30602dce43a1b93284d7-1280x720.jpg?accountingTag=WR",
+      "label": "Battle Academia Ezreal Mythic Chroma",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/022daa0162c79bf6f30b30602dce43a1b93284d7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/55c3336306e5673247b2a81bf9df4b079e3f2825-1280x720.jpg?accountingTag=WR",
+      "label": "HEARTSTEEL EZREAL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/55c3336306e5673247b2a81bf9df4b079e3f2825-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/490000f7e63542bd13959612bf1175590f5c5f63-1920x1080.jpg?accountingTag=WR",
+      "label": "LOVESTRUCK EZREAL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/490000f7e63542bd13959612bf1175590f5c5f63-1920x1080.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/55065bed42df389dccd1d71dcc280d5f8921e7fe-1920x1080.jpg?accountingTag=WR",
+      "label": "WEATHER ENTITY EZREAL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/55065bed42df389dccd1d71dcc280d5f8921e7fe-1920x1080.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/47a84c9bc253104c72906e4b740b55f1ad3156ea-1920x1080.jpg?accountingTag=WR",
+      "label": "PRESTIGE SELECT WEATHER ENTITY EZREAL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/47a84c9bc253104c72906e4b740b55f1ad3156ea-1920x1080.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f810b239089969bc2db6575506f6776d05fcbac2-1280x720.jpg?accountingTag=WR",
+      "label": "LOVE CONFESSION EZREAL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f810b239089969bc2db6575506f6776d05fcbac2-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9849b6a27b804f6eaefb811e99037e408d190fec-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE LOVE CONFESSION EZREAL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9849b6a27b804f6eaefb811e99037e408d190fec-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:06:47Z",
+  "hash": "5dcdd2701027e862c9c571d5c9428e106c5047f0fc034ff04a0f13764854f5f5"
+}

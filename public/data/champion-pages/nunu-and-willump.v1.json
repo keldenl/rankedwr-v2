@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10008",
+  "riotSlug": "nunu-and-willump",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nunu-and-willump/",
+  "title": "NUNU & WILLUMP",
+  "subtitle": "the Boy and His Yeti",
+  "roles": [
+    "TANK",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/5f372850e9278adb82138ad798e487b84061a3c2.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Nunu increases the attack speed and movement speed of Willump and a nearby ally, and causes Willump's basic attacks to damage enemies around the target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e8061f08256ca278b9238504f9dd822f029f2ad5-96x96.jpg?accountingTag=WR",
+      "label": "CALL OF THE FRELJORD",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/2b8dba4c10814678be5b2d97013b7f66e4ca6a59.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Willump takes a bite out of a minion, monster, or enemy champion, dealing damage and healing himself.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/150d836deaba6ad81b31700d5d2becba3a8850f8-96x96.jpg?accountingTag=WR",
+      "label": "CONSUME",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/7b3571aa422311809bd926f3e9de677b3e970c53.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Willump creates a snowball that grows in size and speed as he rolls it. The snowball damages and knocks up enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/34fe6fa918a83a2702927a358cb96a26b488652d-96x96.jpg?accountingTag=WR",
+      "label": "BIGGEST SNOWBALL EVER!",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/2e7d6d878ffa4bf50d0bf0a0f750d2186ee1fabd.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Nunu throws multiple snowballs that damage enemies. When he's finished, Willump roots any champions or large monsters that were hit by a snowball.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/1374b337f9c57b5408252ff2585810d657420dc0-96x96.jpg?accountingTag=WR",
+      "label": "SNOWBALL BARRAGE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/8a93ca4db6aa85272d8cc1ae66df6e79e76bc1ee.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Nunu & Willump create a powerful blizzard in an area that slows enemies and deals massive damage at the end.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e053ad79b9b5c2add0b525591e0e578d4527fd2e-96x96.jpg?accountingTag=WR",
+      "label": "ABSOLUTE ZERO",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/b92bc00ed3796640706d4b5a8263fcb6668eccea.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b11bb5a198fb69ec6a5e9c30a695762eb028ef98-1280x720.jpg?accountingTag=WR",
+      "label": "NUNU & WILLUMP, THE BOY AND HIS YETI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b11bb5a198fb69ec6a5e9c30a695762eb028ef98-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fd6debdd00ce7b534b4e0e1fa58970c9a55bf0f2-1280x720.jpg?accountingTag=WR",
+      "label": "GRUNGY NUNU & WILLUMP",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fd6debdd00ce7b534b4e0e1fa58970c9a55bf0f2-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c309d6f0001dc0cc626c30e2961cdee0f98f5e35-1280x720.jpg?accountingTag=WR",
+      "label": "ZOMBIE NUNU & WILLUMP",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c309d6f0001dc0cc626c30e2961cdee0f98f5e35-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dbd1ab7e87d9f4cc6d232ad59d345b2ea6170b7e-1280x720.jpg?accountingTag=WR",
+      "label": "NUNU AND BEELUMP",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dbd1ab7e87d9f4cc6d232ad59d345b2ea6170b7e-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-09-03T23:02:52Z",
+  "hash": "49cd7a4e632dce3ce6832cf9ec5d0d029b92ad2b2ce52fe48430b136eeb3e03d"
+}

@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10014",
+  "riotSlug": "zoe",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zoe/",
+  "title": "ZOE",
+  "subtitle": "The Aspect Of Twilight",
+  "roles": [
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/27c2fc122622992d8b0a26ac9a7df728211688f7.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Zoe's next basic attack after casting a spell deals bonus magic damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/41ea501d4e89ab505f29db95d124d60237428266-96x96.jpg?accountingTag=WR",
+      "label": "MORE SPARKLES!",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0b242fd88079953a6268d1e9b89267717d8bdae2.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Zoe fires a missile that she can redirect in flight. Deals more damage the longer it flies in a straight line.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/2acfcb729b53768dde3e1579178c18888d15fc56-96x96.jpg?accountingTag=WR",
+      "label": "PADDLE STAR!",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/31db77b6b63021530c059f3a8be2c5c7d76b7417.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Zoe can pick up the remnants of enemy summoner spell and active item casts and cast them once herself. Whenever she casts a summoner spell, she gains 3 missiles that fire at the nearest target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/dfa8a09e6ea9b71518547da24bb5edc05ad13e3c-96x96.jpg?accountingTag=WR",
+      "label": "SPELL THIEF",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0c75960ab722fab0cdeedeff635506c9103724ac.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Causes the target to become drowsy, then fall asleep. The first source of damage that breaks the sleep is doubled, up to a cap.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/a8611191e09d7995d43fb2a0562688c675b4e8a1-96x96.jpg?accountingTag=WR",
+      "label": "SLEEPY TROUBLE BUBBLE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a825fd13a6c194e04f42ed7c75da8b66cc785236.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Blink to a nearby position for 1 second. Then blink back.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/3450fd39cd4b3f671ccf5eb191856e8770a210a8-96x96.jpg?accountingTag=WR",
+      "label": "PORTAL JUMP",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/717a0889203d3644d97f96bfb8bd01e8c584d922.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c65aa213c567724405dff30e16dc9ce336999c62-1280x720.jpg?accountingTag=WR",
+      "label": "ZOE, THE ASPECT OF TWILIGHT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c65aa213c567724405dff30e16dc9ce336999c62-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7f771eb4cf60d86df3f4a9e6fdddc6e1a1960026-1280x720.jpg?accountingTag=WR",
+      "label": "MYTHMAKER ZOE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7f771eb4cf60d86df3f4a9e6fdddc6e1a1960026-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c9a901f023281098cb6077b27fce8947f7c1331d-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN ZOE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c9a901f023281098cb6077b27fce8947f7c1331d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d3ba1c41b21619116a2c5e095cbe3fd10dce7662-1280x720.jpg?accountingTag=WR",
+      "label": "CAFE CUTIES ZOE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d3ba1c41b21619116a2c5e095cbe3fd10dce7662-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2023-01-09T22:56:58Z",
+  "hash": "1722cb436552c9c5e753fbea0d70e5fae6d37bfa1e4474e71036c32a7d2f6130"
+}

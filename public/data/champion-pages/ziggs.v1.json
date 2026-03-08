@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10087",
+  "riotSlug": "ziggs",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ziggs/",
+  "title": "ZIGGS",
+  "subtitle": "the Hexplosives Expert",
+  "roles": [
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/735b758cc5d0719870d2875edd79da680b8fc83a.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "All of Ziggs’s abilities also damage structures. Periodically, his next ability deals bonus magic damage. This cooldown is reduced whenever Ziggs uses an ability.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7ff27f375c46d2bfcf9e258c28d704678ef3756d-96x96.jpg?accountingTag=WR",
+      "label": "Short Fuse",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8620dcc646889b508139d18450bab9c660851064.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ziggs throws a bouncing bomb that deals magic damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/048b1938c593978abc012641da2e6a3d011711a9-96x96.jpg?accountingTag=WR",
+      "label": "Bouncing Bomb",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e3a1eedc838b004f34f3d2bd3af90f3bca376f70.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ziggs flings an explosive charge that detonates after 4 seconds, or when this ability is activated again. The explosion deals magic damage to enemies, knocking them away. Ziggs is also knocked away, but takes no damage. Ziggs can use the Satchel to hexplode vulnerable enemy turrets.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/14f0b8ab1a1071f299e46972b82e540394b8dfae-96x96.jpg?accountingTag=WR",
+      "label": "Satchel Charge",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a00e458bba997691b89edddd97c46b299d64e88a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ziggs scatters proximity mines that detonate on enemy contact, dealing magic damage and slowing. Successive mine detonations on the same target deal reduced damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/947ca890d3baa2dec7e0b4388f03aebf8b4e455a-96x96.jpg?accountingTag=WR",
+      "label": "Hexplosive Minefield",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5b1d7bf5141d630f245938ed175e41ac4d7ed36d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ziggs deploys his ultimate creation, the Mega Inferno Bomb, hurling it an enormous distance. Enemies in the primary blast zone take more damage than those farther away. When quick casting, the bomb will target the enemy with the lowest HP.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/913aa713b1ac03c67ac1500655cadc149b0d3e44-96x96.jpg?accountingTag=WR",
+      "label": "Mega Inferno Bomb",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9c951a8f83f7cf8d3271d3f41f8381ece66b3a79.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d9950b3db477cb0e72a27d478116babb896f9a02-1280x720.jpg?accountingTag=WR",
+      "label": "ZIGGS, THE HEXPLOSIVES EXPERT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d9950b3db477cb0e72a27d478116babb896f9a02-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/86f4bb745e187afe5aef6c2fadc9f51492cd0b8b-1280x720.jpg?accountingTag=WR",
+      "label": "MASTER ARCANIST ZIGGS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/86f4bb745e187afe5aef6c2fadc9f51492cd0b8b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f48b6a0f5db74f09c246dfb0fc2baaaf1c67d8c0-1280x720.jpg?accountingTag=WR",
+      "label": "MAD SCIENTIST ZIGGS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f48b6a0f5db74f09c246dfb0fc2baaaf1c67d8c0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f025637949e9472d3af6ae89436fdf1446e8f8d0-1280x720.jpg?accountingTag=WR",
+      "label": "BATTLE BOSS ZIGGS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f025637949e9472d3af6ae89436fdf1446e8f8d0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a0164773f6a7fe230d3b9a4c2dfbe69a763db3ff-1280x720.jpg?accountingTag=WR",
+      "label": "COTTONTAIL ZIGGS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a0164773f6a7fe230d3b9a4c2dfbe69a763db3ff-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9331abe5e8798cf8bb01903373787c7972a87225-1920x1080.jpg?accountingTag=WR",
+      "label": "PORCELAIN ZIGGS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9331abe5e8798cf8bb01903373787c7972a87225-1920x1080.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bf9f06460561e07df0744439efe9e8d331d037e4-1280x720.jpg?accountingTag=WR",
+      "label": "POOL PARTY ZIGGS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bf9f06460561e07df0744439efe9e8d331d037e4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6033914531d5f7166005be32b8aed66a107c85d2-1280x720.jpg?accountingTag=WR",
+      "label": "FOOD SPIRITS ZIGGS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6033914531d5f7166005be32b8aed66a107c85d2-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:54:05Z",
+  "hash": "453118c38992369b1bcfcfaeead6b659830220a2e38ddca648b6f37ec6489d54"
+}

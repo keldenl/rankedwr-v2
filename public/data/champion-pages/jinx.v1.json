@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10018",
+  "riotSlug": "jinx",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jinx/",
+  "title": "JINX",
+  "subtitle": "the Loose Cannon",
+  "roles": [
+    "MARKSMAN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/020928efce26ed846764475dce2cdd0c1fbbfab8.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Jinx receives massively increased Movement Speed and Attack Speed whenever she helps kill or destroy an enemy champions epic jungle monster, or structure.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/15e2529b96f56993dac7b9218c44698fa561a3c2-96x96.jpg?accountingTag=WR",
+      "label": "Get Excited!",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d30d4b6c186d3cc1b230d8bccf8f2260d02a8aff.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Jinx modifies her basic attacks by swapping between Pow-Pow, her minigun and Fishbones, her rocket launcher. Attacks with Pow-Pow grant Attack Speed, while attacks with Fishbones deal area of effect damage, gain increased range, and drain Mana.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/30b22cf52c9cf21ece17a217af0153a4fb5d1eff-96x96.jpg?accountingTag=WR",
+      "label": "Switcheroo!",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8ef378364dc17511b1330d6d5f7c41ab7e228b1a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Jinx uses Zapper, her shock pistol, to fire a blast that deals damage to the first enemy hit, slowing and revealing it.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/aaad94098f0a6ab6c0d70d67c99e4a28c52d1f19-96x96.jpg?accountingTag=WR",
+      "label": "Zap!",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/194c44635fb66ea8142a7dcdcca0d49b2582019e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Jinx throws out a line of snare grenades that explode after 5 seconds, lighting enemies on fire. Flame Chompers will bite enemy champions who walk over them, rooting them in place.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/fa19f0effc1be6d30fe2afd5372237e12df5fb85-96x96.jpg?accountingTag=WR",
+      "label": "Flame Chompers!",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c3c1b720f6c247ba417556d9cc25eeb0ede2310a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Jinx fires a super rocket across the map that gains damage as it travels. The rocket will explode upon colliding with an enemy champion, dealing damage to it and surrounding enemies based on their missing Health.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7727824cd16c591254904058922187a4eccb8cc7-96x96.jpg?accountingTag=WR",
+      "label": "Super Mega Death Rocket!",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e176bc4d17e65cce0f811f2f703f38b375a6c45e.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/58a1d5def09d35ea722ca402db31700f9c2b3580-1280x720.jpg?accountingTag=WR",
+      "label": "JINX, THE LOOSE CANNON",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/58a1d5def09d35ea722ca402db31700f9c2b3580-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c80c78f4b8a1dec74ed61f5d21c3e0a42c945779-1280x720.jpg?accountingTag=WR",
+      "label": "CRIME CITY JINX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c80c78f4b8a1dec74ed61f5d21c3e0a42c945779-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/273d577026a59b10e9535067c0483d62376babf8-1280x720.jpg?accountingTag=WR",
+      "label": "ZOMBIE SLAYER JINX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/273d577026a59b10e9535067c0483d62376babf8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8a49b0dc69e9258c048ca6aad61c63eea12d8377-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN JINX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8a49b0dc69e9258c048ca6aad61c63eea12d8377-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e51cd15329f20a71fccb05c4c81dd05e99f1601e-1280x720.jpg?accountingTag=WR",
+      "label": "Glorious Jinx",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e51cd15329f20a71fccb05c4c81dd05e99f1601e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4351be20f07718bfa6f2607b4ab5d3fcde01fc9b-1280x720.jpg?accountingTag=WR",
+      "label": "Arcane Jinx",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4351be20f07718bfa6f2607b4ab5d3fcde01fc9b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/849c40be59f5625a17216a5d99e871d3e42575e0-1280x720.jpg?accountingTag=WR",
+      "label": "LOVESTRUCK JINX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/849c40be59f5625a17216a5d99e871d3e42575e0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1d0485089f50accbc3858b2918424820c8765c92-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN JINX EXQUISITE EDITION",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1d0485089f50accbc3858b2918424820c8765c92-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f4f5d9c3394c1258f44cc8588f78b3445bbea07c-1280x720.jpg?accountingTag=WR",
+      "label": "SUPERVILLAIN JINX FANTASY",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f4f5d9c3394c1258f44cc8588f78b3445bbea07c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1a27370920ebbf3876b7395849e36aa122f774d6-1280x720.jpg?accountingTag=WR",
+      "label": "SUPERVILLAIN JINX FRACTURE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1a27370920ebbf3876b7395849e36aa122f774d6-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ba204c1433f3ffbbfac0d799f1a230c97722ca40-1280x720.jpg?accountingTag=WR",
+      "label": "SUPERVILLAIN JINX BLAZING DEFIANCE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ba204c1433f3ffbbfac0d799f1a230c97722ca40-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f6fb52fe44f1df3d481059662656fea82550a48b-1280x720.jpg?accountingTag=WR",
+      "label": "SUPERVILLAIN JINX DOOMBRINGER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f6fb52fe44f1df3d481059662656fea82550a48b-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:11:19Z",
+  "hash": "9d70d0a566a6b687f38a54db45b9305cc95fda982661d4bc72bcc17672595b89"
+}

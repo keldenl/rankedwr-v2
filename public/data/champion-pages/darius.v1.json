@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10071",
+  "riotSlug": "darius",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/darius/",
+  "title": "DARIUS",
+  "subtitle": "the Hand of Noxus",
+  "roles": [
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/718dbc3e7a3469998dbfec707664aba54fa7b13b.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Darius's attacks and damaging abilities cause enemies to bleed for physical damage over time, stacking up to a cap. Upon reaching full stacks, Darius gains Noxian Might for a few seconds, gaining Attack Damage and applying full stacks of Hemorrhage instead of 1.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/269560c41111ef1c8af80713e311d295a0f936a2-96x96.jpg?accountingTag=WR",
+      "label": "HEMORRHAGE",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e3880df8737dc2e9478c1f2d790938de1a277c15.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Darius winds up and swings his axe in a wide circle. Enemies struck by the blade take more damage than those struck by the handle. Darius heals based on enemy champions hit by the blade, and applies Hemorrhage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/330afd292d27e0292d00436f070e91b3fe47c251-96x96.jpg?accountingTag=WR",
+      "label": "DECIMATE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6ba90fc1bc5b137e93bfdeec550bfb85a94eed07.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Darius empowers his next attack to deal additional damage with a large slow.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/51f4e334929de95f79d1c6642a6e2773abde0c3f-96x96.jpg?accountingTag=WR",
+      "label": "CRIPPLING STRIKE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/68b9baa664c5e936ba14229fbb78cf06ca9d91e8.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Darius hones his axe, passively causing his physical damage to ignore a percentage of his target's Armor. When activated, Darius sweeps up his enemies with his axe's hook and pulls them to him.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cd279d88756f7525b2cc6ef82a12a22a5cc0d629-96x96.jpg?accountingTag=WR",
+      "label": "APPREHEND",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/7560936d68d97c1809335109c6c049029532f266.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Darius leaps to an enemy champion and strikes a lethal blow, dealing true damage. This damage is increased for each stack of Hemorrhage on the target. If Noxian Guillotine is a killing blow, its cooldown is refreshed, granting Noxian Might and causing nearby minions and monsters to flee.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/23d9a7331e9019364dc22163676e858206a8fb18-96x96.jpg?accountingTag=WR",
+      "label": "NOXIAN GUILLOTINE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9e1263fcc55658fb1d57124860ed98030feedab1.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6e1e2d37f7d72073fc5f5b4aee805f64787e5e0e-1280x720.jpg?accountingTag=WR",
+      "label": "DARIUS, THE HAND OF NOXUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6e1e2d37f7d72073fc5f5b4aee805f64787e5e0e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a02b978973c80fe0b02fe822a2b2e2205e30b321-1280x720.jpg?accountingTag=WR",
+      "label": "HIGH NOON DARIUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a02b978973c80fe0b02fe822a2b2e2205e30b321-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e99bf7e2665a633425124ea611038a974f22e752-1280x720.jpg?accountingTag=WR",
+      "label": "ACADEMY DARIUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e99bf7e2665a633425124ea611038a974f22e752-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/621be5d46cabad500afeeeea4e6a1a61425cd8c1-1280x720.jpg?accountingTag=WR",
+      "label": "LUNAR BEAST DARIUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/621be5d46cabad500afeeeea4e6a1a61425cd8c1-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1db20139aa09a062f1087f55f8841b7d0e9e90ac-1280x720.jpg?accountingTag=WR",
+      "label": "God-King Darius",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1db20139aa09a062f1087f55f8841b7d0e9e90ac-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4b190d8ab7100cb7c2310791c61f7971c105d828-1280x720.jpg?accountingTag=WR",
+      "label": "Dunkmaster Darius",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4b190d8ab7100cb7c2310791c61f7971c105d828-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e239ae69324a187d8eafe9a0151100e2fc0d2ad8-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: DARIUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e239ae69324a187d8eafe9a0151100e2fc0d2ad8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9e1cc3960d171e64f8506df32978b66fbc9e5b74-1280x720.jpg?accountingTag=WR",
+      "label": "BIOFORGE DARIUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9e1cc3960d171e64f8506df32978b66fbc9e5b74-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1f3699cdf1dd962e95e6afb7b52055564d6c5259-1280x720.jpg?accountingTag=WR",
+      "label": "DREADNOVA DARIUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1f3699cdf1dd962e95e6afb7b52055564d6c5259-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-01-22T23:13:49Z",
+  "hash": "82b9371cee6be0611f75408793fa2417915a595bb6f3f305a7b75a9fe33d9368"
+}

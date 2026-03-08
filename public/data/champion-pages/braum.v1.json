@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10021",
+  "riotSlug": "braum",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/braum/",
+  "title": "BRAUM",
+  "subtitle": "the Heart of the Freljord",
+  "roles": [
+    "SUPPORT",
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/dbdc080f4852d87442107bda03a24a03dfad021e.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Braum's basic attacks apply Concussive Blows. Once the first stack is applied, ally basic attacks also stack Concussive Blows. Upon reaching 4 stacks, the target is stunned and takes magic damage. For the next few seconds they cannot receive new stacks, but take bonus magic damage from Braum's attacks.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/a02ed9496ecb2abea5a5f6155adad3d364c8d881-96x96.jpg?accountingTag=WR",
+      "label": "Concussive Blows",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6e775d06e65279e00e0ed1e1e11cb7cf315adf05.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Braum propels freezing ice from his shield, slowing and dealing magic damage. Applies a stack of Concussive Blows.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4dbb7e9d62e639780af93f4fd99860b2caae2658-96x96.jpg?accountingTag=WR",
+      "label": "Winter's Bite",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/56d56e6e9a74884f16f73c95a6295708718c9678.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Braum leaps to a target allied champion or minion. On arrival, Braum and the ally gain Armor and Magic Resist for a few seconds.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bd950a1381808356e13876f290c1542d2b7d2cf8-96x96.jpg?accountingTag=WR",
+      "label": "Stand Behind Me",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bc466afe15ed3c498a6379b67b54cc260094494d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Braum raises his shield in a direction for several seconds, intercepting all projectiles causing them to hit him and be destroyed. He negates the damage of the first attack completely and reduces the damage of all subsequent attacks from this direction.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/45e02e412c681b26f4a170f022e5f4c4346c782d-96x96.jpg?accountingTag=WR",
+      "label": "Unbreakable",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9f114ceaaf602e4525c1fd0b15cf26b30b7fad89.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Braum slams the ground, knocking up enemies nearby and in a line in front of him. A fissure is left along the line that slows enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ddcc54008d13e59d8d8596395a712f95ecfdc629-96x96.jpg?accountingTag=WR",
+      "label": "Glacial Fissure",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/83bba8942417acc2eb6380c2f649d961b6be92a0.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/badd74425385b53d847f4f1a962acc39d956321b-1280x720.jpg?accountingTag=WR",
+      "label": "BRAUM, THE HEART OF THE FRELJORD",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/badd74425385b53d847f4f1a962acc39d956321b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/227c2754b3c155a4b2a3dc9310fad8282891ca7e-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGONSLAYER BRAUM",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/227c2754b3c155a4b2a3dc9310fad8282891ca7e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1724404d797cc0acf37071f90edc752edd989686-1280x720.jpg?accountingTag=WR",
+      "label": "CRIME CITY BRAUM",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1724404d797cc0acf37071f90edc752edd989686-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2168fc6847ec4afdbdb63db5c69578e7e07a0226-1280x720.jpg?accountingTag=WR",
+      "label": "BRAUM LIONHEART",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2168fc6847ec4afdbdb63db5c69578e7e07a0226-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/452c3fa928698cae33baf3cc98dbc6365c026ffa-1280x720.jpg?accountingTag=WR",
+      "label": "GLORIOUS CROWN BRAUM",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/452c3fa928698cae33baf3cc98dbc6365c026ffa-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/db9c798e19cbc789e0eb075f6ac2c4ac64b63099-1280x720.jpg?accountingTag=WR",
+      "label": "El Tigre Braum",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/db9c798e19cbc789e0eb075f6ac2c4ac64b63099-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ec8ba6842e8371790c94435702cb7e9fc426f031-1280x720.jpg?accountingTag=WR",
+      "label": "Santa Braum",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ec8ba6842e8371790c94435702cb7e9fc426f031-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9a9978c83c8d5919aac55a456fcd930edac0e55b-1280x720.jpg?accountingTag=WR",
+      "label": "GARDEN PARTY BRAUM",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9a9978c83c8d5919aac55a456fcd930edac0e55b-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:05:25Z",
+  "hash": "15dbd047525f0a7fb4d241442561ce04162e6b47143c3cfb76094d9768648537"
+}

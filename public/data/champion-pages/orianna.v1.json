@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10012",
+  "riotSlug": "orianna",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/orianna/",
+  "title": "ORIANNA",
+  "subtitle": "the Lady of Clockwork",
+  "roles": [
+    "MAGE",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c03c70ef5b3faddea58b09126c5207024bb61b35.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Orianna's Attacks deal additional magic damage. This damage increases the more Orianna Attacks the same target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d37d104a81847f7bd01de183065cf66683c3adbf-96x96.jpg?accountingTag=WR",
+      "label": "Clockwork Windup",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4e0d3357f6f7be9797f2c8b072829ce34a120966.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Orianna commands her Ball to fire toward a target location, dealing magic damage to targets along the way (deals less damage to subsequent targets). Her Ball remains at the target location after.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/f0bcd7967ff11ddb8168d150a304f6cf2e9d017e-96x96.jpg?accountingTag=WR",
+      "label": "Command: Attack",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/75915c3fede8814e4d07706ee8187f57a8e63d59.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Orianna commands her Ball to release a pulse of energy, dealing magic damage around it. This leaves a field behind that speeds up allies and slows enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/54e86149bec0e487f86e7c7964607a9cce245b06-96x96.jpg?accountingTag=WR",
+      "label": "Command: Dissonance",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bd0e7fc22aa5957e57b5efe24a5ef06e2ffdde3f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Orianna commands her Ball to attach to an allied champion, Shielding them and dealing magic damage to any enemies it passes through on the way. Additionally, the Ball grants additional Armor and Magic Resist to the champion it is attached to.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9816b07ca98ec19705049d8f4ae666e206f0dd85-96x96.jpg?accountingTag=WR",
+      "label": "Command: Protect",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/805d0a8d9874617d4e650fdf7299a4847e7f0d9e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Orianna commands her Ball to unleash a shockwave, dealing magic damage and launching nearby enemies towards the Ball after a short delay.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/eb793c70ee0798f06c31f87c7f617ae06889a679-96x96.jpg?accountingTag=WR",
+      "label": "Command: Shockwave",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/97b6b1b51e0ad90043a487f2a9a87070922f3e2e.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5b00ce44b4e6d3533279e05f2a19e1103e1091c8-1280x720.jpg?accountingTag=WR",
+      "label": "ORIANNA, THE LADY OF CLOCKWORK",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5b00ce44b4e6d3533279e05f2a19e1103e1091c8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8b8de26a77fc3de076ce624c5260281ea2a59f96-1280x720.jpg?accountingTag=WR",
+      "label": "DARK STAR ORIANNA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8b8de26a77fc3de076ce624c5260281ea2a59f96-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1ac4fff800b403845f22a9edb327f9d505f4c5f4-1280x720.jpg?accountingTag=WR",
+      "label": "GOTHIC ORIANNA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1ac4fff800b403845f22a9edb327f9d505f4c5f4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/33ddf808b1e67ea67627159c223ef82ed2e864d5-1280x720.jpg?accountingTag=WR",
+      "label": "WINTER WONDER ORIANNA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/33ddf808b1e67ea67627159c223ef82ed2e864d5-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2af7b5f95e05d6b3d5e07649d7a148e747af473c-1280x720.jpg?accountingTag=WR",
+      "label": "Pool Party Orianna",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2af7b5f95e05d6b3d5e07649d7a148e747af473c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6768c8e7b58e3b4f466a4e48d5a79f5be1b76238-1280x720.jpg?accountingTag=WR",
+      "label": "Glorious Orianna",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6768c8e7b58e3b4f466a4e48d5a79f5be1b76238-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2f5ca5abcf1d5dcfbbe2865ad378d38d326341aa-1280x720.jpg?accountingTag=WR",
+      "label": "Star Guardian Orianna",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2f5ca5abcf1d5dcfbbe2865ad378d38d326341aa-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/92435a766e961630739cceb7a5973cab4c7b7839-1920x1080.jpg?accountingTag=WR",
+      "label": "WEATHER ENTITY ORIANNA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/92435a766e961630739cceb7a5973cab4c7b7839-1920x1080.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:47:17Z",
+  "hash": "ef4ca1c1f18316f41972c6d2e258769d0b53aacd88979aed2e060c5acf396100"
+}

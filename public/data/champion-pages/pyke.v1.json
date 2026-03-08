@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10124",
+  "riotSlug": "pyke",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/pyke/",
+  "title": "PYKE",
+  "subtitle": "the Bloodharbor Ripper",
+  "roles": [
+    "ASSASSIN",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/1f8daaff5cce6c3c360f65bb2d8918ea1d153635.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "When Pyke is hidden from enemies, he regenerates damage that he has recently taken from champions. Pyke also cannot gain extra Maximum Health from any source, and instead gains Bonus AD.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f4a0827d6e473e5ff752d943b9acfd47f698a1de-96x96.jpg?accountingTag=WR",
+      "label": "GIFT OF THE DROWNED ONES",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3d714ac9a42252cf54835e3a25dd6e1161dc7ee6.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Pyke either stabs an enemy in front of him or pulls an enemy towards him.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/28dbd474e0d32b001664d6f149c802d6db547035-96x96.jpg?accountingTag=WR",
+      "label": "BONE SKEWER",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/437e1de26db9f4564d08a5b0bfb47c3b3d6961d9.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Pyke enters Camouflage and gains significant movement speed that decays over time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/816987b8ce1986457374275d0d0f1ead75ed73f1-96x96.jpg?accountingTag=WR",
+      "label": "GHOSTWATER DIVE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/61d1ca8be8a7cc8b7633a4c4511e34bc8225b97d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Pyke dashes and leaves behind a phantom that will return to him, stunning enemy champions along its path.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/a2a0b9985af826baf7051412dd72e46693b59000-96x96.jpg?accountingTag=WR",
+      "label": "PHANTOM UNDERTOW",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0e0fe28f47ca2e3da339b25335f26dfd53b1dd6d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Pyke blinks to and executes low health enemies, allowing him to cast this spell again and granting additional gold to an ally who assists.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/8c44262d9de51b9d14a240333c284cddfbc15a2d-96x96.jpg?accountingTag=WR",
+      "label": "DEATH FROM BELOW",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ad3c36b4631777bee4dba9f6a142f98b9f0ede03.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f02797c9649a6b56fa87197ed2a68ea143822974-1280x720.jpg?accountingTag=WR",
+      "label": "PYKE, THE BLOODHARBOR RIPPER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f02797c9649a6b56fa87197ed2a68ea143822974-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2a3c56a5bd271ddd27dbb392ee53eaf7d230d20d-1280x720.jpg?accountingTag=WR",
+      "label": "SAND WRAITH PYKE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2a3c56a5bd271ddd27dbb392ee53eaf7d230d20d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fe78619760a44615cf7be05f77fe26f81bc03150-1280x720.jpg?accountingTag=WR",
+      "label": "ASHEN KNIGHT PYKE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fe78619760a44615cf7be05f77fe26f81bc03150-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6a517f5353f2d2ad36888a2f90c17ae6579595c1-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: PYKE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6a517f5353f2d2ad36888a2f90c17ae6579595c1-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/826ce569e778bf7227cf636db24d35974fd45a24-1280x720.jpg?accountingTag=WR",
+      "label": "FIEND QUELLER PYKE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/826ce569e778bf7227cf636db24d35974fd45a24-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2022-06-15T04:15:44Z",
+  "hash": "c1f3bd73cbae0bc9a68c24418122540fb3b7c50ad5ae07c8b17753b29b55ca90"
+}

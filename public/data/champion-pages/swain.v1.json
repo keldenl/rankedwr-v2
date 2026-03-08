@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10126",
+  "riotSlug": "swain",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/swain/",
+  "title": "SWAIN",
+  "subtitle": "The Noxian Grand General",
+  "roles": [
+    "MAGE",
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3279b1ba388c901b5d4c79b6757b325df3304053.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Swain's ravens collect Soul Fragments that heal him and permanently increase his maximum health and scaling with Ability Power.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/eb1adbdc116bb9eb9ca089219aafc43ea6af0726-96x96.jpg?accountingTag=WR",
+      "label": "Ravenous Flock",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c838bef391248b4d668549b22896a7ea322cbf4b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Swain unleashes several bolts of eldritch power that pierce through enemies. Enemies hit take more damage for each bolt they are struck by.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/fa98600b9fb687b3eda3643ebb0e61dd1bb1d43a-96x96.jpg?accountingTag=WR",
+      "label": "Death's Hand",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b83bf439e66afaa251b8b789e4a7d5aef776fca3.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Swain opens a demon eye that deals damage and slows enemies. Champions hit are revealed and also grant Swain a Soul Fragment.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/6f9b9d97a51c8ed732056e3244826652da55703f-96x96.jpg?accountingTag=WR",
+      "label": "Vision of Empire",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8daa275e3a0a3752fe38a2096e0d1ffd1c05b73e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Swain launches a wave of demonic power forward. It then returns to Swain and roots enemies it hits. Swain can then choose to pull all rooted champions closer.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f8f19abf5115d2913230cc4d5a2063dfa995b0d8-96x96.jpg?accountingTag=WR",
+      "label": "Nevermove",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0c5c62b10eae5cc330fb0bbfcf04b36a1aabc6d8.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Swain transforms into a demon and drains health from nearby enemy champions, minions, and neutral monsters. Swain can cast Demonflare to decimate multiple times and slow nearby enemies with a nova of soulfire. This form is indefinite as long as Swain drains enemy champions.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/abb38b0db16286903e4b12742d95e6698339c93d-96x96.jpg?accountingTag=WR",
+      "label": "Demonic Ascension",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0694f427bba4f00cca6f0965c243cca8fb6db83f.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8f59b70e18293af5556606441ba6f8092eec9a61-1280x720.jpg?accountingTag=WR",
+      "label": "SWAIN, THE NOXIAN GRAND GENERAL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8f59b70e18293af5556606441ba6f8092eec9a61-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/abae4b1b1902f69a9df9e09d0fe2356e8dc22eb1-1280x720.jpg?accountingTag=WR",
+      "label": "TYRANT SWAIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/abae4b1b1902f69a9df9e09d0fe2356e8dc22eb1-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/471321159b5f3c6d0518b0d6ef0e5e6422e17f41-1280x720.jpg?accountingTag=WR",
+      "label": "FIEND QUELLER SWAIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/471321159b5f3c6d0518b0d6ef0e5e6422e17f41-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d978ab8f5a71bf5c75b7d892f9009552ab95441e-1920x1080.jpg?accountingTag=WR",
+      "label": "NIGHTBRINGER SWAIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d978ab8f5a71bf5c75b7d892f9009552ab95441e-1920x1080.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2023-05-23T18:21:15Z",
+  "hash": "53371e98994d53644219e8c2c1eaed0f283edc88e2186cc50262b77672c309d2"
+}

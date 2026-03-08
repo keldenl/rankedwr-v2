@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10096",
+  "riotSlug": "singed",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/singed/",
+  "title": "SINGED",
+  "subtitle": "the Mad Chemist",
+  "roles": [
+    "TANK",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/5525a2a990e7689bf22a9cf3c778ff19b734ef01.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Singed drafts off nearby champions, gaining a burst of movement speed when passing them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/82bff72f4bf213e63524a8000e7a3e574c6c61c2-96x96.jpg?accountingTag=WR",
+      "label": "Noxious Slipstream",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/f9292051079ee51166685e0a190720c8c34a9412.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Leaves a trail of poison behind Singed, dealing damage to enemies caught in the path.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/aaf6fe45c3174c2c04c1f9171753881413759032-96x96.jpg?accountingTag=WR",
+      "label": "Poison Trail",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/e268ee7bda3d29a01f468ac614ae039731eda4da.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Throws a vial of mega adhesive on the ground, slowing and grounding enemies who walk on it.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0aeb46cdca0c5ddbe643cafd2ec3b333257a7808-96x96.jpg?accountingTag=WR",
+      "label": "Mega Adhesive",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/0e0ead24ac03223c0389a92ada29dfcec3b0e722.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Damages target enemy unit and flings them into the air behind Singed. If the target Singed flings lands in his Mega Adhesive, they are also rooted.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/343d12652e4cb45e53b6d8dbf1798bbc8e14d3e9-96x96.jpg?accountingTag=WR",
+      "label": "Fling",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/4e655594d7ac2ef5b5d52c44d26a5da502837cdf.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Singed drinks a potent brew of chemicals, granting him increased combat stats.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/2b8ae93a939c9c3aab2a0f5555cf8ebb14bf48ed-96x96.jpg?accountingTag=WR",
+      "label": "Insanity Potion",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/aea9bff224a944e7aea988bdd9da53877b0cf7a4.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7b5094bc72e20464617898cbadac1cdb9d89838f-1280x720.jpg?accountingTag=WR",
+      "label": "SINGED, THE MAD CHEMIST",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7b5094bc72e20464617898cbadac1cdb9d89838f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c8a4950eb8ab4fd3784f203e67bba7af8eebf99a-1280x720.jpg?accountingTag=WR",
+      "label": "SURFER SINGED",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c8a4950eb8ab4fd3784f203e67bba7af8eebf99a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/810068d2c85d4513ced73d533ce345a11eb8b337-1280x720.jpg?accountingTag=WR",
+      "label": "AUGMENTED SINGED",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/810068d2c85d4513ced73d533ce345a11eb8b337-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cbbede94d1002a5082c3e8d9456b6f4a38b83c4c-1280x720.jpg?accountingTag=WR",
+      "label": "BEEKEEPER SINGED",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cbbede94d1002a5082c3e8d9456b6f4a38b83c4c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/53d7aa73f583066c1fe3056704fef8859d550ad7-1280x720.jpg?accountingTag=WR",
+      "label": "CHROMACRASH SINGED",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/53d7aa73f583066c1fe3056704fef8859d550ad7-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:48:15Z",
+  "hash": "7b738f03e905f820be50c338198ef353fa9afd6d39c95478cdb60d1ba91d255f"
+}

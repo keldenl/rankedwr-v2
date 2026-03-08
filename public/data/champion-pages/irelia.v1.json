@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10094",
+  "riotSlug": "irelia",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/irelia/",
+  "title": "IRELIA",
+  "subtitle": "the Blade Dancer",
+  "roles": [
+    "FIGHTER",
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/cbfc58b62168d43028b3322c75de316ad190691b.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "When Irelia strikes enemies with spells she gains stacking bonus Attack Speed. At maximum stacks she also gains bonus damage on hit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/f90827da91c3efa3f73d507acc40037da034e0ab-96x96.jpg?accountingTag=WR",
+      "label": "IONIAN FERVOR",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fdc33eb21d14ff5781abf3cb038c3c0051429df0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Irelia dashes forward to strike her target, healing herself. If the target is Marked or dies to Bladesurge, its cooldown refreshes.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/bcbb01c79f2aa5ce06229c43932172f97cd1c06a-96x96.jpg?accountingTag=WR",
+      "label": "BLADESURGE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5925a902f6f12b8d8dc6a0d0f31f9f9404ac1c49.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Irelia charges a strike that deals more damage as she charges. She takes reduced physical damage during the charge.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/2a501bed85c1436430ac1c5d2ec0c2f95b5eeaad-96x96.jpg?accountingTag=WR",
+      "label": "DEFIANT DANCE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/32d4fd7c20aa401ac795794482f5712d884d2e83.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Irelia sends out two blades which converge on each other. Enemies caught in between are damaged, stunned and Marked.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/96cb9194ba5e8bf4cc8e6e322b73689ebf68ee3f-96x96.jpg?accountingTag=WR",
+      "label": "FLAWLESS DUET",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3dd92b74693e9ebd4fed740903564d72a04773d6.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Irelia fires a massive number of blades that explode outward upon hitting an enemy champion. Enemies hit by the blades are damaged and Marked. Afterwards the blades form a wall that will damage and slow enemies that walk through it.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/dd3c3ff7307886ebb1505304319ae71ae3454da7-96x96.jpg?accountingTag=WR",
+      "label": "VANGUARD'S EDGE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/7001bcc44aa6edfadc47cf420402535b7bb79a65.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a0bb8a92cdea1e7eac98704be600924c6c89dafe-1280x720.jpg?accountingTag=WR",
+      "label": "IRELIA, THE BLADE DANCER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a0bb8a92cdea1e7eac98704be600924c6c89dafe-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f70918427e96a5425c19b9a20e094ca0dbdb3801-1280x720.jpg?accountingTag=WR",
+      "label": "ORDER OF THE LOTUS IRELIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f70918427e96a5425c19b9a20e094ca0dbdb3801-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/eb4aa03501f16b24188db360b8878ec9e70bc2c8-1280x720.jpg?accountingTag=WR",
+      "label": "SENTINEL IRELIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/eb4aa03501f16b24188db360b8878ec9e70bc2c8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c441ea6567acce321c26b0e279bd206dc9b9080e-1280x720.jpg?accountingTag=WR",
+      "label": "DIVINE SWORD IRELIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c441ea6567acce321c26b0e279bd206dc9b9080e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b8d30e3dfacdfcc8ca4187257a66cfff3d8d74f5-1280x720.jpg?accountingTag=WR",
+      "label": "HIGH NOON IRELIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b8d30e3dfacdfcc8ca4187257a66cfff3d8d74f5-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6e4ff8e14ab76ec573f739e55be34042cd963c89-1280x720.jpg?accountingTag=WR",
+      "label": "SOUL FIGHTER IRELIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6e4ff8e14ab76ec573f739e55be34042cd963c89-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/85e1bd6f412bc85a16256879e80ac61f4b06f295-1280x720.jpg?accountingTag=WR",
+      "label": "Celestial Embroidery Irelia",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/85e1bd6f412bc85a16256879e80ac61f4b06f295-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ac6a2f11de267aa915e82ccc7be4932816fb1107-1920x1080.jpg?accountingTag=WR",
+      "label": "PRESTIGE SOUL FIGHTER IRELIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ac6a2f11de267aa915e82ccc7be4932816fb1107-1920x1080.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3a2574f04a06f873e8c5a6cf766cedb9589edd2d-1280x720.jpg?accountingTag=WR",
+      "label": "FROSTBLADE IRELIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3a2574f04a06f873e8c5a6cf766cedb9589edd2d-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-05-25T16:03:53Z",
+  "hash": "6e51cfe860781ace79451db30f2afd6e7fa5312013206391bc60cd432f837112"
+}

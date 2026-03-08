@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10028",
+  "riotSlug": "morgana",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/morgana/",
+  "title": "MORGANA",
+  "subtitle": "the Fallen",
+  "roles": [
+    "MAGE",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/24a7728ef32afaa45f51f0f6698b70d0fe8094f1.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Morgana drains spirit from her enemies, healing as she deals damage to champions, large minions, and medium and larger jungler monsters.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1b89213c4f6991c771b1b3731758aebcc1c3e698-96x96.jpg?accountingTag=WR",
+      "label": "SOUL SIPHON",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ed5a4a223b1250e84708afd8ca1aaab1e5c5f68c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Morgana binds an enemy in place with dark magic, forcing them to feel the pain they've caused and dealing magic damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/acac8defd9bd80a58aa1caae9d69f6c12ae46e35-96x96.jpg?accountingTag=WR",
+      "label": "DARK BINDING",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c82a0d7991b7ff8ef3d4a350e578407f2f141c8e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Morgana casts a cursed shadow on an area, damaging enemies who dare stand in her dark circle. They receive magic damage over time, which increases the lower health they are.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d55651a1f1f08e25a85aae7bd2f854e57e905b95-96x96.jpg?accountingTag=WR",
+      "label": "TORMENTED SHADOW",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6f7b868a52925205d68ff034b96a743cb0b3b631.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Morgana anoints an ally with a protective barrier of starfire, which absorbs magical damage and disabling effects until it is broken.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f90b85e95561042a61cbe60ada573fd0efbf4095-96x96.jpg?accountingTag=WR",
+      "label": "BLACK SHIELD",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6b13e420dae8e8f1b22db88127d37f2755cf5494.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Morgana unleashes the full force of her Celestial power as she unbinds her wings and hovers above the ground. She lashes chains of dark pain onto nearby enemy champions, gaining Move Speed towards them. The chains slow and deal initial damage and, after a delay, stun those who are unable to break them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/14a7205f81d4c340c1f66bac701a685465819ce7-96x96.jpg?accountingTag=WR",
+      "label": "SOUL SHACKLES",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/66a495c7c03598c38a2d2c926931f6d91f2f367e.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b4813d06004a1364fc45c95675032ad716fb0bbb-1280x720.jpg?accountingTag=WR",
+      "label": "MORGANA, THE FALLEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b4813d06004a1364fc45c95675032ad716fb0bbb-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d5f1aadfd6e0b7240c682b0aaf379a425cdfb330-1280x720.jpg?accountingTag=WR",
+      "label": "BLADE MISTRESS MORGANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d5f1aadfd6e0b7240c682b0aaf379a425cdfb330-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ce2d0d8657f19ebae2072eb8d3edc6490957307d-1280x720.jpg?accountingTag=WR",
+      "label": "MAJESTIC EMPRESS MORGANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ce2d0d8657f19ebae2072eb8d3edc6490957307d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7519c04aeda84b8cc28b8e72fe0b3b1be7e06db9-1215x717.jpg?accountingTag=WR",
+      "label": "BEWITCHING MORGANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7519c04aeda84b8cc28b8e72fe0b3b1be7e06db9-1215x717.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e86138b51be928bd143e9bddfc034db83b2b9f7f-1280x720.jpg?accountingTag=WR",
+      "label": "Lunar Empress Morgana",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e86138b51be928bd143e9bddfc034db83b2b9f7f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dac54e0e62ea6134ece214af12f3adfd2a6dc830-1280x720.jpg?accountingTag=WR",
+      "label": "COVEN MORGANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dac54e0e62ea6134ece214af12f3adfd2a6dc830-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/80312fb285b1560f8e82a726b21a97be932bfb6c-1280x720.jpg?accountingTag=WR",
+      "label": "CRYPTIC DEPTH MORGANA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/80312fb285b1560f8e82a726b21a97be932bfb6c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/73d7a9c21b9cd15371fdbd696a3f5f5533319359-1280x720.jpg?accountingTag=WR",
+      "label": "LUNAR EMPRESS MORGANA EXQUISITE EDITION",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/73d7a9c21b9cd15371fdbd696a3f5f5533319359-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-12-01T05:31:32Z",
+  "hash": "462a8bef7d7b7d5e798695820a26fd931f97b27922051ba6eef30b9252d5ea71"
+}

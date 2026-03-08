@@ -43,7 +43,12 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"
 import { SiteHeader } from "@/components/site-header"
-import { LEADERBOARDS_ROUTE, replaceRouteSearch, routeToHash } from "@/lib/hash-routing"
+import {
+  LEADERBOARDS_ROUTE,
+  championRoute,
+  replaceRouteSearch,
+  routeToHash,
+} from "@/lib/hash-routing"
 import {
   LANE_LABELS,
   loadLeaderboards,
@@ -471,21 +476,42 @@ function LeaderboardTable({
                 <LaneIcon lane={entry.lane} label={entry.laneLabel} />
               </TableCell>
               <TableCell>
-                <div className="flex min-w-0 items-center gap-3">
-                  <Avatar size="lg" className="rounded-xl">
-                    <AvatarImage
-                      src={entry.avatar}
-                      alt={entry.name}
-                      className="rounded-xl"
-                    />
-                    <AvatarFallback className="rounded-xl bg-muted text-xs">
-                      {initialsFromName(entry.name)}
-                    </AvatarFallback>
-                  </Avatar>
-                  <span className="truncate font-medium text-foreground">
-                    {entry.name}
-                  </span>
-                </div>
+                {entry.riotSlug ? (
+                  <a
+                    href={routeToHash(championRoute(entry.riotSlug))}
+                    className="rift-champion-link"
+                  >
+                    <Avatar size="lg" className="rounded-xl">
+                      <AvatarImage
+                        src={entry.avatar}
+                        alt={entry.name}
+                        className="rounded-xl"
+                      />
+                      <AvatarFallback className="rounded-xl bg-muted text-xs">
+                        {initialsFromName(entry.name)}
+                      </AvatarFallback>
+                    </Avatar>
+                    <span className="truncate font-medium text-foreground">
+                      {entry.name}
+                    </span>
+                  </a>
+                ) : (
+                  <div className="flex min-w-0 items-center gap-3">
+                    <Avatar size="lg" className="rounded-xl">
+                      <AvatarImage
+                        src={entry.avatar}
+                        alt={entry.name}
+                        className="rounded-xl"
+                      />
+                      <AvatarFallback className="rounded-xl bg-muted text-xs">
+                        {initialsFromName(entry.name)}
+                      </AvatarFallback>
+                    </Avatar>
+                    <span className="truncate font-medium text-foreground">
+                      {entry.name}
+                    </span>
+                  </div>
+                )}
               </TableCell>
               <TableCell className="text-center">
                 <Badge

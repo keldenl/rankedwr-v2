@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10063",
+  "riotSlug": "zyra",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zyra/",
+  "title": "ZYRA",
+  "subtitle": "Rise of The Thorns",
+  "roles": [
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/ea4fee3c181e0f06e0cc9b718bce30eb213c6498.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "When hitting enemies with Grasping Roots, Zyra spawns Thorn Spitters who fight for her. If it misses, a Thorn Spitter will spawn at the end of the root’s travel path instead. Thorn Spitters automatically attack Zyra’s target, dealing Magic Damage. Deadly Spines or Stranglethorns spawn additional Thorn Spitters for each extra enemy champion, large monster, or epic monster hit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/a70c126505cb5ae0b82e0f09657a093b50bd91c8-96x96.jpg?accountingTag=WR",
+      "label": "GARDEN OF THORNS",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/fb2e90045eaf1bd96b04d0d1aa357fa3df3739df.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Thick vines spread through the ground and explode into spines, dealing magic damage to enemies within the area. Zyra will also spawn a Thorn Spitter, dealing damage. For each enemy hit the number of Thorn Spitters will increase.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/18b4b95cda0c2f9b44a6f78b3d5c8946c9bbc1dc-96x96.jpg?accountingTag=WR",
+      "label": "DEADLY SPINES",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/88aef61882f9dd417ead037c41d2f3541093c75d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Zyra enrages all Thorn Spitters near her. Enraged Thorn Spitters’ duration get reset and they gain bonus Health and bonus Attack Damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9cf84134d32d87a462c28ccfedd80ca15c6f4d49-96x96.jpg?accountingTag=WR",
+      "label": "RAMPANT GROWTH",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/2077f36bb5b4ace8e81cd61d5fe3fc42b9b3569e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Zyra sends forth vines through the ground to ensnare her target, dealing Magic Damage and rooting enemies they come across. Zyra spawns a Thorn Spitter when the vines hit the first enemy, or after the skill is cast if no enemy is hit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/1b06869777426fb1946924d154ff3beb33332a60-96x96.jpg?accountingTag=WR",
+      "label": "GRASPING ROOTS",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/de382743fddb7204069191d35295f24250830e29.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Zyra summons a massive thicket at a target location, dealing Magic Damage to enemies as it expands and knocking them airborne as it contracts. When enemy champions are hit, a Thorn Spitter will spawn.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/07d45db9dca335fe0f579b1ab08f007fb51ead28-96x96.jpg?accountingTag=WR",
+      "label": "STRANGLETHORNS",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/53ac3ecbbd17f3d1cac263896ddc5b9d9630137b.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a8024c119c807782f62205c90b8aec7f19ef8ad0-1280x720.jpg?accountingTag=WR",
+      "label": "ZYRA, RISE OF THE THORNS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a8024c119c807782f62205c90b8aec7f19ef8ad0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ae60b2b84dde0bc231f202fdabda9da3e4eef524-1280x720.jpg?accountingTag=WR",
+      "label": "COVEN ZYRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ae60b2b84dde0bc231f202fdabda9da3e4eef524-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dc641cf82fb4dd30e744569e983221d764dff78e-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGON LANTERN ZYRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dc641cf82fb4dd30e744569e983221d764dff78e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/67f889ae20210b5351de19566fcc2be3cb2a2bdb-1280x720.jpg?accountingTag=WR",
+      "label": "MYSTICAL HERALD ZYRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/67f889ae20210b5351de19566fcc2be3cb2a2bdb-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2023-12-05T18:46:43Z",
+  "hash": "49c455678af8bec1d3eeba2ddf0f11deba504dd7fa93481480359eafab7be596"
+}

@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10072",
+  "riotSlug": "graves",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/graves/",
+  "title": "GRAVES",
+  "subtitle": "the Outlaw",
+  "roles": [
+    "MARKSMAN",
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/27855544e1b84e83f89903653aeef57a5928fbbe.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Graves' shotgun has some unique properties. He must reload when he runs out of ammo. Attacks fire 4 bullets, which cannot pass through units. Non-champions struck by multiple bullets are knocked back.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b6a550d5daf4a43b8f803fb6a7bae8b4ef883b8c-96x96.jpg?accountingTag=WR",
+      "label": "New Destiny",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/903542c1ae9934a8a4eb4ca45b21a5484cec078a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Graves fires an explosive shell that detonates after 1.5 seconds, or 0.25 seconds if it strikes terrain.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/27618aaf3e5ba62b149c9f66d2d621d770b3f6fa-96x96.jpg?accountingTag=WR",
+      "label": "End of the Line",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/28d6299727ceddf7d84255f52444b212330b112d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Graves fires a smoke canister at the target area creating a cloud of smoke that reduces sight range. Enemies caught in the initial impact are dealt magic damage and have their movement speed reduced briefly.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e6010147d97a8ff41af6681aa2631ccab9fac40e-96x96.jpg?accountingTag=WR",
+      "label": "Smoke Screen",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ae15709d5b5ef0a42eecec05ff7fa5e05bda41a5.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Graves dashes forward gaining an Armor boost for several seconds. If Graves dashes towards an enemy champion, gain two stacks of True Grit instead. Hitting enemies with basic attacks lowers the cooldown of this skill and refreshes the resistance boost.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d76a41808c113ba489cf5493172c11c215800889-96x96.jpg?accountingTag=WR",
+      "label": "Quickdraw",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5432c5eb9b9996d0d522f8af5a45e3102714a242.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Graves fires an explosive shell dealing heavy damage to the first champion it hits, and pushing Graves back from recoil. After hitting a champion or reaching the end of its range, the shell explodes dealing damage in a cone.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/2818f2873c12f695685441cf641b3a101994919b-96x96.jpg?accountingTag=WR",
+      "label": "Collateral Damage",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c3f330ec65b42b8bbc6ae1cf4b50e8a5e07c421a.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3c8ffdb9fef5090341a73da16f06cd6574fc517b-1280x720.jpg?accountingTag=WR",
+      "label": "GRAVES, THE OUTLAW",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3c8ffdb9fef5090341a73da16f06cd6574fc517b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7f784ad57ae66de2f1744305324ddc028ed84114-1280x720.jpg?accountingTag=WR",
+      "label": "CRIME CITY GRAVES",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7f784ad57ae66de2f1744305324ddc028ed84114-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e0cc13e9c8b40dfde83a8d1a2b28f41b8e1987c9-1280x720.jpg?accountingTag=WR",
+      "label": "PRAETORIAN GRAVES",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e0cc13e9c8b40dfde83a8d1a2b28f41b8e1987c9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/786d31d2105e802d03545e6fbe685beed02b47b5-1280x720.jpg?accountingTag=WR",
+      "label": "CUTTHROAT GRAVES",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/786d31d2105e802d03545e6fbe685beed02b47b5-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5921bdcb5e04862b041f65af12077aaf3735ebaa-1280x720.jpg?accountingTag=WR",
+      "label": "Battle Professor Graves",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5921bdcb5e04862b041f65af12077aaf3735ebaa-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b5c32eba1771f88c64170f60f5e9138bbbae4465-1280x720.jpg?accountingTag=WR",
+      "label": "MARAUDER GRAVES",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b5c32eba1771f88c64170f60f5e9138bbbae4465-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/db7611d1b7a31907542bb6a152a2e4c676dd7fae-1280x720.jpg?accountingTag=WR",
+      "label": "POOL PARTY GRAVES",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/db7611d1b7a31907542bb6a152a2e4c676dd7fae-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9b086dc611732874cb8b0c466212cc4c672f2fa0-1280x720.jpg?accountingTag=WR",
+      "label": "SUPER VILLAIN GRAVES",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9b086dc611732874cb8b0c466212cc4c672f2fa0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e30e81a109b0cd284e3e6e36d7dbb30d0fe10199-1280x720.jpg?accountingTag=WR",
+      "label": "SENTINEL GRAVES",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e30e81a109b0cd284e3e6e36d7dbb30d0fe10199-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cfd9436258230e2df2a55751840567148baea504-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGON LANTERN GRAVES",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cfd9436258230e2df2a55751840567148baea504-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6455efb1546c5e8042b13df395de8d36713c1146-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGON LANTERN (SPECIAL EDITION) GRAVES",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6455efb1546c5e8042b13df395de8d36713c1146-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a7156719fda224a9702fc88b0ba9b15227cb577b-1280x720.jpg?accountingTag=WR",
+      "label": "BATTLE TIGER GRAVES",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a7156719fda224a9702fc88b0ba9b15227cb577b-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:09:04Z",
+  "hash": "dba9ab08085bb3ec695711d3400dbabcddf02af4abc88e0deb3e48f154c3910e"
+}

@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10023",
+  "riotSlug": "aurelion-sol",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/aurelion-sol/",
+  "title": "AURELION SOL",
+  "subtitle": "the Star Forger",
+  "roles": [
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f4b1e8921336742d0f1b6d905519d4784f0b46f4.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Aurelion Sol's damaging abilities break down enemies into permanent stacks of Stardust, which improve each of his abilities.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3c64f48d9b44cb35ff343db64e86cfe55494250b-96x96.jpg?accountingTag=WR",
+      "label": "COSMIC CREATOR",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/441e07a7836bcc4d708ba486905b842049b4d4d8.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Aurelion Sol channels his dragon breath to exhale a beam of starfire, revealing and damaging the first enemy hit and splashing reduced damage onto nearby enemies. Each second the breath is channeled directly at an enemy will deal bonus damage, which is improved by the amount of Stardust that's been collected. This ability collects Stardust if the target is a champion. Aurelion Sol can move while channeling Breath of Light.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/54ade474b3ad02caa99b48919ab43987a07cb86d-96x96.jpg?accountingTag=WR",
+      "label": "BREATH OF LIGHT",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bd28bb6f5c3ab266eb3479ef6fbfc6fc5a3cefcc.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Aurelion Sol flies over terrain in a targeted direction. While in this state, he can cast other abilities. Breath of Light no longer has a cooldown or maximum channel duration and deals increased damage while flying. Astral Flight's remaining cooldown is reduced whenever an enemy champion dies after being recently damaged by Aurelion Sol. Stardust increases Astral Flight's maximum range.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/31c2b211a790ded95baf9bc43419c25624fe03b0-96x96.jpg?accountingTag=WR",
+      "label": "ASTRAL FLIGHT",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2ab90a4ac0dc1a2e1ca29c18b6a212ff874079bd.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Aurelion Sol summons a black hole, damaging enemies and slowly pulling them toward its center. This ability grants Stardust each time an enemy dies within the black hole and for each second an enemy champion is caught inside it. The center of the black hole executes enemies who are below a certain percentage of their maximum health. Stardust increases Singularity's area as well as the execution threshold.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/9131b8fd371d078d90704b8af6e992c24dc10974-96x96.jpg?accountingTag=WR",
+      "label": "SINGULARITY",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/abfcbb7d99039495de7126437f250a1aa6e4f58e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Falling Star: Aurelion Sol calls down a star. The impact deals magic damage and stuns enemies hit while also granting Stardust for each enemy champion hit. Gathering enough Stardust transforms Aurelion Sol's next ult cast into The Skies Descend. \nThe Skies Descend: Aurelion Sol calls a giant star down from the heavens with an increased impact zone and increased damage, knocking up enemies rather than stunning them. A shockwave then spreads from the edge of the impact zone, which damages and slows the enemies it hits.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4d73f0006584c3effbee3a671d040e10028eb31f-96x96.jpg?accountingTag=WR",
+      "label": "FALLING STAR / THE SKIES DESCEND",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d4202439cd411bc8b56e0c4d891b23e5abab32a6.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/ad17baa616627ca28ad981eb47a1393d724e5c54-1280x720.jpg?accountingTag=WR",
+      "label": "AURELION SOL, THE STAR FORGER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/ad17baa616627ca28ad981eb47a1393d724e5c54-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a87190f5274bc24dfc5b1ec389f7748fbb73a1cc-1280x720.jpg?accountingTag=WR",
+      "label": "MECHA AURELION SOL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a87190f5274bc24dfc5b1ec389f7748fbb73a1cc-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/42a5a8d90757b99af36ec57266470d0c9613918c-1280x720.jpg?accountingTag=WR",
+      "label": "ASHEN LORD AURELION SOL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/42a5a8d90757b99af36ec57266470d0c9613918c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a268db69adf9b286207a563946e1bbe4c2c8ddde-1280x720.jpg?accountingTag=WR",
+      "label": "Storm Dragon Aurelion Sol",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a268db69adf9b286207a563946e1bbe4c2c8ddde-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6ae1191328b20116355bb5b4dc5f4d07da44b41d-1280x720.jpg?accountingTag=WR",
+      "label": "Lunar Guardian Aurelion Sol",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6ae1191328b20116355bb5b4dc5f4d07da44b41d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6a427386c99d2d679db98dd7ec38b7fbe1261205-1920x1080.jpg?accountingTag=WR",
+      "label": "PORCELAIN PROTECTOR AURELION SOL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6a427386c99d2d679db98dd7ec38b7fbe1261205-1920x1080.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:04:30Z",
+  "hash": "533ceb9e20f77faede44d3e72bc0bc74f05eb94526f10247fc3baaff1a6465af"
+}

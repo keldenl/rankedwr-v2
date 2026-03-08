@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10022",
+  "riotSlug": "jhin",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jhin/",
+  "title": "JHIN",
+  "subtitle": "the Virtuoso",
+  "roles": [
+    "MARKSMAN",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3e6a4b0080c56b2417f458f5f9efa323877874c0.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Jhin's hand cannon, Whisper, is a precise instrument designed to deal superior damage. It fires at a fixed rate and carries only four shots. Jhin imbues the final bullet with dark magics to critically strike and deal bonus execute damage. Whenever Whisper crits, it inspires Jhin with a burst of movement speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e68c9203ae7b25e39a78d9486fbc04f736ef61de-96x96.jpg?accountingTag=WR",
+      "label": "Whisper",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b8f85702bd8fde57ca32815abebcc29ec4446b4b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Jhin launches a magical cartridge at an enemy. It can hit up to four targets and gains damage each time it kills.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/30d346e4c5cdadf6ef4c281cae0392aba29d8572-96x96.jpg?accountingTag=WR",
+      "label": "Dancing Grenade",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9b1db2076182639a8b7ece8f439d786073242556.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Jhin fires a single shot with incredible range. It pierces through minions and monsters, but stops on the first champion hit. If the target was recently struck by Jhin's allies, lotus traps, or damaged by Jhin, they are rooted.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d18698db86b50fc17aea51d87b9c1ba8b0c2fb89-96x96.jpg?accountingTag=WR",
+      "label": "Deadly Flourish",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3b67f24c14d28908c7bdb67c40be1a4adb1c4538.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Jhin places an invisible lotus trap that blooms when walked over. It slows nearby enemies before dealing damage with an explosion of serrated petals. When Jhin kills an enemy champion, a lotus trap will bloom near where they were killed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b45ed71cf0afe522207dd31177f9ce3f5a270c57-96x96.jpg?accountingTag=WR",
+      "label": "Captive Audience",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9ec80dc0dd6707b25e1acc9edff80341c2a3ae5c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Jhin channels, transforming Whisper into a shoulder-mounted mega-cannon. It is able to fire 4 super shots at extreme range that pierce through minions and monsters, but stop on the first champion impacted. Whisper cripples enemies hit, which slows them and deals execute damage. The 4th shot is perfectly crafted, epically powerful, and guaranteed to critically strike.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a7675d9c1bc90207ebda6a9aeb4a67a2d10e0b8b-96x96.jpg?accountingTag=WR",
+      "label": "Curtain Call",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d0419ca6be65d6a568dfac85e1ff9dc75aec9b44.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8e49e3ec43df83b14dc7dbc326da1586093bbde2-1280x720.jpg?accountingTag=WR",
+      "label": "JHIN, THE VIRTUOSO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8e49e3ec43df83b14dc7dbc326da1586093bbde2-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6b0c7dfca01ae7ccee439955a1d70a49fdc42865-1280x720.jpg?accountingTag=WR",
+      "label": "HIGH NOON JHIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6b0c7dfca01ae7ccee439955a1d70a49fdc42865-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4a4c734c6cfb111f82dc3d08fa97d09666515f9f-1280x720.jpg?accountingTag=WR",
+      "label": "DARK COSMIC JHIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4a4c734c6cfb111f82dc3d08fa97d09666515f9f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4f1215e7d80c05254b259442c3acd3f00c81dd1c-1280x720.jpg?accountingTag=WR",
+      "label": "Blood Moon Jhin",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4f1215e7d80c05254b259442c3acd3f00c81dd1c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/67ec9f52f47e8fe4ca2be456e4066fdcb9cbc50e-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: Jhin",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/67ec9f52f47e8fe4ca2be456e4066fdcb9cbc50e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ecfe76663ae331c4f277f5cbb310858604b68c36-1280x720.jpg?accountingTag=WR",
+      "label": "SOUL FIGHTER JHIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ecfe76663ae331c4f277f5cbb310858604b68c36-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8cd76c2874821056756382e5e15d91a763751870-1280x720.jpg?accountingTag=WR",
+      "label": "Shan Hai Scrolls Jhin",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8cd76c2874821056756382e5e15d91a763751870-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b179708468e5633e53284857b278823fb4897b6e-1920x1080.jpg?accountingTag=WR",
+      "label": "PORCELAIN JHIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b179708468e5633e53284857b278823fb4897b6e-1920x1080.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3bc566accffa13e701b4f809552d3944de5e740e-1280x720.jpg?accountingTag=WR",
+      "label": "SUPER VILLAIN JHIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3bc566accffa13e701b4f809552d3944de5e740e-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:10:53Z",
+  "hash": "d9ddb24f2b52aaf253a5c24291ea13df9090c5aeab711550f2433fde03c2cc97"
+}

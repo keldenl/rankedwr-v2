@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10056",
+  "riotSlug": "jarvan-iv",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/jarvan-iv/",
+  "title": "JARVAN IV",
+  "subtitle": "the Exemplar of Demacia",
+  "roles": [
+    "TANK",
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8f539d9801afff0ae1c45abcd6946646fc24f746.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Jarvan's first basic attack on an enemy deals bonus physical damage based on their current Health. This effect cannot occur again on the same enemy for a few seconds.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e24dbf99fd6f81bb48e84081fff46ebeb2b83943-96x96.jpg?accountingTag=WR",
+      "label": "Martial Cadence",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f6c24cf2e8e5a591c07ae057b0830d690c913b9d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Jarvan IV extends his lance, dealing physical damage and lowering the Armor of enemies in its path. Additionally, this will pull Jarvan to his Demacian Standard, knocking up enemies in his path.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c071cb5323b90fe8697afe0d0229bf30c13e9f2e-96x96.jpg?accountingTag=WR",
+      "label": "Dragon Strike",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5cd5e5273aeb2bfe95f3e35e1ac507a9022ccdb0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Jarvan IV calls upon the ancient kings of Demacia to shield him from harm and slow surrounding enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3b5d4389afaa2caf8fe52e66b3c057afd8ddf24d-96x96.jpg?accountingTag=WR",
+      "label": "Golden Aegis",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2a183420df75eb486641d55012b3fd8b5db6cced.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Jarvan IV carries the pride of Demacia, passively granting him bonus Attack Speed. Activating Demacian Standard allows Jarvan IV to place a Demacian flag that deals magic damage on impact and grants Attack Speed to nearby allied champions. Cast again to automatically cast Dragon Strike to the flag.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/450b75c357e0db316ece274694989f52d28447f2-96x96.jpg?accountingTag=WR",
+      "label": "Demacian Standard",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6c36d3df2a31bbed821fdbaeff2174da2e2a64e3.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Jarvan IV heroically leaps into battle at a target with such force that he terraforms the surrounding area to create an arena around them. Nearby enemies are damaged at the moment of impact.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/ee63b6658f44354ed8ec5f0176e5026c67ac577a-96x96.jpg?accountingTag=WR",
+      "label": "Cataclysm",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8551adf76e53c2090690d6b48f14aafc485d32c9.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9142639ce67e65a94f42a778a7c7ed638573f4e5-1280x720.jpg?accountingTag=WR",
+      "label": "JARVAN IV, THE EXEMPLAR OF DEMACIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9142639ce67e65a94f42a778a7c7ed638573f4e5-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/faa89fc1701b284f1327f44fdd411782faa65349-1280x720.jpg?accountingTag=WR",
+      "label": "COMMANDO JARVAN IV",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/faa89fc1701b284f1327f44fdd411782faa65349-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3727c1d4c6c49025c98f0b2146b112f97745be85-1280x720.jpg?accountingTag=WR",
+      "label": "DARK STAR JARVAN IV",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3727c1d4c6c49025c98f0b2146b112f97745be85-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7700eb52d63d9ce7e2b37fd07a74c785c14e3bda-1280x720.jpg?accountingTag=WR",
+      "label": "LUNAR BEAST JARVAN IV",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7700eb52d63d9ce7e2b37fd07a74c785c14e3bda-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ad91ea2b5e8f4008373ffee9b1372b2d9c57bec2-1280x720.jpg?accountingTag=WR",
+      "label": "Crystal Rose Jarvan IV",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ad91ea2b5e8f4008373ffee9b1372b2d9c57bec2-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ae51bf9265d59742cf83520bda67b5e370812c26-1280x720.jpg?accountingTag=WR",
+      "label": "Warring Kingdoms Jarvan IV",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ae51bf9265d59742cf83520bda67b5e370812c26-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dd6c972e5bc2c8c7de40dc7105e6775831e1ec03-1280x720.jpg?accountingTag=WR",
+      "label": "Hextech Jarvan IV",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dd6c972e5bc2c8c7de40dc7105e6775831e1ec03-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7354431aae4423bc986357f1bad71d4069831d89-1280x720.jpg?accountingTag=WR",
+      "label": "GLORIOUS BASILISK JARVAN IV",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7354431aae4423bc986357f1bad71d4069831d89-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d6e786eff87d7a409cccd4ca9bfc5c0506ce827d-1280x720.jpg?accountingTag=WR",
+      "label": "WARRING KAINDOMS MYTHIC CHROMA JARVAN IV",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d6e786eff87d7a409cccd4ca9bfc5c0506ce827d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/28c3f6b7d0f159a09f8789746bc8d5210922df64-1280x720.jpg?accountingTag=WR",
+      "label": "Calligraphia Jarvan IV",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/28c3f6b7d0f159a09f8789746bc8d5210922df64-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fb294925280b5b08d4257dca5baec35788b64d28-1280x720.jpg?accountingTag=WR",
+      "label": "INSPIRING JARVAN IV",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fb294925280b5b08d4257dca5baec35788b64d28-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:10:02Z",
+  "hash": "f198850b65e4cba50f62be48512909dc6f75b6d0acb0dc03ae50859ca953303c"
+}

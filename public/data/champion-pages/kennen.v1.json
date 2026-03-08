@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10061",
+  "riotSlug": "kennen",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kennen/",
+  "title": "KENNEN",
+  "subtitle": "the Heart of the Tempest",
+  "roles": [
+    "MAGE",
+    "MARKSMAN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/087d6f86955a5b5067307b6ceed58b66f16b9090.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Kennen stuns enemies he hits 3 times with his abilities.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fdb6d6b214a1b33ca15fd569affc8631f3755bbd-96x96.jpg?accountingTag=WR",
+      "label": "MARK OF THE STORM",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bc874d466ea3c6d0c5988e662788eafb294e5484.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Throws a shuriken, dealing magic damage to the first enemy hit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e5c92766223e78bb091ba4d5162107faa14492a9-96x96.jpg?accountingTag=WR",
+      "label": "THUNDERING SHURIKEN",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e85584b96b2ef1bb9eb80f3b78be971b3d920e0b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kennen passively deals extra damage and adds a Mark of the Storm to his target every few attacks, and he can activate this ability to damage and add another Mark of the Storm to targets who are already marked.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e5bc1042245d4b46a8173410db98f91e09a902d2-96x96.jpg?accountingTag=WR",
+      "label": "ELECTRICAL SURGE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6dae2137ebaa05583c5d8e83bdc90af4674a1664.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kennen morphs into a lightning form, becoming unable to attack. Kennen gains movement speed when entering this form, and attack speed when leaving it.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7844a8ee4ae59f8528b2e839dcd4b571592396b2-96x96.jpg?accountingTag=WR",
+      "label": "LIGHTNING RUSH",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5540b023c3b805e5118acb8003cb21878b7fee0f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kennen summons a storm that strikes at nearby enemy champions for magical damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3cb5d96bac4732b727dd551b16c7add786f1096e-96x96.jpg?accountingTag=WR",
+      "label": "SLICING MAELSTROM",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0d001dd8d11e33568e60a8bed3fcd9565854e7ed.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/be68dda79d0a329b9592234cc321c643ab0e154c-1280x720.jpg?accountingTag=WR",
+      "label": "KENNEN, THE HEART OF THE TEMPEST",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/be68dda79d0a329b9592234cc321c643ab0e154c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4d8209a60d778f2927f2eabfbe61d675fb33358b-1280x720.jpg?accountingTag=WR",
+      "label": "ARCTIC OPS KENNEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4d8209a60d778f2927f2eabfbe61d675fb33358b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3dae7db9b1c5be6e54cc598741a2ce91e290bb6d-1280x720.jpg?accountingTag=WR",
+      "label": "SUPER KENNEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3dae7db9b1c5be6e54cc598741a2ce91e290bb6d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/217a098969ec72822bba4d31186e058fa2d42acc-1280x720.jpg?accountingTag=WR",
+      "label": "Blood Moon Kennen",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/217a098969ec72822bba4d31186e058fa2d42acc-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8d90070357643379a8a6b9c7bfeeb7d04d44ec49-1280x720.jpg?accountingTag=WR",
+      "label": "Infernal Kennen",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8d90070357643379a8a6b9c7bfeeb7d04d44ec49-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/aca96fdb778ca0e03fec13418dd3e6ec8c5f4137-1280x720.jpg?accountingTag=WR",
+      "label": "Psychic Detective Kennen",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/aca96fdb778ca0e03fec13418dd3e6ec8c5f4137-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-01-26T22:25:52Z",
+  "hash": "747822a63a97d644c57fc449b1d7084319da981826013f7c8ff4ec5f9ab24ab6"
+}

@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10095",
+  "riotSlug": "katarina",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/katarina/",
+  "title": "KATARINA",
+  "subtitle": "the Sinister Blade",
+  "roles": [
+    "ASSASSIN",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d6109f90c2d5ba3047b88401b71eb0f42c2a3c1b.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Whenever an enemy champion dies that Katarina has damaged recently, her remaining ability cooldowns are dramatically reduced. If Katarina picks up a Dagger, she uses it to slash through all nearby enemies, dealing magic damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/64522a426633969553de57153352991b090e5a8c-96x96.jpg?accountingTag=WR",
+      "label": "VORACITY",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/da74bb5aace60b5b3839dc503ad79d49fde007bf.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Katarina throws a Dagger at the target that then bounces to nearby enemies before ricocheting onto the ground.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/34a9768b260702eb1d92032d35a6cc81337719c1-96x96.jpg?accountingTag=WR",
+      "label": "BOUNCING BLADE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a11bf669361e778c0ca8330c41a85942d50d00f9.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Katarina gains a burst of movement speed, tossing a Dagger into the air directly above herself.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b70f54b930e53b2f3647b33be7f4ec23ad13a08d-96x96.jpg?accountingTag=WR",
+      "label": "PREPARATION",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8720cd3df2c29252152a280d875e0d2dca3c3153.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Katarina blinks to a location near a Dagger or unit, dealing damage to the nearest enemy. Picking up a Dagger reduces Shunpo's cooldown.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/6c26851015e722cc7b70c72311d78ed60aba83ee-96x96.jpg?accountingTag=WR",
+      "label": "SHUNPO",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bd7c38e0d397aab297b0dbef26e6dad18f662216.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Katarina becomes a flurry of blades, dealing damage over time and applying healing reduction. Katarina is able to slowly reposition for a short time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/026f0679e80e02b3081f2db0c75299bcad7df7e3-96x96.jpg?accountingTag=WR",
+      "label": "DEATH LOTUS",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a8fc114a2b6214b04b3042c319f813c3aed77ece.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3bc39237edf50d4cfef1886e97f3bdf17a756612-1280x720.jpg?accountingTag=WR",
+      "label": "KATARINA, THE SINISTER BLADE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3bc39237edf50d4cfef1886e97f3bdf17a756612-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7c0e8b9c6c4ac793ae24e9105f88868b078569b4-1280x720.jpg?accountingTag=WR",
+      "label": "DEATH SWORN KATARINA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7c0e8b9c6c4ac793ae24e9105f88868b078569b4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/93e2e9ead039836dc8927b1affb19ede455efe80-1280x720.jpg?accountingTag=WR",
+      "label": "BILGEWATER KATARINA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/93e2e9ead039836dc8927b1affb19ede455efe80-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/916a63a4a650b31dfe9549f13e9401e2bdfc83e7-1280x720.jpg?accountingTag=WR",
+      "label": "BATTLE ACADEMIA KATARINA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/916a63a4a650b31dfe9549f13e9401e2bdfc83e7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/801054337dbc72fde81f1c65a3ddd3625976aa1d-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: KATARINA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/801054337dbc72fde81f1c65a3ddd3625976aa1d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fc3d80306b41656fc50a90dff9d609dff41b62e7-1280x720.jpg?accountingTag=WR",
+      "label": "RESISTANCE KATARINA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fc3d80306b41656fc50a90dff9d609dff41b62e7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4419d22bb7f2490745656a2138290bd4cf639ca3-1280x720.jpg?accountingTag=WR",
+      "label": "WARRING KINGDOMS KARATINA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4419d22bb7f2490745656a2138290bd4cf639ca3-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c01ab6fe63d1b866de1f8e6c0e37c77f6808c521-1280x720.jpg?accountingTag=WR",
+      "label": "HIGH NOON KATARINA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c01ab6fe63d1b866de1f8e6c0e37c77f6808c521-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/03bd657b9f2bc12687039b9c3bf80ca61775923d-1280x720.jpg?accountingTag=WR",
+      "label": "SUMMER PARTY KATARINA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/03bd657b9f2bc12687039b9c3bf80ca61775923d-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-02-25T18:41:28Z",
+  "hash": "c09a8358c91c620bc3bc96bf3fce7b05d7b8587e9a3896609b7e2cb630580d8b"
+}

@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10036",
+  "riotSlug": "annie",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/annie/",
+  "title": "ANNIE",
+  "subtitle": "the Dark Child",
+  "roles": [
+    "MAGE",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/85ccb99df06b506376129f39d88ddbbfa6e1fc1c.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "After casting 4 spells, Annie's next offensive spell will stun the target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b7f7813fe0367fe34e917b951cca3bc5cb7ca3b8-96x96.jpg?accountingTag=WR",
+      "label": "Pyromania",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3cc0dd35d1b08086500839b17f14704366549a58.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Annie hurls a Mana infused fireball, dealing damage in a small area and refunding the Mana cost and half its cooldown if it destroys the target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/c908b4808c5ca4af75de794c7274b8646fae4df4-96x96.jpg?accountingTag=WR",
+      "label": "Disintegrate",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/923dc830ad0c55fe545392795582e520ea1c9107.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Annie casts a blazing cone of fire, dealing damage to all enemies in the area.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/61abec6d3cc48a6aa4956ef677f6baea0da6b992-96x96.jpg?accountingTag=WR",
+      "label": "Incinerate",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f91ed23d2bd905a63b7e8555f4a85619e1bb1ac7.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Annie casts a shield over herself and Tibbers and gains move speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/da1b68e857183f23d146c341318bbb2e3984d6ec-96x96.jpg?accountingTag=WR",
+      "label": "Molten Shield",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c5154f049b288877a308623bb3302adbaf30389f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Annie summons Tibbers, dealing damage in the area. Tibbers enrages after pouncing on an enemy or when Annie dies, gaining move and attack speed. Recast: Annie orders Tibbers to pounce on a target. He deals damage and knocks up the target when he lands.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/610f1b34137a719fa2677c0897fbe46847d2aff1-96x96.jpg?accountingTag=WR",
+      "label": "Summon: Tibbers",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f88f933b8ebed6c804c5eab2cf18d077d9205c6a.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bd1cfff9afdca2b8a5077ffd1148d3880cac1d56-1280x720.jpg?accountingTag=WR",
+      "label": "ANNIE, THE DARK CHILD",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bd1cfff9afdca2b8a5077ffd1148d3880cac1d56-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/779e0ed88ed7352323ada63454d52dd9a3352d5c-1280x720.jpg?accountingTag=WR",
+      "label": "FROSTFIRE ANNIE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/779e0ed88ed7352323ada63454d52dd9a3352d5c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/263b72da4fa64658f5ba366ae6ff2bb492dd371b-1280x720.jpg?accountingTag=WR",
+      "label": "RED RIDING ANNIE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/263b72da4fa64658f5ba366ae6ff2bb492dd371b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3ed890c1d1ef00724bfc67980caa7abac315eacc-1280x720.jpg?accountingTag=WR",
+      "label": "LUNAR BEAST ANNIE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3ed890c1d1ef00724bfc67980caa7abac315eacc-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/26a93bbc560730dacd7feed25615b0a6962a50b3-1280x720.jpg?accountingTag=WR",
+      "label": "Super Galaxy Annie",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/26a93bbc560730dacd7feed25615b0a6962a50b3-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/82bc350cf4e393e66ce2f40d4a1cec699cd78728-1280x720.jpg?accountingTag=WR",
+      "label": "Sweetheart Annie",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/82bc350cf4e393e66ce2f40d4a1cec699cd78728-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e8d718a811adbaec8e4eacecbd8c9ef5359e0064-1280x720.jpg?accountingTag=WR",
+      "label": "HEXTECH ANNIE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e8d718a811adbaec8e4eacecbd8c9ef5359e0064-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/06bccc368fadbb1fc7c1f4c1f74bf4fb8744bc8b-1280x720.jpg?accountingTag=WR",
+      "label": "Panda Annie",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/06bccc368fadbb1fc7c1f4c1f74bf4fb8744bc8b-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:03:34Z",
+  "hash": "28234ead45573bee8a9572393c2ef278679b2a3519d85eb1811a4062c8dcef63"
+}

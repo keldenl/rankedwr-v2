@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10034",
+  "riotSlug": "seraphine",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/seraphine/",
+  "title": "SERAPHINE",
+  "subtitle": "the Starry-Eyed Songstress",
+  "roles": [
+    "MAGE",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/87c3b1ff37f87d1927ed38e8c9091d040c1b35b6.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Every third ability cast will Echo, casting it again. Casting Seraphine's abilities grants a Note to nearby allies. For each Note, Seraphine's next basic attack gains Attack Range and bonus damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8531a6b00deaac5ece9290c1614491183a9ef4b0-96x96.jpg?accountingTag=WR",
+      "label": "STAGE PRESENCE",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e4d9adad24f56bd9688b0a34d0e7f920260efc1f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Seraphine deals damage in an area, increased by enemies' missing Health.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/6e1fbd7f2a3645a9f585c3147d230e1db70adc6b-96x96.jpg?accountingTag=WR",
+      "label": "HIGH NOTE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4fcf744b5d24ccf203aa90eeaa5e8f7b4e985d85.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Seraphine shields all nearly ally champions and grants them Movement Speed. If Seraphine is already shielded, nearby allies are healed, increasing for each ally.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d2b2838cf760209eaac2475ce35547135a548842-96x96.jpg?accountingTag=WR",
+      "label": "SURROUND SOUND",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5c6212f0dce9bd44c93a50a48a228891e99b571c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Seraphine deals damage and slows enemies. If the enemy is already slowed, they are rooted instead. If they are already rooted, they are stunned instead.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c9483e9d9486de80408ea7588d8ee1bf56cd4fc6-96x96.jpg?accountingTag=WR",
+      "label": "BEAT DROP",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d2dd8c1faeca2d1d452ac4df4a5372af35fbe54f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Seraphine deals damage in a line, charming and slowing enemies. Encore extends if it touches an ally or enemy champion.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/20872128eabe45eb7a940a0c656ff2f0f5411659-96x96.jpg?accountingTag=WR",
+      "label": "ENCORE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ec94ba12accccc5161bfa8d2fbd403dd5a61395c.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ca6a54fa8593a284f1031bd53c6d08091a16b918-1280x720.jpg?accountingTag=WR",
+      "label": "SERAPHINE, THE STARRY-EYED SONGSTRESS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ca6a54fa8593a284f1031bd53c6d08091a16b918-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e4e6e6d969f18df9c1b20639d8505ae0e2ddae13-1280x720.jpg?accountingTag=WR",
+      "label": "K/DA ALL OUT SERAPHINE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e4e6e6d969f18df9c1b20639d8505ae0e2ddae13-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/10f7a3e42991ded9859ebe526f7b96fc51895cb3-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN SERAPHINE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/10f7a3e42991ded9859ebe526f7b96fc51895cb3-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/048aa60f00788a93b8246bb9c43005cc408ab50f-1280x720.jpg?accountingTag=WR",
+      "label": "MYTHMAKER SERAPHINE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/048aa60f00788a93b8246bb9c43005cc408ab50f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/364582af1ce616708d664c06ae14c1fe524515be-1280x720.jpg?accountingTag=WR",
+      "label": "OCEAN SONG SERAPHINE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/364582af1ce616708d664c06ae14c1fe524515be-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1363da3b54dd6106a8e4e318a1203e1d18070c31-1280x720.jpg?accountingTag=WR",
+      "label": "CRYSTAL ROSE SERAPHINE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1363da3b54dd6106a8e4e318a1203e1d18070c31-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8f6d1182d15cfa8c8f39b3f43a6026afbf21b942-1280x720.jpg?accountingTag=WR",
+      "label": "GARDEN PARTY SERAPHINE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8f6d1182d15cfa8c8f39b3f43a6026afbf21b942-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8bb2bcea3549f29832e818767070c2b4c0cc1e02-1280x720.jpg?accountingTag=WR",
+      "label": "SUMMER PARTY SERAPHINE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8bb2bcea3549f29832e818767070c2b4c0cc1e02-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a79156c85e406bd4ca3a3b95704f0758ae4e1ca3-1280x720.jpg?accountingTag=WR",
+      "label": "PETALS OF SPRING SERAPHINE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a79156c85e406bd4ca3a3b95704f0758ae4e1ca3-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7584ef8d5a20533a298f0007b0fcfa7167c9e272-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE PETALS OF SPRING SERAPHINE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7584ef8d5a20533a298f0007b0fcfa7167c9e272-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-29T22:16:03Z",
+  "hash": "389296895e0c46f6b620d6fe125cc30a50886006b091dd17330a8fe981779933"
+}

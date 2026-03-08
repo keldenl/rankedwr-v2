@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10058",
+  "riotSlug": "volibear",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/volibear/",
+  "title": "VOLIBEAR",
+  "subtitle": "The Relentless Storm",
+  "roles": [
+    "FIGHTER",
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/d1dc0685f7e88adf369968860c0a588f60118038.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Volibear's Attacks and abilities grant Attack Speed, and eventually cause his Attacks to deal bonus magic damage to nearby enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5e1e2446c9dc697dd5d7c538f8bd779e6f923f66-96x96.jpg?accountingTag=WR",
+      "label": "THE RELENTLESS STORM",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/322973ad77e66d2213edad4e8144fa327da1234f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Volibear gains speed towards enemies, Stunning and damaging the first one he Attacks.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7febe52e611c29c35b7d80fb29c3dadf85ff3358-96x96.jpg?accountingTag=WR",
+      "label": "THUNDERING SMASH",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/37ebe5d6df15db623c28e0181e147e26f721dad0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Volibear damages an enemy, applying on-hit effects and gaining a mark. Casting this ability again on the same target consumes the mark to deal bonus damage and heal Volibear.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d54d88bd843372e17b005b04b08be9f9451eaebc-96x96.jpg?accountingTag=WR",
+      "label": "FRENZIED MAUL",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/3441e00e0df28a0e2e3caaaf6e1817256a078ce5.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Volibear summons a lightning bolt at a location, dealing damage and Slowing enemies while granting Volibear a shield if he's inside the blast radius.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5622bbd71b290ba4717da7f9b27a049ec4b24f14-96x96.jpg?accountingTag=WR",
+      "label": "SKY SPLITTER",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/842a11f40ea89504b2bf12f5bef5d4bff84b6449.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Volibear leaps to a target location, Slowing and damaging enemies beneath him while gaining bonus Health. Enemy towers near his landing location become temporarily disabled.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/68d7df543f0778a59a35265cd958eba87db943c0-96x96.jpg?accountingTag=WR",
+      "label": "STORMBRINGER",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/4f5e3eb5fa3169a552dca86006cc4d9419ab541c.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/110f74e55da06ea17c683ea17ed23c68dca48ae4-1280x720.jpg?accountingTag=WR",
+      "label": "VOLIBEAR, THE RELENTLESS STORM",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/110f74e55da06ea17c683ea17ed23c68dca48ae4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/56a3e1831818f7e58f796c3d2020061341c6fa52-1280x720.jpg?accountingTag=WR",
+      "label": "SHAN HAI SCROLLS VOLIBEAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/56a3e1831818f7e58f796c3d2020061341c6fa52-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b0ea34eb1749fc1ee8edd7c85d5d0594024906a9-1280x720.jpg?accountingTag=WR",
+      "label": "Duality Dragon Volibear",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b0ea34eb1749fc1ee8edd7c85d5d0594024906a9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fdc23ae2ae9dad0fda45d2c357e5671a49281527-1920x1080.jpg?accountingTag=WR",
+      "label": "MECHA VOLIBEAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fdc23ae2ae9dad0fda45d2c357e5671a49281527-1920x1080.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3fd58d87d74a8bf322277c24ce3cc4ea285104fa-1280x720.jpg?accountingTag=WR",
+      "label": "MECHA VOLIBEAR EXQUISITE EDITION",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3fd58d87d74a8bf322277c24ce3cc4ea285104fa-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2023-06-16T00:28:04Z",
+  "hash": "83b476d8cfb4b62e00575271c5602c14bc70f932587c9ea38f2c27393319cfd0"
+}

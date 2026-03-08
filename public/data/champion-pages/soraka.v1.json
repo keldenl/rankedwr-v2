@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10097",
+  "riotSlug": "soraka",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/soraka/",
+  "title": "SORAKA",
+  "subtitle": "the Starchild",
+  "roles": [
+    "SUPPORT",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a277dfe7182f5f5f751c1076aab2c70ba0b44f26.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Soraka runs faster towards nearby low health allies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/177f8d1678cf430025cc36cd98d74cffe1530aed-96x96.jpg?accountingTag=WR",
+      "label": "Salvation",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/aaafe89552b776f9fc57209522dafd61c5c30c0e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "A star falls from the sky at the target location dealing magic damage and slowing enemies. If an enemy champion is hit by Starcall, Soraka is rejuvenated and recovers Health. After healing 3 ally champions, her next Starcall is empowered and deals more damage in a larger area.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e15465e241c4a66ecb541b9b8d539eb13b5fc3b7-96x96.jpg?accountingTag=WR",
+      "label": "Starcall",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9c9101404faa53864decefcff2814a65a42da68d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Soraka heals a friendly champion. Excess healing is converted into a shield.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ea8b1be4f96c8f44d68d4716f75361a3fc4d8146-96x96.jpg?accountingTag=WR",
+      "label": "Astral Infusion",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e9af3b946c48c3be77df921c27075265d54d7719.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Creates a zone at a location that damages and silences all enemies inside. When the zone expires, all enemies still inside are rooted.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c5173986c29fbcde347ed89cec6e73a28169df13-96x96.jpg?accountingTag=WR",
+      "label": "Equinox",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fa4ec0f9cb754e34daefe48338f649440779e412.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Soraka fills her allies with hope, instantly restoring health to herself and all friendly champions.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/26f95883b00046f25f10bf5ba813285a8ab2cc85-96x96.jpg?accountingTag=WR",
+      "label": "Wish",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/db05bd3fffc7f6c2b14c9cb7e3c73f98b0dfaf33.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b7b139bc86dbd964f0e6039a31b9d1d6e8904b5b-1280x720.jpg?accountingTag=WR",
+      "label": "SORAKA, THE STARCHILD",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b7b139bc86dbd964f0e6039a31b9d1d6e8904b5b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0d6aa58435f38e7e3d76e382b12643e60715cf48-1280x720.jpg?accountingTag=WR",
+      "label": "ORDER OF THE BANANA SORAKA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0d6aa58435f38e7e3d76e382b12643e60715cf48-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b5f961ba609318779a6eefa1ae127d375fdb774e-1280x720.jpg?accountingTag=WR",
+      "label": "PROGRAM SORAKA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b5f961ba609318779a6eefa1ae127d375fdb774e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/40e7021ffbd90f292b1962524c6b48e2c2fe2eea-1280x720.jpg?accountingTag=WR",
+      "label": "WINTER WONDER SORAKA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/40e7021ffbd90f292b1962524c6b48e2c2fe2eea-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d8aabc54e6c399214f488d7e5fc71b39673f3fad-1280x720.jpg?accountingTag=WR",
+      "label": "STARGAZER SORAKA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d8aabc54e6c399214f488d7e5fc71b39673f3fad-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/652b98e62ca96dd31e243984e6b560ba02600e60-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN SORAKA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/652b98e62ca96dd31e243984e6b560ba02600e60-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/be09e53a60b983c9f3925efb30acf5d24a6b0db3-1280x720.jpg?accountingTag=WR",
+      "label": "Battle Sheep Soraka",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/be09e53a60b983c9f3925efb30acf5d24a6b0db3-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:49:10Z",
+  "hash": "12f585cc217cbc1233191b356b76c436e1933d8b24164aeb65594f58c88a71c2"
+}

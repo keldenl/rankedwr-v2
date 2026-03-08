@@ -154,28 +154,26 @@ body {
   }
 
   .rift-wordmark {
-    background: linear-gradient(
-      180deg,
-      oklch(0.96 0.07 98) 0%,
-      oklch(0.92 0.15 94) 28%,
-      oklch(0.88 0.16 93) 52%,
-      oklch(0.8 0.15 87) 76%,
-      oklch(0.72 0.13 80) 100%
-    );
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    text-shadow:
-      0 1px 0 rgba(255, 245, 214, 0.25),
-      0 10px 30px rgba(232, 186, 72, 0.08);
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: -0.06em;
+    text-shadow: 0 10px 30px rgba(232, 186, 72, 0.12);
+  }
+
+  .rift-wordmark-ranked {
+    color: var(--primary);
+  }
+
+  .rift-wordmark-wr {
+    color: oklch(0.97 0.01 95);
   }
 
   .rift-wordmark--hero {
-    @apply text-5xl font-extrabold tracking-[-0.06em] sm:text-7xl;
+    @apply text-5xl sm:text-7xl;
   }
 
   .rift-wordmark--sm {
-    @apply text-xl leading-none font-semibold tracking-[-0.03em];
+    @apply text-xl leading-none tracking-[-0.06em];
   }
 
   .rift-home-subtitle {
@@ -316,6 +314,10 @@ body {
     @apply bg-accent/70;
   }
 
+  .rift-champion-link {
+    @apply flex min-w-0 items-center gap-3 rounded-xl px-1 py-1 transition-colors hover:bg-accent/50;
+  }
+
   .rift-role-cell {
     @apply px-2 text-center;
   }
@@ -335,5 +337,331 @@ body {
   .rift-loading-state,
   .rift-empty-state {
     @apply flex min-h-48 items-center justify-center rounded-2xl border border-border bg-card;
+  }
+
+  .rift-champion-page-shell {
+    @apply min-h-screen text-foreground;
+    background:
+      linear-gradient(180deg, #102744 0%, #0b1b31 34%, #081423 100%);
+  }
+
+  .rift-champion-hero {
+    @apply relative isolate overflow-hidden;
+    min-height: calc(88svh - 65px);
+    background: #0b1b31;
+  }
+
+  .rift-champion-hero-video {
+    @apply absolute inset-0 size-full object-cover;
+  }
+
+  .rift-champion-hero-overlay {
+    @apply absolute inset-0;
+    background:
+      linear-gradient(90deg, rgba(8, 20, 35, 0.82) 0%, rgba(8, 20, 35, 0.4) 35%, rgba(8, 20, 35, 0.12) 65%, rgba(8, 20, 35, 0.56) 100%),
+      linear-gradient(180deg, rgba(8, 20, 35, 0.04) 0%, rgba(8, 20, 35, 0.22) 48%, rgba(8, 20, 35, 0.74) 78%, #081423 100%);
+  }
+
+  .rift-champion-hero-content {
+    @apply relative z-10 mx-auto flex min-h-[inherit] w-full max-w-7xl items-start px-6 pb-8 pt-14 sm:px-10 sm:pt-16 lg:px-14 lg:pt-18;
+  }
+
+  .rift-champion-hero-inner {
+    @apply flex w-full max-w-3xl flex-col gap-2;
+  }
+
+  .rift-champion-kicker,
+  .rift-champion-section-title,
+  .rift-champion-section-kicker {
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
+  }
+
+  .rift-champion-kicker {
+    @apply text-2xl leading-none text-primary sm:text-3xl;
+  }
+
+  .rift-champion-title {
+    @apply max-w-3xl text-6xl leading-none font-black tracking-[-0.08em] text-white uppercase italic sm:text-7xl lg:text-[7.25rem];
+    text-shadow: 0 14px 34px rgba(0, 0, 0, 0.28);
+  }
+
+  .rift-champion-abilities-shell {
+    @apply relative overflow-hidden px-6 py-12 sm:px-10 sm:py-14 lg:px-14 lg:py-16;
+    background: #081423;
+  }
+
+  .rift-champion-abilities-shell::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0 0;
+    height: 7rem;
+    background: linear-gradient(180deg, rgba(8, 20, 35, 0) 0%, rgba(8, 20, 35, 0.82) 100%);
+    pointer-events: none;
+  }
+
+  .rift-champion-content-column {
+    @apply relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center gap-8;
+  }
+
+  .rift-champion-section-copy {
+    @apply flex flex-col gap-2;
+  }
+
+  .rift-champion-section-copy--centered {
+    @apply items-center text-center;
+  }
+
+  .rift-champion-section-kicker {
+    @apply text-xl text-primary sm:text-2xl;
+  }
+
+  .rift-champion-section-title {
+    @apply text-3xl leading-none text-white sm:text-4xl;
+  }
+
+  .rift-champion-section-copy--light {
+    @apply gap-2;
+  }
+
+  .rift-champion-section-kicker--dark {
+    @apply text-lg text-slate-900 sm:text-xl;
+  }
+
+  .rift-champion-section-title--dark {
+    @apply text-3xl text-slate-950 sm:text-4xl;
+  }
+
+  .rift-champion-ability-list {
+    @apply flex flex-wrap justify-center gap-4;
+  }
+
+  .rift-champion-ability-list--centered {
+    @apply mx-auto max-w-4xl;
+  }
+
+  .rift-champion-ability-button {
+    @apply flex w-[5.6rem] flex-col items-center gap-2 text-center text-white/64 transition-colors hover:text-white;
+  }
+
+  .rift-champion-ability-button[data-active="true"] {
+    @apply text-white;
+  }
+
+  .rift-champion-ability-icon-frame {
+    @apply block size-16 overflow-hidden rounded-full border border-white/18 bg-slate-950/34 transition-all duration-200;
+  }
+
+  .rift-champion-ability-button[data-active="true"] .rift-champion-ability-icon-frame {
+    @apply border-primary bg-primary/12;
+    box-shadow: 0 0 0 1px rgba(255, 213, 74, 0.24);
+  }
+
+  .rift-champion-ability-icon {
+    @apply aspect-square size-full object-cover;
+  }
+
+  .rift-champion-ability-label {
+    @apply text-[0.72rem] font-semibold uppercase leading-snug tracking-[0.04em];
+  }
+
+  .rift-champion-ability-stage {
+    @apply flex w-full flex-col items-center gap-5;
+  }
+
+  .rift-champion-media-frame {
+    @apply relative overflow-hidden rounded-[1.75rem] border border-white/10 bg-slate-950/30 p-3 shadow-[0_30px_80px_rgba(0,0,0,0.24)];
+  }
+
+  .rift-champion-media-frame--wide {
+    @apply w-full max-w-4xl;
+  }
+
+  .rift-champion-media-frame [data-slot="aspect-ratio"] {
+    @apply overflow-hidden rounded-[1.1rem];
+  }
+
+  .rift-champion-ability-video {
+    @apply size-full object-cover;
+  }
+
+  .rift-champion-ability-overlay {
+    @apply absolute inset-0;
+    background:
+      radial-gradient(120% 95% at 18% 101%, rgba(8, 20, 35, 0.84) 0%, rgba(8, 20, 35, 0.64) 36%, rgba(8, 20, 35, 0.22) 68%, rgba(8, 20, 35, 0) 100%),
+      linear-gradient(180deg, rgba(8, 20, 35, 0.02) 34%, rgba(8, 20, 35, 0.58) 100%);
+  }
+
+  .rift-champion-ability-overlay-copy {
+    @apply absolute inset-x-0 bottom-0 flex max-w-[50%] flex-col gap-2 px-5 py-5 text-left text-white sm:px-6 sm:py-6;
+  }
+
+  .rift-champion-ability-title {
+    @apply text-xl font-black uppercase italic tracking-[-0.05em] sm:text-2xl;
+  }
+
+  .rift-champion-ability-subtitle {
+    @apply text-[0.68rem] font-semibold uppercase tracking-[0.22em] text-primary;
+  }
+
+  .rift-champion-ability-description {
+    @apply whitespace-pre-line text-sm leading-6 text-white/84 sm:text-base;
+  }
+
+  .rift-champion-skins-shell {
+    @apply relative overflow-hidden bg-[#efefef] px-6 pb-16 pt-16 text-slate-950 sm:px-10 sm:pb-18 sm:pt-18 lg:px-14 lg:pb-20 lg:pt-20;
+  }
+
+  .rift-champion-skins-shell::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -4.5rem;
+    height: 8rem;
+    background: #efefef;
+    clip-path: polygon(0 60%, 12% 50%, 28% 70%, 48% 48%, 66% 62%, 82% 44%, 100% 58%, 100% 100%, 0 100%);
+  }
+
+  .rift-champion-skins-inner {
+    @apply relative z-10 mx-auto flex w-full max-w-7xl flex-col items-center gap-6;
+  }
+
+  .rift-champion-skin-stage {
+    @apply relative w-full max-w-4xl overflow-hidden rounded-[2rem] border border-slate-300 bg-white shadow-[0_30px_80px_rgba(15,23,42,0.08)];
+  }
+
+  .rift-champion-skin-image {
+    @apply block aspect-[16/9] w-full object-cover;
+  }
+
+  .rift-champion-skin-overlay {
+    @apply absolute inset-0;
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.08) 0%, rgba(15, 23, 42, 0.62) 100%);
+  }
+
+  .rift-champion-skin-overlay-copy {
+    @apply absolute inset-x-0 bottom-0 flex flex-col gap-2 px-6 py-6 text-white sm:px-8 sm:py-8;
+  }
+
+  .rift-champion-skin-overlay-title {
+    @apply max-w-2xl text-2xl leading-none font-black uppercase italic tracking-[-0.05em] sm:text-4xl;
+  }
+
+  .rift-champion-skin-rail-shell {
+    @apply flex w-full max-w-4xl items-center gap-3;
+  }
+
+  .rift-champion-skin-arrow {
+    @apply inline-flex size-10 shrink-0 items-center justify-center rounded-full border border-slate-300 bg-white text-slate-700 transition-colors hover:border-primary hover:text-primary;
+  }
+
+  .rift-champion-skin-arrow svg {
+    @apply size-4;
+  }
+
+  .rift-champion-skin-selector {
+    @apply flex flex-1 justify-center gap-4 overflow-x-auto px-1 py-2;
+    scrollbar-width: none;
+  }
+
+  .rift-champion-skin-selector::-webkit-scrollbar {
+    display: none;
+  }
+
+  .rift-champion-skin-button {
+    @apply flex shrink-0 basis-24 flex-col items-center gap-2 text-center text-[0.68rem] font-semibold uppercase tracking-[0.05em] text-slate-500 transition-colors hover:text-slate-950;
+  }
+
+  .rift-champion-skin-button[data-active="true"] {
+    @apply text-slate-950;
+  }
+
+  .rift-champion-skin-thumb-frame {
+    @apply size-20 overflow-hidden rounded-full border border-slate-300 bg-white p-1 transition-colors;
+  }
+
+  .rift-champion-skin-button[data-active="true"] .rift-champion-skin-thumb-frame {
+    @apply border-primary;
+    box-shadow: 0 0 0 1px rgba(255, 213, 74, 0.24);
+  }
+
+  .rift-champion-skin-thumb {
+    @apply size-full rounded-full object-cover;
+  }
+
+  .rift-champion-skin-label {
+    @apply max-w-[6rem] leading-snug;
+  }
+
+  @media (max-width: 1024px) {
+    .rift-champion-title {
+      @apply text-6xl;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .rift-champion-hero-content {
+      @apply px-4 pb-8 pt-10;
+    }
+
+    .rift-champion-kicker {
+      @apply text-xl;
+    }
+
+    .rift-champion-title {
+      @apply text-5xl;
+    }
+
+    .rift-champion-abilities-shell,
+    .rift-champion-skins-shell {
+      @apply px-4;
+    }
+
+    .rift-champion-section-title {
+      @apply text-4xl;
+    }
+
+    .rift-champion-media-frame {
+      @apply p-2;
+    }
+
+    .rift-champion-ability-overlay-copy {
+      @apply max-w-[72%] px-4 py-4;
+    }
+
+    .rift-champion-ability-button {
+      @apply w-[4.8rem];
+    }
+
+    .rift-champion-ability-icon-frame {
+      @apply size-14;
+    }
+
+    .rift-champion-ability-description {
+      @apply text-sm leading-6;
+    }
+
+    .rift-champion-skin-overlay-copy {
+      @apply px-4 py-4;
+    }
+
+    .rift-champion-skin-overlay-title {
+      @apply text-xl;
+    }
+
+    .rift-champion-skin-arrow {
+      @apply size-9;
+    }
+
+    .rift-champion-skin-thumb-frame {
+      @apply size-16;
+    }
+
+    .rift-champion-skin-button {
+      @apply basis-20 text-[0.62rem];
+    }
   }
 }

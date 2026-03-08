@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10140",
+  "riotSlug": "rumble",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rumble/",
+  "title": "RUMBLE",
+  "subtitle": "THE MECHANIZED MENACE",
+  "roles": [
+    "FIGHTER",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fac99329a8f739c6c35f44fbca90796329138877.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Every spell Rumble casts grants him Heat. When he reaches 50 Heat he enters the Danger Zone, granting all his basic abilities bonus effects. When he reaches 150 Heat, he starts Overheating, gaining bonus Attack Speed and granting his basic attacks bonus damage, but making him unable to cast spells for a few seconds.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c6f4daa024f674a93c90f73db21f39cadaf18fbc-128x128.png?accountingTag=WR",
+      "label": "JUNKYARD TITAN",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c6cba11153cc515432fcdaac3e154bad944c61c7.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Rumble torches opponents in front of him, dealing magic damage in a cone for 3 seconds. While in Danger Zone this damage is increased.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/68f86990502d606d55d12dc03b4573f0ba9e6c65-128x128.png?accountingTag=WR",
+      "label": "FLAMESPITTER",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/978414b13780e19a393badb76af5f6abd9f4f26d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Rumble pulls up a shield, protecting him from damage and granting him a quick burst of speed. While in Danger Zone, the shield strength and speed bonus is increased.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/a0ec32260e272f2bd0838a8dd6d41b0b80084ea0-128x128.png?accountingTag=WR",
+      "label": "SCRAP SHIELD",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/1c6869f48229cab8589d562f7eb7588781f645eb.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Rumble launches a harpoon, electrocuting his target with magic damage, slowing their Move Speed, and reducing their Magic Resist. Rumble can carry 2 harpoons at a time. While in Danger Zone the damage and slow percentage is increased.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/44167a211d40021a73edc4655ba41aa5deb9ad70-128x128.png?accountingTag=WR",
+      "label": "ELECTRO HARPOON",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9ef9ed356fcf29ecef036dbf4df0556b7560acfd.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Rumble fires off a group of rockets, creating a wall of flames that damages and slows enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/07f2333ec63ae9346f3b7e6bc5bbda5555b0a145-128x128.png?accountingTag=WR",
+      "label": "THE EQUALIZER",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/467c96f702a78a5294638d70d0f05b8bfba3c2db.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/92989c47f54b2c47e5e78f2c66a2916694c847ff-1280x720.jpg?accountingTag=WR",
+      "label": "RUMBLE, THE MECHANIZED MENACE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/92989c47f54b2c47e5e78f2c66a2916694c847ff-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bbd93000a9d2ec2714a4bed83e5089aae13d0b58-1280x720.jpg?accountingTag=WR",
+      "label": "BADLANDS BARON RUMBLE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bbd93000a9d2ec2714a4bed83e5089aae13d0b58-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2025-01-09T23:42:56Z",
+  "hash": "4d1a91a07f93e6b4b4ae95d4878b1d4ce55d3280fbc887b1f9f752a432781648"
+}

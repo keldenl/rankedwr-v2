@@ -24,6 +24,7 @@ export type { LaneId }
 export type LeaderboardEntry = {
   alias: string
   avatar: string
+  riotSlug: string
   strengthScore: number
   strengthTier: ChampionStrengthTier
   id: string
@@ -102,7 +103,8 @@ function normalizeEntry(
 
   return {
     alias: champion?.alias ?? "",
-    avatar: champion?.avatar ?? "",
+    avatar: champion?.avatar ? dataFileUrl(champion.avatar) : "",
+    riotSlug: champion?.riotSlug ?? "",
     strengthScore,
     strengthTier: getChampionStrengthTier(strengthScore),
     id: `${snapshotId}-${tierKey}-${laneKey}-${heroId}-${rowIndex}`,

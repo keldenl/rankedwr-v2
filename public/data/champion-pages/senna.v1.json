@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10123",
+  "riotSlug": "senna",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/senna/",
+  "title": "SENNA",
+  "subtitle": "the Redeemer",
+  "roles": [
+    "MARKSMAN",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/cd081373dfce183f7b87c8ef9a2ecd13cfb80a3f.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "When units die near Senna, their souls are periodically trapped by the Black Mist. Senna can attack these souls to free them, absorbing the Mist that held them in death. Mist fuels her Relic Cannon's power with increased Attack Damage, Attack Range, and Critical Strike Chance. Attacks from Senna's Relic Cannon take longer to fire, deals bonus damage , and briefly grant her a portion of her target's Movement Speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9ac91a90f05f8d354954189671465257169c3913-96x96.jpg?accountingTag=WR",
+      "label": "ABSOLUTION",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/55b87bab4ba342ff71993f6771a97124c3bb1a4e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Piercing Darkness’s cast range matches Senna’s attack range and its cast time is improved with Attack Speed. It can target anything and applies on-hit effects to enemy champions.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/12b639877795378586b33440f20f07f0a033ee6c-96x96.jpg?accountingTag=WR",
+      "label": "PIERCING DARKNESS",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/afd8731fd203c88761efaad0888d0d2deae30e0a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Senna sends forth a wave of Black Mist. If it hits an enemy it latches onto them hungrily, rooting them and everything nearby after a brief delay.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e6f14dc1e07f1b91e6d8bce4a95503ddb10d7d8e-96x96.jpg?accountingTag=WR",
+      "label": "LAST EMBRACE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b6ea4566c7c85d62256969148d4f977b8455b11b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Senna draws the Mist she has stored in her weapon into a storm around her, embracing darkness and becoming a wraith within. Allies who enter the area are camouflaged and also appear as wraiths as the Mist shrouds them. Wraiths gain increased movement speed, are unselectable, and hide their identities.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/79125f040057878feebd3b2835dd3068f1fa0614-96x96.jpg?accountingTag=WR",
+      "label": "CURSE OF THE BLACK MIST",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c6d031edf22afda1bdd4f90454b2e7c2eb3e7fab.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Senna calls upon the relic stones of fallen Sentinels, splitting her relic cannon into a holy array of shadow and light. She then fires a global beam that shields allies from harm, while damaging enemies caught in the center.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/2d3057c56896eb827665aca01e377091c8c24e15-96x96.jpg?accountingTag=WR",
+      "label": "DAWNING SHADOW",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/26b1aaeab4a270b9871559c203bdaf052e1e8c5b.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bbd2761ce2906dc88e61d0fe4d18fd93d1d072b8-1280x720.jpg?accountingTag=WR",
+      "label": "SENNA, THE REDEEMER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bbd2761ce2906dc88e61d0fe4d18fd93d1d072b8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/12d6c07216716b3be4facd8acccb8787caa4adf8-1280x720.jpg?accountingTag=WR",
+      "label": "TRUE DAMAGE SENNA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/12d6c07216716b3be4facd8acccb8787caa4adf8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7f6246458b2df9696c8bc3ecd347b02b08248c11-1280x720.jpg?accountingTag=WR",
+      "label": "High Noon Senna",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7f6246458b2df9696c8bc3ecd347b02b08248c11-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f4330954cfeb738920ca606fa387ac8debfa8400-1280x720.jpg?accountingTag=WR",
+      "label": "Psychic Detective Senna",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f4330954cfeb738920ca606fa387ac8debfa8400-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7b5b44f930158eea981c0c593eefb31aef235a13-1280x720.jpg?accountingTag=WR",
+      "label": "Star Guardian Senna",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7b5b44f930158eea981c0c593eefb31aef235a13-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-06-30T23:12:59Z",
+  "hash": "d4a3d434b16524d84d6be04309d4ec11938fa096140a48985baffc759807672e"
+}

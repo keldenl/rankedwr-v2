@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10037",
+  "riotSlug": "yasuo",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yasuo/",
+  "title": "YASUO",
+  "subtitle": "the Unforgiven",
+  "roles": [
+    "FIGHTER",
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6ccea463778b4fc15e9c3c0edb906cf4bb6a5700.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Yasuo's Critical Strike Chance is doubled. Additionally, Yasuo builds toward a shield whenever he is moving. The shield triggers when he takes damage from a champion or monster.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/bc023cb8d66261ad463de6b359744d94b036cb39-96x96.jpg?accountingTag=WR",
+      "label": "Way of the Wanderer",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8d071bb03a8c9ee6b2d52577c598301596b87c08.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Thrusts forward, damaging all enemies in a line. On hit, grants a stack of Gathering Storm for a few seconds. At 2 stacks, Steel Tempest fires a whirlwind that knocks Airborne. Steel Tempest is treated as a basic attack and scales with all the same things.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/52c450a97ae34f72728ae11991a7da732a32de6b-96x96.jpg?accountingTag=WR",
+      "label": "Steel Tempest",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/eeca30117ba98bc1d219e83a661987545919c08a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Creates a moving wall that blocks all enemy projectiles for 4 seconds.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/103009e358b4be4055dca6d444aef16a756458c2-96x96.jpg?accountingTag=WR",
+      "label": "Wind Wall",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/60e2d46aa6d61691bbd9523cc12dc4e570b14c10.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Dashes through target enemy, dealing magic damage. Each cast increases your next dash's base Damage, up to a max amount. Cannot be re-cast on the same enemy for a few seconds. If Steel Tempest is cast while dashing, it will strike as a circle.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/37d3f831101515480d95915ec92c85ab093e6c46-96x96.jpg?accountingTag=WR",
+      "label": "Sweeping Blade",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/72b4f911d8096337c126012c3b3cb0415d9c7c70.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Blinks to an Airborne enemy champion, dealing physical damage and holding all Airborne enemies in the area in the air. Grants maximum Flow but resets all stacks of Gathering Storm. For a moderate time afterwards, Yasuo's critical strikes gain significant Bonus Armor Penetration.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/b73893eb774be615d51cdd61a2dcdb9f34acfab7-96x96.jpg?accountingTag=WR",
+      "label": "Last Breath",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/aaf5a7a202b16846dd601a3d56df5468f579a9fe.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1f90294b1452c84d02407ca7af638a6b20e0c48f-1280x720.jpg?accountingTag=WR",
+      "label": "YASUO, THE UNFORGIVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1f90294b1452c84d02407ca7af638a6b20e0c48f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/056ba804fc8515e6afb36d5e964e9ce4fba99ff5-1280x720.jpg?accountingTag=WR",
+      "label": "HIGH NOON YASUO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/056ba804fc8515e6afb36d5e964e9ce4fba99ff5-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e2730588946cb02a713bd015781bec9383cd2827-1280x720.jpg?accountingTag=WR",
+      "label": "BATTLE BOSS YASUO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e2730588946cb02a713bd015781bec9383cd2827-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/91eb85588b471a364f904a8bc1c1e4d7d1ef517b-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: YASUO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/91eb85588b471a364f904a8bc1c1e4d7d1ef517b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/adf4f0d43134638c87f2d56590d8e647224faeb8-1280x720.jpg?accountingTag=WR",
+      "label": "BLOOD MOON YASUO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/adf4f0d43134638c87f2d56590d8e647224faeb8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cbcb87534045d31c0b40fe1e44bac97d60dc6a98-1280x720.jpg?accountingTag=WR",
+      "label": "NIGHTBRINGER YASUO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cbcb87534045d31c0b40fe1e44bac97d60dc6a98-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8219a92de1cdb2cd2cb59bcedd02e11ccc4b8603-1280x720.jpg?accountingTag=WR",
+      "label": "SOUL FIGHTER YASUO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8219a92de1cdb2cd2cb59bcedd02e11ccc4b8603-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fdd8afaeeeb01ee413ab61f6ba18c82430eae765-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE SELECT CALLIGRAPHIA YASUO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fdd8afaeeeb01ee413ab61f6ba18c82430eae765-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ca62ddfdc829d98e3556739be02d196a71576d4b-1280x720.jpg?accountingTag=WR",
+      "label": "Truth Dragon Yasuo",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ca62ddfdc829d98e3556739be02d196a71576d4b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/afa522550a4deb6bc612eb7578f2072c1cf61c26-1280x720.jpg?accountingTag=WR",
+      "label": "SPIRIT BLOSSOM YASUO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/afa522550a4deb6bc612eb7578f2072c1cf61c26-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4b48f737d4fea3b790be36f2256238b3780c4adb-1280x720.jpg?accountingTag=WR",
+      "label": "CALLIGRAPHIA YASUO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4b48f737d4fea3b790be36f2256238b3780c4adb-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a46882ffbb84dfe532557bab9f410c89d85131a7-1280x720.jpg?accountingTag=WR",
+      "label": "SUMMER PARTY YASUO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a46882ffbb84dfe532557bab9f410c89d85131a7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/84ec4597506e5198797ad9d2965f49c929a043a4-1280x720.jpg?accountingTag=WR",
+      "label": "SUMMER PARTY YASUO EXQUISITE EDITION",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/84ec4597506e5198797ad9d2965f49c929a043a4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/40c5a513d362193f39061134dd62ea15629e2be4-1280x720.jpg?accountingTag=WR",
+      "label": "TRUE DAMAGE YASUO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/40c5a513d362193f39061134dd62ea15629e2be4-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:52:55Z",
+  "hash": "19de3a94ee7cced963bcaae4cbc646c6fb53649bb222e4430fed499fbab1e7ef"
+}

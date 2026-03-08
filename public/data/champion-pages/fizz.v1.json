@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10086",
+  "riotSlug": "fizz",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/fizz/",
+  "title": "FIZZ",
+  "subtitle": "the Tidal Trickster",
+  "roles": [
+    "ASSASSIN",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3477146d1fbd65c66187474bd08f0d12aeb9b9af.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Fizz's attacks deal additional damage over time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9a6abbe76fc8ded3f349649e04751e216f976313-96x96.jpg?accountingTag=WR",
+      "label": "SEASTONE TRIDENT",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e26aae26341d25c58fabbd60fb1b4323a85b87e7.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Fizz dashes through his target, dealing magic damage and applying on hit effects.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/a405bc875edd56a7faa7b6dec3f0143ce95236a9-96x96.jpg?accountingTag=WR",
+      "label": "Urchin Strike",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6daf7cf5649671c5eebdad8012fbbe86283a5141.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Empowers Fizz' next attack to deal bonus damage, and killing a unit resets Rending Wave's cooldown. Additional attacks deal more damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/c9f260d44a280e70651cf98b598483ee6649598b-96x96.jpg?accountingTag=WR",
+      "label": "RENDING WAVE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3a8482faf0b5543ca2a9d0de804f561e9645b085.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Fizz hops into the air, landing gracefully upon his spear and becoming untargetable. From this position, Fizz can either slam the ground or choose to jump again before smashing back down.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/da240f73137f84a0cc776ac8418582660681c556-96x96.jpg?accountingTag=WR",
+      "label": "Playful / Trickster",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/be824cebb02ac9cd9c02e51083284cea81f097c2.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Fizz tosses a fish in a direction that attaches to any champion that touches it, slowing the target. After a short delay, a shark erupts from the ground, knocking up the target and knocking any nearby enemies aside. All enemies hit are dealt magic damage and slowed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/728b6b46da5a317bcb22582ac505e1a68a44ad90-96x96.jpg?accountingTag=WR",
+      "label": "Chum the Waters",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bcf6561441e6dadb562a69d68c4e5233586a3e56.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0402313411904f8c32165ce9566c21eee932190a-1280x720.jpg?accountingTag=WR",
+      "label": "FIZZ, THE TIDAL TRICKSTER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0402313411904f8c32165ce9566c21eee932190a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b0d664f4eac9def6b1e88379d154758a8b78984c-1280x720.jpg?accountingTag=WR",
+      "label": "SUPER GALAXY FIZZ",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b0d664f4eac9def6b1e88379d154758a8b78984c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e6ceb67c91586d6a144696c2f78dea828779dd17-1280x720.jpg?accountingTag=WR",
+      "label": "VOID FIZZ",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e6ceb67c91586d6a144696c2f78dea828779dd17-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/09328bdbbde3d31ce6171d777add680ada608472-1280x720.jpg?accountingTag=WR",
+      "label": "FUZZ FIZZ",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/09328bdbbde3d31ce6171d777add680ada608472-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6506cbda7710528dea0352c291b9e037d0977aa4-1280x720.jpg?accountingTag=WR",
+      "label": "OMEGA SQUAD FIZZ",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6506cbda7710528dea0352c291b9e037d0977aa4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/08252cabb0e5e77828f7cff5eca1c90bdbf6c169-1280x720.jpg?accountingTag=WR",
+      "label": "COTTONTAIL FIZZ",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/08252cabb0e5e77828f7cff5eca1c90bdbf6c169-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/67cc9dd068cc324f1d5f63457c561dd44f9b17d6-1280x720.jpg?accountingTag=WR",
+      "label": "FOOD SPIRITS FIZZ",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/67cc9dd068cc324f1d5f63457c561dd44f9b17d6-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7196c4b4476cbbf499490deb2e4ce641a62ba803-1280x720.jpg?accountingTag=WR",
+      "label": "SHAN HAI SCROLLS FIZZ",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7196c4b4476cbbf499490deb2e4ce641a62ba803-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:07:41Z",
+  "hash": "af1df337de1efb363cba4c65f3318b924f42e73a331f092dfd14b78533f82be1"
+}

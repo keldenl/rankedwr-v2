@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10015",
+  "riotSlug": "tryndamere",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/tryndamere/",
+  "title": "TRYNDAMERE",
+  "subtitle": "the Barbarian King",
+  "roles": [
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/0710f5f7341e32703c5f0b51170d49d5257c1c35.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Tryndamere gains Fury for each attack, critical strike, and killing blow he makes. Fury passively increases his Critical Strike Chance and can be consumed with his Bloodlust spell.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/184a3037ab6c864295bbf81167a22bc5e7669859-96x96.jpg?accountingTag=WR",
+      "label": "Battle Fury",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/c0d9c6428c7a9b6f780099fef1290e16365041d8.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Tryndamere thrives on the thrills of combat, increasing his Attack Damage as he is more and more wounded. He can cast Bloodlust to consume his Fury and heal himself.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/65261c0970d87df3224b81af3fb86e8cb3881ede-96x96.jpg?accountingTag=WR",
+      "label": "Bloodlust",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/34b893041ed9ae6481b68a99edb3732d9bae2f77.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Tryndamere lets out an insulting cry, decreasing surrounding champions' Attack Damage. Enemies with their backs turned to Tryndamere also have their Movement Speed reduced.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9d6cb44b1613a0177432fc9999599b2b84df5ae7-96x96.jpg?accountingTag=WR",
+      "label": "Mocking Shout",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/f8b694563d9fac975c582f214bb7c4e9838c331f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Tryndamere slices toward a target unit, dealing damage to enemies in his path.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/61c39ecf2c12ec73f7b6c92a8be490a8dca603aa-96x96.jpg?accountingTag=WR",
+      "label": "Spinning Slash",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/3012dd7572e43ab9442a87714f225ae4b5383f2c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Tryndamere's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/86318c917e24d66155c98ffc7804b94b28a70d93-96x96.jpg?accountingTag=WR",
+      "label": "Undying Rage",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/f8dcd2e60e7b324389b68872c9d15d770ef351ac.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f339c6908041e52abf1b3611d92fcd0dd20d1210-1280x720.jpg?accountingTag=WR",
+      "label": "TRYNDAMERE, THE BARBARIAN KING",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f339c6908041e52abf1b3611d92fcd0dd20d1210-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b196b6b27b3d29cbdd24d7ae3be4270fbe4b0469-1280x720.jpg?accountingTag=WR",
+      "label": "DEMONBLADE TRYNDAMERE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b196b6b27b3d29cbdd24d7ae3be4270fbe4b0469-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a8a144edb471d75b9ffd9d1a549850df3b38a5ef-1280x720.jpg?accountingTag=WR",
+      "label": "KING TRYNDAMERE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a8a144edb471d75b9ffd9d1a549850df3b38a5ef-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/1f91fac7d44f3f5994bdb761eb3630fe90873fcb-1280x720.jpg?accountingTag=WR",
+      "label": "GLORIOUS TRYNDAMERE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/1f91fac7d44f3f5994bdb761eb3630fe90873fcb-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6a1d937860e58a57b1aa970fd291d7e85ef97edb-1280x720.jpg?accountingTag=WR",
+      "label": "WARRING KINGDOMS TRYNDAMERE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6a1d937860e58a57b1aa970fd291d7e85ef97edb-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9fad802101035f443478d2cf1fb2f0cb86460a35-1280x720.jpg?accountingTag=WR",
+      "label": "IMMORTAL JOURNEY TRYNDAMERE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9fad802101035f443478d2cf1fb2f0cb86460a35-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9b81ea71165f72ec9b7505f822e083b5be50dd8c-1280x720.jpg?accountingTag=WR",
+      "label": "BLOOD MOON TRYNDAMERE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9b81ea71165f72ec9b7505f822e083b5be50dd8c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/243da317e67fd8e228f67e8834446ccd1fcb3dae-1280x720.jpg?accountingTag=WR",
+      "label": "NIGHTBRINGER TRYNDAMERE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/243da317e67fd8e228f67e8834446ccd1fcb3dae-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9dbfbf71c399d011fadb07614ae4e1d723ac08ea-1280x720.jpg?accountingTag=WR",
+      "label": "Calligraphia Tryndamere",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9dbfbf71c399d011fadb07614ae4e1d723ac08ea-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5d0c4a878d61738f8bf508734daf93e84405af0c-1280x720.jpg?accountingTag=WR",
+      "label": "Max Crit Tryndamere",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5d0c4a878d61738f8bf508734daf93e84405af0c-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:49:37Z",
+  "hash": "9ccba2997ac7faa8e1756cd532594e0b06952ab10aace1ba255de1c66dd452e5"
+}

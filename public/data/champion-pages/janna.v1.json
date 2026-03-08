@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10075",
+  "riotSlug": "janna",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/janna/",
+  "title": "JANNA",
+  "subtitle": "the Storm's Fury",
+  "roles": [
+    "SUPPORT",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/5d7d61387cb3707b2cd7961c55a244798bf12465.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Janna passively gains move speed and gives nearby allied champions the same bonus.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/061869532af51bade4078584b3c19338347c83c9-96x96.jpg?accountingTag=WR",
+      "label": "Tailwind",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/1ab281bb694372d6f9f45f81baee90b29cfb27f6.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Janna summons a powerful whirlwind, dealing damage and knocking up enemies in its path.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e2600241a8a3589be4223e09a2c25ff6e73143ee-96x96.jpg?accountingTag=WR",
+      "label": "Howling Gale",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/ae58e099ceaa642e92b1d1c01547d51b08b69a1a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Janna gains move speed. The wind spirit affects the two closest champions in range, granting move speed to allies and damaging enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4a1d7fd7580f2fed8c63ed1b8f4a5b1ff145ad90-96x96.jpg?accountingTag=WR",
+      "label": "Zephyr",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/1f2cb99f451a47e137afb9b72072eb8a2111e224.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Janna conjures a defensive gale that shields herself, an ally, or a turret if one is in range. This shield also grants attack damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/b01a77fe51a90602694c9d53e012fdba86c4dc2b-96x96.jpg?accountingTag=WR",
+      "label": "Eye Of The Storm",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/7d5c0831d074efc4d2c90221a2c212d9e6618a1e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Janna calls forth mighty winds of salvation, knocking back surrounding enemies and healing nearby allies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/134b2f9f318e45cd6e3f8afe9b1a1c2185eb00c2-96x96.jpg?accountingTag=WR",
+      "label": "Monsoon",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/9b6ab1254706d0097352c9a9a2cc43eca811e991.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/441662804065fad895d22dd866562aac54cf6a02-1280x720.jpg?accountingTag=WR",
+      "label": "JANNA, THE STORM'S FURY",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/441662804065fad895d22dd866562aac54cf6a02-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/299edffec15e8bc430062848b667dd726331b48e-1280x720.jpg?accountingTag=WR",
+      "label": "SACRED SWORD JANNA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/299edffec15e8bc430062848b667dd726331b48e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/21e9a8448a12f758b204f791a0d0ca1a62346e47-1280x720.jpg?accountingTag=WR",
+      "label": "TEMPEST JANNA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/21e9a8448a12f758b204f791a0d0ca1a62346e47-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6bd5d43474ad3c0ca4f8514d976cbbc1e5126082-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN JANNA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6bd5d43474ad3c0ca4f8514d976cbbc1e5126082-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c21b1aff59d5cc85d1fac4f9a681fc5a5a87c8a1-1280x720.jpg?accountingTag=WR",
+      "label": "FORECAST JANNA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c21b1aff59d5cc85d1fac4f9a681fc5a5a87c8a1-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/579734ffba044e6cc8d9636f648a0a222de072c3-1280x720.jpg?accountingTag=WR",
+      "label": "BEWITCHING JANNA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/579734ffba044e6cc8d9636f648a0a222de072c3-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a3b2b9651dfd46972a45b5bbebc646f807dea6f7-1280x720.jpg?accountingTag=WR",
+      "label": "Calligraphia Janna",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a3b2b9651dfd46972a45b5bbebc646f807dea6f7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6e9c6b282a9e984610770e6a863dade0ba49df65-1920x1080.jpg?accountingTag=WR",
+      "label": "Glorious Aigrette Janna",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6e9c6b282a9e984610770e6a863dade0ba49df65-1920x1080.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:09:32Z",
+  "hash": "173f5a5be2557467c92d47914faaba0133e2e3b588728fdb2419ebaad2cc4767"
+}

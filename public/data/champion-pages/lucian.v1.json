@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10042",
+  "riotSlug": "lucian",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lucian/",
+  "title": "LUCIAN",
+  "subtitle": "the Purifier",
+  "roles": [
+    "MARKSMAN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c5cd7e5391f4d93ec10dd11cd5e7442373716c89.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Whenever Lucian uses an ability, his next attack becomes a double-shot.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/11f13c63b279fcc0248174cd5fc679d298e78113-96x96.jpg?accountingTag=WR",
+      "label": "LIGHTSLINGER",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fadad9074ffedf8e72a8be5d3b264339f9ea2e63.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Lucian shoots a bolt of piercing light through a target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/33ff1b85640d2bfa80613288eaf85d92d8af0212-96x96.jpg?accountingTag=WR",
+      "label": "PIERCING LIGHT",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/415677945d73c17122e9ab678efd7be546fbaa3d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Lucian shoots a missile that explodes in a star shape, marking and briefly revealing enemies. Lucian gains Movement Speed for attacking marked enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/3ba13c855b2ced1e184035550cb05a3a8c3106dc-96x96.jpg?accountingTag=WR",
+      "label": "ARDENT BLAZE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3b0dbde0bf40ca7404acd15809fd1924af6eb1cd.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Lucian quickly dashes a short distance. Lightslinger attacks reduce Relentless Pursuit's cooldown.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7a96dd37f3c2e9040d0fe78a338690e69e4d5a0d-96x96.jpg?accountingTag=WR",
+      "label": "RELENTLESS PURSUIT",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3ac68548a8098f3514de48c55c91f20b2d2558ee.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Lucian unleashes a torrent of shots from his weapons.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d677babea85a70b713000e65f98bc0507d9c07f5-96x96.jpg?accountingTag=WR",
+      "label": "THE CULLING",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6374f34d0e68b93ff714745a2fd408309a058966.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/746e3c40ac077e00a69b62d6f0b6fcc44dbe20a7-1280x720.jpg?accountingTag=WR",
+      "label": "LUCIAN, THE PURIFIER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/746e3c40ac077e00a69b62d6f0b6fcc44dbe20a7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b3a40be60b8af3d690480418a96d6fbf9853c8bc-1280x720.jpg?accountingTag=WR",
+      "label": "HIRED GUN LUCIAN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b3a40be60b8af3d690480418a96d6fbf9853c8bc-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/35cc41f1064dc4820300eb87722a70a595b459da-1280x720.jpg?accountingTag=WR",
+      "label": "High Noon Lucian",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/35cc41f1064dc4820300eb87722a70a595b459da-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/846c71f074eb9ef0dd7212304a0a932a8e369967-1280x720.jpg?accountingTag=WR",
+      "label": "Pulsefire Lucian",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/846c71f074eb9ef0dd7212304a0a932a8e369967-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a2a67c5a237ec85f41477de5b974a5ac97758cde-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE SELECT HIGH NOON LUCIAN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a2a67c5a237ec85f41477de5b974a5ac97758cde-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/971e5aa8c4d463b1745aff62c7896eccc4df0ba5-1920x1080.jpg?accountingTag=WR",
+      "label": "Soul Fighter Lucian",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/971e5aa8c4d463b1745aff62c7896eccc4df0ba5-1920x1080.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/56450ed95010c89844ddafd028dcec209c3be41b-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: LUCIAN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/56450ed95010c89844ddafd028dcec209c3be41b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1dae3a3b38b7edee62b57c1634bc53c929c7037a-1280x720.jpg?accountingTag=WR",
+      "label": "NOVA LUCIAN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1dae3a3b38b7edee62b57c1634bc53c929c7037a-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-06-29T21:21:12Z",
+  "hash": "8162307ccad360db669a48bd6798c0e47aee395817f8e113f098f2eec2578e6e"
+}

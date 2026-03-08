@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10107",
+  "riotSlug": "sivir",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/sivir/",
+  "title": "SIVIR",
+  "subtitle": "The Battle Mistress",
+  "roles": [
+    "MARKSMAN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b77ef8d644f2e3fef04793c9aa34072e56304ddb.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Sivir gains a short burst of Move Speed when she attacks an enemy champion.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/17299554b18651045d3837d5d92a7ed616bae4f7-256x256.jpg?accountingTag=WR",
+      "label": "FLEET OF FOOT",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a1afd8d34af26ce795d31872edd58041a079d5fe.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Sivir hurls her crossblade like a boomerang, dealing damage each way.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9dc244cc9badaad48afb954320d8a95c24cd8239-256x256.jpg?accountingTag=WR",
+      "label": "BOOMERANG BLADE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/047e21ba1b259e61d13f79ed54c22f3802d7f088.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Sivir's next few basic attacks gain additional attack speed and bounce to nearby targets, dealing reduced damage while bouncing.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/3aca2a84f8315d60a4a03603cd6c544bdb77b2fe-256x256.jpg?accountingTag=WR",
+      "label": "RICOCHET",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4d27fa72392ead89ce0fdd16f8e7315b16d47a3b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Creates a magical barrier that blocks a single enemy ability cast on Sivir. She receives health and a burst of movement speed if a spell is blocked.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3f17fcf469571a496230ee7abbc9cd1b9525f578-256x256.jpg?accountingTag=WR",
+      "label": "SPELL SHIELD",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2d106b6213bf60dcdd8e22bc0a33d88b12939dc3.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Sivir leads her allies in battle, granting them a burst of move speed for a short time. In addition, her ability cooldowns are reduced. \nSivir gains morale when damaging an enemy, granting a buff to allies and refreshing her ultimate at max morale.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d2428cdf3e99a8d83cd6cb37391b5f9fea538838-512x512.jpg?accountingTag=WR",
+      "label": "ON THE HUNT",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c344606399811ee4ada9b9ad6748cbc0b1795427.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c366f0dc9ca8255f9362d68a39d4d429961d2bb9-1280x720.jpg?accountingTag=WR",
+      "label": "SIVIR, THE BATTLE MISTRESS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c366f0dc9ca8255f9362d68a39d4d429961d2bb9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a4c2dd5f9ae0a15059ea2c53da1bbc78cd632ae6-1280x720.jpg?accountingTag=WR",
+      "label": "BLOOD MOON SIVIR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a4c2dd5f9ae0a15059ea2c53da1bbc78cd632ae6-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c5658440e25a3849a382deb726b7498b023a1345-1280x720.jpg?accountingTag=WR",
+      "label": "Battle Mare Sivir",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c5658440e25a3849a382deb726b7498b023a1345-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7f05f67a5da7c46299f4dbb0949dcdb3603380eb-1280x720.jpg?accountingTag=WR",
+      "label": "Pizza Delivery Sivir",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7f05f67a5da7c46299f4dbb0949dcdb3603380eb-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2023-11-20T23:58:48Z",
+  "hash": "ea072e29c584cd496fea6d7cc8b3afb6fbc07535d9a8e2fa50126d88a22f2ecf"
+}

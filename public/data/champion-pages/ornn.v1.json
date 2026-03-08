@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10136",
+  "riotSlug": "ornn",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ornn/",
+  "title": "ORNN",
+  "subtitle": "The Fire Below The Mountain",
+  "roles": [
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c3f267505bd8abf2afc98c487c5b594cece73131.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Ornn gains additional bonus Armor and Magic Resistance from all sources. Ornn can spend gold to forge non-consumable items anywhere. Additionally, when Ornn reaches a certain level, forging items will grant a nearby ally the ability to buy one item from anywhere on the map. This will trigger every few levels.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/732f4bb6fee38e4fc2997555c291b4d48a540dcd-96x96.jpg?accountingTag=WR",
+      "label": "LIVING FORGE",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8aa37d76977ffa7285d3c853c630032575473203.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ornn slams the ground, sending out a fissure dealing damage and slowing enemies hit. After a small delay, a magma pillar forms at the end location.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f04d0dd7cd2a3c3e0891dcfda3e69025719e6947-96x96.jpg?accountingTag=WR",
+      "label": "VOLCANIC RUPTURE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/428777ecc9a585c8fd68df4303c4fac5b6a8e085.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ornn advances, breathing fire. Enemies hit by the final gout of flame become Brittle.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/b30d82913017fa89e1981a4e636952eedc09ba3e-96x96.jpg?accountingTag=WR",
+      "label": "BELLOWS BREATH",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c420915270d12504047a0bc061c2eea264036c9d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ornn charges, dealing damage to enemies he passes through. If Ornn collides with terrain while charging, the impact creates a shockwave around him which deals damage and knocks up enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b85691454f99e873273a76d9835fc55de13210de-96x96.jpg?accountingTag=WR",
+      "label": "SEARING CHARGE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4c2a52e43ac73a00f3ba2733cb4cc1afc2ec5e00.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ornn summons a massive elemental at a location which travels toward him with increasing speed. Enemies run over by the elemental take damage, are slowed and are made Brittle. Ornn can recast the ability to charge into the elemental, redirecting it in the direction he hits it, causing the elemental to affect any enemies it runs over to be knocked up, dealing the same damage and re-applying Brittle.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/be54ec007415ee6a2524d75f8e587eb9606b1df5-96x96.jpg?accountingTag=WR",
+      "label": "CALL OF THE FORGE GOD",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/03c3ae1ae9597413c3fa315d508287ae20d9755c.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/99cce5dcc8aad57f8eef8d58c1000448e0261db4-1280x720.jpg?accountingTag=WR",
+      "label": "ORNN, THE FIRE BELOW THE MOUNTAIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/99cce5dcc8aad57f8eef8d58c1000448e0261db4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8d3013036c8b125528dda0cdef6c4dc60ee941b9-1280x720.jpg?accountingTag=WR",
+      "label": "THUNDERLORD ORNN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8d3013036c8b125528dda0cdef6c4dc60ee941b9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9b5502b3a8465c31199372a757a212a7d0988322-1280x720.jpg?accountingTag=WR",
+      "label": "Shan Hai Scrolls Ornn",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9b5502b3a8465c31199372a757a212a7d0988322-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2023-06-16T00:22:36Z",
+  "hash": "a37e9fef31a6bbfbc069b6f49d76f7f63bf55414caf3459958dc5d7bc2cc178c"
+}

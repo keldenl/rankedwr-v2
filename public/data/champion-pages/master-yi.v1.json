@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10070",
+  "riotSlug": "master-yi",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/master-yi/",
+  "title": "MASTER YI",
+  "subtitle": "the Wuju Bladesman",
+  "roles": [
+    "ASSASSIN",
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6adf1aa5828b911302b34ea4ef68c371ff401148.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Every few consecutive basic attacks, Master Yi strikes twice.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/91bf53294513d45bdfe562698d13afa117d1916a-96x96.jpg?accountingTag=WR",
+      "label": "Double Strike",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/91cc69667980f21927a62cfd31d785b3233d3b80.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Master Yi teleports across the battlefield with blinding speed, dealing physical damage to multiple units in his path, while simultaneously becoming untargetable. Alpha Strike can critically strike and deals bonus physical damage to monsters. Basic attacks reduce Alpha Strike's cooldown.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/be69f33da86dc9196f37b179a6ecc597eda9846b-96x96.jpg?accountingTag=WR",
+      "label": "Alpha Strike",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a88ddf1934a6c0580d8510e6f025cc3bfcb18603.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Master Yi rejuvenates his body by focus of mind, restoring Health and taking reduced damage for a short time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/ec8e23d4a69e7bfb47bc91abb493d0dafcd019a5-96x96.jpg?accountingTag=WR",
+      "label": "Meditate",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/aaa94245e247c84ec7f63c44cf5ae87dd477f5bf.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Grants bonus true damage on basic attacks.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5504824fb10d63628c08193f9a4cdd9c20f578f4-96x96.jpg?accountingTag=WR",
+      "label": "Wuju Style",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/55fca812bb81eb6d7bc4c0e9eae55401802e8522.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Master Yi moves with unparalleled agility, temporarily increasing his Movement and Attack Speeds as well as making him immune to all slowing effects. While active, Champion kills or assists extend Highlander's duration. Passively reduces cooldown for his other abilities on a kill or assist.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3b62831c3de9489edaf0d675c0c691e1395acffb-96x96.jpg?accountingTag=WR",
+      "label": "Highlander",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b6a058df4d2ab0f2ff1fe2e361d0b0bd6337785e.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5ecce92aed12bc5e064df03df07ba14fb40f1d1f-1280x720.jpg?accountingTag=WR",
+      "label": "MASTER YI, THE WUJU BLADESMAN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5ecce92aed12bc5e064df03df07ba14fb40f1d1f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d235eced020af50ca3e9327b3a07a7ebaba0d3b7-1280x720.jpg?accountingTag=WR",
+      "label": "ASSASSIN MASTER YI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d235eced020af50ca3e9327b3a07a7ebaba0d3b7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1ceedb7b99d85f9d012d031a45f36d46cde28a86-1280x720.jpg?accountingTag=WR",
+      "label": "ETERNAL SWORD YI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1ceedb7b99d85f9d012d031a45f36d46cde28a86-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1459b4744e956c5cbfa0a79f8e0f838ce1b4614d-1280x720.jpg?accountingTag=WR",
+      "label": "SNOW MAN YI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1459b4744e956c5cbfa0a79f8e0f838ce1b4614d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/73fc286ddba3ef1fbc6b4522accb99cb9e4c8e40-1280x720.jpg?accountingTag=WR",
+      "label": "ZEPHYR DRAGON MASTER YI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/73fc286ddba3ef1fbc6b4522accb99cb9e4c8e40-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c65b5ec6724b35cfec9fa14ba13c456c7e2ee4ed-1280x720.jpg?accountingTag=WR",
+      "label": "COSMIC BLADE MASTER YI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c65b5ec6724b35cfec9fa14ba13c456c7e2ee4ed-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dd163b2d73cb385cecbbca0fb8a43e7f25aa4942-1280x720.jpg?accountingTag=WR",
+      "label": "SPIRIT BLOSSOM MASTER YI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/dd163b2d73cb385cecbbca0fb8a43e7f25aa4942-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c35e7a526587e0adc8fdad869c171e499e17366b-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE SPIRIT BLOSSOM MASTER YI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c35e7a526587e0adc8fdad869c171e499e17366b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7913de85eddb1563d87e050d962c905566115a56-1280x720.jpg?accountingTag=WR",
+      "label": "Zephyr Dragon Master Yi Mythic Chroma",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7913de85eddb1563d87e050d962c905566115a56-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9d3949089920cbf02df35e1f89f9a46e801417b9-1280x720.jpg?accountingTag=WR",
+      "label": "PSYOPS MASTER YI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9d3949089920cbf02df35e1f89f9a46e801417b9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8be611ce1861b169f682a0d869f50c9356aba31d-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: Yi",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8be611ce1861b169f682a0d869f50c9356aba31d-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:45:05Z",
+  "hash": "249107886ca85266557a9463e85da4301660ac0cda4c492620830501d75817b7"
+}

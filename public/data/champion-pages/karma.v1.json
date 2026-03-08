@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10007",
+  "riotSlug": "karma",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/karma/",
+  "title": "KARMA",
+  "subtitle": "the Enlightened One",
+  "roles": [
+    "MAGE",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f779651c88fde9b80103afd892dd843a0e12227d.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "After using 3 abilities, Karma's next ability will be enhanced.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7bfe4f9b39db557a2d72c7564a7bc9839c7eaf67-96x96.jpg?accountingTag=WR",
+      "label": "MANTRA",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/96fa5bb113ca6d4ef71ff1038eb7c2ef01db7bc2.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Karma sends forth a ball of spirit energy that explodes and deals damage upon hitting an enemy unit. Mantra Bonus: In addition to the explosion, Mantra increases the destructive power of her Inner Flame, creating a cataclysm which deals damage after a short delay.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b57d69fe63c9eca1358d5b65351c1ea1899a9bf3-96x96.jpg?accountingTag=WR",
+      "label": "INNER FLAME",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f9d85de5a17aeaf43fb6a80b53bde96831b2d590.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Karma creates a tether between herself and up to two targeted enemies dealing damage and revealing them. If the tethers are not broken, the enemies will be rooted and damaged again. Mantra Bonus: Karma creates an additional tether between the targets, dealing extra damage and extending the root duration. If only a single enemy is within range, a tether will spread from them to the next nearest enemy.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/105c213510bac0bfc4ecf71fa9dd3f886bd7fe02-96x96.jpg?accountingTag=WR",
+      "label": "FOCUSED RESOLVE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5b4baa115e13512cef03dd9f93fac4a475655a83.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Karma summons a protective shield that absorbs incoming damage and increases the Move Speed of the protected ally. Mantra Bonus: Energy radiates out from her target, strengthening the initial shield and applying Inspire to nearby allied champions.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3f31aa4a221a324cf354f23ac791f1852ffcf200-96x96.jpg?accountingTag=WR",
+      "label": "INSPIRE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f6bcbf820b556ed9fe059a0a0494bb6c16037fb2.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Karma forms a ring of spirit energy at a target location. After a brief delay, it detonates, dealing magic damage to all enemies inside and slowing them for a few seconds. If enemies are hit at the edge of the ring, they will be pulled in toward the center. Karma immediately enters the Mantra state.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/506c25ed03aa3b9ea6e5d43802b9895eb8c10433-96x96.jpg?accountingTag=WR",
+      "label": "TRANSCENDENT EMBRACE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9e1c9327a1eb1c5fc902c5abc4fff485b50c0b99.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a230d76e8f687b58eb8138f57daeb7e21e077c17-1280x720.jpg?accountingTag=WR",
+      "label": "KARMA, THE ENLIGHTENED ONE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a230d76e8f687b58eb8138f57daeb7e21e077c17-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/acfead45dac6d6da2fbaf5f8baa82300f613bc49-1280x720.jpg?accountingTag=WR",
+      "label": "WARDEN KARMA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/acfead45dac6d6da2fbaf5f8baa82300f613bc49-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d0d61d8e26c3fb357cc6dc16f444cea77953afb8-1280x720.jpg?accountingTag=WR",
+      "label": "Stargazer Karma",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d0d61d8e26c3fb357cc6dc16f444cea77953afb8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8b613b8467df0af4b2ca6d8aeb7d16da9db0eacf-1280x720.jpg?accountingTag=WR",
+      "label": "Dawnbringer Karma",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8b613b8467df0af4b2ca6d8aeb7d16da9db0eacf-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/21de5a73afcf92092c40e37b657a65f12b488782-1280x720.jpg?accountingTag=WR",
+      "label": "Tranquility Dragon Karma",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/21de5a73afcf92092c40e37b657a65f12b488782-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/776d6a1b34dbd6af40ddde2f4d9577895803fa18-1280x720.jpg?accountingTag=WR",
+      "label": "Dark Star Karma",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/776d6a1b34dbd6af40ddde2f4d9577895803fa18-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bf5c652923e8c56d46eb9a9a0c810dc75f020601-1280x720.jpg?accountingTag=WR",
+      "label": "SPIRIT BLOSSOM KARMA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bf5c652923e8c56d46eb9a9a0c810dc75f020601-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2022-03-07T20:04:14Z",
+  "hash": "522d4b8516c9239f37e007bf2c76dd6ae35e9c8342d84e4bfd0f7abfe1db5779"
+}

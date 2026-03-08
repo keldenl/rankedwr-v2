@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10002",
+  "riotSlug": "aatrox",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/aatrox/",
+  "title": "AATROX",
+  "subtitle": "The Darkin Blade",
+  "roles": [
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/cf554377cbbbf8cf0a2631f69d968ea36ed6133c.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/a7f384dadc3eb5a196e91048e7a9f108d9dc685d-96x96.jpg?accountingTag=WR",
+      "label": "DEATHBRINGER STANCE",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c7b9d571fb0a138a038e15a82544573d7332a7c4.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/5a5482291b30b1cab8e721dd04006e5a67c81110-96x96.jpg?accountingTag=WR",
+      "label": "THE DARKIN BLADE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/33115b1f696863710d4dedb3076b6d2fd1c0dc14.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Aatrox smashes the ground, dealing damage to the first enemy hit. Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/82ded8da08dc89afc01bd783195e328725c4c599-96x96.jpg?accountingTag=WR",
+      "label": "INFERNAL CHAINS",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/67bf47c42425d4b849fc70f64e43774e12ead655.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Passively, Aatrox heals when damaging enemy champions. On activation, he dashes in a direction.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/195d9b1a7baed01c84b35e86c41f772b90773d0b-96x96.jpg?accountingTag=WR",
+      "label": "UMBRAL DASH",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b12ddd84205a0f9598a0143fb2ab7078e93cfeef.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and Move Speed. If he gets a takedown, this effect is extended.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d856f3fef116a61f23a7303928bb70950395bbd7-96x96.jpg?accountingTag=WR",
+      "label": "WORLD ENDER",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fc15d9c323d23377212e5669aa050e63c5c3b6d1.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a055c66a60d9803790101d08643def3935544c64-1280x720.jpg?accountingTag=WR",
+      "label": "AATROX, THE DARKIN BLADE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a055c66a60d9803790101d08643def3935544c64-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c715c932c37d9b7436d18a7ec9d0b93ba00090e7-1280x720.jpg?accountingTag=WR",
+      "label": "BLOOD MOON AATROX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c715c932c37d9b7436d18a7ec9d0b93ba00090e7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ca9afae534f5d5a767b3b8cedc8d418e08545430-1280x720.jpg?accountingTag=WR",
+      "label": "Shan Hai Scrolls Aatrox",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ca9afae534f5d5a767b3b8cedc8d418e08545430-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/90f9c0da2793354b3ddc38ef5e11295a3425b316-1280x720.jpg?accountingTag=WR",
+      "label": "MECHA AATROX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/90f9c0da2793354b3ddc38ef5e11295a3425b316-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/89c104e9eb5d80f500a0e29bdc07b50d6adfc2d8-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGON LANTERN AATROX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/89c104e9eb5d80f500a0e29bdc07b50d6adfc2d8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3a90c5181726180817a97cdcea28da76c58fc695-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGON LANTERN PRESTIGE AATROX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3a90c5181726180817a97cdcea28da76c58fc695-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/df7671e30ac6c3f07b6fb19a366d5bc59e455e64-1280x720.jpg?accountingTag=WR",
+      "label": "Primordian Aatrox",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/df7671e30ac6c3f07b6fb19a366d5bc59e455e64-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ed09cc1c802079af5664c2e57100daf3e17d1753-1920x1080.jpg?accountingTag=WR",
+      "label": "WEATHER ENTITY AATROX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ed09cc1c802079af5664c2e57100daf3e17d1753-1920x1080.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2022-11-15T20:57:58Z",
+  "hash": "c6abc2d98932ad833a281ee30b958391930144615c4700b349805974a1b11297"
+}

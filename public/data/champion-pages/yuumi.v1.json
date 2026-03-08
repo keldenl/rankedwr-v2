@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10020",
+  "riotSlug": "yuumi",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/yuumi/",
+  "title": "YUUMI",
+  "subtitle": "the Magical Cat",
+  "roles": [
+    "SUPPORT",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6bba45f42887990463bfd86b6303063ec4f568f5.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Periodically, Yuumi’s Basic Attacks and Abilities will Shield Yuumi. If Yuumi is Attached to an ally or attaches within a few seconds they are Shielded for the same amount. While Attached to an ally, Yuumi grants them Friendship stacks when they kill enemy champions or minions. The ally with the highest Friendship stack becomes Yuumi’s Best Friend, which empowers her abilities towards them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/60e3dca169c7d953ebdc70dc41cabc9b88d340fe-128x128.png?accountingTag=WR",
+      "label": "Feline Friendship",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a915ed1d0ef4be9e128f39c26a3ec8e52b392080.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Yuumi fires a missile, dealing Magic Damage to the first target hit. It deals bonus damage and Slows if it takes at least 1 second to get to its target. While Attached, the missile can be controlled with your cursor. Best Friend Bonus: Applies Slow on hit, and when hitting an enemy champion, Yuumi’s Attached ally gains bonus Magic Damage toward them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4e33e5d5745482505c15bcd037b839de4f0b39cd-128x128.png?accountingTag=WR",
+      "label": "PROWLING PROJECTILE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/ef1f88ac6ef1131dff6a304f4267dac152113948.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Passive: While Yuumi is Attached to her Best Friend, She gains bonus Healing and Shielding, and her Best Friend also receives additional Healing effects. Active: Yuumi dashes to a target ally, becoming untargetable from everything except turrets.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dc6fba97428f45c9d11a868e5387f1f73f7deda6-128x128.png?accountingTag=WR",
+      "label": "YOU AND ME!",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/786fd6ce15a0b78a7d5e6ee6948d3ea2331e14ab.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Yuumi grants herself a Shield and gains Attack Speed. She also gains Move Speed while the Shield is active. If Yuumi is Attached, Zoomies affect her ally.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f28f25053b898ee4e0de6088ec3e46e2eff63bae-128x128.png?accountingTag=WR",
+      "label": "ZOOMIES",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/8b7cd5ac568fc64f200a22099334d5b6eddb6b30.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Yuumi launches five waves in the target direction. While Attached Yuumi can steer the direction of the waves. Detaching stops this bonus effect. Allied champions hit by the waves are Healed, with increased Healing for the Best Friend. Excess Healing converts into a Shield. Enemies struck by the waves take Magic Damage and are Slowed. The Slow stacks and refreshes on each hit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1f82f439c0c2f8d76c2b68f34baac9d7052dff15-128x128.png?accountingTag=WR",
+      "label": "FINAL CHAPTER",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a4a89479667af28031808d55564a54ce02b048cb.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a6eed827d86fe3137ba4a574ec7aa50d2920444a-1280x720.jpg?accountingTag=WR",
+      "label": "YUUMI, THE MAGICAL CAT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a6eed827d86fe3137ba4a574ec7aa50d2920444a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bef87096997f6690125c68b2c63440bfd06661a2-1280x720.jpg?accountingTag=WR",
+      "label": "HEARTSEEKER YUUMI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bef87096997f6690125c68b2c63440bfd06661a2-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e812a8e619a426727a0798101970d610547ffa76-1280x720.jpg?accountingTag=WR",
+      "label": "BATTLE PRINCIPAL YUUMI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e812a8e619a426727a0798101970d610547ffa76-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/14e0993b39f3403604d200404ed6a16bf3a09a7d-1280x720.jpg?accountingTag=WR",
+      "label": "FOOD SPIRITS YUUMI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/14e0993b39f3403604d200404ed6a16bf3a09a7d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/131297d7ed24e7ac8d5886743b92496b07c3bad5-1280x720.jpg?accountingTag=WR",
+      "label": "CRYSTAL ROSE YUUMI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/131297d7ed24e7ac8d5886743b92496b07c3bad5-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/57b8e85d1ccac9fa3f4d13ef12c4a0f32eb9363a-1280x720.jpg?accountingTag=WR",
+      "label": "CAFE CUTIES YUUMI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/57b8e85d1ccac9fa3f4d13ef12c4a0f32eb9363a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ceeb2319d4af264966ed4804d250cc8d36fd45d9-1280x720.jpg?accountingTag=WR",
+      "label": "CAFE CUTIES YUUMI MYTHIC CHROMA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ceeb2319d4af264966ed4804d250cc8d36fd45d9-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2022-02-02T19:44:21Z",
+  "hash": "03ab7002f548ed09d04e4caa7030e57358abe0778439c61edfc64049a77f48bd"
+}

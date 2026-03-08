@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10053",
+  "riotSlug": "twitch",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/twitch/",
+  "title": "TWITCH",
+  "subtitle": "THE PLAGUE RAT",
+  "roles": [
+    "MARKSMAN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/50d41f7caa4656c00dfbbfaef650b751f089b2e0.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Twitch's basic attacks infect the target, dealing true damage each second.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d075a7841bc9f4a92cf466db39092fcadb46673d-96x96.jpg?accountingTag=WR",
+      "label": "DEADLY VENOM",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fb4fb75763b45b3534002713c7bef56cddac44c3.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Twitch becomes Camouflaged for a short duration and gains Move Speed. When leaving Camouflage, Twitch gains Attack Speed for a short duration. When an enemy champion with Deadly Venom dies, Ambush's cooldown is reset.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4ceec8b7ec8fdec497d2fa19ef75976a46f44849-96x96.jpg?accountingTag=WR",
+      "label": "AMBUSH",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9a211369adbf117291c1127e4439adbb51d57b04.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Twitch hurls a cask of venom that explodes in an area, slowing targets and applying deadly venom to the target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e83894e52caacac80f3db5a5e56142685fe41059-96x96.jpg?accountingTag=WR",
+      "label": "VENOM CASK",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/81b856e63e04dbde41ee971564d32df42101b484.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Twitch wreaks further havoc on poisoned enemies with a blast of his vile diseases.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/342b76bba6990b0ac7871e2511e0fcb408b55040-96x96.jpg?accountingTag=WR",
+      "label": "CONTAMINATE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f5c634bf6b4755c735724a2a3d17f0d1ec83f3a4.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Twitch unleashes the full power of his crossbow, shooting bolts over a great distance that pierce all enemies caught in their path.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/fe53e784a146aafad8afcc39ceb3eb5a27ad730e-96x96.jpg?accountingTag=WR",
+      "label": "SPRAY AND PRAY",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ba2d87f44d8430ef04e8ae998b7a6e20724992ea.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5caabf42760c89590067d7c340ceb00013f0477f-1280x720.jpg?accountingTag=WR",
+      "label": "TWITCH, THE PLAGUE RAT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5caabf42760c89590067d7c340ceb00013f0477f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4dca19dc1ce777d9c846d8f5ba57d6d5b4b72ad4-1280x720.jpg?accountingTag=WR",
+      "label": "OMEGA SQUAD TWITCH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4dca19dc1ce777d9c846d8f5ba57d6d5b4b72ad4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cfc8c46af7d0c0139c74e5599a22e79969e5fb5e-1280x720.jpg?accountingTag=WR",
+      "label": "HIGH NOON TWITCH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cfc8c46af7d0c0139c74e5599a22e79969e5fb5e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c8ed1422cb66bb2fee3cc66f440468188343d460-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: TWITCH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c8ed1422cb66bb2fee3cc66f440468188343d460-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dff79fd74e144881b20b1797d942a27cdbe49259-1280x720.jpg?accountingTag=WR",
+      "label": "CHROMACRASH TWITCH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dff79fd74e144881b20b1797d942a27cdbe49259-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2023-04-14T21:33:16Z",
+  "hash": "17b3c8f6ef51e8aa580e1ccc68564a4cb568492b632fbdf809f6c3a39f70e413"
+}

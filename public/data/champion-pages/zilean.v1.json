@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10080",
+  "riotSlug": "zilean",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/zilean/",
+  "title": "ZILEAN",
+  "subtitle": "THE CHRONOKEEPER",
+  "roles": [
+    "SUPPORT",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a998d6446386d46509b53aeee0395ccb2d7ddece.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Zilean stores time as Experience and can grant it to his allies. Zilean can impart this Experience on the nearest allied champion when he has enough to complete their next level up. Zilean receives as much Experience as he gives.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/fcca69f985c939b5b4101b88e9bb5994f515c64f-256x256.png?accountingTag=WR",
+      "label": "TIME IN A BOTTLE",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/fd044e54b75e3e62582977159111622d5b0911a1.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Tosses a bomb to target area that sticks to units that come near it, prioritizing champions and units already carrying a bomb. When it detonates it deals magic damage to the target and nearby enemies. If a Time Bomb is detonated early by another Time Bomb, it also stuns enemies. The Time Bomb can be recharged 2 times.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/acada10b489da07a03c502c0602199aee5d60d09-256x256.png?accountingTag=WR",
+      "label": "TIME BOMB",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/9dfd51853246312d8ca8b243fe21700930cc1f66.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Makes time flow faster for himself, applying Fleeting Time to himself and gaining a damage absorbing shield. Zilean also grants Fleeting Time and identical shield to his nearest ally champion. Fleeting Time increases projectile speeds and grants move speed. Fleeting Time also increases Zilean’s ability haste.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c9188c4fdaaae309f3af77d4d48cd74e122fd258-256x256.png?accountingTag=WR",
+      "label": "TWISTED TIMEFLOW",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/7e1f925b4599f584e252bfa1eade90c572262722.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Creates a time-bending force field at target location. Within the force field enemy champions and projectiles are slowed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b09072b22165707688354ab119e6ea575587ab08-256x256.png?accountingTag=WR",
+      "label": "TEMPORAL MIRAGE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/4d42793ccf93a8bdbfd1799b295d726265b33b90.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Places a protective time rune on Zilean or an allied champion. If the rune bearer takes lethal damage during this time, they teleport back in time and become untargetable before they are revived and healed. If the rune bearer does not trigger the rune's revival effect, a part of Chronoshift's cooldown will be refunded.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/1bf01227f5880f522897bef496c9703bd02aea19-256x256.png?accountingTag=WR",
+      "label": "CHRONOSHIFT",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/e2226146385cbbabfca2c49f9e1b65c88c26581e.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6d03fe0d01e652168421908fa8cbca5a5e2c020d-1280x720.jpg?accountingTag=WR",
+      "label": "ZILEAN, THE CHRONOKEEPER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6d03fe0d01e652168421908fa8cbca5a5e2c020d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0877ff91bc3f9fd4e37380799814d0a0c9eb66e9-1920x1080.jpg?accountingTag=WR",
+      "label": "BLOOD MOON ZILEAN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0877ff91bc3f9fd4e37380799814d0a0c9eb66e9-1920x1080.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2025-06-09T16:01:02Z",
+  "hash": "a446dca4afa486224c77f3b66b7193aecce9046b203808c8bfe84e5131fc18d2"
+}

@@ -1,19 +1,26 @@
 import { startTransition, useEffect, useState } from "react"
 import { ArrowRight, Search, Twitter } from "lucide-react"
 
+import { ChampionPage } from "@/components/champion-page"
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupButton,
   InputGroupInput,
 } from "@/components/ui/input-group"
+import { Spinner } from "@/components/ui/spinner"
 import { LeaderboardsPage } from "@/components/leaderboards-page"
 import {
+  type AppRoute,
   LEADERBOARDS_ROUTE,
   buildRouteUrl,
+  championRoute,
+  championSlugFromRoute,
+  isChampionRoute,
   routeFromHash,
   routeToHash,
 } from "@/lib/hash-routing"
+import { findChampionMatch } from "@/lib/champion-pages"
 
 const smolderBackdropUrl =
   "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/937095edeaa81ee72125de2210982a1cf96325d5.mp4?accountingTag=WR"
@@ -23,9 +30,10 @@ function HomePage({
   onSearch,
 }: {
   initialQuery: string
-  onSearch: (query: string) => void
+  onSearch: (query: string) => Promise<void>
 }) {
   const [searchQuery, setSearchQuery] = useState(initialQuery)
+  const [isSearching, setIsSearching] = useState(false)
 
   useEffect(() => {
     setSearchQuery(initialQuery)
@@ -59,18 +67,24 @@ function HomePage({
           <div className="flex flex-1 items-center justify-center">
             <div className="w-full space-y-8">
               <div className="space-y-3">
-                <h1 className="rift-wordmark rift-wordmark--hero">RankedWR</h1>
-                <p className="rift-home-subtitle">
-                  Wild Rift champion win rates.
-                </p>
+                <h1 className="rift-wordmark rift-wordmark--hero">
+                  <span className="rift-wordmark-ranked">Ranked</span>
+                  <span className="rift-wordmark-wr">WR</span>
+                </h1>
               </div>
 
               <div className="mx-auto w-full max-w-2xl space-y-3">
                 <form
                   className="min-w-0 flex-1"
-                  onSubmit={(event) => {
+                  onSubmit={async (event) => {
                     event.preventDefault()
-                    onSearch(searchQuery)
+                    setIsSearching(true)
+
+                    try {
+                      await onSearch(searchQuery)
+                    } finally {
+                      setIsSearching(false)
+                    }
                   }}
                 >
                   <InputGroup className="rift-home-search h-14">
@@ -91,8 +105,9 @@ function HomePage({
                         size="icon-sm"
                         className="rift-search-submit rift-search-submit--solid"
                         aria-label="Search"
+                        disabled={isSearching}
                       >
-                        <Search />
+                        {isSearching ? <Spinner className="size-4" /> : <Search />}
                       </InputGroupButton>
                     </InputGroupAddon>
                   </InputGroup>
@@ -176,26 +191,50 @@ function App() {
   const route = routeFromHash(locationState.hash)
   const initialQuery = new URLSearchParams(locationState.search).get("q") ?? ""
 
-  function handleHomeSearch(query: string) {
-    const nextParams = new URLSearchParams()
+  function navigate(route: AppRoute, params?: URLSearchParams) {
+    const nextUrl = buildRouteUrl(route, params)
+    const nextSearch = params?.toString()
 
-    if (query.trim()) {
-      nextParams.set("q", query.trim())
-    }
-
-    const nextUrl = buildRouteUrl(LEADERBOARDS_ROUTE, nextParams)
     window.history.pushState(null, "", nextUrl)
 
     startTransition(() => {
       setLocationState({
-        hash: routeToHash(LEADERBOARDS_ROUTE),
-        search: nextParams.toString() ? `?${nextParams.toString()}` : "",
+        hash: routeToHash(route),
+        search: nextSearch ? `?${nextSearch}` : "",
       })
     })
   }
 
+  async function handleHomeSearch(query: string) {
+    const nextParams = new URLSearchParams()
+    const trimmedQuery = query.trim()
+
+    if (!trimmedQuery) {
+      navigate(LEADERBOARDS_ROUTE)
+      return
+    }
+
+    const championMatch = await findChampionMatch(trimmedQuery)
+
+    if (championMatch?.riotSlug) {
+      navigate(championRoute(championMatch.riotSlug))
+      return
+    }
+
+    nextParams.set("q", trimmedQuery)
+    navigate(LEADERBOARDS_ROUTE, nextParams)
+  }
+
   if (route === LEADERBOARDS_ROUTE) {
     return <LeaderboardsPage />
+  }
+
+  if (isChampionRoute(route)) {
+    const championSlug = championSlugFromRoute(route)
+
+    if (championSlug) {
+      return <ChampionPage slug={championSlug} />
+    }
   }
 
   return <HomePage initialQuery={initialQuery} onSearch={handleHomeSearch} />

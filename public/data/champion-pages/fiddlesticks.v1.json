@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10133",
+  "riotSlug": "fiddlesticks",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/fiddlesticks/",
+  "title": "FIDDLESTICKS",
+  "subtitle": "The Ancient Fear",
+  "roles": [
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0098e5bb16271d831afe861b2b5818e3a72bfca0.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "When participating in a takedown Fiddlesticks leaves behind a movable scarecrow. The scarecrow will move toward the nearest enemy champion and explode when killed or after several seconds, causing fear.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6dac9830dd7bf34eb5bc4e84be5a797b87cd1358-512x512.jpg?accountingTag=WR",
+      "label": "A HARMLESS SCARECROW",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b4112b98ed702466f7d7089f3facd44d6d7fb394.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Passive: When Fiddlesticks is out of combat for a longer time period and is invisible to enemy units, or has been stationary for a short period, its next skill will fear the target.\n\nFiddlesticks launches a raven at a target, dealing magic damage and fear. The raven deals bonus damage if the unit has been terrified recently.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/1dc7ce0dead322408e8f8845ff1063620f1f6b5f-512x512.jpg?accountingTag=WR",
+      "label": "TERRIFY",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e0a5676554882fbff640614d49826313088c49db.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Fiddlesticks drains health from nearby enemies, dealing bonus execute damage at the end of the duration. During channeling, Fiddlestick is slowed and cannot cast any other abilities.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/573a40d34b9cc23b8d30b2479f6d7503addb7e00-512x512.jpg?accountingTag=WR",
+      "label": "BOUNTIFUL HARVEST",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a8ec76929b3c1b6abb161ce2f7d6133fa4fecf49.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Fiddlesticks slashes an area with its scythe, slowing all enemies hit and silencing enemies hit in the center of the slash.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ea791ca077627e148df36589c627501b7609503a-512x512.jpg?accountingTag=WR",
+      "label": "REAP",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/1dcc892a9f6dff0d06e6b21b713380dbeeda8ef0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "A murder of crows flock wildly around Fiddlesticks, dealing damage per second to all enemy units in the area.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f9abcf2ad25eb471295e8dadd2f13554443b5272-512x512.jpg?accountingTag=WR",
+      "label": "CROWSTORM",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c77d2619e9ca20612cfb4cce43a460157ba49cd5.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3fcd880462760394311c5c89ecff355f6b9a2a74-1280x720.jpg?accountingTag=WR",
+      "label": "FIDDLESTICKS, THE ANCIENT FEAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3fcd880462760394311c5c89ecff355f6b9a2a74-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/33267ba6d69eae639f3e8e1b5b9f27781cfdd4ab-1280x720.jpg?accountingTag=WR",
+      "label": "PUMPKINHEAD FIDDLESTICKS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/33267ba6d69eae639f3e8e1b5b9f27781cfdd4ab-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/eb7e5e91da666f88ae4e9a5e9ca98bbb6b5a5052-1280x720.jpg?accountingTag=WR",
+      "label": "STAR NEMESIS FIDDLESTICKS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/eb7e5e91da666f88ae4e9a5e9ca98bbb6b5a5052-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2023-10-19T23:37:59Z",
+  "hash": "68bf2682c8c92464343252a48e1cc57d6bbee1a465d09f43db295e38d55107d7"
+}

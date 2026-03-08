@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10106",
+  "riotSlug": "olaf",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/olaf/",
+  "title": "OLAF",
+  "subtitle": "the Berserker",
+  "roles": [
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/f5e64b6508662b3303ac852636b69dd31d695353.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Olaf's Attack Speed is increased by 1% for each 1% of his Health he is missing.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/23e1c590cbbcb6c0fb1be62a7df2d7bdcd7f39a6-96x96.jpg?accountingTag=WR",
+      "label": "Berserker Rage",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/3e63c36ef9c45eb9f57a69647fc4226e49dcdca4.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Olaf throws an axe into the ground at a target location, dealing damage to enemies it passes through and slowing their Movement Speed. If Olaf picks up the axe, the ability's cooldown is reduced by 4.5 seconds.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/a642b89f20a9e61e863269adb55c6e94c25a4d87-96x96.jpg?accountingTag=WR",
+      "label": "Undertow",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/9f8f6ffae16f2e969739c2fc21c3c97b566a974c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Olaf's Attack Speed is increased, he gains Physical Vamp and has increased healing from all sources based on how much Health he is missing.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/8ec5a3d616009a36c374832734175faa20f27108-96x96.jpg?accountingTag=WR",
+      "label": "Vicious Strikes",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/f10ffb568f8f577468f8ca310851c2c9b5d98d1a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Olaf dashes to an enemy and attacks with such force that it deals true damage to his target. If the target does not die, Olaf takes true damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5db6db12705a809d4d1c0b64ab101adf48636763-96x96.jpg?accountingTag=WR",
+      "label": "Reckless Swing",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/90ee4c7710be5aac278ac9ce169422577a3321ac.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Olaf temporarily becomes immune to disables.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e2a848d5535d17d34e3cd6bb894f613fcbf2eb3d-96x96.jpg?accountingTag=WR",
+      "label": "Ragnarok",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/0cbf904dda21fadbf0ca3aa726be05a2c1fe5ce3.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/57d0ebe92191dce4c206861d5715283b66c78e02-1280x720.jpg?accountingTag=WR",
+      "label": "OLAF, THE BERSERKER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/57d0ebe92191dce4c206861d5715283b66c78e02-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d63517d5de83004d922398f91e52ac7cc818551f-1280x720.jpg?accountingTag=WR",
+      "label": "BROLAF",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d63517d5de83004d922398f91e52ac7cc818551f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ef25cdb0a2c5b882c3239155b1bb15d209e6887d-1280x720.jpg?accountingTag=WR",
+      "label": "PENTAKILL OLAF",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ef25cdb0a2c5b882c3239155b1bb15d209e6887d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b8054a118ea8e79b605c815fc09d3581ccf7c019-1280x720.jpg?accountingTag=WR",
+      "label": "MARAUDER OLAF",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b8054a118ea8e79b605c815fc09d3581ccf7c019-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bcd6b14f57eabae0c94a020f2694bb593f6e7a7a-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGONSLAYER OLAF",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bcd6b14f57eabae0c94a020f2694bb593f6e7a7a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ffac19d3330c8c5caa4f424e194e77300dcaa0ea-1280x720.jpg?accountingTag=WR",
+      "label": "SENTINEL OLAF",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ffac19d3330c8c5caa4f424e194e77300dcaa0ea-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b82db4ea76821f92789af36492b96ab04c77ae00-1280x720.jpg?accountingTag=WR",
+      "label": "GLORIOUS ARMADA OLAF",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b82db4ea76821f92789af36492b96ab04c77ae00-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:46:51Z",
+  "hash": "0babebcdb6b5f400421d65342ece1787f8b82c0c98b946641ca247fd2b2b13ef"
+}

@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10166",
+  "riotSlug": "norra",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/norra/",
+  "title": "NORRA",
+  "subtitle": "The Portal Misterss",
+  "roles": [
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/acaaf4ca851070d496137ec0bd21d66cab905412.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Norra’s next ability leaves Trinkets on the battlefield. When an enemy touches a Trinket, it activates and fires a projectile at the triggering enemy. When Norra’s abilities hit enemy champions, the ability’s cooldown is reduced.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0401ca45fd76ab4f86346e040562ec04b0881f5c-512x512.png?accountingTag=WR",
+      "label": "BELOVED TRINKETS",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/c6b5b631188e52df2d80ce27a64a0f69690c5611.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Norra charges and fires a bolt of magical energy in target direction. She’s slowed while charging. The energy bolt stops upon hitting the first enemy champion, dealing magic damage to the target and nearby enemies. Enemies marked with Thread Sigils take bonus magic damage. \nAt full charge, all Trinkets within the area are activated and the hit target is treated as Trinket-activated.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e158dca2ed7aa12a58a47ab48455fc16f16cf42c-512x512.png?accountingTag=WR",
+      "label": "MEMORY SURGE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/d7e7bd1e8782ab35b20160e0297a8afbfbe02b55.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Norra reveals a mystical portal in a target circular area, dealing magic damage to all enemy champions within the area and banishing them to an alternate realm. Banished enemies are untargetable, slowed, and can’t cast.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/572ca309e885bdb5503b9310e30f6519e44aa335-512x512.png?accountingTag=WR",
+      "label": "JOURNEY TO NOWHERE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/25b71ee5e2a2ef4a47eb03ccfde8099ab1ef629f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Passive: Damage dealing Trinkets apply a Thread Sigil to their targets.\nNorra summons portals on both sides of a target area. The portals fire magical threads between each other, dealing magic damage to all enemies in the area and applying Thread Sigils. Thread Sigils slow their targets and increase their collision size.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/fe338abd6834c71b5b59404f765ae39de22fdb5d-512x512.png?accountingTag=WR",
+      "label": "THREADS OF HOMECOMING",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/49b7fe06c46296473b38202b4ad9408399861db4.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Norra conjures a huge portal enveloping all units within the area. Magical projectiles will fire four times, dealing magic damage to all enemies along their path. The projectile direction is determined by swiping. The last projectile deals bonus damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b7cfcb0f9773a775d4830e0f44643bfbc93c3c54-512x512.png?accountingTag=WR",
+      "label": "PORTALPALOOZA!",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/673ef5ceaa01a07106acc35f2c7de80f4356c7d1.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d8d9c469381457eaf7387d10a79451bfd6b7a143-1280x720.jpg?accountingTag=WR",
+      "label": "NORRA, THE PORTAL MISTRESS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d8d9c469381457eaf7387d10a79451bfd6b7a143-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2026-02-12T21:24:44Z",
+  "hash": "2ed6f48a04568ce7125902287375f71e8788f3a67dcc22e6f782b215c60cb32a"
+}

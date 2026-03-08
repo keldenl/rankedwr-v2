@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10137",
+  "riotSlug": "ryze",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ryze/",
+  "title": "RYZE",
+  "subtitle": "THE RUNE MAGE",
+  "roles": [
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/68096b2a2810797f7b646eaaa7250bebd598a99b.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Ryze's spells deal extra damage based on his Bonus Mana, and he gains a percentage increase to his maximum Mana based on his Ability Power.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/dcaae946c2ff618d130d45a9868324532ee7aef6-800x800.png?accountingTag=WR",
+      "label": "ARCANE MASTERY",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e77ebc9dea7c9620a3f1222cd52d6bfc121d1972.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Passively, Ryze's other basic abilities reset the cooldown of Overload and charge a rune. When Ryze casts Overload with 2 runes charged, he gains a brief burst of Move Speed. On cast, Ryze throws a charge of pure energy in a line, dealing damage to the first enemy struck. If the target has Flux on it, Overload deals extra damage and bounces to nearby enemies with Flux.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0ff76e7e489a84e8f7a983c2a091242d91dfdbc7-521x521.png?accountingTag=WR",
+      "label": "OVERLOAD",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4b80f6df61e08a53d8378e8f4670e71cb470dfef.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ryze traps a target in a cage of runes, damaging them and slowing their movement. If the target has Flux on it, they are instead rooted.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8c4409b084422321d7b7828cab5838ea0a802efa-512x512.png?accountingTag=WR",
+      "label": "RUNE PRISON",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/56bfa5ea0348c2924227d98c118f8c961841036e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ryze releases an orb of pure magical power that damages an enemy and debuffs all nearby enemies. Ryze's spells have additional effects against the debuffed enemy.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/6042e5eea881985c2d357ab542db540a5e66e357-800x800.png?accountingTag=WR",
+      "label": "SPELL FLUX",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5e3a57684b5c678815aa8a873ec28ee71671a8c5.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Passively, Overload deals even more damage against targets with Flux. On cast, Ryze creates a portal to a nearby location. After a few seconds, allies standing near the portal are teleported to the target location.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/1cb06298227eb4dd2a9dd8c64588ac664ca0badf-800x800.png?accountingTag=WR",
+      "label": "REALM WARP",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/dc62df4abcab26589c2845e8bd624046898a14ac.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/81bc030fb4479a72316348b6a39433c2bf01c543-1280x720.jpg?accountingTag=WR",
+      "label": "RYZE, THE RUNE MAGE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/81bc030fb4479a72316348b6a39433c2bf01c543-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/04f2671ff61c7ff84cb6ac12ac2a8895de9b81c7-1280x720.jpg?accountingTag=WR",
+      "label": "SOULFIGHTER RYZE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/04f2671ff61c7ff84cb6ac12ac2a8895de9b81c7-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2025-04-01T09:22:51Z",
+  "hash": "bb695eb142438001ba5442a9039972a047b21c8cefc218e4fe5ec61c2793265e"
+}

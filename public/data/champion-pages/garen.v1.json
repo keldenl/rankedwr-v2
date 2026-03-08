@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10001",
+  "riotSlug": "garen",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/garen/",
+  "title": "GAREN",
+  "subtitle": "the Might of Demacia",
+  "roles": [
+    "FIGHTER",
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3cbebcbcc98bc0f42a964b5e4b0d2ffaf5f5cd6f.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "If Garen has not recently been struck by damage or enemy abilities, he regenerates a percentage of his total health each second.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/3e3d2e20a694c5ac12f1957dbfa7f56cfe4fd5b3-96x96.jpg?accountingTag=WR",
+      "label": "Perseverance",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/1dfe4e239a0a1c9abb4fd49343db890d41559508.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Garen gains a burst of movement speed, breaking free of all slows affecting him. His next attack strikes a vital area of his foe, dealing bonus damage and silencing them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/01de0141e9db61e06c10dbc6f946650ddcc4476a-96x96.jpg?accountingTag=WR",
+      "label": "Decisive Strike",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ad8ef0749c1dcf3d65c76ca8d4e354a2125aa162.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Garen reduces damage taken for a short time, and gains bonus resistance to crowd control.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/f6839d73df499cc863d2b28c56b1004ac0a9c065-96x96.jpg?accountingTag=WR",
+      "label": "Courage",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b41a2c31801299ae469854f30f0bcbe20eaa0f44.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Garen rapidly spins his sword around his body, dealing physical damage to nearby enemies. Enemies hit by the bladestorm's edge are critically struck.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/83cf33a4625f25572a6efab310576e03d32024a4-96x96.jpg?accountingTag=WR",
+      "label": "Judgment",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/da6881b12074e91611385d95646190d477ed700a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Garen calls upon the might of Demacia to attempt to execute an enemy champion, dealing damage in an area around his target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/27bc2e231bc65fdb9d6e7edf0fa20327a3d221ca-96x96.jpg?accountingTag=WR",
+      "label": "Demacian Justice",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/40ea348bc391e67d432e8a5c4af677ac23ab9cec.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/103a1f0f978cfec945126b28e312ef73b4c7a416-1280x720.jpg?accountingTag=WR",
+      "label": "GAREN, THE MIGHT OF DEMACIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/103a1f0f978cfec945126b28e312ef73b4c7a416-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5435400393a7b91758d34ebb18f06478779e2da1-1280x720.jpg?accountingTag=WR",
+      "label": "DREADKNIGHT GAREN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5435400393a7b91758d34ebb18f06478779e2da1-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/74b4ac15f2991948900274926b675c57fa9b8a29-1280x720.jpg?accountingTag=WR",
+      "label": "ROGUE ADMIRAL GAREN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/74b4ac15f2991948900274926b675c57fa9b8a29-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/33e8b8e53532950fe1aa33450e5e62857fdc9214-1280x720.jpg?accountingTag=WR",
+      "label": "STEEL LEGION GAREN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/33e8b8e53532950fe1aa33450e5e62857fdc9214-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b3e93aa473d1acc9f9454e303636ebfa134da88f-1280x720.jpg?accountingTag=WR",
+      "label": "GOD-KING GAREN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b3e93aa473d1acc9f9454e303636ebfa134da88f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/206e56613788483a89b2c670a48a89e83d1c6cc4-1280x720.jpg?accountingTag=WR",
+      "label": "WARRING KINGDOMS GAREN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/206e56613788483a89b2c670a48a89e83d1c6cc4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fa2ebc88ac03dd324971b776b8c5850cc2bfd73a-1280x720.jpg?accountingTag=WR",
+      "label": "GARDEN PARTY GAREN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/fa2ebc88ac03dd324971b776b8c5850cc2bfd73a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c8ac2bc60c2bb9bceff65356bc78ad5d94b2f553-1920x1080.jpg?accountingTag=WR",
+      "label": "Soul Fighter Garen",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c8ac2bc60c2bb9bceff65356bc78ad5d94b2f553-1920x1080.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:08:08Z",
+  "hash": "da86b73ae19fcfdf2b9cece12f98c874937ced1537efb63692fbb2f266221e12"
+}

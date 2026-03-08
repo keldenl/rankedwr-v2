@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10144",
+  "riotSlug": "viktor",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/viktor/",
+  "title": "VIKTOR",
+  "subtitle": "HERALD OF ARCANE",
+  "roles": [
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a0e738606c82d5c65912b83f2698ba5741e37287.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Viktor can augment his basic abilities when he gets kills on enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/80dced5fdda48e695cad1f4ed6bea81402722cc2-512x512.png?accountingTag=WR",
+      "label": "GLORIOUS EVOLUTION",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b5224a6f3b7b5d91916efaa53ef2c5083947ff06.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Viktor blasts an enemy unit dealing magic damage, gaining a shield and empowering his next basic attack. Augment: Siphon Power's shield is increased by 60% and Viktor gains bonus Move Speed after casting.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f46864d3d37cc5d4fe9d0e49dbbd1ecf2f5618b9-512x512.png?accountingTag=WR",
+      "label": "SIPHON POWER",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ae301e30c19601707d7b40243de665bf518b260a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Viktor conjures a heavy gravitational field that slows enemies in its radius. Enemies who stay within the device for too long are stunned. Augment: Viktor's non-periodic spells apply a slow to enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f9bcbe5e372a1148373eba3d69c82c0e334a042b-512x512.png?accountingTag=WR",
+      "label": "GRAVITY FIELD",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/87a497755e9f42b8e9fff7d9af58289c1c59dc1a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Viktor uses his robotic arm to fire a chaos beam that cuts across the field in a line, dealing damage to all enemies in its path. Augment: An explosion follows the Death Ray's wake, dealing magic damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/c75e53bd7c0355a8012a9f805657693e039010db-512x512.png?accountingTag=WR",
+      "label": "HEXTECH RAY",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/10a007b9868044ce01c51f66ea3e02fcbbd75f6d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Viktor conjures a singularity on the field which deals magic damage and interrupts enemy channels. The singularity then periodically does magic damage to all nearby enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/4c52e831e383e7047ee63460823751877e20a7b6-512x512.png?accountingTag=WR",
+      "label": "ARCANE STORM",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/252063183d68f04f8e32d7276e843c1bdbb61707.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7c7371e6aadda3392320e9770d971d1cd6f9a2e9-1280x720.jpg?accountingTag=WR",
+      "label": "VIKTOR, THE MACHINE HERALD",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7c7371e6aadda3392320e9770d971d1cd6f9a2e9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0b51ccd2e9410e36716ed9e7fc0fa6c2593eadae-1280x720.jpg?accountingTag=WR",
+      "label": "SECRET BOSS VIKTOR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0b51ccd2e9410e36716ed9e7fc0fa6c2593eadae-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3831ff916815607dfafc17a12dce7a4876f1b530-1280x720.jpg?accountingTag=WR",
+      "label": "HIGH NOON VIKTOR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3831ff916815607dfafc17a12dce7a4876f1b530-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2025-01-24T22:35:38Z",
+  "hash": "dd9e46867b24826e1e6231fea243fba7d79fbd6b77abfe785794db9035547655"
+}

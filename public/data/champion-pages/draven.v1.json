@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10077",
+  "riotSlug": "draven",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/draven/",
+  "title": "DRAVEN",
+  "subtitle": "the Glorious Executioner",
+  "roles": [
+    "MARKSMAN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/47b5262c475a76d27198eae276d90236c370e31c.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Draven gains his fans' Adoration when he catches a Spinning Axe or kills a minion, monster, or tower. Killing enemy champions grants Draven bonus gold based on how much Adoration he has.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e7103b14b366e5e0f58a59107e820e8148eaf9c6-96x96.jpg?accountingTag=WR",
+      "label": "LEAGUE OF DRAVEN",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a934ab1bae1801c454c2fd9e36925576134f7be2.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Draven's next attack will deal bonus physical damage. This axe will ricochet off the target high up into the air. If Draven catches it, he automatically readies another Spinning Axe. Draven can have two Spinning Axes at once.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5c9d5f18922fa553e748d9311685f46613805611-96x96.jpg?accountingTag=WR",
+      "label": "SPINNING AXE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/153eba43587b1b9c4680c8acc89c1816edbd1965.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Draven gains increased Movement Speed and Attack Speed. The Movement Speed bonus decreases rapidly over its duration. Catching a Spinning Axe will refresh the cooldown of Blood Rush.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/7abde75366de2cc1742acea6432f3abf41697b19-96x96.jpg?accountingTag=WR",
+      "label": "BLOOD RUSH",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fb7b3e99b2f67e90d34faaa9fe215a78914ca6d2.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Draven throws his axes, dealing physical damage to targets hit and knocking them aside. Targets hit are slowed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7d13c4f940541575b69cb22a06d461f0af96ea43-96x96.jpg?accountingTag=WR",
+      "label": "STAND ASIDE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3b0f9d2575eee138b9f7736996539026a1355595.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Draven hurls two massive axes to deal physical damage to each unit struck. Whirling Death slowly reverses direction and returns to Draven after striking an enemy champion. Draven may also activate this ability while the axes are in flight to cause it to return early. Deals less damage for each unit hit and resets when the axes reverse direction.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/9a8400e05e90632cfb60df06188fa731ee2ebc8f-96x96.jpg?accountingTag=WR",
+      "label": "WHIRLING DEATH",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fdae7346872993fa5249f234a23547bd7a794add.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b266a9278eb4853be59cd70a88a0143ee2454ae7-1280x720.jpg?accountingTag=WR",
+      "label": "DRAVEN, THE GLORIOUS EXECUTIONER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b266a9278eb4853be59cd70a88a0143ee2454ae7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8fddc80911f3aa6f4971911e30239e94b340c153-1280x720.jpg?accountingTag=WR",
+      "label": "PRIMETIME DRAVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8fddc80911f3aa6f4971911e30239e94b340c153-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1ab6a1abb80404758536ea3e681c9f666e20c166-1280x720.jpg?accountingTag=WR",
+      "label": "SOUL REAVER DRAVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1ab6a1abb80404758536ea3e681c9f666e20c166-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4bbcf72e844ae1358893c22b85a74de828cd5798-1280x720.jpg?accountingTag=WR",
+      "label": "Draven Draven",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4bbcf72e844ae1358893c22b85a74de828cd5798-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/39e30678c4ec1e1c6c3d48d66b8f990890428f89-1280x720.jpg?accountingTag=WR",
+      "label": "Ruined Draven",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/39e30678c4ec1e1c6c3d48d66b8f990890428f89-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1027fa349e85ed7146d9646e22d59870caa9a565-1280x720.jpg?accountingTag=WR",
+      "label": "Glorious Crimson Draven",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1027fa349e85ed7146d9646e22d59870caa9a565-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0f09368500ef59839e69ab1c2a521cf58a93cae5-1280x720.jpg?accountingTag=WR",
+      "label": "SOUL FIGHTER DRAVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0f09368500ef59839e69ab1c2a521cf58a93cae5-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c889dfaddb37eb8798d5e15100b4259da4c2398a-1280x723.jpg?accountingTag=WR",
+      "label": "Soul Fighter Draven (Special Edition)",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c889dfaddb37eb8798d5e15100b4259da4c2398a-1280x723.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8e061b507533ae9ebfafcbd0da00530824cdbb6a-1280x720.jpg?accountingTag=WR",
+      "label": "DAWNBRINGER DRAVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8e061b507533ae9ebfafcbd0da00530824cdbb6a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cd05ac418ef5d37eb5be6c02de6dc1511f9dba74-1280x720.jpg?accountingTag=WR",
+      "label": "MYSTICAL HERALD DRAVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cd05ac418ef5d37eb5be6c02de6dc1511f9dba74-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-01-26T21:56:30Z",
+  "hash": "5c79a1615321fc274ba78a3d9149293da3830c98e093b9295577330b67abf161"
+}

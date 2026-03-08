@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10089",
+  "riotSlug": "gragas",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/gragas/",
+  "title": "GRAGAS",
+  "subtitle": "the Rabble Rouser",
+  "roles": [
+    "TANK",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a475e264b267a87dd0f9cd0c8f4982fc410026ce.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Gragas periodically heals upon using an ability.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/c19c83ad1e82baecf45d7b2796792d6d27dbf6b9-96x96.jpg?accountingTag=WR",
+      "label": "Happy Hour",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/768dccd5184dabc3a477ebcb0be14465e7cf455a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Gragas rolls his cask to a location, which can be activated to explode or will explode on its own after 3 seconds. Enemies struck by the blast have their Movement Speed slowed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/dd6a35997502bc3f7f41c9d0394d9ff0abace285-96x96.jpg?accountingTag=WR",
+      "label": "Barrel Roll",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/7feea54d036680642040410da22f4b2b896d6617.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Gragas guzzles down brew from his cask for 1 second. After finishing, he becomes drunkenly empowered, dealing magic damage to all nearby enemies on his next basic attack and reducing damage received.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/2e64b237e7186e7857ab4b01c83dd9371ff3b7a2-96x96.jpg?accountingTag=WR",
+      "label": "Drunken Rage",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/c7ecd9f044c122278e470afe576e43613044dd4d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Gragas charges to a location and collides with the first enemy unit he comes across, dealing damage to all nearby enemy units and stunning them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/1c0a37f1132b68a257c33a883499bd8e300d8ad2-96x96.jpg?accountingTag=WR",
+      "label": "Body Slam",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/f2994152ea76acc10e90f1b0d5df34a0b3b10fad.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Gragas hurls his cask to a location, dealing damage and knocking back enemies caught in the blast radius.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/65c872d529c771b12d7f393df180bf38d72b9c8e-96x96.jpg?accountingTag=WR",
+      "label": "Explosive Cask",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/08a59f463c893f9f9e13032c32fa9d3a4cb66d14.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/56557ab3b7ee814590d623c572b02f86f23c1394-1280x720.jpg?accountingTag=WR",
+      "label": "GRAGAS, THE RABBLE ROUSER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/56557ab3b7ee814590d623c572b02f86f23c1394-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7204eb026dadaa873ed6a37f6f4d3a38ba0a8e2a-1280x720.jpg?accountingTag=WR",
+      "label": "VANDAL GRAGAS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7204eb026dadaa873ed6a37f6f4d3a38ba0a8e2a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5b64026301ca8c9c012364ec442f3014555a2fbb-1280x720.jpg?accountingTag=WR",
+      "label": "GRAGAS CASKBREAKER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5b64026301ca8c9c012364ec442f3014555a2fbb-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f820bfd3fa89e64973450def15f46d2656efd2b6-1280x720.jpg?accountingTag=WR",
+      "label": "CHROMACRASH GRAGAS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f820bfd3fa89e64973450def15f46d2656efd2b6-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e93c483cd66217dc970cb089ad09ba74a81c2ecb-1280x720.jpg?accountingTag=WR",
+      "label": "ARCTIC OPS GRAGAS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e93c483cd66217dc970cb089ad09ba74a81c2ecb-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:08:36Z",
+  "hash": "ed54da436e32a5059ef089a74aaf244151b4557f2c14fb2f5f42988f9fdfc0a3"
+}

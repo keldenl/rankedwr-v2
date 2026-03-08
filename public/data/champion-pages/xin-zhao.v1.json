@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10016",
+  "riotSlug": "xin-zhao",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/xin-zhao/",
+  "title": "XIN ZHAO",
+  "subtitle": "the Seneschal of Demacia",
+  "roles": [
+    "FIGHTER",
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/7f1aef40b3119849099cadbb9e6db22e973f9007.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Every third attack deals bonus damage and heals Xin Zhao.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b28071cfe8fe1af7a110ce73e1ce43673944594b-96x96.jpg?accountingTag=WR",
+      "label": "Determination",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3b202aa4817f975dee52b2055970dc75d9888082.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Xin Zhao's next 3 standard attacks deal increased damage with the third attack knocking an opponent into the air.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/ea0c7af213e571a9bdd30889b8868aa400d4631e-96x96.jpg?accountingTag=WR",
+      "label": "Three Talon Strike",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4c27bd821338e30ddb12e67b5c701f04c3d52ace.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Xin Zhao slashes in front of himself with his spear, then thrusts it forward, slowing affected enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/ffe2fbca388bf0bb551b5f807ec460d4e215fbc6-96x96.jpg?accountingTag=WR",
+      "label": "Wind Becomes Lightning",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/358e3ced848d80c2910bfee38c8d58da30ac1d66.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Xin Zhao charges to an enemy, dealing damage to all enemies in the area and slowing them briefly.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/6a3b4693f1c13dccc304659b0b55ab46b637dee5-96x96.jpg?accountingTag=WR",
+      "label": "Audacious Charge",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d93f8f76bf468d0862dc2d38209c365524171363.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Xin Zhao deals damage to nearby enemies based on their current Health and knocks non-challenged targets back. Xin Zhao is impervious to damage dealt by champions outside of the circle created.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/37d0a2e79fb324e283b4042a8fc407d9d7b57c20-96x96.jpg?accountingTag=WR",
+      "label": "Crescent Guard",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8ca66710e1a9ccd0b47c5471e276eaccb48a12ce.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6a7fd40b8411dd3fd3329ecdddcd020d45ce3b1b-1280x720.jpg?accountingTag=WR",
+      "label": "XIN ZHAO, THE SENESCHAL OF DEMACIA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6a7fd40b8411dd3fd3329ecdddcd020d45ce3b1b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b6b419385538bd2cdea68d13f387e0ad820f1f9e-1280x720.jpg?accountingTag=WR",
+      "label": "SECRET AGENT XIN ZHAO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b6b419385538bd2cdea68d13f387e0ad820f1f9e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5f03bf95300a23ea4e5680f42ae3c64353ae1f34-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGONSLAYER XIN ZHAO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5f03bf95300a23ea4e5680f42ae3c64353ae1f34-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/42d894a0b4676daba59c5cbc3269325d50f635b0-1280x720.jpg?accountingTag=WR",
+      "label": "WARRING KINGDOMS XIN ZHAO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/42d894a0b4676daba59c5cbc3269325d50f635b0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ed8ef8704357c73cba3d6953c2c4e55500b75cad-1280x720.jpg?accountingTag=WR",
+      "label": "FIRECRACKER XIN ZHAO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ed8ef8704357c73cba3d6953c2c4e55500b75cad-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6e91fd30a0d80ec1e0db594fe15d01f838e701e9-1280x720.jpg?accountingTag=WR",
+      "label": "COSMIC DEFENDER XIN ZHAO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6e91fd30a0d80ec1e0db594fe15d01f838e701e9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e08705cb30419fdbfb6e029568854cff4b6e5a4b-1280x720.jpg?accountingTag=WR",
+      "label": "SOUL FIGHTER XIN ZHAO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e08705cb30419fdbfb6e029568854cff4b6e5a4b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a753472e3cac2d5076a66ae94bf931d83585edb0-1280x720.jpg?accountingTag=WR",
+      "label": "Glorious Crown Xin Zhao",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a753472e3cac2d5076a66ae94bf931d83585edb0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2f4cd9dd953e4bebd23a06c84110bcd0af4b6aea-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE SOUL FIGHTER XIN ZHAO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2f4cd9dd953e4bebd23a06c84110bcd0af4b6aea-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8c9b235c5c226bec551ee89272d90b91e675bdb2-1920x1080.jpg?accountingTag=WR",
+      "label": "DAWNBRINGER XIN ZHAO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8c9b235c5c226bec551ee89272d90b91e675bdb2-1920x1080.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:52:22Z",
+  "hash": "76f9d508e7fc46beccb0879ea3c13775602d753f1b089ee5281fd8dc597cab6a"
+}

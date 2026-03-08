@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10127",
+  "riotSlug": "heimerdinger",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/heimerdinger/",
+  "title": "HEIMERDINGER",
+  "subtitle": "THE REVERED INVENTOR",
+  "roles": [
+    "MAGE",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ce18e40c92a43ea415aa77dc79aebfd9586a263d.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Gain Move Speed while near allied towers and turrets deployed by Heimerdinger.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/54ba6a436e6d23a0ef69cb8f9d00e065e24eeb86-256x256.png?accountingTag=WR",
+      "label": "HEXTECH AFFINITY",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/46d77ec880047c0ed5ef2a955e842e151a563913.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Heimerdinger lays down a rapid-fire cannon turret equipped with a secondary pass-through beam attack (turrets deal half damage to towers).",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/b4a989e45a5f85a909bc78e98e1f64d5b4f8b166-256x256.png?accountingTag=WR",
+      "label": "H-28 G EVOLUTION TURRET",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a2930b16a7f79918bbb2968894805a5a0d5f3b19.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Heimerdinger fires long-range rockets that converge on his cursor.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/68a59d272e7e267b9eb67bf38b4ce9a72b807199-256x256.png?accountingTag=WR",
+      "label": "HEXTECH MICRO-ROCKETS",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c662c7383352e5d8514abfb46ae5231c6bb46f9b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Heimerdinger fires long-range rockets that converge on his cursor.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d399be64c3d6fe833038842e70f18bcfd16dfcc8-256x256.png?accountingTag=WR",
+      "label": "CH-2 ELECTRON STORM GRENADE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ce4c92979bd902078f401ca5a12279aba00259b0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Heimerdinger invents an upgrade, causing his next spell to have increased effects.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ecdd57ea2714a6d37d60b36894d50796ccf4d07c-256x256.png?accountingTag=WR",
+      "label": "UPGRADE!!!",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/26c7d1dc1dad0cb6cb77dc50285336861e71c420.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bd5c5abb7cab74b2adfeccd3f5fc28f186647233-1280x720.jpg?accountingTag=WR",
+      "label": "HEIMERDINGER, THE REVERED INVENTOR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bd5c5abb7cab74b2adfeccd3f5fc28f186647233-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7c40d2c7bd9ef72ebe70e004e8e14174923e30c6-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGON TRAINER HEIMERDINGER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7c40d2c7bd9ef72ebe70e004e8e14174923e30c6-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a187ec4c856526c9ee65c3bd4081194a208e5400-1280x720.jpg?accountingTag=WR",
+      "label": "MYSTICAL HERALD HEIMERDINGER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a187ec4c856526c9ee65c3bd4081194a208e5400-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2024-10-30T14:42:22Z",
+  "hash": "a284cc151a130a519eb81445c40f3921f23da23e1b72d23f5b493de63d60757a"
+}

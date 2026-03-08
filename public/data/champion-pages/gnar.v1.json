@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10078",
+  "riotSlug": "gnar",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/gnar/",
+  "title": "GNAR",
+  "subtitle": "The Missing Link",
+  "roles": [
+    "FIGHTER",
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/7d46ded85d86505b2c526dc36fb80f6dcfcfe6c7.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Gnar generates Rage when dealing and receiving damage. At maximum Rage his next ability will transform him into Mega Gnar, granting increased health, armor, magic resistance, and attack. Back in his Mini Gnar form he will still gain move speed and attack speed and range.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/780f09821c45e23b9098fa8780b5d4338fb9b633-128x128.png?accountingTag=WR",
+      "label": "RAGE GENE",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b901c6bb192c03061dc2834773b6744ba0220ad8.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Gnar throws a boomerang that damages and slows enemies it hits before returning to him. If he catches the boomerang its cooldown is reduced. Mega Gnar instead throws a boulder that stops on the first unit hit, damaging and slowing everything nearby. It can then be picked up to reduce the cooldown.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d3180c6ae7decd93190653c7ada7cc89eae97e10-128x128.png?accountingTag=WR",
+      "label": "BOOMERANG THROW / BOULDER TOSS",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/64050c9bf0cd2ef4b28c5799c6b1c0d77724cc84.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Gnar's attacks and spells hype him up, dealing bonus damage and granting him Move Speed. Mega Gnar is too enraged to be hyper and instead can rear up on his hind legs and smash down on the area in front of him, stunning enemies in an area.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/862ff235e9023f526d2579c1259653a4d09a5ef5-128x128.png?accountingTag=WR",
+      "label": "HYPER / WALLOP",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/be8af9ef3fa614c94447892c97bf94e2c61b73f4.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Gnar leaps to a location and bounces off the head of any unit he lands on, traveling further. Mega Gnar is too large to bounce and instead lands with earth-shattering force, dealing damage in an area around him.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d18caee7df90516fbd872c89b245f9dc88b3508a-128x128.png?accountingTag=WR",
+      "label": "HOP / CRUNCH",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/763f3ee2870ff154d3845b52625cbe3a71cf9480.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Mega Gnar throws everything around him in a chosen direction, dealing damage and slowing them. Any enemy that hits a wall is stunned and takes bonus damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/84d5e92de7d9f434bdbb8ca35ded2d85a4ca00ed-128x128.png?accountingTag=WR",
+      "label": "GNAR!",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/cb8bc7c905205dcda3495029e094eccc04d81960.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ff1b88267ea1ffcc8758d844a3f2ae5b7c59ae60-1280x720.jpg?accountingTag=WR",
+      "label": "GNAR, THE MISSING LINK",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ff1b88267ea1ffcc8758d844a3f2ae5b7c59ae60-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8f3ecababe3370186ec0a828347c3be312ea104e-1280x720.jpg?accountingTag=WR",
+      "label": "SUPER GALAXY GNAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8f3ecababe3370186ec0a828347c3be312ea104e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/70549b4dc9bdbc6f9984f07729cea6a69f71677e-1280x720.jpg?accountingTag=WR",
+      "label": "SHAN HAI SCROLLS GNAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/70549b4dc9bdbc6f9984f07729cea6a69f71677e-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2025-02-18T18:57:14Z",
+  "hash": "83fdb6556b37d1957925b67d001bbfb17216e9c23670ccbd88e7df5d81a6d512"
+}

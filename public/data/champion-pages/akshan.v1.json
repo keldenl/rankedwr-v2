@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10100",
+  "riotSlug": "akshan",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/akshan/",
+  "title": "AKSHAN",
+  "subtitle": "the Rogue Sentinel",
+  "roles": [
+    "MARKSMAN",
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/fb05ae0a36ac500fd8451969a388c878de9d570d.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Every third attack or ability hit deals bonus physical damages. Against champions, also gains damage shield for brief moment.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6ad8a62a37d7221936e23ecfe219528f514ebaec-96x96.jpg?accountingTag=WR",
+      "label": "DIRTY FIGHTING",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/c1b0a7bc10ae383b664480001311c25376686c09.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Like a typical boomerang spell, can hit each enemy twice (once on way out and in). Boomerang will reach some units beyond the last target hit, if it hits a different target during this it’s range will extend (theoretically range is infinite)",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e8b1e3783d5d53c598bba4ed0e67b8750c32a362-96x96.jpg?accountingTag=WR",
+      "label": "AVENGERANG",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/2f341710635153be0ec07435d90b5e108f20e7d2.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Passive: Enemies that kill Akshan’s allies become Scoundrels for few brief seconds. Killing a Scoundrel grants Akshan bonus golds and reduces the fallen ally’s death timer. Active: Gain camouflage for a few seconds. Duration is refreshed when Akshan is near a wall or in brush. Gains movement speed when moving toward Scoundrels.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c88213821b4a1ff0f0eb1d2e1c6f3f5a60a21527-96x96.jpg?accountingTag=WR",
+      "label": "GOING ROGUE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/e102bb88de47d54ab2eba8646150b1c02a31966b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Akshan fires a rope that attaches to a wall for a few seconds to allow him to swing in a circle. While swinging, Akshan shoots an enemy he has recently damaged.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/058b4d550eb2850ef08b1c5920e000a643bc3b49-96x96.jpg?accountingTag=WR",
+      "label": "HEROIC SWING",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/9fb108af4765e8b1423af51ff879eb1cca638bc5.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Locks onto an enemy champion and begins overcharging Mist shots over a few seconds.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f25d2f3fc17a73c72a2982c74c3ea5f6ee38de31-96x96.jpg?accountingTag=WR",
+      "label": "COMEUPPANCE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/ff716174845c71ebe33f5252b09b4bc055204e34.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bca891067216b3eadc663ce5135ad4cc9243abd0-1280x720.jpg?accountingTag=WR",
+      "label": "AKSHAN, THE ROGUE SENTINEL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bca891067216b3eadc663ce5135ad4cc9243abd0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a59ede17c75f54d7d04ec3019c66f18530116846-1280x720.jpg?accountingTag=WR",
+      "label": "BATTLE ACADEMIA AKSHAN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a59ede17c75f54d7d04ec3019c66f18530116846-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c38418aa58efc8a6e58fc4cdce38e61d45e04db8-1280x720.jpg?accountingTag=WR",
+      "label": "DAWNBRINGER AKSHAN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c38418aa58efc8a6e58fc4cdce38e61d45e04db8-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-07-15T21:13:13Z",
+  "hash": "992dfd0fa59b7f0fc44c70fc0413ca33d24508569ae9d2ef4a742ed9c9b6f3b3"
+}

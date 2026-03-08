@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10130",
+  "riotSlug": "thresh",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/thresh/",
+  "title": "THRESH",
+  "subtitle": "the Chain Warden",
+  "roles": [
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/16deb21c4eb85fbac9a9112a86424c9373945c95.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Thresh can harvest the souls of enemies that die near him, permanently granting him Armor and Ability Power.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7ef2abddfecb6e4da55a4b514a84661a63a9c4b4-96x96.jpg?accountingTag=WR",
+      "label": "DAMNATION",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/dcff83f2a94abb8d1880ef13b6927fcd92eefae9.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Thresh binds an enemy in chains and pulls them toward him. Activating this ability a second time pulls Thresh to the enemy.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/53df783e03f30f74bf28e4910acbdb29af507ab7-96x96.jpg?accountingTag=WR",
+      "label": "DEATH SENTENCE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5e9b820bc39ac0790dff6bdced33f7563452bb2d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Throws a Lantern to a target location. If an ally collects it Thresh will pull the ally to him.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/795afe86761e5d232d2bfb957d41bc0b7670a90d-96x96.jpg?accountingTag=WR",
+      "label": "DARK PASSAGE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/960e82a8e1bafb597e2dcc5ec19080925c3d6298.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Thresh's attacks wind up, dealing more damage the longer he waits between attacks. When activated, Thresh sweeps his chain, knocking all enemies hit in the direction of the blow.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/4328042c9e525904d9edca591cc96a21fd5ee7f9-96x96.jpg?accountingTag=WR",
+      "label": "FLAY",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/62191ebf06ef654b067769eda2cee8fb96f412f4.mp4?accountingTag=WR"
+    },
+    {
+      "description": "A prison of walls that slow and deal damage if broken.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c3b8968a42859fdecfa4742fb5511648d09083b2-96x96.jpg?accountingTag=WR",
+      "label": "THE BOX",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0a580e346666f5c757d5e5beb7331fd0dc45d04b.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a53657aa31000780bb307e5e973749ea51b2e5a4-1280x720.jpg?accountingTag=WR",
+      "label": "THRESH, THE CHAIN WARDEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a53657aa31000780bb307e5e973749ea51b2e5a4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4564066402a44e3801b4b68f4695161dc13fecbb-1280x720.jpg?accountingTag=WR",
+      "label": "PULSEFIRE THRESH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4564066402a44e3801b4b68f4695161dc13fecbb-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cfeac83379ea195435707988e3921f93bb36dd16-1280x720.jpg?accountingTag=WR",
+      "label": "BLOOD MOON THRESH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cfeac83379ea195435707988e3921f93bb36dd16-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/63469689fa25e15610a4c8178703f54e8cca6349-1280x720.jpg?accountingTag=WR",
+      "label": "HIGH NOON THRESH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/63469689fa25e15610a4c8178703f54e8cca6349-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0d1c1f41cd2ec8d5e164a4f98e6721debbda3c39-1280x720.jpg?accountingTag=WR",
+      "label": "SPIRIT BLOSSOM THRESH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0d1c1f41cd2ec8d5e164a4f98e6721debbda3c39-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1b423fac7488d3466ebb590f98ac5ffc71544deb-1280x720.jpg?accountingTag=WR",
+      "label": "DREAM RAIDER THRESH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1b423fac7488d3466ebb590f98ac5ffc71544deb-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3aed366c318e76931f58d683c62df9cb219fc62c-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGON LANTERN THRESH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3aed366c318e76931f58d683c62df9cb219fc62c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4c70d6981f2f5a39031778fbd191d04c49aac32a-1280x720.jpg?accountingTag=WR",
+      "label": "Steel Dragon Thresh",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4c70d6981f2f5a39031778fbd191d04c49aac32a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8905d0d34f96c4a2ebb7deb2ccbb067a35c91611-1280x720.jpg?accountingTag=WR",
+      "label": "Dark Star Thresh",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8905d0d34f96c4a2ebb7deb2ccbb067a35c91611-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5fc8eb906d167d61ed82989f18429b202858e455-1280x720.jpg?accountingTag=WR",
+      "label": "CRYPTIC DEPTH THRESH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5fc8eb906d167d61ed82989f18429b202858e455-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c9fb46568f8cd71032845b451033c2d935a98e70-1280x720.jpg?accountingTag=WR",
+      "label": "JANITOR THRESH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c9fb46568f8cd71032845b451033c2d935a98e70-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-07-27T20:19:23Z",
+  "hash": "628abe59ea36f6da862eb11544313bcee56a3441687f8cfd7a0964ad1ea8fb87"
+}

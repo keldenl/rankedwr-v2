@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10105",
+  "riotSlug": "bard",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/bard/",
+  "title": "BARD",
+  "subtitle": "THE WANDERING CARETAKER",
+  "roles": [
+    "SUPPORT",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/43a67345174ea4b4a86fe6a468370d70a91d7011.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Bard attracts and collects Chimes, granting him XP, Mana, and out-of-combat Move Speed. Every collected Chime buffs Bard’s Meeps. Bard summons Meeps regularly, assisting with his basic attacks and dealing extra magic damage. When Bard has collected enough Chimes, his meeps will also deal damage in an area and slow enemies hit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bdfed53e63326d4f0db131312fa1ab4fa4eea5d4-256x256.png?accountingTag=WR",
+      "label": "TRAVELER’S CALL",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/01d02198f290474f65932fe84a8f34b54debdcfa.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Bard fires a missile which will damage and slow the first enemy struck, and continue onward. If it strikes a wall, it will stun the initial target; if it strikes another enemy, it will stun them both.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/843166b60b48c2993727b947b9f5405ccff45c08-256x256.png?accountingTag=WR",
+      "label": "COSMIC BINDING",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/e1a01fde5c6a05f0f3e7e33fa17580aaac067c9e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Bard conjures a Health shrine at a target location, granting the first ally champion to enter Move Speed, AP, and Health. The shrine continues growing for a short while, powering up its healing value.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/168f470456592a11f7a27b2813414145ef58174d-256x256.png?accountingTag=WR",
+      "label": "CARETAKER’S SHRINE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/78e36dea956b1c24c28653a8392a8de6ceebbab5.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Bard opens a portal in nearby terrain. Ally and enemy champions alike can take a one-way trip through that terrain by moving into the portal.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7ee6bbf423eb1efbfef0b10db5f4d1dd1579b6ce-256x256.png?accountingTag=WR",
+      "label": "MAGICAL JOURNEY",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/86ecefdbe60ef1385f1411e7beb4c2c54e86ff64.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Bard sends spirit energy arcing to a location, putting all champions, minions, monsters, and turrets hit into stasis for a brief time, as well as stunning them. Enemies hit are revealed for the duration.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b8352ce5c0e147b7b7b8af3383208c4319aba584-256x256.png?accountingTag=WR",
+      "label": "TEMPERED FATE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/625b9ab00f4c99b0d33b00982c4ae3e0ab8d802e.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ccf78615a6611507e8df412fe890f3f4bd4f8d30-1280x720.jpg?accountingTag=WR",
+      "label": "BARD, THE WANDERING CARETAKER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ccf78615a6611507e8df412fe890f3f4bd4f8d30-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9e32c99fc8e7df2f1385717aca64149de521cf3f-1280x720.jpg?accountingTag=WR",
+      "label": "MYSTICAL HERALD BARD",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9e32c99fc8e7df2f1385717aca64149de521cf3f-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2025-08-20T16:50:24Z",
+  "hash": "528dba1c4accda92ff07e850a62a74437a9514483420b1fefa77ae30c3781670"
+}

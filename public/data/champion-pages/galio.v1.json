@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10099",
+  "riotSlug": "galio",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/galio/",
+  "title": "GALIO",
+  "subtitle": "the Colossus",
+  "roles": [
+    "TANK",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/64ba88d52b51d4204fd91e3038ddcf12827b1f70.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Every few seconds, Galio's next basic attack deals bonus magic damage in an area. Galio gains attack speed when Colossal Smash is up. When an ability hits an epic monster or enemy champion, it reduces the cooldown of Colossal Smash by 3 seconds. This effect can only be triggered once per cast.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3a2ee2db9d8184c2ecdcee4cf85d8f36cd97f8ae-96x96.jpg?accountingTag=WR",
+      "label": "COLOSSAL SMASH",
+      "subtitle": "PASSIVE",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/851f7de71dcac9acebd8714a73486e3a27a6b41a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Galio fires two windblasts that converge into a large tornado that deals damage over time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/823b17647ae9b1ddfe90022a8b58f7c64974c95e-96x96.jpg?accountingTag=WR",
+      "label": "WINDS OF WAR",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5ddaffade320f7a8dc5ff4a216f513fdfc5a1d57.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Galio charges a defensive stance, moving slowly. Upon releasing the charge, Galio will taunt and damage nearby enemy champions.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/a4cacd61c02fddb8147dc2c66356ea4bedb097f5-96x96.jpg?accountingTag=WR",
+      "label": "SHIELD OF DURAND",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d6e0978e6158f5add09191cfc7a3f5084e7911c4.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Galio will briefly step back and charge, damaging and knocking up the first enemy champion he encounters.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e43d45e368c126f1442cff38d640cbecf168d33a-96x96.jpg?accountingTag=WR",
+      "label": "JUSTICE PUNCH",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/27fa497650c91dfa95c407f3ee0a35db586b309a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Galio designates an ally's position as his landing spot, granting all allies in the area a magic shield. After a delay Galio smashes down location, knocking up nearby enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/768f89f003877ad72f75ffe194454134f78d24b0-96x96.jpg?accountingTag=WR",
+      "label": "HERO'S ENTRANCE",
+      "subtitle": "ULTIMATE",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bf6af593101431b2558759616a0ab18417c945cc.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f70e6075653847cd26f1ce49019f975f08653f0e-1280x720.jpg?accountingTag=WR",
+      "label": "GALIO, THE COLOSSUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f70e6075653847cd26f1ce49019f975f08653f0e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3fcbffcdc7fc6316c1c474c8b2f273eb202e6ba9-1280x720.jpg?accountingTag=WR",
+      "label": "INFERNAL GALIO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3fcbffcdc7fc6316c1c474c8b2f273eb202e6ba9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cd2b45d8162ccd73db8dff0ebc17693da107ebf5-1280x720.jpg?accountingTag=WR",
+      "label": "DEBONAIR GALIO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cd2b45d8162ccd73db8dff0ebc17693da107ebf5-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/40347560454541f36fb6565c8a25ad58544b3e32-1280x720.jpg?accountingTag=WR",
+      "label": "GATEKEEPER GALIO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/40347560454541f36fb6565c8a25ad58544b3e32-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/208b85aec1ec617eb045ee70af64ea3591d85c3a-1280x720.jpg?accountingTag=WR",
+      "label": "HEXPLORER GALIO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/208b85aec1ec617eb045ee70af64ea3591d85c3a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c4ba5ca98c751357b3a764f471f37e746d20cba6-1280x720.jpg?accountingTag=WR",
+      "label": "MECHA GALIO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c4ba5ca98c751357b3a764f471f37e746d20cba6-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b9982d49415078ed6b1f82ce6c04dd29cc3530e7-1280x720.jpg?accountingTag=WR",
+      "label": "BIRDIO GALIO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b9982d49415078ed6b1f82ce6c04dd29cc3530e7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0b14eb74003cbb745ed443562aeba2a8794e8a28-1280x720.jpg?accountingTag=WR",
+      "label": "GLORIOUS AIGRETTE GALIO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0b14eb74003cbb745ed443562aeba2a8794e8a28-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-04-28T21:31:50Z",
+  "hash": "d226ef0249654e15ce722ea0b0050302feaffd1383b730223fd6cb9cc52dfa1c"
+}

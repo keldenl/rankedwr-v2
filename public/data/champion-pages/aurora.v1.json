@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10085",
+  "riotSlug": "aurora",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/aurora/",
+  "title": "AURORA",
+  "subtitle": "THE WITCH BETWEEN WORLDS",
+  "roles": [
+    "MAGE",
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/4a3170918fbeaf0fc20031aa0abb15af86aa6c90.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Aurora's spells and attacks exorcise spirits from the enemies she damages. Exorcised spirits follow Aurora around and heal her.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/db12ec662ba9f6ee9cc707bfea650f593c5ab2cd-512x512.png?accountingTag=WR",
+      "label": "SPIRIT ABJURATION",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/793b468cbd87e17b0eb37d4782babd9fa924d1b6.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Aurora sends out a missile that curses any enemies it hits. She can then recast the ability to draw active curses back toward herself, damaging foes who are hit along the way.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/364c220b7fda1a5c5ce47520568091d1b3a45341-512x512.png?accountingTag=WR",
+      "label": "TWOFOLD HEX",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/2a6308ec3f65093f77d1cbf81b506c01f1f35946.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Aurora leaps in a direction of her choosing, entering the spirit realm upon landing, becoming invisible, and gaining Move Speed for a short duration of time. Taking down an enemy champion resets this ability's cooldown.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e965f40fb2abb2f74909c8630df09ba91e37718e-512x512.png?accountingTag=WR",
+      "label": "ACROSS THE VEIL",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/aa24dc1fa5bb074671ff6054bbd3dd1d5128218d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Aurora converges the realms, sending out a blast of spirit magic that damages and slows enemies before Aurora hops backward to safety.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0a17f5902000b2a6d84a63cd1add8ad1eb24e402-512x512.png?accountingTag=WR",
+      "label": "THE WEIRDING",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/6f832fd050ddddb54a20f98542f68581db63a5fd.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Aurora leaps in a direction of her choosing, releasing a shockwave that damages and slows any enemies it hits. Afterward, she creates an area that slows enemies within it and allows Aurora to teleport from one side of the area to the other.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bc3de3a4b16af67f81ae5f957d3d9a9fd5160ad6-512x512.png?accountingTag=WR",
+      "label": "BETWEEN WORLDS",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/72d75bf227c87dc3f3789db2c1aac9b6fd12708a.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0ffbd912e751c8b4864c2f3d04bcfd8ed53be5e4-1280x720.jpg?accountingTag=WR",
+      "label": "AURORA, THE WITCH BETWEEN WORLDS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0ffbd912e751c8b4864c2f3d04bcfd8ed53be5e4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d3c404d9d1e3bec08a121f29166e480367370e10-1280x720.jpg?accountingTag=WR",
+      "label": "SUMMER PARTY AURORA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d3c404d9d1e3bec08a121f29166e480367370e10-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d9dd15c098c19b3332197ff5fd221c6d85d990d0-1280x720.jpg?accountingTag=WR",
+      "label": "SUMMER PARTY AURORA EXQUISITE EDITION",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d9dd15c098c19b3332197ff5fd221c6d85d990d0-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2025-08-12T00:58:34Z",
+  "hash": "33e4aa994bdfbac4b7718d6b75206909cb6392fd4ec78aa5e86876aaa3a8889c"
+}

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10064",
+  "riotSlug": "rammus",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rammus/",
+  "title": "RAMMUS",
+  "subtitle": "the Armordillo",
+  "roles": [
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/94079d329c1dbd95c7441a1b568dff54c641e111.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Rammus starts rolling while out of combat, gaining movement speed. Entering battle will temporarily disable this effect.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/91179f301d3d2a83fbd4af5282333ad26d80efb5-96x96.jpg?accountingTag=WR",
+      "label": "ROLLING ARMORDILLO",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/5394f12a9918e6fc28830910d4a26ee985feab72.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Rammus accelerates in a ball towards his enemies, dealing damage and slowing targets affected by the impact.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/aed09390efd288db10df1f3bdcb3387cf576187f-96x96.jpg?accountingTag=WR",
+      "label": "POWERBALL",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/7f283000fa3633802c00ff6f94824e330b9f0576.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Rammus goes into a defensive formation, vastly increasing his Armor and Magic Resistance, amplifying Spiked Shells' damage, and returning damage to enemies that basic attack him, but he is also slowed during this time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/083cf8d1bb9e619da9be78399b3dee81df51620c-96x96.jpg?accountingTag=WR",
+      "label": "DEFENSIVE BALL CURL",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/17382d6df474671830531e53a7b3cd21993265cb.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Rammus taunts an enemy champion or monster into a reckless assault against him. Additionally, he gains increased Attack Speed for a short time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7e0d8339c0baef55cc295431bd4d76650c474b8f-96x96.jpg?accountingTag=WR",
+      "label": "FRENZYING TAUNT",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/f64270c2eced265f9a0753a15e28f93d71001718.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Rammus hops into the air and slams down, dealing damage and creating aftershocks. Aftershocks slow enemies. The hopping distance increases based upon Powerball's current speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/67db2a2460a34e5c5f0c0e411da0e40ab9bd1cf0-96x96.jpg?accountingTag=WR",
+      "label": "SOARING SLAM",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/e38f9d3231e041329b9a261718e2cbe81c5fd0a7.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1ed884fe7366bd78eed61ec99ba1fec24c2bd06d-1280x720.jpg?accountingTag=WR",
+      "label": "RAMMUS, THE ARMORDILLO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1ed884fe7366bd78eed61ec99ba1fec24c2bd06d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9fbd48634d0152abd9eadcdfcc51db2836f116f0-1280x720.jpg?accountingTag=WR",
+      "label": "MOLTEN RAMMUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9fbd48634d0152abd9eadcdfcc51db2836f116f0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b28451a21b3d4cc3a515efe9cc5acc1a5322c4ae-1280x755.jpg?accountingTag=WR",
+      "label": "SWEEPER RAMMUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b28451a21b3d4cc3a515efe9cc5acc1a5322c4ae-1280x755.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-04-28T21:36:55Z",
+  "hash": "a2f55b79ce7d6df8dc6c96864ec217be5a9f1cb81f7407f07e884b12265bc46c"
+}

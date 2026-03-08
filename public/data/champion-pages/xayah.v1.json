@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10051",
+  "riotSlug": "xayah",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/xayah/",
+  "title": "XAYAH",
+  "subtitle": "the Rebel",
+  "roles": [
+    "MARKSMAN",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3423ea967b2151443121d4d95d218c7088e61666.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "After using an ability, Xayah's next basic attacks will hit all targets along their path and leave a Feather.\n\nLover's Leap: Xayah can join Rakan's recall.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1115328c45a907f27e2a3dc0ffea2cbcadd0f032-96x96.jpg?accountingTag=WR",
+      "label": "CLEAN CUTS",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9af644548440d99e2ae3ae0ac7db3edb7e05866d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Xayah throws two damaging daggers that also drop Feathers she can recall.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4aedad53ae76eebe922a916ad54565f3f5557545-96x96.jpg?accountingTag=WR",
+      "label": "DOUBLE DAGGERS",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fbecdfd642b1c0853accab5a67320624ea727e8c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Xayah creates a storm of blades that increase her basic attack speed and damage while granting her movement speed if she attacks a champion.\n\nIf an ally Rakan is nearby, he also gains the effects of this ability.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c2bc1f84aa3abe91b0333b8c44e8a6699a074f45-96x96.jpg?accountingTag=WR",
+      "label": "DEADLY PLUMAGE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ffd6f98501682d4432e763c99c217ea352b6d422.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Xayah calls back all her dropped Feathers dealing damage and rooting enemies if hit with 3 or more.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/29fe7c22facc66deb6d859522239295dad06dab0-96x96.jpg?accountingTag=WR",
+      "label": "BLADECALLER",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/69086acc756aa36056ea3c0a0cbfc423ba9ba62d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Xayah leaps into the air becoming untargetable and throwing out a fan of daggers, dropping Feathers she can recall.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/de3906f82a93ebaeceb99128977f161fd34fc0fd-96x96.jpg?accountingTag=WR",
+      "label": "FEATHERSTORM",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/577a94d9bed61163939d3b8cf6fdb78371cfb1ec.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9fb454b2e46e6a1d7f5a969da8a121ee1b490279-1280x720.jpg?accountingTag=WR",
+      "label": "XAYAH, THE REBEL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9fb454b2e46e6a1d7f5a969da8a121ee1b490279-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/969e51942d70eb864825aed96512657e993ffc6d-1280x720.jpg?accountingTag=WR",
+      "label": "COSMIC DUSK XAYAH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/969e51942d70eb864825aed96512657e993ffc6d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b8d478529f4df24d82c09fd0f85023a4d4f31531-1280x720.jpg?accountingTag=WR",
+      "label": "SWEETHEART XAYAH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b8d478529f4df24d82c09fd0f85023a4d4f31531-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c29910b3f4fde02b7d8c4a2de48cfe8841e8f2a7-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN XAYAH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c29910b3f4fde02b7d8c4a2de48cfe8841e8f2a7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/24548e8802b69af6ec450990a6b23c3b1e0cdd22-1280x720.jpg?accountingTag=WR",
+      "label": "Calligraphia Xayah",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/24548e8802b69af6ec450990a6b23c3b1e0cdd22-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cdf2c0392d79ceb83db60b8570a58ee465c0e29e-1280x720.jpg?accountingTag=WR",
+      "label": "Elderwood Xayah",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cdf2c0392d79ceb83db60b8570a58ee465c0e29e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/21478e13d129adf7af0495d8dd6b12c43e3915db-1280x720.jpg?accountingTag=WR",
+      "label": "Celestial Embroidery Xayah",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/21478e13d129adf7af0495d8dd6b12c43e3915db-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9172be5a9af1b9b535be0e5e842acd0bcd787f90-1280x720.jpg?accountingTag=WR",
+      "label": "Prestige Select Celestial Embroidery Xayah",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9172be5a9af1b9b535be0e5e842acd0bcd787f90-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5c1413495fbf70ed8c6cb28471c0be3aa9fa7cd1-1280x720.jpg?accountingTag=WR",
+      "label": "CRYSTAL ROSE XAYAH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5c1413495fbf70ed8c6cb28471c0be3aa9fa7cd1-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-02-11T07:53:12Z",
+  "hash": "b4b60ea23b35fda1fb695846c247ba64e2751810504a96e3daeb074f409997d3"
+}

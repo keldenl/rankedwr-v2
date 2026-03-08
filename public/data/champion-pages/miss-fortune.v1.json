@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10066",
+  "riotSlug": "miss-fortune",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/miss-fortune/",
+  "title": "MISS FORTUNE",
+  "subtitle": "the Bounty Hunter",
+  "roles": [
+    "MARKSMAN",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8820d38ffb8b4270d545f0a6c1867f59d7b84a07.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Miss Fortune deals bonus physical damage whenever she basic attacks a new target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f742630f390586c3f9336a63674f4a5b1ae6699c-96x96.jpg?accountingTag=WR",
+      "label": "Love Tap",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f513b86b43e0427f1e282811ccaad994f5a72a61.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Miss Fortune fires a bullet, damaging an enemy and critically striking a target behind them. Applies on-hit effects.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/a5545d2400dc4cf4f5e7386013b7ea48d39a68f1-96x96.jpg?accountingTag=WR",
+      "label": "Double Up",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6b2309586938e8b42684db8ac1344bdfd000b16c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Miss Fortune passively gains Movement Speed when not attacked. This ability can be activated to grant bonus Attack Speed for a short duration. While it's on cooldown, Love Taps reduce the remaining cooldown of Strut.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/30f86fe40b11934974fe24b67161f38504d74905-96x96.jpg?accountingTag=WR",
+      "label": "Strut",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0583e0c29006e44e443035d339fbfee00d1e042f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Miss Fortune reveals an area with a flurry of bullets, dealing waves of damage to opponents and slowing them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/b72564fd01759862bf34ad46f7ffd7df547cfa00-96x96.jpg?accountingTag=WR",
+      "label": "Make It Rain",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/06dbac7e4b9d938da46f6c8465500d0099da984b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Miss Fortune channels a barrage of bullets into a cone in front of her, dealing large amounts of damage to enemies. Each wave of Bullet Time can critically strike",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d4d9e564880bee9ef9208743f72a65d7eca82149-96x96.jpg?accountingTag=WR",
+      "label": "Bullet Time",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/7eda26f190286f6b44d75f232676ef3b3df52500.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d9d0afe8e123076f47896ac0adb8aee0a885e016-1280x720.jpg?accountingTag=WR",
+      "label": "MISS FORTUNE, THE BOUNTY HUNTER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d9d0afe8e123076f47896ac0adb8aee0a885e016-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5ed5c02892e9fdd3ffa440a4e7408dc747bf42ed-1280x720.jpg?accountingTag=WR",
+      "label": "COWGIRL MISS FORTUNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5ed5c02892e9fdd3ffa440a4e7408dc747bf42ed-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/93f30cdfae0329fd5a4f1e62cbd327509957cfed-1280x720.jpg?accountingTag=WR",
+      "label": "CAPTAIN FORTUNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/93f30cdfae0329fd5a4f1e62cbd327509957cfed-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e341403ab2d4969c94dfb45100bfdbb2aa12c018-1280x720.jpg?accountingTag=WR",
+      "label": "ARCADE MISS FORTUNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e341403ab2d4969c94dfb45100bfdbb2aa12c018-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/91dfebbf607f583947568946bd803ae07f7f8dc0-1280x720.jpg?accountingTag=WR",
+      "label": "LUNAR BEAST MISS FORTUNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/91dfebbf607f583947568946bd803ae07f7f8dc0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/90f7cf3b5d1bd76612c95e79127885939a52a54d-1280x720.jpg?accountingTag=WR",
+      "label": "RUINED MISS FORTUNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/90f7cf3b5d1bd76612c95e79127885939a52a54d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b0fb9f84f1ca2621e33ec213d45e60dca2da1669-1280x720.jpg?accountingTag=WR",
+      "label": "RESISTANCE MISS FORTUNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b0fb9f84f1ca2621e33ec213d45e60dca2da1669-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6621cbd0d31a254e435cf4f0c980f41e03ba03be-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN MISS FORTUNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6621cbd0d31a254e435cf4f0c980f41e03ba03be-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e12a7e85d7c95b3abbf8e14f5c5e652dc3ee072b-1280x720.jpg?accountingTag=WR",
+      "label": "Prestige Select Battle Bunny Miss Fortune",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e12a7e85d7c95b3abbf8e14f5c5e652dc3ee072b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/156d5f078a6b9db69e56d933c0b9cb4268d7b490-1280x720.jpg?accountingTag=WR",
+      "label": "BEWITCHING MISS FORTUNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/156d5f078a6b9db69e56d933c0b9cb4268d7b490-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/eaf2ce6ebcdc038dc69b9c035b50473e9c8f9118-1280x720.jpg?accountingTag=WR",
+      "label": "CRYPTIC DEPTH MISS FORTUNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/eaf2ce6ebcdc038dc69b9c035b50473e9c8f9118-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:45:31Z",
+  "hash": "58a07dc637d60c7b0670f1882af059b97f3d423374846a25a55656418016ab5c"
+}

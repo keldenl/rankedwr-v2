@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10038",
+  "riotSlug": "ahri",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ahri/",
+  "title": "AHRI",
+  "subtitle": "the Nine-Tailed Fox",
+  "roles": [
+    "MAGE",
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5f636ebad2e689e67f1e228160153be35ce6c9d7.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Whenever Ahri hits a target with a spell, she gains a stack of Essence Theft. When she has enough stacks, her next spell that hits an enemy also heals her.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e7995a2cb142c475d81e538a5178c29a763659de-96x96.jpg?accountingTag=WR",
+      "label": "Essence Theft",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2e94a612896bde91a045729d85c68ce66cf4fa0c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ahri sends out and pulls back her orb, dealing magic damage on the way out and true damage on the way back.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/1c89cb84cf5504ccf930611c68a6e077d1a64ecf-96x96.jpg?accountingTag=WR",
+      "label": "Orb of Deception",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/97ff1c3bc6f2d260b48c1e712dd11097f6950bf3.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ahri gains a brief burst of movement speed and releases three fox-fires, that lock onto and attack nearby enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/04bd0ccb6ab36374422ba68ed04a96bb72047773-96x96.jpg?accountingTag=WR",
+      "label": "Fox-Fire",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/87ddb515bde7a1729cfca77c58cde1039452a0f0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ahri blows a kiss that damages and charms an enemy it encounters, instantly stopping movement abilities and causing them to walk harmlessly towards her. The target temporarily takes increased damage from Ahri.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/01f4f879d256a69cbdaa7da4a90a0b02bed1f4e1-96x96.jpg?accountingTag=WR",
+      "label": "Charm",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/323c5b385b8c1a9906254c7629261b62f753255d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ahri dashes forward and fires essence bolts, damaging nearby enemies. Spirit Rush can be cast up to three times before going on cooldown.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/89d14ca6cc3e402726d4710f169297aba0e5af3a-96x96.jpg?accountingTag=WR",
+      "label": "Spirit Rush",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9b69836a004d82162114cc00d2a97fe4a6bc094e.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d0784aa64d30b4e407f89b1c8262e773faa72523-1280x720.jpg?accountingTag=WR",
+      "label": "AHRI, THE NINE-TAILED FOX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d0784aa64d30b4e407f89b1c8262e773faa72523-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e64cfedce9dae833c93bebf31b1796ddb5fc391c-1280x720.jpg?accountingTag=WR",
+      "label": "FOXFIRE AHRI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e64cfedce9dae833c93bebf31b1796ddb5fc391c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/829912e532b34692c78988a422128cad7e91f4e4-1280x720.jpg?accountingTag=WR",
+      "label": "ARCADE AHRI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/829912e532b34692c78988a422128cad7e91f4e4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2d7a95d220325cf0e993aae5ce0fdb3ebf0f1f8e-1280x720.jpg?accountingTag=WR",
+      "label": "K/DA All Out Ahri",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2d7a95d220325cf0e993aae5ce0fdb3ebf0f1f8e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1043cb98a5b85937a4c9ad4ac1db81bfec9f22fc-1280x720.jpg?accountingTag=WR",
+      "label": "ACADEMY AHRI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1043cb98a5b85937a4c9ad4ac1db81bfec9f22fc-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/db5a585b4e9d1aa5ed3bc822ec0032e606e37762-1280x720.jpg?accountingTag=WR",
+      "label": "POPSTAR AHRI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/db5a585b4e9d1aa5ed3bc822ec0032e606e37762-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7cb890a9d625423d552c348ebacc04df13dcf9cc-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN AHRI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7cb890a9d625423d552c348ebacc04df13dcf9cc-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3414bacfc0b5cb1536d3ed322086967eb48dcece-1280x720.jpg?accountingTag=WR",
+      "label": "Soda Pop Ahri",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3414bacfc0b5cb1536d3ed322086967eb48dcece-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/eb17aa949ec50ab6cc7ca5905dfca465e85bd0c2-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN MYTHIC CHROMA AHRI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/eb17aa949ec50ab6cc7ca5905dfca465e85bd0c2-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d14882686b80e032b39b016e5ceef6a282501460-1280x720.jpg?accountingTag=WR",
+      "label": "SPIRIT BLOSSOM AHRI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d14882686b80e032b39b016e5ceef6a282501460-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/96355594e481745fed00b3bef747ed97ef4574c2-1280x720.jpg?accountingTag=WR",
+      "label": "SHAN HAI SCROLLS AHRI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/96355594e481745fed00b3bef747ed97ef4574c2-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/de1089ee0f838a841b54305d218bc880774ccfc5-1280x720.jpg?accountingTag=WR",
+      "label": "CRYSTAL ROSE AHRI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/de1089ee0f838a841b54305d218bc880774ccfc5-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-09-30T08:10:33Z",
+  "hash": "d85c086211929c43c8486214a4f85e7499caa3368b046f90eb2a7b32e988c584"
+}

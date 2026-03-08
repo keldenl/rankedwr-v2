@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10025",
+  "riotSlug": "twisted-fate",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/twisted-fate/",
+  "title": "TWISTED FATE",
+  "subtitle": "the Card Master",
+  "roles": [
+    "MAGE",
+    "MARKSMAN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/176f6f3ba49361fb7194b5aa58325cd91f0a41ab.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Upon killing a unit, Twisted Fate rolls his 'lucky' dice receiving bonus gold.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/807306195f80238e63b54751b4bfe2444ae9a6d6-96x96.jpg?accountingTag=WR",
+      "label": "Loaded Dice",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a02cb9d7036188e395b97bdb2cf7fb349c623fd5.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Twisted Fate throws three cards, dealing damage to each enemy unit they pass through.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c163a3b85352ceb23de87f2d0705181d80fc362e-96x96.jpg?accountingTag=WR",
+      "label": "Wild Cards",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/e270f50cbc7110b75dc5f3cdf6c636566659dcd0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Twisted Fate chooses a magic card from his deck, and uses that for his next attack, causing bonus effects. Red Cards deal damage in an area and slow, Blue Cards deal damage and restore mana, and Gold Cards deal damage and stun.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/834c04df8f609ee892c47f3892954c690156959d-96x96.jpg?accountingTag=WR",
+      "label": "Pick a Card",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/e17aff48d384083075576b96762aada64f426aa2.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Every 4 attacks, Twisted Fate deals bonus damage. Activating this skill increases his Attack Speed, and attacking enemy champions rolls his Loaded Dice.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/f6331175153003520f50b26840b2c38f2c2c2f10-96x96.jpg?accountingTag=WR",
+      "label": "Stacked Deck",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a04c49c0f64195ed10d72360477c69038c328559.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Twisted Fate predicts the fortunes of his foes, revealing all enemy champions and enabling the use of Gate, which teleports Twisted Fate to any target location in 1.5 seconds.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e37efb04b174e0fd2a8195286e4e3f4973fb4269-96x96.jpg?accountingTag=WR",
+      "label": "Destiny",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/0c55a963735b761c9efc553e05d08304c17d485c.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9198a6a05725a8a85da9423f48c0bc2802b8a424-1280x720.jpg?accountingTag=WR",
+      "label": "TWISTED FATE, THE CARD MASTER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9198a6a05725a8a85da9423f48c0bc2802b8a424-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b9557292b831bd22c376a053ac47c4917d00abad-1280x720.jpg?accountingTag=WR",
+      "label": "PULSEFIRE TWISTED FATE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b9557292b831bd22c376a053ac47c4917d00abad-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4b76f5f5e50857ec93fcf71d83f6a6fcd55c6725-1280x720.jpg?accountingTag=WR",
+      "label": "TANGO TWISTED FATE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4b76f5f5e50857ec93fcf71d83f6a6fcd55c6725-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/786d31d2105e802d03545e6fbe685beed02b47b5-1280x720.jpg?accountingTag=WR",
+      "label": "CUTPURSE TWISTED FATE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/786d31d2105e802d03545e6fbe685beed02b47b5-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c72326e3494d78ed8ecaa720633a3039c0a82e07-1280x720.jpg?accountingTag=WR",
+      "label": "STARGAZER TWISTED FATE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c72326e3494d78ed8ecaa720633a3039c0a82e07-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3e5e48af136c29f3645eea83eb55fad055c2fa4d-1280x720.jpg?accountingTag=WR",
+      "label": "BLOOD MOON TWISTED FATE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3e5e48af136c29f3645eea83eb55fad055c2fa4d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c112d42cba2831242c482b518e2f6f9b92d5d7fd-1280x720.jpg?accountingTag=WR",
+      "label": "UNDERWORLD TWISTED FATE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c112d42cba2831242c482b518e2f6f9b92d5d7fd-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0f9d2a36a99f32409a9daace1f399f0cab3bc775-1280x720.jpg?accountingTag=WR",
+      "label": "GLORIOUS ARMADA TWISTED FATE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0f9d2a36a99f32409a9daace1f399f0cab3bc775-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3f8f1b6cd7b81ef379f4b7583d721e86a08ca6e2-1280x720.jpg?accountingTag=WR",
+      "label": "STARGAZER MYTHIC CHROMA TWISTED FATE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3f8f1b6cd7b81ef379f4b7583d721e86a08ca6e2-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/56debc8d6e78a11f7056876e89a71e1bf4722835-1920x1080.jpg?accountingTag=WR",
+      "label": "Wondertown Twisted Fate",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/56debc8d6e78a11f7056876e89a71e1bf4722835-1920x1080.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:50:06Z",
+  "hash": "a9e7e3fd245f28ee4bccf4c13fb01b912425e3e7b7f941ad7e97bff89421248d"
+}

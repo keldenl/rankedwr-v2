@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10073",
+  "riotSlug": "kindred",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kindred/",
+  "title": "KINDRED",
+  "subtitle": "The Eternal Hunters",
+  "roles": [
+    "MARKSMAN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/ff486e4683855b80efca1c051a155b9e7432d4ea.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Kindred can mark targets to Hunt. Successfully completing a Hunt permanently empowers Kindred's basic abilities. Every 4 hunts completed also increases Kindred's basic attack range.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c0c168bf39bd9e6900b07f8e8f60cdb2c4f2cfe3-128x128.png?accountingTag=WR",
+      "label": "MARK OF THE KINDRED",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/3bb5a1708277546756fa4dc2d7e5c900a14590cc.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kindred tumbles and shoots up to three arrows at nearby targets.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/f890567b4319283ca0db57f8224bce89324981fe-128x128.png?accountingTag=WR",
+      "label": "DANCE OF ARROWS",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/cb38417bf908d841ee7cb15f7adb6e014ef6182a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Wolf enrages and attacks enemies around him. Lamb passively gains stacks by moving and attacking. When fully charged, Lamb's next attack restores health.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8a2e2a821d8b2a70a0d8c6f91b7e0bb9efc8f3bc-128x128.png?accountingTag=WR",
+      "label": "WOLF'S FRENZY",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/eeda22bae65310ceef0402f96bea5c91529a7de5.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Lamb fires a carefully placed shot, slowing the target. If Lamb attacks the target two more times, her third attack instead directs Wolf to pounce on the enemy, savaging them for massive damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9b1dfa4707e51e013e8f7aaa04d83cc7282b240b-128x128.png?accountingTag=WR",
+      "label": "MOUNTING DREAD",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/d1176191fc671464a64d61ac3c3cf6556b01f853.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Lamb grants all living things inside a zone a respite from death. Until the effect ends, nothing can die. At the end, units are healed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/27edb7a95f1f2cd67f7b9a48a08a12a7cfe22280-100x100.jpg?accountingTag=WR",
+      "label": "LAMB'S RESPITE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/97932129b1554a8defbcb6eb8e0d39fd53f1bda9.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/58971359312ebd83ad6e952b5d7f77d4d225930c-1280x720.jpg?accountingTag=WR",
+      "label": "KINDRED, THE ETERNAL HUNTERS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/58971359312ebd83ad6e952b5d7f77d4d225930c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/20d081f530b4af537fd81fed3f2d99f23f1c64a0-1280x720.jpg?accountingTag=WR",
+      "label": "WOOF AND LAMB KINDRED",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/20d081f530b4af537fd81fed3f2d99f23f1c64a0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/56a5a0577a9ad334f5f5091db90471b179db517f-1920x1080.jpg?accountingTag=WR",
+      "label": "PORCELAIN KINDRED",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/56a5a0577a9ad334f5f5091db90471b179db517f-1920x1080.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e58d42fb5357afd76aca0c56b43c11084fa7c1e2-1280x720.jpg?accountingTag=WR",
+      "label": "SPIRIT BLOSSOM KINDRED",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e58d42fb5357afd76aca0c56b43c11084fa7c1e2-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2024-03-26T03:20:23Z",
+  "hash": "126d1647fa17a9cb5f3fae63dbc4052e65ee70c93e8909130e96472652e090fe"
+}

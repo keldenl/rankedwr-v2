@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10104",
+  "riotSlug": "samira",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/samira/",
+  "title": "SAMIRA",
+  "subtitle": "the Desert Rose",
+  "roles": [
+    "MARKSMAN",
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/a73cbe97f43850304678df6695c3a6cbd5bef8f2.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Samira builds a combo by hitting attacks or abilities unique from the previous hit. Samira's attacks in melee range deal additional magic damage. Samira's attacks against enemies affected by Immobilizing effects will dash her to her attack range. If the enemy is Knocked Up, she also keeps them Knocked Up briefly.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/842434ad82a25eecdf9c8b20f8608efcf76bee7d-96x96.jpg?accountingTag=WR",
+      "label": "DAREDEVIL IMPULSE",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/40d8b02b3033367b830359bfd1b8378714ea1481.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Samira fires a shot or swings her sword, dealing damage. If cast during Wild Rush, strike all enemies in her path upon completion.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/8ca0e25878c87ec02760d3e2b418fd6dc6a65f60-96x96.jpg?accountingTag=WR",
+      "label": "FLAIR",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/6f038c23f670bccdf41dc0fbc1ad716943f00a79.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Samira slashes around her, damaging enemies and destroying enemy missiles.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/771365939e576d798f85293763ffd788d2e7353a-96x96.jpg?accountingTag=WR",
+      "label": "BLADE WHIRL",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/592d1e6dc36b2c928c9e15f860ae4726402753d6.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Samira dashes through an enemy (including structures), slashing enemies she passes through and gaining Attack Speed. Killing an enemy champion refreshes this ability's cooldown.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2076b0d2987e9b33f7087bba7151377ba5ed3c8f-96x96.jpg?accountingTag=WR",
+      "label": "WILD RUSH",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/769078fb4296de0db35f8607d0da6605991ed8e6.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Samira unleashes a torrent of shots from her weapons, wildly shooting all enemies surrounding her.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/21c0827d15a1b5996cda2f2c1af56fe89949bb0d-96x96.jpg?accountingTag=WR",
+      "label": "INFERNO TRIGGER",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/10c2f28c7c2840d85eb0bbddc3d0399ad064688b.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/39c2cfca71fe90ea1d74c175d60fc84385020470-1280x720.jpg?accountingTag=WR",
+      "label": "SAMIRA, THE DESERT ROSE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/39c2cfca71fe90ea1d74c175d60fc84385020470-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7ce19aa718f7a8982f0f28245899465f2b5d5b12-1280x720.jpg?accountingTag=WR",
+      "label": "PSYOPS SAMIRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7ce19aa718f7a8982f0f28245899465f2b5d5b12-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4e81c5056b4f88873f774b2eb95913e74bea132c-1280x720.jpg?accountingTag=WR",
+      "label": "HIGH NOON SAMIRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4e81c5056b4f88873f774b2eb95913e74bea132c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7617f0d04d361f64153f0aa1cbd93dc24263bd18-1280x720.jpg?accountingTag=WR",
+      "label": "SOUL FIGHTER SAMIRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7617f0d04d361f64153f0aa1cbd93dc24263bd18-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5e4c3e9bead55da316552e6d1c771bfe8202dd69-1280x720.jpg?accountingTag=WR",
+      "label": "CHROMACRASH SAMIRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5e4c3e9bead55da316552e6d1c771bfe8202dd69-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a06c7e7053b8d67d5a290f2c93e5251382c773c5-1280x720.jpg?accountingTag=WR",
+      "label": "SUMMER PARTY SAMIRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a06c7e7053b8d67d5a290f2c93e5251382c773c5-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2022-08-20T02:27:22Z",
+  "hash": "a22d429551a5cfd4889a91d5b41afd370c0c920ac5f9bf62f40dfcac5505f05f"
+}

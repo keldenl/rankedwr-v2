@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10050",
+  "riotSlug": "vi",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vi/",
+  "title": "VI",
+  "subtitle": "the Piltover Enforcer",
+  "roles": [
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/485b7b2c4d0979dc4885a061e24d061090972406.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Every third attack on the same enemy deals a percentage of their maximum Health, reduces their Armor, and grants Vi Attack Speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bf1d2befd59d40514ea64e1739c0e309739a490e-96x96.jpg?accountingTag=WR",
+      "label": "DENTING BLOWS",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/681e99f113f856ae6d3f3d87ece86d05a08a2dcb.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Vi charges her gauntlets and unleashes a vault shattering punch, carrying her forward. Enemies she hits are knocked back and receive a stack of Denting Blows.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/182b204bbfca0be1fe480fbfe0b2fd923cd87b8f-96x96.jpg?accountingTag=WR",
+      "label": "Vault Breaker",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/592f896a2536f1ae03515537d91dab58a3d18737.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Vi gains stacks of Blast Shield when hitting an enemy with an attack or ability. Activating Blast Shield generates a shield that absorbs damage. At maximum stacks, Vi also gains Movement Speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/0fb4751e8fe0b5d3ca8bbc34afefd6406af6efd1-96x96.jpg?accountingTag=WR",
+      "label": "BLAST SHIELD",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4f96f5d108f914d00ed606521134d2b2de71b36e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Vi's next attack blasts through her target, dealing damage to enemies behind it.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7330a72f7fdc8f04a07de37bfec0a7e4e9eb0fb8-96x96.jpg?accountingTag=WR",
+      "label": "Excessive Force",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2d576905b7f32ddbb1246a60f562096aa8c43fab.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Vi runs down an enemy, knocking aside anyone in the way. When she reaches her target she knocks it into the air, jumps after it, and slams it back into the ground.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8d6c285e075928129c29a0c1cec99c7b6fd06419-96x96.jpg?accountingTag=WR",
+      "label": "Assault and Battery",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/1271c5c7020bff0d045bece0e4bff6e76c2de783.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/46420c9c094ce3ce968c9463ba193c186fd67b44-1280x720.jpg?accountingTag=WR",
+      "label": "VI, THE PILTOVER ENFORCER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/46420c9c094ce3ce968c9463ba193c186fd67b44-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/953a4ac039fb90fed1e2829153cf9486fcc18f26-1280x720.jpg?accountingTag=WR",
+      "label": "DEMON VI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/953a4ac039fb90fed1e2829153cf9486fcc18f26-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6be140cbf75ae5d2a51fe3f5b2118021dee19694-1280x720.jpg?accountingTag=WR",
+      "label": "DEBONAIR VI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6be140cbf75ae5d2a51fe3f5b2118021dee19694-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/12c1579f33a8517b5380f3d4df0a35492eadad42-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: VI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/12c1579f33a8517b5380f3d4df0a35492eadad42-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e37bbbaa0694192068e0207fa6dcbe5f6092b800-1280x720.jpg?accountingTag=WR",
+      "label": "ARCANE VI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e37bbbaa0694192068e0207fa6dcbe5f6092b800-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2b2485fe0002186eade7c1d0e5aaf19c62181df9-1280x720.jpg?accountingTag=WR",
+      "label": "WARRING KINGDOMS VI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2b2485fe0002186eade7c1d0e5aaf19c62181df9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/36dc24cce311389baa10a55a7ad9fd8e0d9c39a6-1280x720.jpg?accountingTag=WR",
+      "label": "OFFICER VI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/36dc24cce311389baa10a55a7ad9fd8e0d9c39a6-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/eda68e14caca5be7dd559edfc863b491114f66e1-1280x720.jpg?accountingTag=WR",
+      "label": "CRYSTAL ROSE VI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/eda68e14caca5be7dd559edfc863b491114f66e1-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1b0154a7155c848c6ce2a12a4f0c955eb11d7640-1280x720.jpg?accountingTag=WR",
+      "label": "SUPERHERO VI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1b0154a7155c848c6ce2a12a4f0c955eb11d7640-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:51:51Z",
+  "hash": "9a915b5b4ba8eb67f1331b4b7c1b6da00bc9452d12601a9ede8949a383869249"
+}

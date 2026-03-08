@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10024",
+  "riotSlug": "syndra",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/syndra/",
+  "title": "SYNDRA",
+  "subtitle": "The Dark Sovereign",
+  "roles": [
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/cd2e66661e1e7e025c5124128376c2a37160cf58.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Syndra collects Splinters of Wrath by dealing ability damage to enemies and every time she levels up an ability. Splinters of Wrath can be used to upgrade her abilities and increase ability power.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/8b3a11545161e2ed512ceba4a52eb8f69fb896f7-96x96.jpg?accountingTag=WR",
+      "label": "TRANSCENDENT",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/397432ccba0ad4ecb6c67694ee12c00b50adf375.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Syndra conjures a Dark Sphere that deals magic damage where it appears. The sphere remains and can be manipulated by her other powers. Upgrade: Syndra gains an additional charge of Dark Sphere.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/22dab9b1867c6edb83ce9fb90e8b8cd7b1a8c143-96x96.jpg?accountingTag=WR",
+      "label": "DARK SPHERE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8289f72b6c0f955eef8092c4e2514c719452a025.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Syndra hurls the nearest Dark Sphere at a target location, dealing magic damage and slowing the Move Speed of enemies within the area. Upgrade: Syndra deals bonus true damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/7070806481d30c8cf36741229fac0690c64e943e-96x96.jpg?accountingTag=WR",
+      "label": "FORCE OF WILL",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/535e91cc140ca258deac63cacf70ef9e465fa079.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Syndra sends out a wave of force, dealing magic damage and knocking back enemies and Dark Spheres. Enemies hit by Dark Spheres are stunned and take additional damage. Upgrade: Syndra increases the range of the wave of force.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8ab5d7bb180d146fef2526fd5a218f6e8684e7f0-96x96.jpg?accountingTag=WR",
+      "label": "SCATTER THE WEAK",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bbe86a09a3e86882042d74d16f21eecc107ae61c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Syndra launches the Dark Spheres orbiting her and any nearby at an enemy champion, dealing magic damage for each Sphere. Upgrade: The Dark Spheres execute enemies with low Health. When killing an enemy, the Spheres will explode on the spot and deal damage to nearby enemy champions.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6ce0878fccf8b84daef332d8f9f85bdbf2d11134-96x96.jpg?accountingTag=WR",
+      "label": "UNLEASHED POWER",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9f94910cebaed641ff2da95c1714db7db12889c0.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ea0284d333d8d12f1f62753c007af1819c836e48-1280x720.jpg?accountingTag=WR",
+      "label": "SYNDRA, THE DARK SOVEREIGN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ea0284d333d8d12f1f62753c007af1819c836e48-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1d30a0616a0b89ffb51da7ee91aba8d82f6fde24-1280x720.jpg?accountingTag=WR",
+      "label": "SPIRIT BLOSSOM SYNDRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1d30a0616a0b89ffb51da7ee91aba8d82f6fde24-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/845c044c5c3d52710cc00facb20a08720bcd0651-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN SYNDRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/845c044c5c3d52710cc00facb20a08720bcd0651-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/68e72b73e0e26b2dc8333495c66fa124c2fd5cc1-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE STAR GUARDIAN SYNDRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/68e72b73e0e26b2dc8333495c66fa124c2fd5cc1-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f9ce8641aba7fd17af586b79b86c5aa782f4ac1f-1280x720.jpg?accountingTag=WR",
+      "label": "LUNAR EMPRESS SYNDRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f9ce8641aba7fd17af586b79b86c5aa782f4ac1f-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2024-01-16T21:46:59Z",
+  "hash": "401e0033b80b8196fa3da628292c31acec30578d92a422cb4381d93f3014c420"
+}

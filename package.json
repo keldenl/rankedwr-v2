@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sync:data": "bun run scripts/sync-tencent-lolm.ts",
+    "sync:data": "bun run scripts/sync-static-data.ts",
     "test": "bun test"
   },
   "dependencies": {

@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10010",
+  "riotSlug": "vayne",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vayne/",
+  "title": "VAYNE",
+  "subtitle": "the Night Hunter",
+  "roles": [
+    "MARKSMAN",
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ac4fdc01a0470c392b99da0f0f2ca194afb2213e.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Vayne ruthlessly hunts evil-doers, gaining 30 Move Speed when moving toward nearby enemy champions.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/97e5965b2529a9e553b64325d547b1789de9ba7e-96x96.jpg?accountingTag=WR",
+      "label": "Night Hunter",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b82f8c0a560f908634a7c56fbaaaa4f43ac954b9.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Vayne tumbles, maneuvering to carefully place her next shot. Her next attack deals bonus damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/95118f38a406dc5f3e33127281ae20d6a5d2bdb7-96x96.jpg?accountingTag=WR",
+      "label": "Tumble",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/015f9fd3cf1c1d28325c72db7f775a4b3e6dd621.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Vayne tips her bolts with a rare metal, toxic to evil things. The third consecutive attack or ability against the same target deals a percentage of the target's max health as bonus true damage. Activating this ability gives Vayne bonus Attack Speed and she heals for some of Silver Bolts' damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e5406bc711247f3f78f3b7c190577b941fa029d5-96x96.jpg?accountingTag=WR",
+      "label": "Silver Bolts",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b7bffc5fd9bbb36873b193fabc7131bf79074376.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Vayne draws a heavy crossbow from her back, and fires a huge bolt at her target, knocking them back and dealing damage. If they collide with terrain, they are impaled, dealing bonus damage and stunning them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/e958e743a0fa920cde3da51bc893ace2db3b0b40-96x96.jpg?accountingTag=WR",
+      "label": "Condemn",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/106258014b88173e0d6b94a52c25aab1be4cd79b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Readying herself for an epic confrontation, Vayne gains increased Attack Damage, Invisibility during Tumble, and more bonus Movement Speed from Night Hunter. When an enemy champion damaged by Vayne dies within a few seconds, Final Hour's duration is extended.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/ed832452c2e6c8e43c433491293750cd929f3657-96x96.jpg?accountingTag=WR",
+      "label": "Final Hour",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3d802b189103c5c105a80430e479239b52ba0aef.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a605527886d58f1de2abb5cdcef040f3b14014db-1280x720.jpg?accountingTag=WR",
+      "label": "VAYNE, THE NIGHT HUNTER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a605527886d58f1de2abb5cdcef040f3b14014db-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6f12e5281a05486cd686f7f376b257093f8134f9-1280x720.jpg?accountingTag=WR",
+      "label": "ARCLIGHT VAYNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6f12e5281a05486cd686f7f376b257093f8134f9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4befda8292f8db66cf250abe43a7e81a976c063c-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGONSLAYER VAYNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4befda8292f8db66cf250abe43a7e81a976c063c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/433fa7a0c05e8c9b6d44be58b4efa05775778e82-1280x720.jpg?accountingTag=WR",
+      "label": "HEARTSEEKER VAYNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/433fa7a0c05e8c9b6d44be58b4efa05775778e82-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/49c8830c780ea0961d1ac1e2ada4fdf0946e5c01-1280x720.jpg?accountingTag=WR",
+      "label": "SENTINEL VAYNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/49c8830c780ea0961d1ac1e2ada4fdf0946e5c01-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/73a3f20c2c5d1359a73ea15ee916c1006883c977-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: VAYNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/73a3f20c2c5d1359a73ea15ee916c1006883c977-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/266861ab394c2ffb2050d8da15b50715e74d1075-1280x720.jpg?accountingTag=WR",
+      "label": "FIRECRACKER VAYNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/266861ab394c2ffb2050d8da15b50715e74d1075-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ffbc2d2b3ac9ab125e719bbde610e8567a3cfeea-1280x720.jpg?accountingTag=WR",
+      "label": "CRYSTAL ROSE VAYNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ffbc2d2b3ac9ab125e719bbde610e8567a3cfeea-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d833885639e4d67296251cc0e193d9551fd52b90-1280x720.jpg?accountingTag=WR",
+      "label": "Battle Bat Vayne",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d833885639e4d67296251cc0e193d9551fd52b90-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4ac85830121552c58a6a3bfaf750ca8cf7b79c14-1280x720.jpg?accountingTag=WR",
+      "label": "CALLIGRAPHIA VAYNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4ac85830121552c58a6a3bfaf750ca8cf7b79c14-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2d876332078d424b5c79c2723b6452f3f7768d2f-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE CALLIGRAPHIA VAYNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2d876332078d424b5c79c2723b6452f3f7768d2f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3c0404076884a8489a98383c4e12e3a607dc0c0c-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGONMANCER VAYNE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3c0404076884a8489a98383c4e12e3a607dc0c0c-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:51:02Z",
+  "hash": "32bd868f44fbf77f313e304713b6bbccbe08cfdbcd04f604face3e071f1b184d"
+}

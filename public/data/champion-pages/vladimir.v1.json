@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10090",
+  "riotSlug": "vladimir",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/vladimir/",
+  "title": "VLADIMIR",
+  "subtitle": "The Crimson Reaper",
+  "roles": [
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8a4502eef098c90a0a45bb5104619fdce2efa13b.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Every 30 points of bonus Health gives Vladimir 1 Ability Power and every 1 point of Ability Power gives Vladimir 1.6 bonus Health (does not stack with itself).",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f54b1f86c8b3c1fc0326a9159c62fa1a92d9a1b8-96x96.jpg?accountingTag=WR",
+      "label": "CRIMSON PACT",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a7e9cfdda019fbf25f6b044d66d3afde50877a7e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Vladimir steals life from the target enemy. When Vladimir's resource is full, Transfusion will benefit from massively increased damage and healing for a brief time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/1f478246978315efd2ba0e160c078507e5bf7247-96x96.jpg?accountingTag=WR",
+      "label": "TRANSFUSION",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6d2f1f7a4749186f05b9ed841bf00a18f514b849.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Vladimir sinks into a pool of blood, becoming untargetable for 2 seconds. Additionally, enemies on the pool are slowed and Vladimir siphons life from them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/2f2700bd00e8f489494cb5424e72639b53473a4d-96x96.jpg?accountingTag=WR",
+      "label": "SANGUINE POOL",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6db6cd6f6a1013c8a263eb49dbd7ca815910c554.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Vladimir pays his own health to charge up a reservoir of blood which, when released, deals damage in the area around him but can be blocked by enemy units.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f41d177c123b13f783235fcc5a3748a00e5bdc36-96x96.jpg?accountingTag=WR",
+      "label": "TIDES OF BLOOD",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2a0103d16909ca701252d176b966c15d73f9deeb.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Vladimir infects an area with a virulent plague. Affected enemies take increased damage for the duration. After a few seconds, Hemoplague deals magic damage to infected enemies and heals Vladimir for each enemy Champion hit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/179bef101af7f2478cd6aa12400e176cc3e5c316-96x96.jpg?accountingTag=WR",
+      "label": "HEMOPLAGUE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8d8ee7b3b982de80c10e7d52246065a72f1be7ba.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/aa10b117ebb8ecb836d32f98dd05e2b14c3e08e8-1280x720.jpg?accountingTag=WR",
+      "label": "VLADIMIR, THE CRIMSON REAPER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/aa10b117ebb8ecb836d32f98dd05e2b14c3e08e8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1e0f5b58130e49040cc631396c011be2f633e792-1280x720.jpg?accountingTag=WR",
+      "label": "NIGHTBRINGER VLADIMIR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1e0f5b58130e49040cc631396c011be2f633e792-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7d6d77ad0f1ccbf2eb3833b001f7c1f154ac7f48-1280x720.jpg?accountingTag=WR",
+      "label": "Crystal Rose Vladimir",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7d6d77ad0f1ccbf2eb3833b001f7c1f154ac7f48-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1a297e4144602d5a6f3e4ef41240db22283183c6-1920x1080.jpg?accountingTag=WR",
+      "label": "WEATHER ENTITY VLADIMIR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1a297e4144602d5a6f3e4ef41240db22283183c6-1920x1080.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2023-08-13T14:49:26Z",
+  "hash": "caf68f1b73c90d4847d8ab81a99d47621e7fbdc7020cfb854493f86c60274634"
+}

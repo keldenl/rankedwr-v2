@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10019",
+  "riotSlug": "hecarim",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/hecarim/",
+  "title": "HECARIM",
+  "subtitle": "The Shadow of War",
+  "roles": [
+    "FIGHTER"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/7137a0c7e183e7adbb7474abcb70c0db3d750052.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Hecarim gains Attack Damage equal to a percentage of his bonus Move Speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/90699903eb0a05252107d0d833ad8bf546ddd976-96x96.png?accountingTag=WR",
+      "label": "WARPATH",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/827ec6a7614b8f3b34b07e4adaec3db412975f38.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Hecarim cleaves nearby enemies dealing physical damage. If Hecarim damages at least one enemy, he increases the damage and lowers the cooldown of subsequent Rampages.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/b61313dc1bb9e5387877b2779308f45aeca9b909-96x96.png?accountingTag=WR",
+      "label": "RAMPAGE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/eeb0ae169185df716adc4f7a09437e13af23c05e.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Hecarim gains Armor and Magic Resist. Hecarim deals magic damage to nearby enemies, and gains Health equal to a percentage of any damage those enemies suffer.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/6acf3dba72d549f599fcaa2edb95f643a7fa79fb-96x96.png?accountingTag=WR",
+      "label": "SPIRIT OF DREAD",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/df2d902e287ba00df124bd6393bac9048429504c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Hecarim gains increasing Move Speed and can move through units for a short duration. His next attack knocks the target back and deals additional physical damage based on the distance he has traveled since activating the ability.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7b4048342aeb45771082de5832cac2429c02f634-96x96.png?accountingTag=WR",
+      "label": "DEVASTATING CHARGE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/10e24358c5e46df4170ee9d3cca96369028c877c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Hecarim summons spectral riders and charges forward, dealing magic damage in a line. Hecarim creates a shockwave when he finishes his charge, causing nearby enemies to flee in terror.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5289af14ade94e53faa9f047749cb8f4f764882d-96x96.png?accountingTag=WR",
+      "label": "ONSLAUGHT OF SHADOWS",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/d3a71a1b61ceb0727adb79fc866ac96fb8913036.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e8876300c8b884ea6cfc652aa7329c9737f6d640-1280x720.jpg?accountingTag=WR",
+      "label": "HECARIM, THE SHADOW OF WAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e8876300c8b884ea6cfc652aa7329c9737f6d640-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ecc95ae0f6d6421bb0541df75f2d59f548991d59-1280x720.jpg?accountingTag=WR",
+      "label": "HIGH NOON HECARIM",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ecc95ae0f6d6421bb0541df75f2d59f548991d59-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0ec54c8915021bdea3fe3bd062825851521776cc-1280x720.jpg?accountingTag=WR",
+      "label": "ARCADE HECARIM",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0ec54c8915021bdea3fe3bd062825851521776cc-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e90905f2da45a9c3d577da1addf405e68eae3a79-1280x720.jpg?accountingTag=WR",
+      "label": "PETALS OF SPRING HECARIM",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e90905f2da45a9c3d577da1addf405e68eae3a79-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2023-09-19T00:19:00Z",
+  "hash": "b2149b569bf4b152ed865b0331279485b86da7f199515c43552fe4ab5bf91715"
+}

@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10009",
+  "riotSlug": "wukong",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/wukong/",
+  "title": "WUKONG",
+  "subtitle": "the Monkey King",
+  "roles": [
+    "FIGHTER",
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/df2c5ce262cfbc46b58ce5d5a90cce0b1c1f560b.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Wukong and his clones' attacks and abilities apply stacks of Crushing Blows. For each stack, Wukong and his clones deal increased damage to the target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/0655c0b1c759bda95e7bffbbe3a9c167cd98b55e-96x96.jpg?accountingTag=WR",
+      "label": "CRUSHING BLOWS",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3e517d973ed9d659fa203d14999a4a17c806d2cf.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Passively gives Wukong's next attack bonus range after casting an ability. Wukong's next attack deals additional damage and heals him.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/40dabb603e639bb03b684e2c2f29199395cc42be-96x96.jpg?accountingTag=WR",
+      "label": "GOLDEN STAFF",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/63930144804ea9dc1d6995c6477e8215ba0519d7.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Wukong becomes Invisible and dashes in a direction, leaving behind a clone that will attack enemies for reduced damage, mimicking Golden Staff and Cyclone.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d507fc509c705470c59870b354388ebead4284d9-96x96.jpg?accountingTag=WR",
+      "label": "WARRIOR TRICKSTER",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bad77ba8b4c2c6d9022adc265e618269435f4bbd.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Wukong dashes to a targeted enemy and sends out images to attack enemies near his target, dealing damage to each enemy struck, and grants Wukong a temporary Attack Speed increase.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e7f19f4008c6d91a449ded2db07185f8f46c616d-96x96.jpg?accountingTag=WR",
+      "label": "NIMBUS STRIKE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b0792acff3e83c0faab3c86ceeb4202521f590b0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Wukong extends his staff and spins it around repeatedly, gaining Movement Speed. Enemies struck take damage and are knocked up. Cyclone can be recast within a short time window.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/65c4216d32b04b39325af841c1143ed9624af78a-96x96.jpg?accountingTag=WR",
+      "label": "CYCLONE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2c678c600a3cbba7f74a1c162a5305c9040b5f02.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d26b3a21371a80598e96592afca8ff1ee490682c-1280x720.jpg?accountingTag=WR",
+      "label": "WUKONG, THE MONKEY KING",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d26b3a21371a80598e96592afca8ff1ee490682c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c8ce074585ebd3300106d8b589173d4100037c9f-1280x720.jpg?accountingTag=WR",
+      "label": "VOLCANIC WUKONG",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c8ce074585ebd3300106d8b589173d4100037c9f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/669d698559b6d4e4fea8ded6a746c799d8273b9b-1280x720.jpg?accountingTag=WR",
+      "label": "GENERAL WUKONG",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/669d698559b6d4e4fea8ded6a746c799d8273b9b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e7eaed2f13a8df77ae3f0cff4937bec5d9465c25-1280x720.jpg?accountingTag=WR",
+      "label": "JADE DRAGON WUKONG",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e7eaed2f13a8df77ae3f0cff4937bec5d9465c25-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/445a4d7ff0b35f60b0bc28111f73d3374746a0be-1280x720.jpg?accountingTag=WR",
+      "label": "UNDERWORLD WUKONG",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/445a4d7ff0b35f60b0bc28111f73d3374746a0be-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d94a3d9523f430167a67eaded234080bded21344-1280x720.jpg?accountingTag=WR",
+      "label": "RADIANT WUKONG",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d94a3d9523f430167a67eaded234080bded21344-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6d09e4806ecb381c513d2b1a6ce193bb60e7fcb4-1920x1080.jpg?accountingTag=WR",
+      "label": "SOUL FIGHTER WUKONG",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6d09e4806ecb381c513d2b1a6ce193bb60e7fcb4-1920x1080.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-01-26T21:56:36Z",
+  "hash": "83be8c8ba79fc0737ae1d64bb304b9f7f2b48409c8ddc4eeb03d02d4668db79a"
+}

@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10044",
+  "riotSlug": "leona",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/leona/",
+  "title": "LEONA",
+  "subtitle": "the Radiant Dawn",
+  "roles": [
+    "TANK",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6688ce5003fa77ab7959b1c3d4048bb6f80deeb2.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Damaging spells afflict enemies with Sunlight. When allied Champions deal damage to those targets, they consume the Sunlight to deal additional magic damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d0f2105e9fbdfdb8003b55c595b3e2c49d7ab0ce-96x96.jpg?accountingTag=WR",
+      "label": "SUNLIGHT",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d03676e92a99ada6e4de95694fd146098b4af9b9.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Leona uses her shield to perform her next basic attack, dealing bonus magic damage and stunning the target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a554b61b9ab3b2118d8e0be68a96abc63d1e916b-96x96.jpg?accountingTag=WR",
+      "label": "SHIELD OF DAYBREAK",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d03676e92a99ada6e4de95694fd146098b4af9b9.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Leona raises her shield to gain Armor, and Magic Resist. When the duration first ends, if there are nearby enemies, she will deal magic damage to them and prolong the duration of the effect.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bd144a6487d249ced5f12400028429195d250bc6-96x96.jpg?accountingTag=WR",
+      "label": "ECLIPSE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c774335445144678845f370b720c36dc4d76508c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Leona projects a solar image of her sword, dealing magic damage to all enemies in a line. When the image fades, the last enemy champion struck will be briefly rooted and Leona will dash to them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f879f7352d905daec1c4a189ee25a2701f2e0855-96x96.jpg?accountingTag=WR",
+      "label": "ZENITH BLADE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/e48f5c7a876c5f5c7c5332e3850bbad55d0b3318.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Leona calls down a beam of solar energy, dealing damage to enemies in an area. Enemies in the center of the area are stunned, while enemies on the outside are slowed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b3377baff2a2495573c7da1bf2262a1d44ec8428-96x96.jpg?accountingTag=WR",
+      "label": "SOLAR FLARE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/58ef7d00cbd08471c7ae7e7240afab618a898a52.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/35facc3a554d7b0401eb2c59a50db0f440de3b4a-1280x720.jpg?accountingTag=WR",
+      "label": "LEONA, THE RADIANT DAWN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/35facc3a554d7b0401eb2c59a50db0f440de3b4a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/045361725a2ecbd0583d066b8ef07049914f079b-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: LEONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/045361725a2ecbd0583d066b8ef07049914f079b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1e1b8a4e63554aec751055f208fe72e64789cf1b-1280x720.jpg?accountingTag=WR",
+      "label": "BARBECUE LEONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1e1b8a4e63554aec751055f208fe72e64789cf1b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9220b0d4ff69bf17890988b7b65278f26676a08f-1280x720.jpg?accountingTag=WR",
+      "label": "POOL PARTY LEONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9220b0d4ff69bf17890988b7b65278f26676a08f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7dc745b123358f2731162f1a831393e62bc78a31-1280x720.jpg?accountingTag=WR",
+      "label": "LUNAR ECLIPSE LEONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7dc745b123358f2731162f1a831393e62bc78a31-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d6ff49bfd305759adbbda967e6679825262000b9-1280x720.jpg?accountingTag=WR",
+      "label": "SOLAR ECLIPSE LEONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d6ff49bfd305759adbbda967e6679825262000b9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/986f415497d16db264d44b4bc071512724a60d8a-1920x1080.jpg?accountingTag=WR",
+      "label": "HIGH NOON LEONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/986f415497d16db264d44b4bc071512724a60d8a-1920x1080.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f5eefd52d85adbe4ad6f4dfbf697b799eab78100-1280x720.jpg?accountingTag=WR",
+      "label": "BATTLE ACADEMIA LEONA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f5eefd52d85adbe4ad6f4dfbf697b799eab78100-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-04-28T21:17:11Z",
+  "hash": "618f81db68b88573949f182b37b57198c2d2b9c8e0f52e9e06c0e39229388cd9"
+}

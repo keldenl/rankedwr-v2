@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10046",
+  "riotSlug": "teemo",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/teemo/",
+  "title": "TEEMO",
+  "subtitle": "the Swift Scout",
+  "roles": [
+    "MARKSMAN",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d32657259d6a712ccd53a54208346f4eb105d1b2.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Teemo's attacks deal bonus magic damage over time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/84a469fb026b7b30437f75dd2d29c09293edc245-96x96.jpg?accountingTag=WR",
+      "label": "TOXIC SHOT",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c9fcdcbbe686071f3196c99d577c318ce8573c87.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Teemo fires a dart that blinds its target, causing its attacks to deal no damage for a brief period.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/eb3e64721db4e2771ccab36f20e6c5f7fa545cc2-96x96.jpg?accountingTag=WR",
+      "label": "BLINDING DART",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9266b97c0a10c6b72f0ce814d94ed168f9ac8884.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Teemo scampers around, passively increasing his Movement Speed until he is struck by an enemy champion or turret. Activating Move Quick causes Teemo to roll forward a short distance, sprinting for a few seconds. During this time, Move Quick's passive speed is doubled, and cannot be removed by damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/ea2cb35a418c5338e656f9c3f97e186b58a4830e-96x96.jpg?accountingTag=WR",
+      "label": "MOVE QUICK",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/25e2446551c2b87eff7ea91c0eb38b6d87d00c5d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "After a delay, Teemo becomes camouflaged, unable to be seen unless near an enemy champion or turret. After exiting camouflage, Teemo gains Attack Speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f32ffd6ca3b6f869ef7abf1e52d98336295d300e-96x96.jpg?accountingTag=WR",
+      "label": "GUERILLA WARFARE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ca7d08bc32f77828435b614ed0fb761ebed53a28.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Teemo throws an explosive poisonous trap using one of the mushrooms stored in his pack. If an enemy steps on the trap, it will release a poisonous puddle, slowing enemies and damaging them over time. If Teemo throws a mushroom onto another mushroom it will bounce, gaining additional range.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/86013087251c458e056b1eaeb21c1beda539873c-96x96.jpg?accountingTag=WR",
+      "label": "NOXIOUS TRAP",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/96dc88242893c2b14fe0e8b3701eb99d5710b1dc.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1dec87dd6e583aa7031db63150d8b86611e2f177-1280x720.jpg?accountingTag=WR",
+      "label": "TEEMO, THE SWIFT SCOUT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1dec87dd6e583aa7031db63150d8b86611e2f177-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f6ea0954dd9387c57790f2f60766ac3033bac35e-1280x720.jpg?accountingTag=WR",
+      "label": "COTTONTAIL TEEMO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f6ea0954dd9387c57790f2f60766ac3033bac35e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/05316bf0fd2ead7f164a667a45411419cc84d688-1280x720.jpg?accountingTag=WR",
+      "label": "LITTLE DEVIL TEEMO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/05316bf0fd2ead7f164a667a45411419cc84d688-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/271847a3d4bd1071417d718755cc67899853ac80-1280x720.jpg?accountingTag=WR",
+      "label": "PANDA TEEMO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/271847a3d4bd1071417d718755cc67899853ac80-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/344976d813c1649d130f059a024d9c0f676d88a3-1280x720.jpg?accountingTag=WR",
+      "label": "OMEGA SQUAD TEEMO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/344976d813c1649d130f059a024d9c0f676d88a3-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2fdd7cf1766ccc82bfe6ebf8df87f75a54f76c35-1280x720.jpg?accountingTag=WR",
+      "label": "HEXPLORER TEEMO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2fdd7cf1766ccc82bfe6ebf8df87f75a54f76c35-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a2dbacd5f3726661b14bca1679e448d2921d6930-1280x720.jpg?accountingTag=WR",
+      "label": "FIRECRACKER TEEMO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a2dbacd5f3726661b14bca1679e448d2921d6930-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/eeceb198f28dd461675b99037c9469228c5b3410-1280x720.jpg?accountingTag=WR",
+      "label": "SPIRIT BLOSSOM TEEMO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/eeceb198f28dd461675b99037c9469228c5b3410-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/166fc1c8b58e62312e1c3a2986a1d5a0f778675a-1280x720.jpg?accountingTag=WR",
+      "label": "BEEMO TEEMO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/166fc1c8b58e62312e1c3a2986a1d5a0f778675a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6dcd976bf4060312855db91d62a7292841441360-1280x720.jpg?accountingTag=WR",
+      "label": "Splendor Opus Teemo",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6dcd976bf4060312855db91d62a7292841441360-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/785b254cf5b04c08a7611c37f52826e399fe059b-1280x720.jpg?accountingTag=WR",
+      "label": "GLORIOUS EMINENCE TEEMO",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/785b254cf5b04c08a7611c37f52826e399fe059b-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-01-26T21:00:03Z",
+  "hash": "02d6c69fa61d1a59c86f816f0b00eaf52ae5e5fa7b31f157829814903d91eb65"
+}

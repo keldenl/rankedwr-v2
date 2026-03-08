@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10035",
+  "riotSlug": "mordekaiser",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/mordekaiser/",
+  "title": "MORDEKAISER",
+  "subtitle": "THE IRON REVENANT",
+  "roles": [
+    "FIGHTER",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ba6a541a9ac6f09df2c156d08e97fb32e6545d1c.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Mordekaiser gains a powerful damage aura and Move Speed after landing 3 attacks or spells against champions or monsters.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/6a443232a5b3bfeaada3e2b97b471ee6bdcb1d6e-500x500.jpg?accountingTag=WR",
+      "label": "DARKNESS RISE",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/10a5682a8f6f4752f41f65df89de019a926945e3.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Mordekaiser smashes the ground with his mace dealing damage to each enemy struck. Damage is increased when hitting a single enemy.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/4024e5617a7050c99ca26a559ad149797df30050-500x500.jpg?accountingTag=WR",
+      "label": "OBLITERATE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6e2251bd78bad2b26c8422a2157397133238c8d0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Mordekaiser stores damage he deals and takes to create a shield. He may consume the shield to heal.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/abb202d7e8349ee4cc510cedeadfea39c4c0e641-500x500.jpg?accountingTag=WR",
+      "label": "INDESTRUCTIBLE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0522a9c32be6ad1ff330969cd2314c6b2175c603.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Mordekaiser pulls all enemies in an area.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/6f63ed5b7adf4ccec30dc3ab713d88b53078b37a-500x500.jpg?accountingTag=WR",
+      "label": "DEATH'S GRASP",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a158a466bdb9290c55d1188454148a1bda8d3745.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Mordekaiser drags his victim to a different dimension with him and steals a portion of their stats. If he kills them, he keeps the stats until the victim respawns.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/bd9db471f6dfe724dd076913861c99b54413fc04-500x500.jpg?accountingTag=WR",
+      "label": "REALM OF DEATH",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2cd9bf98a914750478298744df7912c0fb270f23.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/75b39626855a79e77ce04b89944c27e33336d2e6-1280x720.jpg?accountingTag=WR",
+      "label": "MORDEKAISER, THE IRON REVENANT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/75b39626855a79e77ce04b89944c27e33336d2e6-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/aedc5cba3acb5bd863228f15d6d660e531efe443-1280x720.jpg?accountingTag=WR",
+      "label": "OLD GOD MORDEKAISER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/aedc5cba3acb5bd863228f15d6d660e531efe443-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c9892f3227c237d04007af308a5ce473efea3947-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: MORDEKAISER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c9892f3227c237d04007af308a5ce473efea3947-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7b6e7548b5bded7af71e4f187a85ea67a27ae063-1280x720.jpg?accountingTag=WR",
+      "label": "ASHEN GRAVEKNIGHT MORDEKAISER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7b6e7548b5bded7af71e4f187a85ea67a27ae063-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2024-09-03T20:47:58Z",
+  "hash": "bd81295e19732855d741d8070a251c1d5b5db32d9eafb726a5d2d478c6258309"
+}

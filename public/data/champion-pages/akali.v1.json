@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10031",
+  "riotSlug": "akali",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/akali/",
+  "title": "AKALI",
+  "subtitle": "the Rogue Assassin",
+  "roles": [
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0cdd4c3b2e4e3515620b42961074e8c5238d35ce.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Dealing spell damage to a champion creates a ring of energy around them. Exiting that ring empowers Akali's next autoattack with bonus range and damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/491bce87a1f9bc04bf4754991a79cdde1f01066d-96x96.jpg?accountingTag=WR",
+      "label": "ASSASSIN'S MARK",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/db496e214271adbf8ef2fe6d65cc98713cd050ee.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Akali throws out five kunai, dealing damage based on her bonus Attack Damage and Ability Power and slowing at maximum range.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/286a6c42f27ce255ef22f37061b27e5090451575-96x96.jpg?accountingTag=WR",
+      "label": "FIVE POINT STRIKE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/784ad53169fe72abacd92ed4520ffbbd215eba66.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Akali drops a cover of smoke and briefly gains Movement Speed and restores Energy. While inside the shroud, Akali becomes invisible. Attacking or using abilities will briefly reveal her.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ed64a69d9009c479d96e54004b9a7febccda7b74-96x96.jpg?accountingTag=WR",
+      "label": "TWILIGHT SHROUD",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/853d85903c99aa15bb880d03cf958260378b04c9.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Akali flips backward and fires a shuriken forward, dealing magic damage. The first enemy or smoke cloud hit is marked. Re-casting dashes to the marked target, dealing additional damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4567127fda739f1e95e1ff32c4285c2be284a438-96x96.jpg?accountingTag=WR",
+      "label": "SHURIKEN FLIP",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a0f663812cc15bd9ddea3b732eeb23e254071b6f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Akali leaps in a direction, damaging enemies she strikes. Re-casting dashes in a direction, executing all enemies she strikes.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/3fa9f9b5cf7fd0ea7f33674ec88bd2e3d20bea5d-96x96.jpg?accountingTag=WR",
+      "label": "PERFECT EXECUTION",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/4ee4dd2ed594bb61940359181384ce35bfcd4975.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/46cbabe56dffafbf29009c23fcf72c8b7e95cf46-1280x720.jpg?accountingTag=WR",
+      "label": "AKALI, THE ROGUE ASSASSIN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/46cbabe56dffafbf29009c23fcf72c8b7e95cf46-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c5a8aebd7edb39ae5b050df3188b232d29c61778-1280x720.jpg?accountingTag=WR",
+      "label": "HEADHUNTER AKALI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c5a8aebd7edb39ae5b050df3188b232d29c61778-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/460f9cc5c2bac12870f2e534c6d20bc0762c6b67-1280x720.jpg?accountingTag=WR",
+      "label": "K/DA ALL OUT AKALI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/460f9cc5c2bac12870f2e534c6d20bc0762c6b67-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d964a564f558e7274d52496a0e7620b44d368886-1280x720.jpg?accountingTag=WR",
+      "label": "SILVERFANG AKALI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d964a564f558e7274d52496a0e7620b44d368886-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a362361902f41e566db39a8467ebf48b3ca7b47d-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: AKALI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a362361902f41e566db39a8467ebf48b3ca7b47d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3e10779cf991c320eede899e26f0c3f26119a258-1280x720.jpg?accountingTag=WR",
+      "label": "CRYSTAL ROSE AKALI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3e10779cf991c320eede899e26f0c3f26119a258-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/742d886e7a296a74541a86e004dfac6204246eef-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN AKALI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/742d886e7a296a74541a86e004dfac6204246eef-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dce979b101923f1e93b4612eec197961448834a8-1280x720.jpg?accountingTag=WR",
+      "label": "CALLIGRAPHIA AKALI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dce979b101923f1e93b4612eec197961448834a8-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/80c05ecaf0206040ba9ae903a2e06b72428e3898-1280x720.jpg?accountingTag=WR",
+      "label": "TRUE DAMAGE AKALI",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/80c05ecaf0206040ba9ae903a2e06b72428e3898-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-29T22:02:26Z",
+  "hash": "5104180a64752a1b87432a5672ad80472540643d3f0a666873c0ee6d245fd477"
+}

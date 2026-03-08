@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10026",
+  "riotSlug": "kaisa",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/kaisa/",
+  "title": "KAI'SA",
+  "subtitle": "Daughter of the Void",
+  "roles": [
+    "MARKSMAN",
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f7a855343f6b16a1fe30fb240ea64976f023bdab.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Kai'Sa's basic attacks stack Plasma, dealing increasing bonus magic damage. Allies' immobilizing effects help stack Plasma. Additionally, Kai'Sa's item purchases upgrade her basic spells to have more powerful properties.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8e5a628441a54cf36112a519fa2f1a8d804f95ac-96x96.jpg?accountingTag=WR",
+      "label": "SECOND SKIN",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/35ae1639300370804f7baa08c8b4b54959d23111.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kai'Sa shoots a swarm of missiles that seek out nearby targets. Living Weapon: Icathian Rain is upgraded to shoot more missiles.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/cbeadf202ac7a109004e6d1f36cf95767216ebca-96x96.jpg?accountingTag=WR",
+      "label": "ICATHIAN RAIN",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0ce275aa20161ac8a79674401a186924b0fd4720.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kai'Sa shoots a long range missile, revealing and marking enemies with her passive. Living Weapon: Void Seeker is upgraded to apply more Plasma marks and reduce cooldown on champion hit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/1b0597ebeabe60f303b2180b28135c1e0703c5c5-96x96.jpg?accountingTag=WR",
+      "label": "VOID SEEKER",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/895eec74a2874af21d9602b65cbd68f7cc753ee1.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kai'Sa briefly increases her movement speed, then increases her attack speed. Living Weapon: Supercharge is upgraded to briefly grant Invisibility.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/caa3546d3aa43b20cb2313f3053b002426121a57-96x96.jpg?accountingTag=WR",
+      "label": "SUPERCHARGE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8afd84b76547f91c33dc4e751ed89f78338be9a0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Kai'Sa dashes near an enemy champion marked by Plasma and gains a temporary shield.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3495f169849118d9086b0e7e7ec744911c89fad7-96x96.jpg?accountingTag=WR",
+      "label": "KILLER INSTINCT",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/cf4f6d523e12ef866444a3708b6c4ac6086d0731.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/edb207643f6a08c181a3582ce3296a7694f96c31-1280x720.jpg?accountingTag=WR",
+      "label": "KAI'SA, DAUGHTER OF THE VOID",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/edb207643f6a08c181a3582ce3296a7694f96c31-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b486ffbb27a9b494ea3d8fde517320e8fe543839-1280x720.jpg?accountingTag=WR",
+      "label": "BULLET ANGEL KAI'SA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b486ffbb27a9b494ea3d8fde517320e8fe543839-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4ff24d0371bfb1e0e6245f46b2524af457eb043d-1280x720.jpg?accountingTag=WR",
+      "label": "K/DA ALL OUT KAI'SA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4ff24d0371bfb1e0e6245f46b2524af457eb043d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e4f9707bafcab6b36169d4942c294b4ce404c680-1280x720.jpg?accountingTag=WR",
+      "label": "ARCADE KAI'SA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e4f9707bafcab6b36169d4942c294b4ce404c680-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c81eb188ef4dd06b97ed85c2ee4701f1a7fa126d-1280x720.jpg?accountingTag=WR",
+      "label": "LAGOON DRAGON KAI'SA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c81eb188ef4dd06b97ed85c2ee4701f1a7fa126d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/58e05b265eb177ed49bec3cde368bd977106f544-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN KAI'SA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/58e05b265eb177ed49bec3cde368bd977106f544-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/337de9e093cf1091a4f111f70faf53ca1a2bf511-1280x720.jpg?accountingTag=WR",
+      "label": "Lunar Fairy Kai'Sa",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/337de9e093cf1091a4f111f70faf53ca1a2bf511-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8a2969e783882fde7fc38adda7db7ab35934a215-1280x720.jpg?accountingTag=WR",
+      "label": "Lunar Fairy Kai'Sa (Special Edition)",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8a2969e783882fde7fc38adda7db7ab35934a215-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c2954947d512dad3dd63c1a151b709e92d2e6f41-1280x720.jpg?accountingTag=WR",
+      "label": "Crystal Rose Kai'Sa",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c2954947d512dad3dd63c1a151b709e92d2e6f41-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-29T22:09:32Z",
+  "hash": "ec441de9183d40e019d72cebf702266623b9e37507562559c8c0c9d072852191"
+}

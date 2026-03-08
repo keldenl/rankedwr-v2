@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10048",
+  "riotSlug": "lulu",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lulu/",
+  "title": "LULU",
+  "subtitle": "the Fae Sorceress",
+  "roles": [
+    "SUPPORT",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d691f38484d4705ba81415c1dbc82007d47d8532.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Pix fires magical bolts of energy whenever the champion he's following attacks another enemy unit. These bolts are homing, but can be intercepted by other units.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/affa8a832f986546437e90aab1b2e4fe19637af5-96x96.jpg?accountingTag=WR",
+      "label": "PIX, FAERIE COMPANION",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c3fc8845e0b8af1db36551afade95b6bd6586feb.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Pix and Lulu each fire a bolt of magical energy that heavily slows all enemies it hits.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/599fc3fd16fb4b6bdfa68292335e551a6be6feea-96x96.jpg?accountingTag=WR",
+      "label": "GLITTERLANCE",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ba84f5f46c7f2aef986372dde29f111d4f6ad15f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "If cast on an ally, grants them Attack Speed and Movement Speed for a short time. If cast on an enemy, turns them into an adorable critter that can't attack or cast spells.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b1cda90078113a5ca219d29555fdcf620ed955ea-96x96.jpg?accountingTag=WR",
+      "label": "WHIMSY",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/cd17c73d09f6509e92e7157e544ddca70659c924.mp4?accountingTag=WR"
+    },
+    {
+      "description": "If cast on an ally, commands Pix to jump to an ally and shield them. He then follows them and aids their attacks. If cast on an enemy, commands Pix to jump to an enemy and damage them. He then follows them and grants you vision of that enemy.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/04691a85d70982200321fd44dd191cf959899e7c-96x96.jpg?accountingTag=WR",
+      "label": "HELP, PIX!",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/a4c8d570bb5fef380327fb976307e4e05a4045af.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Lulu enlarges an ally (or herself), knocking nearby enemies into the air and granting the ally a large amount of bonus health. For the next few seconds, that ally gains an aura that slows nearby enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/4f5e1ca4c0e4836727c5618695575542ea42afc0-96x96.jpg?accountingTag=WR",
+      "label": "WILD GROWTH",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/216cb7b5abd3e40b3474a29f282cf51ae1cfe678.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e9f882cff2563e8f04a3f5e3e055d4b77f391a5c-1280x720.jpg?accountingTag=WR",
+      "label": "LULU, THE FAE SORCERESS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e9f882cff2563e8f04a3f5e3e055d4b77f391a5c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7f4a0a9ff793bc38f7db1d6707d9256510b80ae1-1280x720.jpg?accountingTag=WR",
+      "label": "DRAGON TRAINER LULU",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7f4a0a9ff793bc38f7db1d6707d9256510b80ae1-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f9d36d003684a6d0df0b37f6963f76306a720641-1280x720.jpg?accountingTag=WR",
+      "label": "WICKED LULU",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/f9d36d003684a6d0df0b37f6963f76306a720641-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2ea8dc93aa3b0a8d3baef391f3a2df09acfad35e-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN LULU",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2ea8dc93aa3b0a8d3baef391f3a2df09acfad35e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/977167ef15c26416acb5ac3022fe5480fba76beb-1280x720.jpg?accountingTag=WR",
+      "label": "POOL PARTY LULU",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/977167ef15c26416acb5ac3022fe5480fba76beb-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5a31da81c347383ff605882a2839baefee334801-1280x720.jpg?accountingTag=WR",
+      "label": "GLORIOUS LULU",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5a31da81c347383ff605882a2839baefee334801-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cf1d061aae5a6e8ff906cbe711c0c5cab9790550-1280x720.jpg?accountingTag=WR",
+      "label": "WINTER WONDER LULU",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cf1d061aae5a6e8ff906cbe711c0c5cab9790550-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/beaa12a60825443154daea63226c6363cc028057-1280x720.jpg?accountingTag=WR",
+      "label": "COSMIC ENCHANTRESS LULU",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/beaa12a60825443154daea63226c6363cc028057-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8e7d7ca2020969421c73f72086fe564969db256c-1280x720.jpg?accountingTag=WR",
+      "label": "Pajama Guardian Lulu",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8e7d7ca2020969421c73f72086fe564969db256c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7203b77ca52200c4b832eb9f8b53b23ef29af95a-1280x720.jpg?accountingTag=WR",
+      "label": "SPACE GROOVE LULU",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7203b77ca52200c4b832eb9f8b53b23ef29af95a-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-01-26T23:53:25Z",
+  "hash": "75317693bcfbd0257257aba051f5b595b72c07ae012348c4ac1e82f274831410"
+}

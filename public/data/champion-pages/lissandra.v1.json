@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10109",
+  "riotSlug": "lissandra",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lissandra/",
+  "title": "LISSANDRA",
+  "subtitle": "The Ice Witch",
+  "roles": [
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3e7291ab6589e83687f82493dc992ac54ab8b1df.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "When an enemy champion dies near Lissandra they become a Frozen Thrall. Frozen Thralls slow nearby enemies and then, after a delay, shatter from the intense cold, dealing magic damage to nearby targets.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2015c279d3734588e40472b75bf067b50d86b57d-256x256.png?accountingTag=WR",
+      "label": "ICEBORN SUBJUGATION",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/96b227b070e7926dd0cfcd25f75ad2335efb7992.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Throws a spear of ice that shatters when it hits an enemy, dealing magic damage and slowing Move Speed. Shards pass through the target, dealing the same damage to other enemies hit.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/08cadccf97eecb00123167bea77d4543e3259729-256x256.png?accountingTag=WR",
+      "label": "ICE SHARD",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/fa875ea606f140b4f8c41bac0d96eb7e25762830.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Freezes nearby enemies in ice, dealing magic damage and rooting them.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/83bc1c59bdafd04646cd9e4e73f6a200ada612ab-256x256.png?accountingTag=WR",
+      "label": "RING OF FROST",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/eaebd98cdb0ab9c820f5155b71310bfc89c9a9b3.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Lissandra creates an ice claw that deals magic damage. Reactivating this ability transports Lissandra to the claw's current location.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1f65a7117fdee24a5f0c665d0737f9c8676ab5e6-256x256.png?accountingTag=WR",
+      "label": "GLACIAL PATH",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/1dc889562de2f5d662995372e9bf1f17deb01d1a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "If cast on an enemy champion, the target is frozen solid, stunning it. If cast on Lissandra, she encases herself in dark ice, healing herself while becoming untargetable and invulnerable. Dark ice then emanates from the target dealing magic damage to enemies and slowing Move Speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6755f83a30210fc7581499edb7647a8f6ea783de-256x256.png?accountingTag=WR",
+      "label": "FROZEN TOMB",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/65b1bbadcd5ee6e2d97eb91b8f422c7b61d989bc.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4d37288efc3db29335dcee8863077c7a2d92f933-1280x720.jpg?accountingTag=WR",
+      "label": "LISSANDRA, THE ICE WITCH",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4d37288efc3db29335dcee8863077c7a2d92f933-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d423ea466d63890bd4df16e9b52404079486d7e4-1280x720.jpg?accountingTag=WR",
+      "label": "GARDEN PARTY LISSANDRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d423ea466d63890bd4df16e9b52404079486d7e4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4e81f75b178d9d677e7537ede717f7b8f051b859-1920x1080.jpg?accountingTag=WR",
+      "label": "PORCELAIN LISSANDRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4e81f75b178d9d677e7537ede717f7b8f051b859-1920x1080.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/22205b4d2e7abb3ccd1fa731f4a03ae23408db0b-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE PORCELAIN LISSANDRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/22205b4d2e7abb3ccd1fa731f4a03ae23408db0b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/46ab43f1de24029a9fdde97bbda24db52c02fa83-1280x720.jpg?accountingTag=WR",
+      "label": "PETALS OF SPRING LISSANDRA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/46ab43f1de24029a9fdde97bbda24db52c02fa83-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4bda2f21916f781f17847068338b470921d1ab17-1280x720.jpg?accountingTag=WR",
+      "label": "PETALS OF SPRING LISSANDRA EXQUISITE EDITION",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4bda2f21916f781f17847068338b470921d1ab17-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2024-08-27T20:53:10Z",
+  "hash": "e6f2d67b7fc4e976b6aa55bdb85b9fca9247e8ee819f3098972381052c38a7c7"
+}

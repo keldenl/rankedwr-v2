@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10079",
+  "riotSlug": "ashe",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/ashe/",
+  "title": "ASHE",
+  "subtitle": "the Frost Archer",
+  "roles": [
+    "MARKSMAN",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/5f3e6f6db5dd0ff6c92723f12e3e2c81067ee9ce.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Ashe's attacks slow their target, causing her to deal increased damage to these targets. Ashe's critical strikes deal no bonus damage but apply an empowered slow to the target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/23a3eff436b2ec32b2a79fe1b75221e2836ac8fb-96x96.jpg?accountingTag=WR",
+      "label": "Frost Shot",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/2fab9262e09b57a3964de11cc62d3e391bfc6290.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ashe builds up Focus by attacking. At maximum Focus, Ashe can cast Ranger's Focus to consume all stacks of Focus, temporarily increasing her Attack Speed and transforming her basic attack into a powerful flurry attack for the duration.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/b3c24bd3116da83096509ee2b9dfcda6a3d7c087-96x96.jpg?accountingTag=WR",
+      "label": "Ranger's Focus",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/07f8d9b7cb570dbaf58ea788583fa0a45fe02229.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ashe fires 9 arrows in a cone for increased damage. Also applies Frost Shot.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/19bd4b4200fec32c68be3a5f8513fbcc877c1efe-96x96.jpg?accountingTag=WR",
+      "label": "Volley",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/867539d3f71df846e666d8f14d762336c6708092.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ashe sends her Hawk Spirit on a scouting mission anywhere on the map.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b3ee4b3f79a6b343907957f75470b9002a05dc19-96x96.jpg?accountingTag=WR",
+      "label": "Hawkshot",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/054585f36949add141ce7f75c337bd3bbd36b622.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Ashe fires a missile of ice which she can steer in the air. If the arrow collides with an enemy Champion, it deals damage and stuns the Champion, stunning for longer the farther arrow has traveled. In addition, surrounding enemy units take damage and are slowed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/df785a4db250f45a6fb0e003926eb487d721ddb1-96x96.jpg?accountingTag=WR",
+      "label": "Enchanted Crystal Arrow",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ba6f57da07604dffc2b5466e2f94a02dd2516101.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6f8c4f1b77a743a1632674574077a302d205bbc1-1280x720.jpg?accountingTag=WR",
+      "label": "ASHE, THE FROST ARCHER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6f8c4f1b77a743a1632674574077a302d205bbc1-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/26d3511018dfa4a66fcae6b48c9dac4405e8c00e-1280x720.jpg?accountingTag=WR",
+      "label": "FRELJORD ASHE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/26d3511018dfa4a66fcae6b48c9dac4405e8c00e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a62886e1a2c5708c7a5d654815edcd756bb810b4-1280x720.jpg?accountingTag=WR",
+      "label": "MARAUDER ASHE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a62886e1a2c5708c7a5d654815edcd756bb810b4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/48f58e9c2bfd6af9009a6345fd09d97f62495aaf-1280x720.jpg?accountingTag=WR",
+      "label": "QUEEN ASHE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/48f58e9c2bfd6af9009a6345fd09d97f62495aaf-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/443343c566c1ac7cc3a236190858defa592d7bbd-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: Ashe",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/443343c566c1ac7cc3a236190858defa592d7bbd-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/18ab6cd31bdb0b4824eb90226f961d2d9cf9d018-1280x720.jpg?accountingTag=WR",
+      "label": "Fae Dragon Ashe",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/18ab6cd31bdb0b4824eb90226f961d2d9cf9d018-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/02eb32c971c9616210239e9f79c457da4a00c907-1280x720.jpg?accountingTag=WR",
+      "label": "High Noon Ashe",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/02eb32c971c9616210239e9f79c457da4a00c907-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5c7d8d5e2d07202393dde36e468f963b2db10270-1280x720.jpg?accountingTag=WR",
+      "label": "Cosmic Queen Ashe",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5c7d8d5e2d07202393dde36e468f963b2db10270-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/994cf2394baa26af8c8a96a9d46b292d1d57545c-1280x720.jpg?accountingTag=WR",
+      "label": "Ocean Song Ashe",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/994cf2394baa26af8c8a96a9d46b292d1d57545c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d3e0ad4397fbb75f8b6705f96cd89fed2544c5b1-1280x720.jpg?accountingTag=WR",
+      "label": "Glorious Armada Ashe",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d3e0ad4397fbb75f8b6705f96cd89fed2544c5b1-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/37c89a1fb057ce41bb3ab533d1461d3e0ea14a3d-1280x720.jpg?accountingTag=WR",
+      "label": "Crystal Rose Ashe",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/37c89a1fb057ce41bb3ab533d1461d3e0ea14a3d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3787bc6d4f6fff1f1a15a442114ff310abd66bbb-1280x720.jpg?accountingTag=WR",
+      "label": "High Noon Ashe Mythic Chroma",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3787bc6d4f6fff1f1a15a442114ff310abd66bbb-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:04:01Z",
+  "hash": "1c98de9c4523823b2e4215eec63d944e55d476d2efb1a49edfbd54f2b72ead2c"
+}

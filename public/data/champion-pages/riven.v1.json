@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10092",
+  "riotSlug": "riven",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/riven/",
+  "title": "RIVEN",
+  "subtitle": "the Exile",
+  "roles": [
+    "FIGHTER",
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "High",
+    "value": 3
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9aec049887724602218fe639a0753d48d5e788cd.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Riven's abilities charge her blade, and her basic attacks expend charges to deal an additional damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/620a140684393e24fd478c4cbca55a925f92553c-96x96.jpg?accountingTag=WR",
+      "label": "RUNIC BLADE",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6bf07f9e5c12b93abe086b7e19c1cdfaae518ff6.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Riven lashes out in a series of strikes. This ability can be reactivated three times in a short time frame with the third hit knocking back nearby enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/f2e1256017f16597ca524ff1bc13df9ebfca57e7-96x96.jpg?accountingTag=WR",
+      "label": "BROKEN WINGS",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3e43c56cece92826aa07c5e17cafbd8c3cc768f8.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Riven emits a Ki Burst, damaging and stunning nearby enemies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/1ed015b028fcc96353f3e1200918321af6d2e7c2-96x96.jpg?accountingTag=WR",
+      "label": "KI BURST",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/320300351b6a408f5c96d0bceeffd3655268d064.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Riven steps forward a short distance and blocks incoming damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/40f8b5777edf79a07574485b517bf4aee232c836-96x96.jpg?accountingTag=WR",
+      "label": "VALOR",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8025ee86107b11128bc82fb514f40764acf2e71b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Riven empowers her keepsake weapon with energy, and gains Attack Damage and Range. During this time, she also gains the ability to use Wind Slash, a powerful ranged attack, once. Taking down a target with her will extend the ability time and grant a re-cast of Wind Slash.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/02acead0cb59ca94a343b6c80e3ec674e62bb9ca-96x96.jpg?accountingTag=WR",
+      "label": "BLADE OF THE EXILE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/879b6e9bf36aa76be35339e1c722c7583e07cfbf.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/da5b159255cb81cafeeb5487a7543f5017154e8f-1280x720.jpg?accountingTag=WR",
+      "label": "RIVEN, THE EXILE",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/da5b159255cb81cafeeb5487a7543f5017154e8f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4c4518c69b6a46144b180553849446ce5658fbfb-1280x720.jpg?accountingTag=WR",
+      "label": "ARCADE RIVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4c4518c69b6a46144b180553849446ce5658fbfb-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/88b3dac2e96b7914d925c648a2f4159eb8b39748-1280x720.jpg?accountingTag=WR",
+      "label": "SENTINEL RIVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/88b3dac2e96b7914d925c648a2f4159eb8b39748-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7df374a4c871b40e07b210520808f38751214251-1280x720.jpg?accountingTag=WR",
+      "label": "VALIANT SWORD RIVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7df374a4c871b40e07b210520808f38751214251-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8b09a37c7d5038152b4c21b61f1f49fe14763689-1280x720.jpg?accountingTag=WR",
+      "label": "DAWNBRINGER RIVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/8b09a37c7d5038152b4c21b61f1f49fe14763689-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/61b16072d22b02d4a851f495c3805b523b73c123-1280x720.jpg?accountingTag=WR",
+      "label": "CRYSTAL ROSE RIVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/61b16072d22b02d4a851f495c3805b523b73c123-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c164f4b0b17b012be768211a4d243d3dac8f7026-1280x720.jpg?accountingTag=WR",
+      "label": "NOVA RIVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c164f4b0b17b012be768211a4d243d3dac8f7026-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3477a9824948e2260890fe95046779c5f921e781-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE VALIANT SWORD RIVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3477a9824948e2260890fe95046779c5f921e781-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9bfc8d82dfe2e7a82be4a24b7bcdd1b2be0c1d6d-1280x720.jpg?accountingTag=WR",
+      "label": "SPIRIT BLOSSOM RIVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9bfc8d82dfe2e7a82be4a24b7bcdd1b2be0c1d6d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/15f2080133b4035f1afde68d9527b205bce92bd4-1280x720.jpg?accountingTag=WR",
+      "label": "PULSEFIRE RIVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/15f2080133b4035f1afde68d9527b205bce92bd4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/01e63792f6fc3bceb17b7c99ec472241b4103d58-1280x720.jpg?accountingTag=WR",
+      "label": "Dragonblade Riven",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/01e63792f6fc3bceb17b7c99ec472241b4103d58-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/aced0ccdfe19d8ccc5f619b6e8b29bb1999a3918-1280x720.jpg?accountingTag=WR",
+      "label": "LOVE CONFESSION RIVEN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/aced0ccdfe19d8ccc5f619b6e8b29bb1999a3918-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-05-27T07:56:41Z",
+  "hash": "e9d7e4db6e6baecc19434365bdef7b5f22cacc3131de35bff9071a2a5aa4086d"
+}

@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10093",
+  "riotSlug": "varus",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/varus/",
+  "title": "VARUS",
+  "subtitle": "the Arrow of Retribution",
+  "roles": [
+    "MARKSMAN",
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/69026105f9c63d8d1a65506cc0ca06c5a990ae92.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "On kill or assist, Varus temporarily gains Attack Speed. This bonus is larger if the enemy is a champion.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/14c275f8f04323032045623b5a793d24034a59bd-96x96.jpg?accountingTag=WR",
+      "label": "Living Vengeance",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3f9a364048cf5228459864e3d1a2edd499933834.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Varus readies and then fires a powerful shot that gains extra range and damage the longer he spends preparing to fire.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d5a722a276c0ada86db0869d9d07d70b08ee6aac-96x96.jpg?accountingTag=WR",
+      "label": "Piercing Arrow",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/486848de5ddb481fc8edf0e38889a5fa688b114f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Passive: Varus' basic attacks deal bonus magic damage and apply Blight. Varus' other abilities detonate Blight, dealing magic damage based on the target's maximum Health. Active: Varus empowers his next Piercing Arrow.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/b6ed488f0a88ce747ab4e5efe6e60dc28d9b3b4f-96x96.jpg?accountingTag=WR",
+      "label": "Blighted Quiver",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/dc184a61c08e58f81455dafe92cadddf145cf70f.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Varus fires a hail of arrows that deal physical damage and desecrate the ground. Desecrated ground slows enemies' Movement Speed and reduces their self healing and regeneration.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/92af0a6a1c01ff35b605134397cd2cb1669e0efb-96x96.jpg?accountingTag=WR",
+      "label": "Hail of Arrows",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/6ac97acdeb13ae2e5dd5c0f44cc6dfd21a105943.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Varus flings out a damaging tendril of corruption that immobilizes the first enemy champion hit and then spreads towards nearby uninfected champions, immobilizing them too on contact.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/40fe8e66e73971887ea23f8a879e3be032bbc9ce-96x96.jpg?accountingTag=WR",
+      "label": "Chain of Corruption",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ed00c2b1b2f6a0815ba5c0f5fcfe17bb769367a5.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/22bf56e9304b84bc47735cea2ea6a5ed0ea22c93-1280x720.jpg?accountingTag=WR",
+      "label": "VARUS, THE ARROW OF RETRIBUTION",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/22bf56e9304b84bc47735cea2ea6a5ed0ea22c93-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e9816b116111902a83b30027451feb02ff7c125b-1280x720.jpg?accountingTag=WR",
+      "label": "ARCTIC OPS VARUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e9816b116111902a83b30027451feb02ff7c125b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cf68479959cfb84d49b0c8958527dc2b91c64e75-1280x720.jpg?accountingTag=WR",
+      "label": "VARUS SWIFTBOLT",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/cf68479959cfb84d49b0c8958527dc2b91c64e75-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1fa25f4cd7115670702947d0a3b7220f01cc13c9-1280x720.jpg?accountingTag=WR",
+      "label": "ARCLIGHT VARUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1fa25f4cd7115670702947d0a3b7220f01cc13c9-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a673fc123a35165ed4c14948744a282e89bd620d-1280x720.jpg?accountingTag=WR",
+      "label": "DARK STAR VARUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a673fc123a35165ed4c14948744a282e89bd620d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/507f968452bab9d917e424c27e15777e96e7d5e1-1280x720.jpg?accountingTag=WR",
+      "label": "HEARTSEEKER VARUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/507f968452bab9d917e424c27e15777e96e7d5e1-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6d902a894f83d44b0884b2f3a33fc10ab0ddf2ef-1280x720.jpg?accountingTag=WR",
+      "label": "PROJECT: VARUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/6d902a894f83d44b0884b2f3a33fc10ab0ddf2ef-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d3f44dc56fbd89046c614574b130ea36f8b0d8bd-1280x720.jpg?accountingTag=WR",
+      "label": "FIEND QUELLER VARUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d3f44dc56fbd89046c614574b130ea36f8b0d8bd-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5fb0cb8224838c1198e7f69b1f82bc7767fedc83-1280x720.jpg?accountingTag=WR",
+      "label": "FIEND QUELLER VARUS MYTHIC CHROMA",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/5fb0cb8224838c1198e7f69b1f82bc7767fedc83-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2232a34f53bf73497f28688717423edd5ff33cc7-1280x720.jpg?accountingTag=WR",
+      "label": "CALLIGRAPHIA VARUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2232a34f53bf73497f28688717423edd5ff33cc7-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:50:37Z",
+  "hash": "c9fc28d1718b749a5a3fbf64b350feb316a278ba0031237a38c3c26ee4f0e3ab"
+}

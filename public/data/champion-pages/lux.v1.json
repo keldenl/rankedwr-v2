@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10003",
+  "riotSlug": "lux",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/lux/",
+  "title": "LUX",
+  "subtitle": "the Lady of Luminosity",
+  "roles": [
+    "MAGE",
+    "SUPPORT"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d7c63924dcdc7668dd484ef6cd8b035e86864257.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Lux's damaging spells charge the target with energy for 5 seconds. Lux's next attack ignites the energy, dealing bonus magic damage (depending on Lux's level) to the target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/090fd8465f3f506ab1ddc5b2ae884acfa34aaa69-96x96.jpg?accountingTag=WR",
+      "label": "Illumination",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c119461b59888cae6c77a4f4166ff3f886888a4c.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Lux releases a sphere of light that binds and deals damage to up to two enemy units.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/3f3f744d2a2730e5bf6b7d507f88cc641cc67312-96x96.jpg?accountingTag=WR",
+      "label": "Light Binding",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/1aa08ea6f34dfb0255c77291881f2d40480f0245.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Lux throws her wand and bends the light around any friendly target it touches, protecting them from enemy damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/2c683da61dd7cc7bbba29448bf89b670339c1b16-96x96.jpg?accountingTag=WR",
+      "label": "Prismatic Barrier",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/f9cecde17c2c7e072358b6602e026a6887bd6e8b.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Fires an anomaly of twisted light to an area, which slows nearby enemies. Lux can detonate it to damage enemies in the area of effect.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/72411e62eff9d511b01253d60225dcb1207dcba0-96x96.jpg?accountingTag=WR",
+      "label": "Lucent Singularity",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/207e9ab4362556e6ad2a033d42add52dbfcee311.mp4?accountingTag=WR"
+    },
+    {
+      "description": "After gathering energy, Lux fires a beam of light that deals damage to all targets in the area. In addition, triggers Lux's passive ability and refreshes the Illumination debuff duration.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/681b7dc3ab435f7684ac5288272dce4c88ba0807-96x96.jpg?accountingTag=WR",
+      "label": "Final Spark",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/273a8741c07c0c76a1833d8f69ee0cac277f1125.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e900839292adf3b36bcf5d57164198b8026b08c4-1280x720.jpg?accountingTag=WR",
+      "label": "LUX, THE LADY OF LUMINOSITY",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/e900839292adf3b36bcf5d57164198b8026b08c4-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b080543a537beef283e1375f78a718650e9870b5-1280x720.jpg?accountingTag=WR",
+      "label": "SORCERESS LUX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/b080543a537beef283e1375f78a718650e9870b5-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7dfd32d85f90480fe25c46d463590f53193e37aa-1280x720.jpg?accountingTag=WR",
+      "label": "SPELLTHIEF LUX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7dfd32d85f90480fe25c46d463590f53193e37aa-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/72b8876b6518520980b9107286a886534540be7c-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN LUX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/72b8876b6518520980b9107286a886534540be7c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/01d9b44fbbc2e5e2cbeee343b01a8a008ec693f2-1280x720.jpg?accountingTag=WR",
+      "label": "BATTLE ACADEMIA LUX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/01d9b44fbbc2e5e2cbeee343b01a8a008ec693f2-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bdca8e5b706f6b82ff6a224e0d2d10815b9d378b-1280x720.jpg?accountingTag=WR",
+      "label": "CRYSTAL ROSE LUX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/bdca8e5b706f6b82ff6a224e0d2d10815b9d378b-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a2a167a742cb7b0a1c3b82a41a067bf20de5c52f-1280x720.jpg?accountingTag=WR",
+      "label": "STEEL LEGION LUX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a2a167a742cb7b0a1c3b82a41a067bf20de5c52f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1a2d5187b32dcd380ae29f04b2e7eb2a4ec32038-1280x720.jpg?accountingTag=WR",
+      "label": "PAJAMA GUARDIAN LUX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1a2d5187b32dcd380ae29f04b2e7eb2a4ec32038-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2c28576ee231d82002720576b9b4e03ee8ea0786-1280x720.jpg?accountingTag=WR",
+      "label": "COSMIC LUX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/2c28576ee231d82002720576b9b4e03ee8ea0786-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/afd22f21e1dc4b6e60d7cc23c5848a54e0bc7d73-1280x720.jpg?accountingTag=WR",
+      "label": "DARK COSMIC LUX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/afd22f21e1dc4b6e60d7cc23c5848a54e0bc7d73-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d8f71a5a2f8647093d6f57dde3c366dd519068b9-1920x1080.jpg?accountingTag=WR",
+      "label": "LOVESTRUCK LUX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/d8f71a5a2f8647093d6f57dde3c366dd519068b9-1920x1080.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/745b828418c17484c304b518702b16981763fe90-1280x720.jpg?accountingTag=WR",
+      "label": "Prestige Select Crystal Rose Lux",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/745b828418c17484c304b518702b16981763fe90-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/34b92b48457b223a551d8df2bc080b1b87cc1c2c-1280x720.jpg?accountingTag=WR",
+      "label": "Celestial Embroidery Lux",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/34b92b48457b223a551d8df2bc080b1b87cc1c2c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/df03e80284058e2329dfe0be61a1bea6749c1d07-1280x720.jpg?accountingTag=WR",
+      "label": "Celestial Embroidery Lux Mythic Chroma",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/df03e80284058e2329dfe0be61a1bea6749c1d07-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fd197f869049f23e9157d182f0bf87c3bd7fb82e-1280x720.jpg?accountingTag=WR",
+      "label": "SPACE GROOVE LUX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fd197f869049f23e9157d182f0bf87c3bd7fb82e-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ddc257f81574f6542c37ea91f2a863902e2a5e44-1280x720.jpg?accountingTag=WR",
+      "label": "LOVE CONFESSION LUX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ddc257f81574f6542c37ea91f2a863902e2a5e44-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/14045a8407364ebe29040709c99588f85bc97a71-1280x720.jpg?accountingTag=WR",
+      "label": "PRESTIGE SELECT LOVE CONFESSION LUX",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/14045a8407364ebe29040709c99588f85bc97a71-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:44:02Z",
+  "hash": "28e380cd96aa33d438bb8d3ac19d3a6267fe2a1bad6df2a6263ea8f1c9c0bc6d"
+}

@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10006",
+  "riotSlug": "rengar",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rengar/",
+  "title": "RENGAR",
+  "subtitle": "the Pridestalker",
+  "roles": [
+    "ASSASSIN"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/1fe2b06656801e4b61b7c36ed0d90fd9afbccc7a.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Rengar leaps to his target when attacking if he is in the brush. Unique enemy champion takedowns grant him bonus Attack Damage. Casting basic abilities grants Rengar Ferocity which empowers his basic abilities. Casting empowered abilities briefly grants him bonus Movement Speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/fe3944441fc21ae6cd5e5cee2ee0ac0b7e5e87fe-96x96.jpg?accountingTag=WR",
+      "label": "UNSEEN PREDATOR",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8f4e2b8f1ff6f1cc01621e551ebd59b2dea39755.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Rengar's next couple of attacks gain Attack Speed. The first attack deals additional physical damage and Critically Strikes, with Critical Strike Chance further increasing the damage. Ferocity: Rengar gains even more Attack Speed and the first attack deals even more physical damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8db8a6480c1c580365fed1ddfdae4e1296c5f475-96x96.jpg?accountingTag=WR",
+      "label": "SAVAGERY",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/18c3947f7cb832877f3104c1b88d469b42b592af.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Rengar damages nearby enemies and heals himself for some of the recent damage he has taken. Ferocity: Rengar deals more damage and removes all crowd control effects from himself.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/58153a183007c4b43c36bedc6386cb2e706814ef-96x96.jpg?accountingTag=WR",
+      "label": "BATTLE ROAR",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c4799c3db530de71ffdce207e33a5c522c15fa37.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Rengar throws a bola, dealing physical damage and slowing the target struck. The bola also reveals the target and grants vision of the surrounding area. Ferocity: Rengar deals more damage and roots the target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ce817364650f8ca92bebe472c391511e667ff75d-96x96.jpg?accountingTag=WR",
+      "label": "BOLA STRIKE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/11d560fc365433f4e2ea48683ef58ab61821a5ad.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Rengar gains movement speed and reveals the nearest enemy champion for a period of time. Shortly after casting Rengar becomes camoflauged with his next attack shredding the target's armor for a period of time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3ef9f1ce11529afaae63a542796f2f2ea546cdb5-96x96.jpg?accountingTag=WR",
+      "label": "THRILL OF THE HUNT",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ee530ea02444e753c21becb3a333db5595227b2a.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7d8064aa6c6bf90e29b0fe39877733c396a7734e-6000x3541.jpg?accountingTag=WR",
+      "label": "RENGAR, THE PRIDESTALKER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/7d8064aa6c6bf90e29b0fe39877733c396a7734e-6000x3541.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9e51a5de262bc003427a13a859b2850ba3fc6969-7000x3939.jpg?accountingTag=WR",
+      "label": "NIGHT HUNTER RENGAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9e51a5de262bc003427a13a859b2850ba3fc6969-7000x3939.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c1aec8072526d95a12a786bc7365277f10e3cda5-1280x720.jpg?accountingTag=WR",
+      "label": "Mecha Rengar",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c1aec8072526d95a12a786bc7365277f10e3cda5-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c87759f5ec7e34bd39cc64264acb94e8ab41d25d-1280x720.jpg?accountingTag=WR",
+      "label": "Pretty Kitty Rengar",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c87759f5ec7e34bd39cc64264acb94e8ab41d25d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a004c98f12feef2b0debbd7b08f073e51ed6bcd9-1280x720.jpg?accountingTag=WR",
+      "label": "HIGH NOON RENGAR",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a004c98f12feef2b0debbd7b08f073e51ed6bcd9-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-04-29T20:50:47Z",
+  "hash": "f9950d9fd1fc36bd172632df7b537f27a28aea531c31c2e3ab5282d5a0ef743c"
+}

@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10052",
+  "riotSlug": "rakan",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/rakan/",
+  "title": "RAKAN",
+  "subtitle": "the Charmer",
+  "roles": [
+    "SUPPORT",
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/1d09c1306e2812eb68e603019d53987dde9fc20e.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Rakan periodically gains a shield.\n\nLover's Leap: Rakan can join Xayah's recall.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/953fed441cc67ba0bdc1f6dbb2ace3b6907ea715-96x96.jpg?accountingTag=WR",
+      "label": "FEY FEATHERS",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/695c6b500a3509fd99c1bb85b65dfed6c250d0ea.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Flings a magical feather that deals magic damage. Striking a champion or epic monster enables Rakan to heal his allies.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/3b61a7b2c87985b49c2bda3a8653d4c9d4c8b1b4-96x96.jpg?accountingTag=WR",
+      "label": "GLEAMING QUILL",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/d32adf0fc1a430e4876c368882335247adcdb82d.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Dashes to a location, knocking up nearby enemies on arrival.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9b7824514914097282dd2423e16ac61f65c346b3-96x96.jpg?accountingTag=WR",
+      "label": "GRAND ENTRANCE",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/73e1b65c38f626dba10e53c8564f1f5e00f7f597.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Flies to an allied champion granting them a shield. Can be re-cast for free for a short duration.\n\nWhen cast on Xayah, the shield amount is doubled and the cooldown is reduced.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/927167ecd7b9d5512852779ac45b249828acb13e-96x96.jpg?accountingTag=WR",
+      "label": "BATTLE DANCE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/16ca3bd51efa49b0baf233d2c418156c888a9600.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Gains movement speed, charming and dealing magic damage to enemies touched.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0227cd44f70802f5c0143eaf30a755a49ffcb4b0-96x96.jpg?accountingTag=WR",
+      "label": "THE QUICKNESS",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/022d5945dc98551487aa44fbe719b44a5d7ac29e.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9fb454b2e46e6a1d7f5a969da8a121ee1b490279-1280x720.jpg?accountingTag=WR",
+      "label": "RAKAN, THE CHARMER",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9fb454b2e46e6a1d7f5a969da8a121ee1b490279-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b8d478529f4df24d82c09fd0f85023a4d4f31531-1280x720.jpg?accountingTag=WR",
+      "label": "SWEETHEART RAKAN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/b8d478529f4df24d82c09fd0f85023a4d4f31531-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/969e51942d70eb864825aed96512657e993ffc6d-1280x720.jpg?accountingTag=WR",
+      "label": "COSMIC DAWN RAKAN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/969e51942d70eb864825aed96512657e993ffc6d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c29910b3f4fde02b7d8c4a2de48cfe8841e8f2a7-1280x720.jpg?accountingTag=WR",
+      "label": "STAR GUARDIAN RAKAN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/c29910b3f4fde02b7d8c4a2de48cfe8841e8f2a7-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a5fe9f978190dfb29fbeb9bff32b4e85cfc81fb0-1280x720.jpg?accountingTag=WR",
+      "label": "Redeemed Star Guardian Rakan",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/a5fe9f978190dfb29fbeb9bff32b4e85cfc81fb0-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ef93809df745175cd5de133bc38252a825e8777a-1280x720.jpg?accountingTag=WR",
+      "label": "ELDERWOOD RAKAN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ef93809df745175cd5de133bc38252a825e8777a-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4e015ad30c042884da6ce175bf638cfd7237b38f-1280x720.jpg?accountingTag=WR",
+      "label": "Celestial Embroidery Rakan",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/4e015ad30c042884da6ce175bf638cfd7237b38f-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5c1413495fbf70ed8c6cb28471c0be3aa9fa7cd1-1280x720.jpg?accountingTag=WR",
+      "label": "CRYSTAL ROSE RAKAN",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5c1413495fbf70ed8c6cb28471c0be3aa9fa7cd1-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2021-02-10T19:19:39Z",
+  "hash": "165d77619ece9d73ba5c4e1232aa4e92e6f64d525065f1fda5941db377d209c4"
+}

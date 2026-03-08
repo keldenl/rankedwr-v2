@@ -43,6 +43,8 @@ export type ChampionRecord = {
   avatar: string
   displayName: string
   id: string
+  riotSlug?: string
+  riotUrl?: string
   searchText: string
   title: string
 }
@@ -89,6 +91,63 @@ export type StaticDataManifest = {
   snapshots: SnapshotMeta[]
 }
 
+export type ChampionPageIndexRecord = {
+  championId: string
+  riotSlug: string
+  riotUrl: string
+  title: string
+  cardImageUrl: string
+  listEntryHash: string
+  pagePath: string
+  pageHash: string
+  publishDate?: string
+}
+
+export type ChampionPagesIndex = {
+  version: number
+  generatedAt: string
+  sourceLocale: "en-us"
+  listHash: string
+  champions: Record<string, ChampionPageIndexRecord>
+}
+
+export type ChampionPageAbility = {
+  label: string
+  subtitle: string
+  description: string
+  iconUrl: string
+  videoUrl: string
+}
+
+export type ChampionPageSkin = {
+  label: string
+  thumbnailUrl: string
+  imageUrl: string
+}
+
+export type ChampionPageData = {
+  version: number
+  generatedAt: string
+  championId: string
+  riotSlug: string
+  riotUrl: string
+  title: string
+  subtitle: string
+  roles: string[]
+  difficulty: {
+    label: string
+    value: number
+    maxValue: number
+    name: string
+  } | null
+  mastheadVideoUrl: string
+  fullWidthImageUrl: string | null
+  abilities: ChampionPageAbility[]
+  skins: ChampionPageSkin[]
+  publishDate?: string
+  hash: string
+}
+
 export type NormalizedSnapshot = {
   rowCount: number
   statDate: string
@@ -98,6 +157,14 @@ export type NormalizedSnapshot = {
 
 export function avatarAssetPath(heroId: string) {
   return `data/avatars/${heroId}.png`
+}
+
+export function championPageDataPath(riotSlug: string) {
+  return `data/champion-pages/${riotSlug}.v1.json`
+}
+
+export function championPagesIndexPath() {
+  return "data/champion-pages.index.v1.json"
 }
 
 export function championNameFromPoster(poster?: string) {

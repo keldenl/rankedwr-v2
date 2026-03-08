@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-08T09:10:41.886Z",
+  "championId": "10065",
+  "riotSlug": "nasus",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/nasus/",
+  "title": "NASUS",
+  "subtitle": "the Curator of the Sands",
+  "roles": [
+    "FIGHTER",
+    "TANK"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Low",
+    "value": 1
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/1a90116aa45649b9028cb97186f187f28f1e79fe.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Gains bonus physical vamp.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ea571ee7e0ca9b8618bd9aa770790c7a4f92bbde-96x96.jpg?accountingTag=WR",
+      "label": "Soul Eater",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/41065e71a9395a9b19f3aafc4efc3825a89c4be0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Nasus strikes his foe, dealing damage and increasing the power of his future Siphoning Strikes if he slays his target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/054f17f0aadce296246bfde1f7d7c7535c25c72a-96x96.jpg?accountingTag=WR",
+      "label": "Siphoning Strike",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/0b98f403dc72e30e72af84259801c9010ed87042.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Nasus ages an enemy champion, decelerating their Movement and Attack Speeds over time.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/3d030d28176797f406f51da4bdb46cdb39fdabe1-96x96.jpg?accountingTag=WR",
+      "label": "Wither",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/3da356e1f3c01f303d37e3e6cc05525937fee101.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Nasus unleashes a spirit flame at a location, dealing damage and reducing the Armor of enemies who stand on it.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/ab7fea4e9a691fada2568c290494bc603ec644f6-96x96.jpg?accountingTag=WR",
+      "label": "Spirit Fire",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/bdd05195e1eb89f0ed498f3e6d695938ee88b7cf.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Nasus unleashes a mighty sandstorm that batters nearby enemies. While the storm rages, he gains increased Health, Attack Range, damages nearby enemies, has a reduced cooldown on Siphoning Strike, and gains bonus Armor and Magic Resistance for the duration.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/8ea0ca2ccea0bd448dc12269b6ce417c0d606125-96x96.jpg?accountingTag=WR",
+      "label": "Fury of the Sands",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/beaf48682beb60d6ddf41278fd6a175724e565a1.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/77a9a4a560ac5f8276ec2664e6cdd4fd06e9c345-1280x720.jpg?accountingTag=WR",
+      "label": "NASUS, THE CURATOR OF THE SANDS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/77a9a4a560ac5f8276ec2664e6cdd4fd06e9c345-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/614eaa93dbf64048496005ce901135af03d50b8d-1280x720.jpg?accountingTag=WR",
+      "label": "WORLDBREAKER NASUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/614eaa93dbf64048496005ce901135af03d50b8d-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0d6aa58435f38e7e3d76e382b12643e60715cf48-1280x720.jpg?accountingTag=WR",
+      "label": "ARCHDUKE NASUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/0d6aa58435f38e7e3d76e382b12643e60715cf48-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9cec87faa80f50ee0af0c031dbfe4ef2de2c0710-1280x720.jpg?accountingTag=WR",
+      "label": "Infernal Nasus",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/9cec87faa80f50ee0af0c031dbfe4ef2de2c0710-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/20d8f5045b93059c413f4cc80165001276f8032c-1280x720.jpg?accountingTag=WR",
+      "label": "Lunar Guardian Nasus",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/20d8f5045b93059c413f4cc80165001276f8032c-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4d85237e8f86e57ad9ef6e36b3649878b0643f69-1920x1080.jpg?accountingTag=WR",
+      "label": "BATTLECAST NASUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/4d85237e8f86e57ad9ef6e36b3649878b0643f69-1920x1080.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d5b3ba00c0a550c8e3387d25fac6bc0241f57419-1280x720.jpg?accountingTag=WR",
+      "label": "DREAM RAIDER NASUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d5b3ba00c0a550c8e3387d25fac6bc0241f57419-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/80ca235c15b5321bd915f18438ae61a1f8891485-1280x720.jpg?accountingTag=WR",
+      "label": "NOVA NASUS",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/80ca235c15b5321bd915f18438ae61a1f8891485-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2020-10-08T20:46:25Z",
+  "hash": "6feeea16755cb660b42024de87bca35a3a19604f42414b4b787373acd397d329"
+}
