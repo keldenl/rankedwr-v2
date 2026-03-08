@@ -8,6 +8,7 @@ import {
 } from "react"
 import { ArrowDown, ArrowUp, ArrowUpDown, CircleHelp, Search } from "lucide-react"
 
+import roleIconsUrl from "@/assets/place-icons.png"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import {
@@ -56,13 +57,49 @@ type SortKey = "winRate" | "pickRate" | "banRate"
 type SortDirection = "asc" | "desc"
 
 const DEFAULT_TIER = "1"
-const DEFAULT_LANE: LaneId = "2"
+const ALL_LANE = "all"
+type LaneFilterId = LaneId | typeof ALL_LANE
+const DEFAULT_LANE: LaneFilterId = ALL_LANE
 
 const TIER_LABELS: Record<string, string> = {
   "1": "Diamond+",
   "2": "Master+",
   "3": "Challenger",
   "4": "Peak of the Rift",
+}
+
+const LANE_FILTER_LABELS: Record<LaneFilterId, string> = {
+  all: "All",
+  ...LANE_LABELS,
+}
+
+const LANE_ICON_SPRITES: Record<
+  LaneId,
+  {
+    backgroundPosition: string
+    width: number
+  }
+> = {
+  "1": {
+    backgroundPosition: "-88px 0",
+    width: 27,
+  },
+  "2": {
+    backgroundPosition: "0 0",
+    width: 26,
+  },
+  "3": {
+    backgroundPosition: "-133px 0",
+    width: 26,
+  },
+  "4": {
+    backgroundPosition: "-176px 0",
+    width: 29,
+  },
+  "5": {
+    backgroundPosition: "-43px 0",
+    width: 29,
+  },
 }
 
 function pickDefaultTier(tiers: string[]) {
@@ -73,12 +110,24 @@ function pickDefaultTier(tiers: string[]) {
   return tiers[0] ?? DEFAULT_TIER
 }
 
-function pickDefaultLane(lanes: string[]) {
-  if (lanes.includes(DEFAULT_LANE)) {
+function hasLaneFilter(lane: LaneFilterId, lanes: LaneId[]) {
+  return lane === ALL_LANE || lanes.includes(lane)
+}
+
+function pickDefaultLane(lanes: LaneId[]) {
+  if (hasLaneFilter(DEFAULT_LANE, lanes)) {
     return DEFAULT_LANE
   }
 
-  return (lanes[0] as LaneId | undefined) ?? DEFAULT_LANE
+  return lanes[0] ?? DEFAULT_LANE
+}
+
+function isLaneId(value: string) {
+  return Object.prototype.hasOwnProperty.call(LANE_LABELS, value)
+}
+
+function isLaneFilterId(value: string | null): value is LaneFilterId {
+  return value === ALL_LANE || (value !== null && isLaneId(value))
 }
 
 function bucketLabel(bucket: string) {
@@ -112,7 +161,30 @@ function renderBucketLabel(bucket: string) {
   )
 }
 
-function formatStatDate(date: string | null) {
+function ordinalSuffix(value: number) {
+  const remainder = value % 10
+  const teenRemainder = value % 100
+
+  if (teenRemainder >= 11 && teenRemainder <= 13) {
+    return "th"
+  }
+
+  if (remainder === 1) {
+    return "st"
+  }
+
+  if (remainder === 2) {
+    return "nd"
+  }
+
+  if (remainder === 3) {
+    return "rd"
+  }
+
+  return "th"
+}
+
+function formatLastUpdatedDate(date: string | null) {
   if (!date || date.length !== 8) {
     return "Unknown"
   }
@@ -122,33 +194,59 @@ function formatStatDate(date: string | null) {
     Number(date.slice(4, 6)) - 1,
     Number(date.slice(6, 8))
   )
-
-  return new Intl.DateTimeFormat(undefined, {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
+  const month = new Intl.DateTimeFormat(undefined, {
+    month: "long",
   }).format(parsedDate)
-}
+  const day = parsedDate.getDate()
 
-function formatArchiveDateTime(value: string) {
-  return new Intl.DateTimeFormat(undefined, {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-    hour: "numeric",
-    minute: "2-digit",
-    timeZone: "UTC",
-    timeZoneName: "short",
-  }).format(new Date(value))
+  if (parsedDate.getFullYear() === new Date().getFullYear()) {
+    return `${month} ${day}${ordinalSuffix(day)}`
+  }
+
+  return `${month} ${day}${ordinalSuffix(day)}, ${parsedDate.getFullYear()}`
 }
 
 function formatArchiveTime(value: string) {
   return new Intl.DateTimeFormat(undefined, {
     hour: "numeric",
     minute: "2-digit",
-    timeZone: "UTC",
-    timeZoneName: "short",
   }).format(new Date(value))
+}
+
+function formatRelativeArchiveTime(value: string) {
+  const now = Date.now()
+  const diffMilliseconds = new Date(value).getTime() - now
+  const absoluteMilliseconds = Math.abs(diffMilliseconds)
+  const formatter = new Intl.RelativeTimeFormat(undefined, {
+    numeric: "auto",
+  })
+
+  if (absoluteMilliseconds < 60 * 60 * 1000) {
+    return formatter.format(Math.round(diffMilliseconds / (60 * 1000)), "minute")
+  }
+
+  if (absoluteMilliseconds < 24 * 60 * 60 * 1000) {
+    return formatter.format(Math.round(diffMilliseconds / (60 * 60 * 1000)), "hour")
+  }
+
+  return formatter.format(
+    Math.round(diffMilliseconds / (24 * 60 * 60 * 1000)),
+    "day"
+  )
+}
+
+function formatSnapshotLabel(
+  statDate: string,
+  fetchedAt: string,
+  showArchiveTime: boolean
+) {
+  const dateLabel = formatLastUpdatedDate(statDate)
+
+  if (!showArchiveTime) {
+    return dateLabel
+  }
+
+  return `${dateLabel} · ${formatArchiveTime(fetchedAt)}`
 }
 
 function formatPercent(value: number) {
@@ -170,7 +268,8 @@ function parseFiltersFromUrl() {
   const params = new URLSearchParams(window.location.search)
   const q = params.get("q") ?? ""
   const tier = params.get("tier") ?? DEFAULT_TIER
-  const lane = (params.get("lane") as LaneId | null) ?? DEFAULT_LANE
+  const laneParam = params.get("lane")
+  const lane = isLaneFilterId(laneParam) ? laneParam : DEFAULT_LANE
   const sort = params.get("sort")
   const direction = params.get("direction")
   const snapshotId = params.get("snapshot") ?? ""
@@ -187,12 +286,37 @@ function parseFiltersFromUrl() {
     tier,
   } satisfies {
     direction: SortDirection
-    lane: LaneId
+    lane: LaneFilterId
     q: string
     snapshotId: string
     sort: SortKey
     tier: string
   }
+}
+
+function LaneIcon({
+  lane,
+  label,
+}: {
+  lane: LaneId
+  label: string
+}) {
+  const sprite = LANE_ICON_SPRITES[lane]
+
+  return (
+    <span className="inline-flex items-center justify-center" title={label}>
+      <span
+        aria-hidden="true"
+        className="rift-lane-icon"
+        style={{
+          backgroundImage: `url(${roleIconsUrl})`,
+          backgroundPosition: sprite.backgroundPosition,
+          width: `${sprite.width}px`,
+        }}
+      />
+      <span className="sr-only">{label}</span>
+    </span>
+  )
 }
 
 function LeaderboardTable({
@@ -218,10 +342,11 @@ function LeaderboardTable({
 
   return (
     <div className="rift-table-shell px-3 sm:px-4">
-      <Table className="rift-table min-w-[680px]">
+      <Table className="rift-table min-w-[740px]">
         <TableHeader>
           <TableRow>
             <TableHead className="w-16">Rank</TableHead>
+            <TableHead className="w-[4.5rem] text-center">Role</TableHead>
             <TableHead>Champion</TableHead>
             {(
               [
@@ -271,6 +396,9 @@ function LeaderboardTable({
               <TableCell className="font-medium text-muted-foreground">
                 {index + 1}
               </TableCell>
+              <TableCell className="rift-role-cell">
+                <LaneIcon lane={entry.lane} label={entry.laneLabel} />
+              </TableCell>
               <TableCell>
                 <div className="flex min-w-0 items-center gap-3">
                   <Avatar size="lg" className="rounded-xl">
@@ -312,7 +440,7 @@ export function LeaderboardsPage() {
   const [isLoading, setIsLoading] = useState(true)
   const [searchQuery, setSearchQuery] = useState(initialFilters.q)
   const [selectedTier, setSelectedTier] = useState(initialFilters.tier)
-  const [selectedLane, setSelectedLane] = useState<LaneId>(initialFilters.lane)
+  const [selectedLane, setSelectedLane] = useState<LaneFilterId>(initialFilters.lane)
   const [selectedSnapshotId, setSelectedSnapshotId] = useState(
     initialFilters.snapshotId
   )
@@ -338,16 +466,16 @@ export function LeaderboardsPage() {
     const lanes = sortLaneKeys(
       Object.keys(nextPayload.entriesByTier[nextTier] ?? {}) as LaneId[]
     )
-    const nextLane = lanes.includes(selectedLane)
+    const nextLane = hasLaneFilter(selectedLane, lanes)
       ? selectedLane
-      : lanes.includes(initialFilters.lane)
+      : hasLaneFilter(initialFilters.lane, lanes)
         ? initialFilters.lane
         : pickDefaultLane(lanes)
 
     startTransition(() => {
       setPayload(nextPayload)
       setSelectedTier(nextTier)
-      setSelectedLane(nextLane as LaneId)
+      setSelectedLane(nextLane)
 
       if (selectedSnapshotId !== nextPayload.snapshotId) {
         setSelectedSnapshotId(nextPayload.snapshotId)
@@ -415,6 +543,11 @@ export function LeaderboardsPage() {
     [payload, selectedTier]
   )
 
+  const laneFilterKeys = useMemo(
+    () => [ALL_LANE, ...laneKeys] as LaneFilterId[],
+    [laneKeys]
+  )
+
   const snapshotDateCounts = useMemo(() => {
     const counts = new Map<string, number>()
 
@@ -425,13 +558,15 @@ export function LeaderboardsPage() {
     return counts
   }, [payload])
 
-  useEffect(() => {
-    if (!laneKeys.length) {
-      return
-    }
+  const selectedSnapshotMeta = useMemo(
+    () =>
+      payload?.snapshots.find((snapshot) => snapshot.id === payload.snapshotId) ?? null,
+    [payload]
+  )
 
-    if (!laneKeys.includes(selectedLane)) {
-      setSelectedLane(pickDefaultLane(laneKeys) as LaneId)
+  useEffect(() => {
+    if (!hasLaneFilter(selectedLane, laneKeys)) {
+      setSelectedLane(pickDefaultLane(laneKeys))
     }
   }, [laneKeys, selectedLane])
 
@@ -469,7 +604,10 @@ export function LeaderboardsPage() {
       return []
     }
 
-    const baseEntries = tierEntries[selectedLane] ?? []
+    const baseEntries =
+      selectedLane === ALL_LANE
+        ? laneKeys.flatMap((laneKey) => tierEntries[laneKey] ?? [])
+        : tierEntries[selectedLane] ?? []
     const normalizedQuery = deferredSearchQuery.trim().toLowerCase()
 
     const filteredEntries = normalizedQuery
@@ -488,6 +626,7 @@ export function LeaderboardsPage() {
     })
   }, [
     deferredSearchQuery,
+    laneKeys,
     payload,
     selectedLane,
     selectedTier,
@@ -508,29 +647,82 @@ export function LeaderboardsPage() {
   }
 
   return (
-    <main className="min-h-screen bg-background text-foreground">
-      <a href="#leaderboard-results" className="skip-link">
-        Skip to results
-      </a>
+    <TooltipProvider>
+      <main className="min-h-screen bg-background text-foreground">
+        <a href="#leaderboard-results" className="skip-link">
+          Skip to results
+        </a>
 
-      <SiteHeader
-        rightLabel="Leaderboards"
-        rightHref={routeToHash(LEADERBOARDS_ROUTE)}
-      />
+        <SiteHeader
+          rightLabel="Leaderboards"
+          rightHref={routeToHash(LEADERBOARDS_ROUTE)}
+        />
 
-      <section className="mx-auto flex w-full max-w-6xl flex-col gap-3 px-4 py-5 sm:px-6 sm:py-6">
-        <div className="rift-leaderboard-title text-center">
-          <h1 className="rift-page-title">Leaderboards</h1>
-          {payload ? (
-            <div className="flex flex-col gap-1 pt-1 text-sm text-muted-foreground">
-              <p>Data date: {formatStatDate(payload.statDate)}</p>
-              <p>Archived: {formatArchiveDateTime(payload.archivedAt)}</p>
-            </div>
-          ) : null}
-        </div>
+        <section className="mx-auto flex w-full max-w-6xl flex-col gap-3 px-4 py-5 sm:px-6 sm:py-6">
+          <div className="rift-leaderboard-title text-center">
+            <h1 className="rift-page-title">Leaderboards</h1>
+            {payload ? (
+              <div className="flex items-center justify-center gap-1.5 pt-1 text-sm text-muted-foreground">
+                <span>Last updated</span>
+                <Select
+                  value={selectedSnapshotId || payload.snapshotId}
+                  onValueChange={setSelectedSnapshotId}
+                  disabled={!payload}
+                >
+                  <SelectTrigger
+                    size="sm"
+                    className="h-auto min-w-0 gap-1 border-0 bg-transparent px-0 py-0 text-sm text-muted-foreground shadow-none ring-0 hover:bg-transparent focus-visible:border-transparent focus-visible:ring-0"
+                    aria-label="Archived snapshot"
+                  >
+                    <SelectValue>
+                      {selectedSnapshotMeta
+                        ? formatSnapshotLabel(
+                            selectedSnapshotMeta.statDate,
+                            selectedSnapshotMeta.fetchedAt,
+                            (snapshotDateCounts.get(selectedSnapshotMeta.statDate) ?? 0) > 1
+                          )
+                        : formatLastUpdatedDate(payload.statDate)}
+                    </SelectValue>
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectGroup>
+                      {(payload.snapshots ?? []).map((snapshot) => {
+                        const showArchiveTime =
+                          (snapshotDateCounts.get(snapshot.statDate) ?? 0) > 1
 
-        <div className="rift-leaderboard-filter-stack">
-          <TooltipProvider>
+                        return (
+                          <SelectItem key={snapshot.id} value={snapshot.id}>
+                            {formatSnapshotLabel(
+                              snapshot.statDate,
+                              snapshot.fetchedAt,
+                              showArchiveTime
+                            )}
+                          </SelectItem>
+                        )
+                      })}
+                    </SelectGroup>
+                  </SelectContent>
+                </Select>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <button
+                      type="button"
+                      className="inline-flex size-4 items-center justify-center"
+                      aria-label="Archive info"
+                    >
+                      <CircleHelp className="size-3.5" />
+                    </button>
+                  </TooltipTrigger>
+                  <TooltipContent side="top" sideOffset={6}>
+                    Pulled {formatRelativeArchiveTime(payload.archivedAt)}. Use
+                    the date menu to view older snapshots.
+                  </TooltipContent>
+                </Tooltip>
+              </div>
+            ) : null}
+          </div>
+
+          <div className="rift-leaderboard-filter-stack">
             <ToggleGroup
               type="single"
               value={selectedTier}
@@ -552,112 +744,80 @@ export function LeaderboardsPage() {
                 </ToggleGroupItem>
               ))}
             </ToggleGroup>
-          </TooltipProvider>
 
-          <div className="rift-leaderboard-controls grid gap-3 lg:grid-cols-[minmax(0,1fr)_auto_auto] lg:items-center">
-            <div>
-              <InputGroup className="rift-leaderboard-search h-11">
-                <InputGroupInput
-                  id="leaderboard-search"
-                  type="search"
-                  value={searchQuery}
-                  onChange={(event) => setSearchQuery(event.target.value)}
-                  placeholder="Search champion"
-                  autoComplete="off"
-                  spellCheck={false}
-                  aria-label="Champion search"
-                />
-                <InputGroupAddon align="inline-end">
-                  <InputGroupButton
-                    type="button"
-                    variant="default"
-                    size="icon-sm"
-                    className="rift-search-submit rift-search-submit--solid"
-                    aria-hidden="true"
-                    tabIndex={-1}
-                  >
-                    <Search />
-                  </InputGroupButton>
-                </InputGroupAddon>
-              </InputGroup>
-            </div>
+            <div className="rift-leaderboard-controls grid gap-3 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
+              <div>
+                <InputGroup className="rift-leaderboard-search h-11">
+                  <InputGroupInput
+                    id="leaderboard-search"
+                    type="search"
+                    value={searchQuery}
+                    onChange={(event) => setSearchQuery(event.target.value)}
+                    placeholder="Search champion"
+                    autoComplete="off"
+                    spellCheck={false}
+                    aria-label="Champion search"
+                  />
+                  <InputGroupAddon align="inline-end">
+                    <InputGroupButton
+                      type="button"
+                      variant="default"
+                      size="icon-sm"
+                      className="rift-search-submit rift-search-submit--solid"
+                      aria-hidden="true"
+                      tabIndex={-1}
+                    >
+                      <Search />
+                    </InputGroupButton>
+                  </InputGroupAddon>
+                </InputGroup>
+              </div>
 
-            <ToggleGroup
-              type="single"
-              value={selectedLane}
-              onValueChange={(value) => {
-                if (value) {
-                  setSelectedLane(value as LaneId)
-                }
-              }}
-              variant="outline"
-              className="rift-filter-group rift-filter-group--lane lg:w-auto lg:flex-nowrap"
-            >
-              {laneKeys.map((laneKey) => (
-                <ToggleGroupItem
-                  key={laneKey}
-                  value={laneKey}
-                  className="rift-filter-item"
-                >
-                  {LANE_LABELS[laneKey]}
-                </ToggleGroupItem>
-              ))}
-            </ToggleGroup>
-
-            <div className="flex justify-end lg:justify-start">
-              <Select
-                value={selectedSnapshotId || payload?.snapshotId}
-                onValueChange={setSelectedSnapshotId}
-                disabled={!payload}
+              <ToggleGroup
+                type="single"
+                value={selectedLane}
+                onValueChange={(value) => {
+                  if (value) {
+                    setSelectedLane(value as LaneFilterId)
+                  }
+                }}
+                variant="outline"
+                className="rift-filter-group rift-filter-group--lane lg:w-auto lg:flex-nowrap"
               >
-                <SelectTrigger
-                  size="sm"
-                  className="w-full min-w-44 justify-between sm:w-[13.5rem]"
-                  aria-label="Archived snapshot"
-                >
-                  <SelectValue placeholder="Snapshot date" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectGroup>
-                    {(payload?.snapshots ?? []).map((snapshot) => {
-                      const showArchiveTime =
-                        (snapshotDateCounts.get(snapshot.statDate) ?? 0) > 1
-
-                      return (
-                        <SelectItem key={snapshot.id} value={snapshot.id}>
-                          {showArchiveTime
-                            ? `${formatStatDate(snapshot.statDate)} · ${formatArchiveTime(snapshot.fetchedAt)}`
-                            : formatStatDate(snapshot.statDate)}
-                        </SelectItem>
-                      )
-                    })}
-                  </SelectGroup>
-                </SelectContent>
-              </Select>
+                {laneFilterKeys.map((laneKey) => (
+                  <ToggleGroupItem
+                    key={laneKey}
+                    value={laneKey}
+                    className="rift-filter-item"
+                  >
+                    {LANE_FILTER_LABELS[laneKey]}
+                  </ToggleGroupItem>
+                ))}
+              </ToggleGroup>
             </div>
           </div>
-        </div>
 
-        <div id="leaderboard-results" className="rift-leaderboard-results">
-          {error ? (
-            <Alert variant="destructive">
-              <AlertTitle>Unable to load leaderboards</AlertTitle>
-              <AlertDescription>{error}</AlertDescription>
-            </Alert>
-          ) : isLoading ? (
-            <div className="rift-loading-state">
-              <Spinner className="size-6" />
-            </div>
-          ) : (
-            <LeaderboardTable
-              entries={visibleEntries}
-              sortBy={sortBy}
-              sortDirection={sortDirection}
-              onSortChange={handleSortChange}
-            />
-          )}
-        </div>
-      </section>
-    </main>
+          <div id="leaderboard-results" className="rift-leaderboard-results">
+            {error ? (
+              <Alert variant="destructive">
+                <AlertTitle>Unable to load leaderboards</AlertTitle>
+                <AlertDescription>{error}</AlertDescription>
+              </Alert>
+            ) : isLoading ? (
+              <div className="rift-loading-state">
+                <Spinner className="size-6" />
+              </div>
+            ) : (
+              <LeaderboardTable
+                entries={visibleEntries}
+                sortBy={sortBy}
+                sortDirection={sortDirection}
+                onSortChange={handleSortChange}
+              />
+            )}
+          </div>
+        </section>
+      </main>
+    </TooltipProvider>
   )
 }

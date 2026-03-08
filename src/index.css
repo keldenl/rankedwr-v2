@@ -316,6 +316,15 @@ body {
     @apply bg-accent/70;
   }
 
+  .rift-role-cell {
+    @apply text-center;
+  }
+
+  .rift-lane-icon {
+    @apply block h-7 bg-no-repeat;
+    background-size: 205px 28px;
+  }
+
   .rift-sort-button {
     @apply ml-auto inline-flex items-center gap-1 text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-muted-foreground transition-colors hover:text-primary;
   }
