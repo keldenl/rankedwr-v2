@@ -1,73 +1,47 @@
-# React + TypeScript + Vite
+# rankedwr
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Static Wild Rift champion win rates and tier-list site built with Bun, Vite, and React.
 
-Currently, two official plugins are available:
+## Development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+bun install
+bun run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Scripts
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- `bun run dev` starts the Vite dev server
+- `bun run build` builds the app and prerenders static pages
+- `bun run lint` runs ESLint
+- `bun run sync:data` refreshes the static data files
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Analytics
+
+Cloudflare Web Analytics is wired into the live Vite entrypoint at `/index.html`. It stays disabled unless a token is present.
+
+### Local
+
+1. Copy `.env.example` to `.env.local`.
+2. Set `VITE_CLOUDFLARE_WEB_ANALYTICS_TOKEN` to your Cloudflare Web Analytics token.
+3. Run `bun run dev` or `bun run build`.
+
+`.env.local` is ignored by git, so the token stays on your machine. If the variable is missing, analytics stays off.
+
+### GitHub Pages
+
+1. Open the repo on GitHub.
+2. Go to `Settings` -> `Secrets and variables` -> `Actions`.
+3. Add a new repository secret named `CLOUDFLARE_WEB_ANALYTICS_TOKEN`.
+4. Paste the same token there.
+
+The deploy workflow reads that secret during the `bun run build` step, so production builds include the analytics beacon without committing the token to the repo.
+
+With the token configured, Cloudflare will collect SPA pageviews for the existing routes:
+
+- `/`
+- `/tier-list/`
+- `/champions/`
+- `/champion/:slug/`
+
+Search terms and other custom events are intentionally not tracked in v1.

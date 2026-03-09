@@ -41,6 +41,28 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
   <link rel="manifest" href="/site.webmanifest" />
   <title>Wild Rift tier list, champion win rates, and stats | rankedwr</title>
+  <script type="module">
+    (() => {
+      const analyticsToken = import.meta.env.VITE_CLOUDFLARE_WEB_ANALYTICS_TOKEN
+
+      if (!analyticsToken) {
+        return
+      }
+
+      const analyticsScript = document.createElement("script")
+      analyticsScript.defer = true
+      analyticsScript.src = "https://static.cloudflareinsights.com/beacon.min.js"
+      analyticsScript.setAttribute(
+        "data-cf-beacon",
+        JSON.stringify({
+          token: analyticsToken,
+          spa: true,
+        })
+      )
+
+      document.head.append(analyticsScript)
+    })()
+  </script>
 </head>
 <body>
   <div id="root"></div>
