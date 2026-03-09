@@ -299,9 +299,14 @@ describe("tencent lolm loaders", () => {
 
   it("builds champion page stats with per-role rank movement", async () => {
     const payload = await loadChampionHeroStats("10001")
+    const midHistory = payload.history.find((series) => series.lane === "1")
 
     expect(payload.previousSnapshotId).toBe("snapshot-previous")
     expect(payload.buckets.map((bucket) => bucket.bucket)).toEqual(["1"])
+    expect([...payload.history.map((series) => `${series.bucket}:${series.lane}`)].sort()).toEqual([
+      "1:1",
+      "1:2",
+    ])
 
     const bucket = payload.buckets[0]
     expect(bucket?.roles.map((role) => role.lane)).toEqual(["1", "2"])
@@ -327,6 +332,73 @@ describe("tencent lolm loaders", () => {
       previousRank: 1,
       rankDelta: 0,
     })
+
+    expect(midHistory?.points).toEqual([
+      expect.objectContaining({
+        snapshotId: "snapshot-previous",
+        statDate: "20260307",
+        rank: 2,
+        winRate: 54,
+        pickRate: 5,
+        banRate: 1,
+      }),
+      expect.objectContaining({
+        snapshotId: "snapshot-current",
+        statDate: "20260308",
+        rank: 1,
+        winRate: 55,
+        pickRate: 5,
+        banRate: 1,
+      }),
+    ])
+
+    expect(unchangedPayload.history).toEqual([
+      expect.objectContaining({
+        bucket: "1",
+        lane: "2",
+        points: [
+          expect.objectContaining({
+            snapshotId: "snapshot-previous",
+            rank: 1,
+          }),
+          expect.objectContaining({
+            snapshotId: "snapshot-current",
+            rank: 1,
+          }),
+        ],
+      }),
+    ])
+  })
+
+  it("omits absent history series while preserving single-point trends", async () => {
+    const payload = await loadChampionHeroStats("10004")
+
+    expect(payload.buckets).toEqual([
+      expect.objectContaining({
+        bucket: "1",
+        roles: [
+          expect.objectContaining({
+            lane: "1",
+            rank: 3,
+            previousRank: null,
+            rankDelta: null,
+          }),
+        ],
+      }),
+    ])
+    expect(payload.history).toEqual([
+      expect.objectContaining({
+        bucket: "1",
+        lane: "1",
+        points: [
+          expect.objectContaining({
+            snapshotId: "snapshot-current",
+            statDate: "20260308",
+            rank: 3,
+          }),
+        ],
+      }),
+    ])
   })
 
   it("computes movement against the shared cohort instead of previous-only rows", () => {

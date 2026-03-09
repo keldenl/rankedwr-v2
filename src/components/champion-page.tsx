@@ -4,6 +4,7 @@ import { ChevronLeft, ChevronRight, Flame } from "lucide-react"
 import { LaneIcon } from "@/components/lane-icon"
 import { RankMovementIndicator } from "@/components/rank-movement-indicator"
 import { SiteHeader } from "@/components/site-header"
+import { ChampionStatsSection } from "@/components/champion-stats-section"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { AspectRatio } from "@/components/ui/aspect-ratio"
 import { Badge } from "@/components/ui/badge"
@@ -463,6 +464,18 @@ export function ChampionPage({ slug }: { slug: string }) {
               </div>
             </div>
           </section>
+
+          {heroStats ? (
+            <ChampionStatsSection
+              activeRoleStats={activeRoleStats}
+              buckets={heroStats.buckets}
+              history={heroStats.history}
+              onBucketChange={handleBucketChange}
+              onLaneChange={(lane) => setSelectedLane(lane)}
+              selectedBucket={selectedStatsBucket}
+              selectedLane={selectedLane}
+            />
+          ) : null}
 
           <section id="champion-content" className="rift-champion-abilities-shell">
             <div className="rift-champion-content-column">

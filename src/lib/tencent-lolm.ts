@@ -87,9 +87,30 @@ export type ChampionStatsBucket = {
   roles: ChampionRoleStat[]
 }
 
+export type ChampionStatsHistoryPoint = {
+  archivedAt: string
+  banRate: number
+  rank: number
+  snapshotId: string
+  statDate: string
+  strengthScore: number
+  strengthTier: ChampionStrengthTier
+  winRate: number
+  pickRate: number
+}
+
+export type ChampionStatsHistorySeries = {
+  bucket: string
+  label: string
+  lane: LaneId
+  laneLabel: string
+  points: ChampionStatsHistoryPoint[]
+}
+
 export type ChampionHeroStatsPayload = {
   archivedAt: string
   buckets: ChampionStatsBucket[]
+  history: ChampionStatsHistorySeries[]
   latestSnapshotId: string
   previousSnapshotId: string | null
   snapshotId: string
@@ -435,6 +456,104 @@ function buildChampionStatsBuckets(
     .filter((bucket) => bucket.roles.length > 0)
 }
 
+function buildChampionStatsHistory(
+  snapshots: LeaderboardSnapshot[],
+  championId: string
+) {
+  const historySeries = new Map<string, ChampionStatsHistorySeries>()
+
+  for (const snapshot of snapshots) {
+    for (const tierKey of sortNumericKeys(Object.keys(snapshot.tiers))) {
+      if (tierKey === "0") {
+        continue
+      }
+
+      for (const laneKey of sortLaneKeys(
+        Object.keys(snapshot.tiers[tierKey] ?? {}) as LaneId[]
+      )) {
+        const laneRows = snapshot.tiers[tierKey]?.[laneKey] ?? []
+        const row = laneRows.find(([heroId]) => heroId === championId)
+
+        if (!row) {
+          continue
+        }
+
+        const rank = findChampionRank(snapshot, tierKey, laneKey, championId)
+
+        if (rank === null) {
+          continue
+        }
+
+        const [, winRate, pickRate, banRate] = row
+        const strengthScore = calculateChampionStrengthScore(winRate, pickRate, banRate)
+        const seriesKey = `${tierKey}:${laneKey}`
+        const existingSeries = historySeries.get(seriesKey)
+        const point = {
+          archivedAt: snapshot.fetchedAt,
+          banRate,
+          pickRate,
+          rank,
+          snapshotId: snapshot.snapshotId,
+          statDate: snapshot.statDate,
+          strengthScore,
+          strengthTier: getChampionStrengthTier(strengthScore),
+          winRate,
+        } satisfies ChampionStatsHistoryPoint
+
+        if (existingSeries) {
+          existingSeries.points.push(point)
+          continue
+        }
+
+        historySeries.set(seriesKey, {
+          bucket: tierKey,
+          label: TIER_LABELS[tierKey] ?? `Bucket ${tierKey}`,
+          lane: laneKey,
+          laneLabel: LANE_LABELS[laneKey] ?? `Lane ${laneKey}`,
+          points: [point],
+        })
+      }
+    }
+  }
+
+  const laneOrder = new Map(
+    sortLaneKeys(
+      Array.from(new Set([...historySeries.values()].map((entry) => entry.lane)))
+    ).map((laneKey, index) => [laneKey, index] as const)
+  )
+
+  return sortNumericKeys(Array.from(new Set([...historySeries.values()].map((entry) => entry.bucket))))
+    .flatMap((bucketKey) =>
+      [...historySeries.values()]
+        .filter((entry) => entry.bucket === bucketKey)
+        .sort((left, right) => {
+          return (laneOrder.get(left.lane) ?? Number.MAX_SAFE_INTEGER) -
+            (laneOrder.get(right.lane) ?? Number.MAX_SAFE_INTEGER)
+        })
+    )
+    .map((entry) => ({
+      ...entry,
+      points: [...entry.points].sort((left, right) =>
+        left.archivedAt.localeCompare(right.archivedAt)
+      ),
+    }))
+}
+
+function pickSnapshotMetasForHistory(
+  manifest: StaticDataManifest,
+  snapshotId: string
+): SnapshotMeta[] {
+  const selectedSnapshotIndex = manifest.snapshots.findIndex(
+    (snapshot) => snapshot.id === snapshotId
+  )
+
+  if (selectedSnapshotIndex === -1) {
+    return []
+  }
+
+  return [...manifest.snapshots.slice(selectedSnapshotIndex)].reverse()
+}
+
 export async function loadLeaderboards(snapshotId?: string) {
   const [manifest, championCatalog] = await Promise.all([
     loadManifest(),
@@ -478,14 +597,24 @@ export async function loadChampionHeroStats(
   }
 
   const previousSnapshotMeta = pickPreviousSnapshotMeta(manifest, selectedSnapshotMeta.id)
-  const [snapshot, previousSnapshot] = await Promise.all([
+  const historySnapshotMetas = pickSnapshotMetasForHistory(
+    manifest,
+    selectedSnapshotMeta.id
+  )
+  const [snapshot, previousSnapshot, historySnapshots] = await Promise.all([
     loadSnapshotByMeta(manifest, selectedSnapshotMeta),
     previousSnapshotMeta ? loadSnapshotByMeta(manifest, previousSnapshotMeta) : null,
+    Promise.all(
+      historySnapshotMetas.map((historySnapshotMeta: SnapshotMeta) =>
+        loadSnapshotByMeta(manifest, historySnapshotMeta)
+      )
+    ),
   ])
 
   return {
     archivedAt: snapshot.fetchedAt,
     buckets: buildChampionStatsBuckets(snapshot, previousSnapshot, championId),
+    history: buildChampionStatsHistory(historySnapshots, championId),
     latestSnapshotId: manifest.latestSnapshotId,
     previousSnapshotId: previousSnapshot?.snapshotId ?? null,
     snapshotId: snapshot.snapshotId,

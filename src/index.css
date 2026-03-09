@@ -614,6 +614,79 @@ body {
     @apply max-w-xl text-sm leading-6 text-white/78;
   }
 
+  .rift-champion-trends-shell {
+    @apply px-6 py-8 sm:px-10 sm:py-10 lg:px-14 lg:py-12;
+    background: #081423;
+  }
+
+  .rift-champion-trends-inner {
+    @apply mx-auto flex w-full max-w-6xl flex-col gap-5;
+  }
+
+  .rift-champion-trends-header {
+    @apply flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between;
+  }
+
+  .rift-champion-trends-title {
+    @apply text-3xl leading-none font-semibold tracking-[-0.03em] text-white sm:text-4xl;
+  }
+
+  .rift-champion-trends-controls {
+    @apply flex flex-wrap items-center gap-2 sm:justify-end;
+  }
+
+  .rift-champion-trends-summary-pill {
+    @apply inline-flex min-h-9 items-center rounded-full border border-white/10 bg-white/4 px-3.5 text-sm font-medium text-white/82;
+  }
+
+  .rift-champion-trends-select {
+    @apply min-w-36 border-white/14 bg-transparent text-sm text-white hover:bg-white/6 focus-visible:border-primary/50 focus-visible:ring-primary/25;
+  }
+
+  .rift-champion-trends-select [data-slot="select-value"] {
+    @apply text-white;
+  }
+
+  .rift-champion-trends-card {
+    @apply rounded-[1.75rem] border border-white/10 bg-slate-950/30 p-4 shadow-[0_30px_80px_rgba(0,0,0,0.24)] sm:p-5;
+  }
+
+  .rift-champion-trends-toolbar {
+    @apply flex flex-col gap-3 border-b border-white/8 pb-4 sm:flex-row sm:items-center sm:justify-between;
+  }
+
+  .rift-champion-trends-toggle {
+    @apply flex flex-wrap gap-2;
+  }
+
+  .rift-champion-trends-toggle-item {
+    @apply min-h-10 rounded-full border border-white/12 bg-transparent px-4 text-white/72 transition-colors hover:border-primary/70 hover:bg-white/6 hover:text-white;
+  }
+
+  .rift-champion-trends-toggle [data-slot="toggle-group-item"][data-state="on"] {
+    @apply border-primary bg-primary/10 text-white;
+  }
+
+  .rift-champion-trends-toggle [data-slot="toggle-group-item"]:focus-visible {
+    @apply ring-2 ring-primary/35;
+  }
+
+  .rift-champion-trends-current-value {
+    @apply text-sm font-medium text-white/82;
+  }
+
+  .rift-champion-trends-meta {
+    @apply flex flex-wrap items-center gap-2 sm:justify-end;
+  }
+
+  .rift-champion-trends-chart {
+    @apply mt-4 h-72 w-full;
+  }
+
+  .rift-champion-trends-note {
+    @apply mt-3 text-sm text-white/72;
+  }
+
   .rift-champion-abilities-shell {
     @apply relative overflow-hidden px-6 py-12 sm:px-10 sm:py-14 lg:px-14 lg:py-16;
     background: #081423;
@@ -634,6 +707,10 @@ body {
 
   .rift-champion-section-copy {
     @apply flex flex-col gap-2;
+  }
+
+  .rift-champion-section-copy--inline {
+    @apply flex-row items-baseline gap-3;
   }
 
   .rift-champion-section-copy--centered {
@@ -896,6 +973,27 @@ body {
 
     .rift-champion-role-toggle {
       @apply flex-none;
+    }
+
+    .rift-champion-trends-shell {
+      @apply px-4 py-8;
+    }
+
+    .rift-champion-section-copy--inline {
+      @apply gap-2;
+    }
+
+    .rift-champion-trends-controls,
+    .rift-champion-trends-toolbar {
+      @apply items-stretch;
+    }
+
+    .rift-champion-trends-select {
+      @apply w-full min-w-0;
+    }
+
+    .rift-champion-trends-chart {
+      @apply h-64;
     }
 
     .rift-champion-stat-value {
