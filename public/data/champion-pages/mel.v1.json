@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-12T09:04:35.733Z",
+  "championId": "10139",
+  "riotSlug": "mel",
+  "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/mel/",
+  "title": "MEL",
+  "subtitle": "The Soul's Reflection",
+  "roles": [
+    "MAGE"
+  ],
+  "difficulty": {
+    "label": "Difficulty",
+    "maxValue": 3,
+    "name": "Medium",
+    "value": 2
+  },
+  "mastheadVideoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/41881d40fb7fe0ba36d72659a227b03dd352e252.mp4?accountingTag=WR",
+  "fullWidthImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/76190b66cbd804a79bb1a709498b5af75f36a735-5120x480.png?accountingTag=WR",
+  "abilities": [
+    {
+      "description": "Whenever Mel uses an ability, she gains three bonus projectiles (up to nine maximum) on her next attack. When Mel deals damage through an ability or attack, she applies Overwhelm, which can stack infinitely. If the enemy is hit by Mel with enough Overwhelm damage, the stacks are consumed to execute the target.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ea168c49ff42cb1cc514f4666df5212b30625641-512x512.png?accountingTag=WR",
+      "label": "SEARING BRILLIANCE",
+      "subtitle": "passive",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/2b78982f9082edc8e1f9a05c0b04c1f428e85ac6.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Mel fires a barrage of projectiles that explode around a target location, dealing damage repeatedly to enemies within the area.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1b93ac9d9e73577ddb3b221d346c3bc0a7bd07ad-512x512.png?accountingTag=WR",
+      "label": "RADIANT VOLLEY",
+      "subtitle": "1",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/e7e3da5fc48ae17101dcd3c3b6471f53265b1c5a.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Mel forms a barrier around herself that reflects enemy projectiles back at the attacker, prevents her from taking damage, and grants her movement speed.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cf9c585b9f02ef016c5f1f184b1b7ac812a6210e-512x512.png?accountingTag=WR",
+      "label": "REBUTTAL",
+      "subtitle": "2",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/3e94b903bdefc89b143c91e8870d5ee678d3fea8.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Mel fires a radiant orb forward, dealing damage and slowing enemies within range, while rooting those at its center.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d5eaece2463903b32e31f94921ca466277d4c838-512x512.png?accountingTag=WR",
+      "label": "SOLAR SNARE",
+      "subtitle": "3",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/b3cde3cdd7df99aa348d8f6af571aa50ccd850e0.mp4?accountingTag=WR"
+    },
+    {
+      "description": "Mel strikes all enemies marked with Overwhelm regardless of their distance from her, dealing additional damage for each stack of Overwhelm. Ranks of Golden Eclipse increase Overwhelm's damage.",
+      "iconUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c126dc1035c002e003877699d961f790c65ba6a3-512x512.png?accountingTag=WR",
+      "label": "GOLDEN ECLIPSE",
+      "subtitle": "ultimate",
+      "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data_live/15e5542cd410d052c4a6e3ae530a5a610d93125e.mp4?accountingTag=WR"
+    }
+  ],
+  "skins": [
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/842e42d448b78d058804fc50ff7dbe424aaf90fa-1280x720.jpg?accountingTag=WR",
+      "label": "MEL, THE SOUL'S REFLECTION",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/842e42d448b78d058804fc50ff7dbe424aaf90fa-1280x720.jpg?accountingTag=WR"
+    },
+    {
+      "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ff5c5c871e62f97b44f5ad24f4f0bcdc80efc7d0-1280x720.jpg?accountingTag=WR",
+      "label": "CONFESSION MELODY MEL",
+      "thumbnailUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ff5c5c871e62f97b44f5ad24f4f0bcdc80efc7d0-1280x720.jpg?accountingTag=WR"
+    }
+  ],
+  "publishDate": "2026-03-11T13:05:12Z",
+  "hash": "62fa8c2a1aae7ecfb014d989759ddbffa07ebdc52882cf2e2742543992b1c1a4"
+}

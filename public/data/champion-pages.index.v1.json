@@ -1430,6 +1430,17 @@
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/smolder/",
       "title": "SMOLDER"
     },
+    "10139": {
+      "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/759c5501dda9a39525061225e0024b3742a0f382-285x323.jpg",
+      "championId": "10139",
+      "listEntryHash": "ebbc6f17cb0099fe6fb286946cc105e3689c6a260a7b72f93bac988375253909",
+      "pageHash": "62fa8c2a1aae7ecfb014d989759ddbffa07ebdc52882cf2e2742543992b1c1a4",
+      "pagePath": "data/champion-pages/mel.v1.json",
+      "publishDate": "2026-03-11T13:05:12Z",
+      "riotSlug": "mel",
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/mel/",
+      "title": "MEL"
+    },
     "10140": {
       "cardImageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/82ce17611af10fd53bd213ee25a95938b587a421-285x323.jpg",
       "championId": "10140",
@@ -1486,8 +1497,8 @@
       "title": "NORRA"
     }
   },
-  "listHash": "57420e5ddf03a63d0bebca0a3d23863c22a176862aa1ab12604f1af876603a64",
+  "listHash": "f4360d224ab04ffb54755d5d6c3555423a14200ac8bd56e29d68cf9c8dde9d21",
   "sourceLocale": "en-us",
   "version": 1,
-  "generatedAt": "2026-03-08T09:10:41.886Z"
+  "generatedAt": "2026-03-12T09:04:35.733Z"
 }

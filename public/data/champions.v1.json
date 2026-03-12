@@ -1300,6 +1300,16 @@
       "riotSlug": "smolder",
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/smolder/"
     },
+    "10139": {
+      "alias": "meier",
+      "avatar": "data/avatars/10139.png",
+      "displayName": "Mel",
+      "id": "10139",
+      "searchText": "mel 流光镜影 梅尔 meier",
+      "title": "流光镜影",
+      "riotSlug": "mel",
+      "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/mel/"
+    },
     "10140": {
       "alias": "lanbo",
       "avatar": "data/avatars/10140.png",
@@ -1351,7 +1361,7 @@
       "riotUrl": "https://wildrift.leagueoflegends.com/en-us/champions/norra/"
     }
   },
-  "generatedAt": "2026-03-08T06:25:04.505Z",
-  "hash": "55207a1a4ecbcc0746c3c91396fb23431eeb125716015be03e8601681653b9c5",
+  "generatedAt": "2026-03-12T09:03:47.519Z",
+  "hash": "140dfd03ed93a087a534fe9f54b82559f271969c3d74bfa9137a7501b9ae8e11",
   "version": 1
 }
