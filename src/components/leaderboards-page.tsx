@@ -5,15 +5,30 @@ import {
   useEffectEvent,
   useMemo,
   useState,
+  type ComponentProps,
 } from "react"
-import { ArrowDown, ArrowUp, ArrowUpDown, CircleHelp } from "lucide-react"
+import {
+  ArrowDown,
+  ArrowUp,
+  ArrowUpDown,
+  CalendarDays,
+  Check,
+  CircleHelp,
+} from "lucide-react"
 
 import { LaneIcon } from "@/components/lane-icon"
 import { RankMovementIndicator } from "@/components/rank-movement-indicator"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { Calendar, CalendarDayButton } from "@/components/ui/calendar"
 import { InputGroup, InputGroupInput } from "@/components/ui/input-group"
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover"
 import {
   Select,
   SelectContent,
@@ -54,6 +69,7 @@ import {
   absoluteSiteUrl,
   leaderboardsSeoMetadata,
 } from "@/lib/site-metadata"
+import { cn } from "@/lib/utils"
 import {
   ALL_LANE,
   LANE_LABELS,
@@ -175,6 +191,31 @@ function formatArchiveTime(value: string) {
   }).format(new Date(value))
 }
 
+function parseSnapshotDate(value: string | null) {
+  if (!value || value.length !== 8) {
+    return null
+  }
+
+  const parsedDate = new Date(
+    Number(value.slice(0, 4)),
+    Number(value.slice(4, 6)) - 1,
+    Number(value.slice(6, 8))
+  )
+
+  return Number.isNaN(parsedDate.getTime()) ? null : parsedDate
+}
+
+function snapshotDayKeyFromDate(value: Date) {
+  return `${value.getFullYear()}-${String(value.getMonth() + 1).padStart(2, "0")}-${String(
+    value.getDate()
+  ).padStart(2, "0")}`
+}
+
+function snapshotDayKeyFromStatDate(value: string | null) {
+  const parsedDate = parseSnapshotDate(value)
+  return parsedDate ? snapshotDayKeyFromDate(parsedDate) : ""
+}
+
 function formatRelativeArchiveTime(value: string) {
   const now = Date.now()
   const diffMilliseconds = new Date(value).getTime() - now
@@ -281,6 +322,31 @@ function breadcrumbStructuredData() {
       },
     ],
   } satisfies StructuredDataValue
+}
+
+function SnapshotCalendarDayButton({
+  children,
+  className,
+  modifiers,
+  ...props
+}: ComponentProps<typeof CalendarDayButton>) {
+  return (
+    <CalendarDayButton
+      {...props}
+      modifiers={modifiers}
+      className={cn("gap-0.5 py-1.5", className)}
+    >
+      <span className="text-sm font-medium opacity-100">{children}</span>
+      <i
+        aria-hidden="true"
+        className={cn(
+          "size-1.5 rounded-full transition-opacity",
+          modifiers.hasSnapshot ? "bg-primary opacity-100" : "opacity-0",
+          modifiers.selected ? "bg-primary-foreground" : null
+        )}
+      />
+    </CalendarDayButton>
+  )
 }
 
 function parseFiltersFromUrl() {
@@ -500,6 +566,7 @@ function LeaderboardTable({
 }
 
 export function LeaderboardsPage() {
+  type SnapshotRecord = LeaderboardPayload["snapshots"][number]
   const [initialFilters] = useState(parseFiltersFromUrl)
   const [payload, setPayload] = useState<LeaderboardPayload | null>(null)
   const [error, setError] = useState<string | null>(null)
@@ -515,6 +582,7 @@ export function LeaderboardsPage() {
   const [selectedSnapshotId, setSelectedSnapshotId] = useState(
     initialFilters.snapshotId
   )
+  const [isSnapshotPickerOpen, setIsSnapshotPickerOpen] = useState(false)
   const [sortBy, setSortBy] = useState<RankSortKey>(initialFilters.sort)
   const [sortDirection, setSortDirection] = useState<RankSortDirection>(
     initialFilters.direction
@@ -619,14 +687,42 @@ export function LeaderboardsPage() {
     [laneKeys]
   )
 
-  const snapshotDateCounts = useMemo(() => {
-    const counts = new Map<string, number>()
+  const snapshotCalendar = useMemo(() => {
+    const groupedSnapshots = new Map<string, SnapshotRecord[]>()
+    const activeDates: Date[] = []
 
     for (const snapshot of payload?.snapshots ?? []) {
-      counts.set(snapshot.statDate, (counts.get(snapshot.statDate) ?? 0) + 1)
+      const snapshotDate = parseSnapshotDate(snapshot.statDate)
+
+      if (!snapshotDate) {
+        continue
+      }
+
+      const dayKey = snapshotDayKeyFromDate(snapshotDate)
+      const existingSnapshots = groupedSnapshots.get(dayKey)
+
+      if (existingSnapshots) {
+        existingSnapshots.push(snapshot)
+        continue
+      }
+
+      groupedSnapshots.set(dayKey, [snapshot])
+      activeDates.push(snapshotDate)
     }
 
-    return counts
+    for (const snapshots of groupedSnapshots.values()) {
+      snapshots.sort(
+        (left, right) =>
+          new Date(right.fetchedAt).getTime() - new Date(left.fetchedAt).getTime()
+      )
+    }
+
+    activeDates.sort((left, right) => right.getTime() - left.getTime())
+
+    return {
+      activeDates,
+      groupedSnapshots,
+    }
   }, [payload])
 
   const selectedSnapshotMeta = useMemo(
@@ -635,6 +731,24 @@ export function LeaderboardsPage() {
         (snapshot) => snapshot.id === (selectedSnapshotId || payload.snapshotId)
       ) ?? null,
     [payload, selectedSnapshotId]
+  )
+
+  const selectedSnapshotDayKey = useMemo(
+    () => snapshotDayKeyFromStatDate(selectedSnapshotMeta?.statDate ?? payload?.statDate ?? null),
+    [payload?.statDate, selectedSnapshotMeta?.statDate]
+  )
+
+  const selectedCalendarDate = useMemo(
+    () => parseSnapshotDate(selectedSnapshotMeta?.statDate ?? payload?.statDate ?? null),
+    [payload?.statDate, selectedSnapshotMeta?.statDate]
+  )
+
+  const selectedDaySnapshots = useMemo(
+    () =>
+      selectedSnapshotDayKey
+        ? snapshotCalendar.groupedSnapshots.get(selectedSnapshotDayKey) ?? []
+        : [],
+    [selectedSnapshotDayKey, snapshotCalendar.groupedSnapshots]
   )
 
   useEffect(() => {
@@ -783,11 +897,36 @@ export function LeaderboardsPage() {
       ? formatSnapshotLabel(
           selectedSnapshotMeta.statDate,
           selectedSnapshotMeta.fetchedAt,
-          (snapshotDateCounts.get(selectedSnapshotMeta.statDate) ?? 0) > 1
+          selectedDaySnapshots.length > 1
         )
       : payload
         ? formatLastUpdatedDate(payload.statDate)
         : "Loading"
+
+  function handleSnapshotDateSelect(nextDate: Date | undefined) {
+    if (!nextDate) {
+      return
+    }
+
+    const matchingSnapshots = snapshotCalendar.groupedSnapshots.get(
+      snapshotDayKeyFromDate(nextDate)
+    )
+
+    if (!matchingSnapshots?.length) {
+      return
+    }
+
+    setSelectedSnapshotId(matchingSnapshots[0].id)
+
+    if (matchingSnapshots.length === 1) {
+      setIsSnapshotPickerOpen(false)
+    }
+  }
+
+  function handleSnapshotSelect(nextSnapshotId: string) {
+    setSelectedSnapshotId(nextSnapshotId)
+    setIsSnapshotPickerOpen(false)
+  }
 
   useEffect(() => {
     const metadata = leaderboardsSeoMetadata({
@@ -896,36 +1035,110 @@ export function LeaderboardsPage() {
 
                 {payload ? (
                   <div className="rift-leaderboard-toolbar-group">
-                    <Select
-                      value={selectedSnapshotId || payload.snapshotId}
-                      onValueChange={setSelectedSnapshotId}
+                    <Popover
+                      open={isSnapshotPickerOpen}
+                      onOpenChange={setIsSnapshotPickerOpen}
                     >
-                      <SelectTrigger
-                        size="sm"
-                        className="rift-champion-bucket-select rift-leaderboard-archive-select"
-                        aria-label="Archived snapshot"
+                      <PopoverTrigger asChild>
+                        <Button
+                          type="button"
+                          variant="outline"
+                          size="sm"
+                          className="rift-champion-bucket-select rift-leaderboard-archive-select rift-leaderboard-archive-button"
+                          aria-label="Archived snapshot"
+                        >
+                          <CalendarDays className="size-4 text-primary/80" />
+                          <span className="truncate">{snapshotLabel}</span>
+                          {selectedDaySnapshots.length > 1 ? (
+                            <span className="rift-leaderboard-archive-count">
+                              {selectedDaySnapshots.length}
+                            </span>
+                          ) : null}
+                        </Button>
+                      </PopoverTrigger>
+                      <PopoverContent
+                        align="end"
+                        sideOffset={10}
+                        className="rift-leaderboard-archive-popover"
                       >
-                        <SelectValue>{snapshotLabel}</SelectValue>
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectGroup>
-                          {(payload.snapshots ?? []).map((snapshot) => {
-                            const showArchiveTime =
-                              (snapshotDateCounts.get(snapshot.statDate) ?? 0) > 1
-
-                            return (
-                              <SelectItem key={snapshot.id} value={snapshot.id}>
-                                {formatSnapshotLabel(
-                                  snapshot.statDate,
-                                  snapshot.fetchedAt,
-                                  showArchiveTime
-                                )}
-                              </SelectItem>
+                        <Calendar
+                          key={selectedSnapshotDayKey || payload.snapshotId}
+                          mode="single"
+                          defaultMonth={
+                            selectedCalendarDate ?? snapshotCalendar.activeDates[0]
+                          }
+                          selected={selectedCalendarDate ?? undefined}
+                          onSelect={handleSnapshotDateSelect}
+                          disabled={(date) =>
+                            !snapshotCalendar.groupedSnapshots.has(
+                              snapshotDayKeyFromDate(date)
                             )
-                          })}
-                        </SelectGroup>
-                      </SelectContent>
-                    </Select>
+                          }
+                          modifiers={{
+                            hasSnapshot: snapshotCalendar.activeDates,
+                          }}
+                          components={{
+                            DayButton: SnapshotCalendarDayButton,
+                          }}
+                        />
+
+                        {selectedDaySnapshots.length ? (
+                          <div className="rift-leaderboard-archive-list">
+                            <div className="rift-leaderboard-archive-list-header">
+                              <span>
+                                {formatLastUpdatedDate(
+                                  selectedSnapshotMeta?.statDate ?? payload.statDate
+                                )}
+                              </span>
+                              <span>
+                                {selectedDaySnapshots.length === 1
+                                  ? "1 update"
+                                  : `${selectedDaySnapshots.length} updates`}
+                              </span>
+                            </div>
+
+                            <div className="rift-leaderboard-archive-list-items">
+                              {selectedDaySnapshots.map((snapshot, index) => {
+                                const isSelected =
+                                  snapshot.id ===
+                                  (selectedSnapshotId || payload.snapshotId)
+
+                                return (
+                                  <Button
+                                    key={snapshot.id}
+                                    type="button"
+                                    variant="ghost"
+                                    size="sm"
+                                    className={cn(
+                                      "rift-leaderboard-archive-option",
+                                      isSelected &&
+                                        "rift-leaderboard-archive-option--active"
+                                    )}
+                                    onClick={() => handleSnapshotSelect(snapshot.id)}
+                                  >
+                                    <span className="flex min-w-0 items-center gap-2">
+                                      <span
+                                        aria-hidden="true"
+                                        className="size-2 rounded-full bg-primary/80"
+                                      />
+                                      <span className="truncate">
+                                        {formatArchiveTime(snapshot.fetchedAt)}
+                                      </span>
+                                      {index === 0 ? (
+                                        <span className="rift-leaderboard-archive-option-tag">
+                                          Latest
+                                        </span>
+                                      ) : null}
+                                    </span>
+                                    {isSelected ? <Check className="size-3.5" /> : null}
+                                  </Button>
+                                )
+                              })}
+                            </div>
+                          </div>
+                        ) : null}
+                      </PopoverContent>
+                    </Popover>
 
                     <Tooltip>
                       <TooltipTrigger asChild>

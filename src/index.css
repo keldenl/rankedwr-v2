@@ -311,6 +311,42 @@ body {
     @apply min-w-[13rem] bg-white/4;
   }
 
+  .rift-leaderboard-archive-button {
+    @apply justify-between gap-2 rounded-full border-white/14 bg-slate-950/36 px-3 text-white/88 backdrop-blur-sm hover:border-primary/50 hover:bg-white/8;
+  }
+
+  .rift-leaderboard-archive-count {
+    @apply inline-flex min-w-6 items-center justify-center rounded-full bg-primary/14 px-2 py-0.5 text-[0.68rem] font-semibold text-primary;
+  }
+
+  .rift-leaderboard-archive-popover {
+    @apply w-[22rem] gap-3 rounded-[1.5rem] border border-white/12 bg-slate-950/94 p-2 text-white shadow-[0_30px_80px_rgba(0,0,0,0.34)] backdrop-blur-xl;
+  }
+
+  .rift-leaderboard-archive-list {
+    @apply flex flex-col gap-2 px-1 pb-1;
+  }
+
+  .rift-leaderboard-archive-list-header {
+    @apply flex items-center justify-between gap-3 px-1 text-[0.72rem] font-semibold uppercase tracking-[0.14em] text-white/58;
+  }
+
+  .rift-leaderboard-archive-list-items {
+    @apply flex flex-col gap-1.5;
+  }
+
+  .rift-leaderboard-archive-option {
+    @apply h-10 w-full justify-between rounded-2xl border border-white/8 bg-white/3 px-3 text-white/84 hover:border-primary/35 hover:bg-white/8 hover:text-white;
+  }
+
+  .rift-leaderboard-archive-option--active {
+    @apply border-primary/45 bg-primary/10 text-white;
+  }
+
+  .rift-leaderboard-archive-option-tag {
+    @apply rounded-full bg-white/6 px-2 py-0.5 text-[0.62rem] font-semibold uppercase tracking-[0.14em] text-white/62;
+  }
+
   .rift-leaderboard-toolbar-group {
     @apply flex flex-wrap items-center gap-2;
   }
@@ -937,6 +973,10 @@ body {
 
     .rift-leaderboard-archive-select {
       @apply w-full min-w-0;
+    }
+
+    .rift-leaderboard-archive-popover {
+      @apply w-[min(22rem,calc(100vw-2rem))];
     }
 
     .rift-leaderboard-results-shell {
