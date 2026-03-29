@@ -125,11 +125,19 @@ describe("sync-tencent-lolm", () => {
       latestSnapshotId: string
       snapshots: Array<{ path: string }>
     }>(path.join(dataRoot, "manifest.v1.json"))
+    const latestSnapshot = await readJsonFile<{ snapshotId: string }>(
+      path.join(dataRoot, "latest.v1.json")
+    )
+    const immutableSnapshot = await readJsonFile<{ snapshotId: string }>(
+      path.join(dataRoot, manifest.snapshots[0]!.path.replace(/^data\//, ""))
+    )
 
     expect(summary.changed).toBe(true)
     expect(summary.snapshotChanged).toBe(true)
     expect(manifest.snapshots).toHaveLength(1)
     expect(manifest.latestSnapshotId).toBe(manifest.snapshots[0]?.path.split("/").pop()?.replace(".json", ""))
+    expect(latestSnapshot.snapshotId).toBe(manifest.latestSnapshotId)
+    expect(immutableSnapshot.snapshotId).toBe(manifest.latestSnapshotId)
   })
 
   test("does not create a new snapshot when the payload is unchanged", async () => {

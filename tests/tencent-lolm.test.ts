@@ -139,6 +139,10 @@ const previousSnapshot = {
   version: 1,
 }
 
+const staleLatestSnapshot = {
+  ...previousSnapshot,
+}
+
 describe("tencent lolm loaders", () => {
   const originalFetch = globalThis.fetch
 
@@ -370,6 +374,51 @@ describe("tencent lolm loaders", () => {
     ])
   })
 
+  it("loads the immutable snapshot path for the latest snapshot even if latest.v1.json is stale", async () => {
+    const latestSnapshotManifest = {
+      ...manifest,
+      snapshots: [
+        {
+          ...manifest.snapshots[0],
+          path: "data/snapshots/snapshot-current.json",
+        },
+        manifest.snapshots[1],
+      ],
+    }
+
+    globalThis.fetch = mock(async (input: RequestInfo | URL) => {
+      const url = typeof input === "string" ? input : input.toString()
+
+      if (url.endsWith("data/manifest.v1.json")) {
+        return new Response(JSON.stringify(latestSnapshotManifest))
+      }
+
+      if (url.endsWith("data/champions.v1.json")) {
+        return new Response(JSON.stringify(championCatalog))
+      }
+
+      if (url.endsWith("data/latest.v1.json")) {
+        return new Response(JSON.stringify(staleLatestSnapshot))
+      }
+
+      if (url.endsWith("data/snapshots/snapshot-current.json")) {
+        return new Response(JSON.stringify(currentSnapshot))
+      }
+
+      if (url.endsWith("data/snapshots/snapshot-previous.json")) {
+        return new Response(JSON.stringify(previousSnapshot))
+      }
+
+      throw new Error(`Unexpected fetch ${url}`)
+    }) as typeof fetch
+
+    const payload = await loadLeaderboards()
+
+    expect(payload.snapshotId).toBe("snapshot-current")
+    expect(payload.previousSnapshotId).toBe("snapshot-previous")
+    expect(payload.entriesByTier["1"]?.["1"]?.[0]?.championId).toBe("10001")
+  })
+
   it("omits absent history series while preserving single-point trends", async () => {
     const payload = await loadChampionHeroStats("10004")
 
@@ -518,19 +567,19 @@ describe("tencent lolm loaders", () => {
       delta: 0,
     })
     expect(rankChanges.get("10138:1")).toMatchObject({
-      currentRank: 6,
-      previousRank: 7,
-      delta: 1,
+      currentRank: 18,
+      previousRank: 20,
+      delta: 2,
     })
     expect(rankChanges.get("10046:2")).toMatchObject({
-      currentRank: 7,
+      currentRank: 6,
       previousRank: 6,
-      delta: -1,
+      delta: 0,
     })
     expect(rankChanges.get("10063:1")).toMatchObject({
-      currentRank: 16,
-      previousRank: 12,
-      delta: -4,
+      currentRank: 14,
+      previousRank: 17,
+      delta: 3,
     })
   })
 })

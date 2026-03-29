@@ -182,19 +182,13 @@ function pickPreviousSnapshotMeta(
   return manifest.snapshots[snapshotIndex + 1] ?? null
 }
 
-async function loadSnapshotByMeta(
-  manifest: StaticDataManifest,
-  snapshotMeta: SnapshotMeta
-) {
-  const snapshotPath =
-    snapshotMeta.id === manifest.latestSnapshotId
-      ? manifest.latestPath
-      : snapshotMeta.path
-
-  const snapshot = await loadSnapshotByPath(snapshotPath)
+async function loadSnapshotByMeta(snapshotMeta: SnapshotMeta) {
+  const snapshot = await loadSnapshotByPath(snapshotMeta.path)
 
   if (snapshot.snapshotId !== snapshotMeta.id) {
-    throw new Error(`Snapshot mismatch for ${snapshotMeta.id}.`)
+    throw new Error(
+      `Snapshot mismatch for ${snapshotMeta.id} at ${snapshotMeta.path}: received ${snapshot.snapshotId}.`
+    )
   }
 
   return snapshot
@@ -567,8 +561,8 @@ export async function loadLeaderboards(snapshotId?: string) {
 
   const previousSnapshotMeta = pickPreviousSnapshotMeta(manifest, selectedSnapshotMeta.id)
   const [snapshot, previousSnapshot] = await Promise.all([
-    loadSnapshotByMeta(manifest, selectedSnapshotMeta),
-    previousSnapshotMeta ? loadSnapshotByMeta(manifest, previousSnapshotMeta) : null,
+    loadSnapshotByMeta(selectedSnapshotMeta),
+    previousSnapshotMeta ? loadSnapshotByMeta(previousSnapshotMeta) : null,
   ])
 
   return {
@@ -602,11 +596,11 @@ export async function loadChampionHeroStats(
     selectedSnapshotMeta.id
   )
   const [snapshot, previousSnapshot, historySnapshots] = await Promise.all([
-    loadSnapshotByMeta(manifest, selectedSnapshotMeta),
-    previousSnapshotMeta ? loadSnapshotByMeta(manifest, previousSnapshotMeta) : null,
+    loadSnapshotByMeta(selectedSnapshotMeta),
+    previousSnapshotMeta ? loadSnapshotByMeta(previousSnapshotMeta) : null,
     Promise.all(
       historySnapshotMetas.map((historySnapshotMeta: SnapshotMeta) =>
-        loadSnapshotByMeta(manifest, historySnapshotMeta)
+        loadSnapshotByMeta(historySnapshotMeta)
       )
     ),
   ])

@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: write
   contents: write
 
 concurrency:
@@ -56,3 +57,9 @@ jobs:
           git add public/data
           git commit -m "chore(data): refresh static data"
           git push
+
+      - name: Trigger Pages deploy
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-pages.yml --ref main
